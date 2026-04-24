@@ -20,7 +20,7 @@ Kihisi cha Grove Time of Flight kinaweza kuunganishwa na Wio Terminal.
 
 Unganisha kihisi cha Time of Flight.
 
-![Kihisi cha Grove Time of Flight](../../../../../translated_images/sw/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Kihisi cha Grove Time of Flight](../../../../../translated_images/sw/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya kihisi cha Time of Flight. Itaingia kwa mwelekeo mmoja tu.
 

@@ -16,13 +16,13 @@ Grove svetlobni senzor, ki se uporablja za zaznavanje ravni svetlobe, je treba p
 
 Povežite svetlobni senzor.
 
-![Grove svetlobni senzor](../../../../../translated_images/sl/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
+![Grove svetlobni senzor](../../../../../translated_images/sl/grove-light-sensor.b8127b7c434e632d.webp)
 
 1. Vstavite en konec Grove kabla v vtičnico na modulu svetlobnega senzorja. Kabel bo šel noter le na en način.
 
 1. Ko je Raspberry Pi izklopljen, povežite drugi konec Grove kabla z analogno vtičnico, označeno **A0**, na Grove Base hat, ki je pritrjen na Pi. Ta vtičnica je druga z desne strani v vrsti vtičnic poleg GPIO pinov.
 
-![Grove svetlobni senzor povezan z vtičnico A0](../../../../../translated_images/sl/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
+![Grove svetlobni senzor povezan z vtičnico A0](../../../../../translated_images/sl/pi-light-sensor.66cc1e31fa48cd7d.webp)
 
 ## Programirajte svetlobni senzor
 

@@ -34,11 +34,11 @@
 
     1. เลือกปุ่ม **Add** เพื่อสร้างกล้อง
 
-    ![การตั้งค่ากล้อง](../../../../../translated_images/th/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
+    ![การตั้งค่ากล้อง](../../../../../translated_images/th/counterfit-create-camera.a5de97f59c0bd3cb.webp)
 
     กล้องจะถูกสร้างและปรากฏในรายการเซ็นเซอร์
 
-    ![กล้องที่ถูกสร้าง](../../../../../translated_images/th/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
+    ![กล้องที่ถูกสร้าง](../../../../../translated_images/th/counterfit-camera.001ec52194c8ee5d.webp)
 
 ## เขียนโปรแกรมกล้อง
 
@@ -103,7 +103,7 @@
 
 1. ตั้งค่าภาพที่กล้องใน CounterFit จะจับภาพ คุณสามารถตั้งค่า *Source* เป็น *File* แล้วอัปโหลดไฟล์ภาพ หรือเลือก *Source* เป็น *WebCam* และภาพจะถูกจับจากเว็บแคมของคุณ ตรวจสอบให้แน่ใจว่าคุณเลือกปุ่ม **Set** หลังจากเลือกภาพหรือเลือกเว็บแคม
 
-    ![CounterFit ตั้งค่าไฟล์เป็นแหล่งภาพ และเว็บแคมแสดงภาพตัวอย่างของคนถือกล้วย](../../../../../translated_images/th/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
+    ![CounterFit ตั้งค่าไฟล์เป็นแหล่งภาพ และเว็บแคมแสดงภาพตัวอย่างของคนถือกล้วย](../../../../../translated_images/th/counterfit-camera-options.eb3bd5150a8e7dff.webp)
 
 1. ภาพจะถูกจับและบันทึกเป็น `image.jpg` ในโฟลเดอร์ปัจจุบัน คุณจะเห็นไฟล์นี้ในตัวสำรวจของ VS Code เลือกไฟล์เพื่อดูภาพ หากภาพต้องการการหมุน ให้ปรับบรรทัด `camera.rotation = 0` ตามความเหมาะสมและถ่ายภาพใหม่
 

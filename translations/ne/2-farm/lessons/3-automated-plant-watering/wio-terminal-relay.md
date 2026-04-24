@@ -18,7 +18,7 @@ Grove रिले Wio Terminal को डिजिटल पोर्टमा 
 
 रिले जडान गर्नुहोस्।
 
-![एक Grove रिले](../../../../../translated_images/ne/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![एक Grove रिले](../../../../../translated_images/ne/grove-relay.d426958ca210fbd0.webp)
 
 1. Grove केबलको एक छेउ रिलेको सॉकेटमा हाल्नुहोस्। यो केवल एक तरिकामा मात्र जडान हुन्छ।
 

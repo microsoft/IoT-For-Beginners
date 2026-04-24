@@ -1,6 +1,6 @@
 # Clôtures géographiques
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-14.63980c5150ae3c15.webp)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version plus grande.
 
@@ -35,7 +35,7 @@ Dans cette leçon, nous aborderons :
 
 Une clôture géographique est un périmètre virtuel pour une région géographique réelle. Les clôtures géographiques peuvent être des cercles définis par un point et un rayon (par exemple, un cercle de 100 m autour d'un bâtiment), ou un polygone couvrant une zone comme une zone scolaire, les limites d'une ville, ou un campus universitaire ou d'entreprise.
 
-![Quelques exemples de clôtures géographiques montrant une clôture circulaire autour du magasin Microsoft et une clôture polygonale autour du campus ouest de Microsoft](../../../../../translated_images/fr/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Quelques exemples de clôtures géographiques montrant une clôture circulaire autour du magasin Microsoft et une clôture polygonale autour du campus ouest de Microsoft](../../../../../translated_images/fr/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Vous avez peut-être déjà utilisé des clôtures géographiques sans le savoir. Si vous avez défini un rappel dans l'application Rappels d'iOS ou Google Keep basé sur un emplacement, vous avez utilisé une clôture géographique. Ces applications configurent une clôture géographique en fonction de l'emplacement donné et vous alertent lorsque votre téléphone entre dans la clôture.
 
@@ -212,7 +212,7 @@ Il est important de connaître la distance jusqu'au bord de la clôture géograp
 
 Par exemple, imaginez des relevés GPS montrant qu'un véhicule roulait sur une route qui finit par passer à côté d'une clôture géographique. Si une seule valeur GPS est inexacte et place le véhicule à l'intérieur de la clôture géographique, malgré l'absence d'accès pour les véhicules, alors elle peut être ignorée.
 
-![Une trace GPS montrant un véhicule passant à côté du campus Microsoft sur la 520, avec des relevés GPS le long de la route sauf un sur le campus, à l'intérieur d'une clôture géographique](../../../../../translated_images/fr/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![Une trace GPS montrant un véhicule passant à côté du campus Microsoft sur la 520, avec des relevés GPS le long de la route sauf un sur le campus, à l'intérieur d'une clôture géographique](../../../../../translated_images/fr/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 Dans l'image ci-dessus, il y a une géofence couvrant une partie du campus de Microsoft. La ligne rouge montre un camion circulant le long de la 520, avec des cercles indiquant les relevés GPS. La plupart de ces relevés sont précis et suivent la 520, mais un relevé erroné apparaît à l'intérieur de la géofence. Il est impossible que ce relevé soit correct - il n'y a pas de routes permettant au camion de quitter soudainement la 520 pour entrer sur le campus, puis revenir sur la 520. Le code qui vérifie cette géofence devra prendre en compte les relevés précédents avant d'agir sur les résultats du test de la géofence.
 
 ✅ Quelles données supplémentaires auriez-vous besoin de vérifier pour déterminer si un relevé GPS peut être considéré comme correct ?
@@ -284,7 +284,7 @@ Comme vous vous en souvenez des leçons précédentes, l'IoT Hub vous permet de 
 
 La réponse est qu'il ne peut pas ! À la place, vous pouvez définir plusieurs connexions distinctes pour lire les événements, et chacune peut gérer la relecture des messages non lus. Ces connexions sont appelées *groupes de consommateurs*. Lorsque vous vous connectez au point de terminaison, vous pouvez spécifier le groupe de consommateurs auquel vous souhaitez vous connecter. Chaque composant de votre application se connectera à un groupe de consommateurs différent.
 
-![Un IoT Hub avec 3 groupes de consommateurs distribuant les mêmes messages à 3 applications Functions différentes](../../../../../translated_images/fr/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Un IoT Hub avec 3 groupes de consommateurs distribuant les mêmes messages à 3 applications Functions différentes](../../../../../translated_images/fr/consumer-groups.a3262e26fc27ba20.webp)
 
 En théorie, jusqu'à 5 applications peuvent se connecter à chaque groupe de consommateurs, et elles recevront toutes les messages lorsqu'ils arriveront. Il est recommandé de n'avoir qu'une seule application accédant à chaque groupe de consommateurs pour éviter le traitement en double des messages et garantir qu'au redémarrage, tous les messages en file d'attente sont correctement traités. Par exemple, si vous lancez votre application Functions localement tout en l'exécutant dans le cloud, elles traiteront toutes les deux les messages, ce qui entraînera des blobs en double stockés dans le compte de stockage.
 

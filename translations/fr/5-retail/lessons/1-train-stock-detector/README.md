@@ -1,6 +1,6 @@
 # Entraîner un détecteur de stock
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-19.cf6973cecadf080c.webp)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version plus grande.
 
@@ -36,7 +36,7 @@ La détection d'objets consiste à détecter des objets dans des images à l'aid
 
 La classification d'images consiste à classer une image dans son ensemble - quelles sont les probabilités que l'image entière corresponde à chaque étiquette. Vous obtenez des probabilités pour chaque étiquette utilisée pour entraîner le modèle.
 
-![Classification d'images de noix de cajou et de concentré de tomate](../../../../../translated_images/fr/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![Classification d'images de noix de cajou et de concentré de tomate](../../../../../translated_images/fr/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 Dans l'exemple ci-dessus, deux images sont classées à l'aide d'un modèle entraîné pour classer des pots de noix de cajou ou des boîtes de concentré de tomate. La première image est un pot de noix de cajou, et les résultats du classificateur d'images sont :
 
@@ -60,7 +60,7 @@ Lorsque vous l'utilisez ensuite pour prédire des images, au lieu d'obtenir une 
 
 > 🎓 *Les boîtes englobantes* sont les cadres autour d'un objet.
 
-![Détection d'objets de noix de cajou et de concentré de tomate](../../../../../translated_images/fr/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![Détection d'objets de noix de cajou et de concentré de tomate](../../../../../translated_images/fr/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 L'image ci-dessus contient à la fois un pot de noix de cajou et trois boîtes de concentré de tomate. Le détecteur d'objets a détecté les noix de cajou, renvoyant la boîte englobante qui contient les noix de cajou avec le pourcentage de probabilité que la boîte englobante contienne l'objet, dans ce cas 97,6%. Le détecteur d'objets a également détecté trois boîtes de concentré de tomate et fournit trois boîtes englobantes distinctes, une pour chaque boîte détectée, chacune avec une probabilité que la boîte englobante contienne une boîte de concentré de tomate.
 
@@ -111,7 +111,7 @@ Vous pouvez entraîner un détecteur d'objets à l'aide de Custom Vision, de man
 
     Lorsque vous créez votre projet, assurez-vous d'utiliser la ressource `stock-detector-training` que vous avez créée précédemment. Utilisez le type de projet *Détection d'objets* et le domaine *Produits sur étagères*.
 
-    ![Les paramètres du projet Custom Vision avec le nom défini sur fruit-quality-detector, aucune description, la ressource définie sur fruit-quality-detector-training, le type de projet défini sur classification, les types de classification définis sur multi-classes et les domaines définis sur nourriture](../../../../../translated_images/fr/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![Les paramètres du projet Custom Vision avec le nom défini sur fruit-quality-detector, aucune description, la ressource définie sur fruit-quality-detector-training, le type de projet défini sur classification, les types de classification définis sur multi-classes et les domaines définis sur nourriture](../../../../../translated_images/fr/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ Le domaine des produits sur étagères est spécifiquement conçu pour détecter les stocks sur les étagères des magasins. Lisez-en davantage sur les différents domaines dans la [documentation Sélectionner un domaine sur Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -133,11 +133,11 @@ Pour entraîner votre modèle, vous aurez besoin d'un ensemble d'images contenan
 
 1. Suivez la [section Télécharger et étiqueter des images du guide de démarrage rapide sur la création d'un détecteur d'objets dans la documentation Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) pour télécharger vos images d'entraînement. Créez des étiquettes pertinentes en fonction des types d'objets que vous souhaitez détecter.
 
-    ![Les boîtes de dialogue de téléchargement montrant le téléchargement d'images de bananes mûres et non mûres](../../../../../translated_images/fr/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![Les boîtes de dialogue de téléchargement montrant le téléchargement d'images de bananes mûres et non mûres](../../../../../translated_images/fr/image-upload-object-detector.77c7892c3093cb59.webp)
 
     Lorsque vous dessinez des boîtes englobantes pour les objets, gardez-les bien ajustées autour de l'objet. Cela peut prendre un certain temps pour délimiter toutes les images, mais l'outil détectera ce qu'il pense être les boîtes englobantes, ce qui accélérera le processus.
 
-    ![Étiquetage de concentré de tomate](../../../../../translated_images/fr/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![Étiquetage de concentré de tomate](../../../../../translated_images/fr/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 Si vous avez plus de 15 images pour chaque objet, vous pouvez entraîner après 15 images, puis utiliser la fonction **Étiquettes suggérées**. Cela utilisera le modèle entraîné pour détecter les objets dans les images non étiquetées. Vous pouvez ensuite confirmer les objets détectés ou rejeter et redessiner les boîtes englobantes. Cela peut faire gagner *beaucoup* de temps.
 
@@ -155,7 +155,7 @@ Une fois votre détecteur d'objets entraîné, vous pouvez le tester en lui four
 
 1. Utilisez le bouton **Test rapide** pour télécharger des images de test et vérifier que les objets sont détectés. Utilisez les images de test que vous avez créées précédemment, et non celles utilisées pour l'entraînement.
 
-    ![3 boîtes de concentré de tomate détectées avec des probabilités de 38 %, 35,5 % et 34,6 %](../../../../../translated_images/fr/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![3 boîtes de concentré de tomate détectées avec des probabilités de 38 %, 35,5 % et 34,6 %](../../../../../translated_images/fr/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. Essayez toutes les images de test dont vous disposez et observez les probabilités.
 

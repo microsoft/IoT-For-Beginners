@@ -1,6 +1,6 @@
 # Visualiser lokationsdata
 
-![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
+![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-13.a259db1485021be7.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -64,11 +64,11 @@ Lad os tage et simpelt eksempel - tilbage i landbrugsprojektet indsamlede du dat
 
 Som menneske kan det være svært at forstå disse data. Det er en mur af tal uden nogen mening. Som et første skridt til at visualisere disse data kan de plottes på et linjediagram:
 
-![Et linjediagram af ovenstående data](../../../../../translated_images/da/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
+![Et linjediagram af ovenstående data](../../../../../translated_images/da/chart-soil-moisture.fd6d9d0cdc0b5f75.webp)
 
 Dette kan yderligere forbedres ved at tilføje en linje, der indikerer, hvornår det automatiske vandingssystem blev tændt ved en jordfugtighedsaflæsning på 450:
 
-![Et linjediagram af jordfugtighed med en linje ved 450](../../../../../translated_images/da/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
+![Et linjediagram af jordfugtighed med en linje ved 450](../../../../../translated_images/da/chart-soil-moisture-relay.fbb391236d34a64d.webp)
 
 Dette diagram viser meget hurtigt ikke kun, hvad jordfugtighedsniveauerne var, men også de punkter, hvor vandingssystemet blev tændt.
 
@@ -84,7 +84,7 @@ Når man arbejder med GPS-data, kan den mest klare visualisering være at plotte
 
 At arbejde med kort er en interessant øvelse, og der er mange at vælge imellem, såsom Bing Maps, Leaflet, Open Street Maps og Google Maps. I denne lektion vil du lære om [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) og hvordan de kan vise dine GPS-data.
 
-![Azure Maps-logoet](../../../../../translated_images/da/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
+![Azure Maps-logoet](../../../../../translated_images/da/azure-maps-logo.35d01dcfbd81fe61.webp)
 
 Azure Maps er "en samling af geospatiale tjenester og SDK'er, der bruger friske kortdata til at give geografisk kontekst til web- og mobilapplikationer." Udviklere får værktøjer til at skabe smukke, interaktive kort, der kan gøre ting som at give anbefalede trafikruter, give information om trafikulykker, indendørs navigation, søgefunktioner, højdeinformation, vejrtjenester og mere.
 
@@ -185,7 +185,7 @@ Nu kan du tage det næste skridt, som er at vise dit kort på en webside. Vi vil
 
     Hvis du åbner din `index.html`-side i en webbrowser, bør du se et kort indlæst og fokuseret på Seattle-området.
 
-    ![Et kort, der viser Seattle, en by i staten Washington, USA](../../../../../translated_images/da/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
+    ![Et kort, der viser Seattle, en by i staten Washington, USA](../../../../../translated_images/da/map-image.8fb2c53eb23ef39c.webp)
 
     ✅ Eksperimentér med zoom- og centerparametrene for at ændre dit korts visning. Du kan tilføje forskellige koordinater, der svarer til din datas bredde- og længdegrad, for at re-centrere kortet.
 
@@ -318,7 +318,7 @@ Hvis du foretager et kald til din lagring for at hente dataene, kan du blive ove
 
 1. Indlæs HTML-siden i din browser. Den vil indlæse kortet, derefter indlæse alle GPS-data fra lagringen og plotte dem på kortet.
 
-    ![Et kort over Saint Edward State Park nær Seattle, med cirkler, der viser en rute rundt om parkens kant](../../../../../translated_images/da/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
+    ![Et kort over Saint Edward State Park nær Seattle, med cirkler, der viser en rute rundt om parkens kant](../../../../../translated_images/da/map-path.896832e72dc696ff.webp)
 
 > 💁 Du kan finde denne kode i [code](../../../../../3-transport/lessons/3-visualize-location-data/code)-mappen.
 

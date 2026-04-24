@@ -16,7 +16,7 @@ ArduCam nie posiada gniazda Grove, zamiast tego łączy się z magistralami SPI 
 
 Podłącz kamerę.
 
-![Czujnik ArduCam](../../../../../translated_images/pl/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Czujnik ArduCam](../../../../../translated_images/pl/arducam.20e4e4cbb2682965.webp)
 
 1. Piny na spodzie ArduCam muszą być podłączone do pinów GPIO na Wio Terminal. Aby łatwiej było znaleźć odpowiednie piny, przyklej naklejkę z oznaczeniami pinów GPIO, która jest dołączona do Wio Terminal:
 
@@ -35,7 +35,7 @@ Podłącz kamerę.
     | SDA         | 3 (I2C1_SDA)     | Dane szeregowe I2C                      |
     | SCL         | 5 (I2C1_SCL)     | Zegar szeregowy I2C                     |
 
-    ![Wio Terminal podłączony do ArduCam za pomocą przewodów połączeniowych](../../../../../translated_images/pl/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal podłączony do ArduCam za pomocą przewodów połączeniowych](../../../../../translated_images/pl/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Połączenia GND i VCC dostarczają zasilanie 5V do ArduCam. Kamera działa na 5V, w przeciwieństwie do czujników Grove, które działają na 3V. Zasilanie pochodzi bezpośrednio z połączenia USB-C, które zasila urządzenie.
 
@@ -456,7 +456,7 @@ Wio Terminal obsługuje tylko karty microSD o pojemności do 16 GB. Jeśli masz 
 
 1. Wyłącz zasilanie karty microSD i wysuń ją, delikatnie wciskając i zwalniając, a karta wyskoczy. Może być konieczne użycie cienkiego narzędzia, aby to zrobić. Podłącz kartę microSD do komputera, aby obejrzeć obrazy.
 
-    ![Zdjęcie banana wykonane za pomocą ArduCam](../../../../../translated_images/pl/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Zdjęcie banana wykonane za pomocą ArduCam](../../../../../translated_images/pl/banana-arducam.be1b32d4267a8194.webp)
 💁 Może zająć kilka zdjęć, zanim balans bieli aparatu dostosuje się. Zauważysz to na podstawie kolorów uchwyconych zdjęć, pierwsze kilka może wyglądać na nieprawidłowe. Zawsze możesz obejść ten problem, zmieniając kod tak, aby uchwycić kilka zdjęć, które są ignorowane w funkcji `setup`.
 
 

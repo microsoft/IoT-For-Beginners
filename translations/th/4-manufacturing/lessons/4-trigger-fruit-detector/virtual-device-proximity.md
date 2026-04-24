@@ -36,11 +36,11 @@
 
     1. เลือกปุ่ม **Add** เพื่อสร้างเซ็นเซอร์ตรวจจับระยะทาง
 
-    ![การตั้งค่าเซ็นเซอร์ตรวจจับระยะทาง](../../../../../translated_images/th/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![การตั้งค่าเซ็นเซอร์ตรวจจับระยะทาง](../../../../../translated_images/th/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     เซ็นเซอร์ตรวจจับระยะทางจะถูกสร้างและปรากฏในรายการเซ็นเซอร์
 
-    ![เซ็นเซอร์ตรวจจับระยะทางที่ถูกสร้าง](../../../../../translated_images/th/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![เซ็นเซอร์ตรวจจับระยะทางที่ถูกสร้าง](../../../../../translated_images/th/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## เขียนโปรแกรมเซ็นเซอร์ตรวจจับระยะทาง
 

@@ -1,6 +1,6 @@
 # Suhtle füüsilise maailmaga sensorite ja täiturmehhanismide abil
 
-![Selle õppetunni visand](../../../../../translated_images/et/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Selle õppetunni visand](../../../../../translated_images/et/lesson-3.cc3b7b4cd646de59.webp)
 
 > Visandi autor [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -92,7 +92,7 @@ Digitaalsed sensorid, nagu analoogsensorid, tuvastavad ümbritsevat maailma elek
 
 Lihtsaim digitaalne sensor on nupp või lüliti. See on sensor, millel on kaks olekut, sisse või välja.
 
-![Nuppu saadetakse 5 volti. Kui seda ei vajutata, tagastab see 0 volti, kui vajutatakse, tagastab see 5 volti](../../../../../translated_images/et/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Nuppu saadetakse 5 volti. Kui seda ei vajutata, tagastab see 0 volti, kui vajutatakse, tagastab see 5 volti](../../../../../translated_images/et/button.eadb560b77ac45e5.webp)
 
 IoT-seadme GPIO-pinnid võivad seda signaali otse mõõta kui 0 või 1. Kui saadetud pinge on sama, mis tagastatud pinge, loetakse väärtuseks 1, vastasel juhul loetakse väärtuseks 0. Signaali ei ole vaja teisendada, see võib olla ainult 1 või 0.
 
@@ -125,7 +125,7 @@ Mõned levinumad täiturmehhanismid on:
 
 Järgi allolevaid juhiseid, et lisada täiturmehhanism oma IoT-seadmele, mida juhib sensor, et ehitada IoT öölamp. See kogub valguse tasemeid valgussensorilt ja kasutab täiturmehhanismina LED-i, et kiirata valgust, kui tuvastatud valguse tase on liiga madal.
 
-![Ülesande vooskeem, mis näitab valguse taseme lugemist ja kontrollimist ning LED-i juhtimist](../../../../../translated_images/et/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Ülesande vooskeem, mis näitab valguse taseme lugemist ja kontrollimist ning LED-i juhtimist](../../../../../translated_images/et/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Üheplaadiarvuti - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Nagu sensorid, võivad täiturmehhanismid olla kas analoog- või digitaalsed.
 Analoogtäiturmehhanismid võtavad vastu analoogsignaali ja muudavad selle mingiks interaktsiooniks, kus interaktsioon muutub vastavalt saadud pingele.
 Üks näide on reguleeritava heledusega lamp, nagu need, mis võivad olla teie kodus. Lambi heledust määrab sellele antava pinge suurus.
 
-![Lamp madala pingega hämaras ja kõrge pingega eredam](../../../../../translated_images/et/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Lamp madala pingega hämaras ja kõrge pingega eredam](../../../../../translated_images/et/dimmable-light.9ceffeb195dec1a8.webp)
 
 Nagu sensorite puhul, töötavad tegelikud IoT-seadmed digitaalsete signaalidega, mitte analoogsignaalidega. See tähendab, et analoogsignaali saatmiseks vajab IoT-seade digitaal-analoogmuundurit (DAC), kas otse IoT-seadmel või ühendusplaadil. See muundab IoT-seadme 0-d ja 1-d analoogpingeks, mida aktuaator saab kasutada.
 
@@ -187,7 +187,7 @@ Digitaalsed aktuaatorid, nagu digitaalsed sensorid, on kas kahes olekus, mida ju
 
 Üks lihtne digitaalne aktuaator on LED. Kui seade saadab digitaalse signaali 1, saadetakse kõrge pinge, mis süütab LED-i. Kui saadetakse digitaalse signaali 0, langeb pinge 0V-ni ja LED kustub.
 
-![LED on 0 voldi juures kustunud ja 5V juures süttinud](../../../../../translated_images/et/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED on 0 voldi juures kustunud ja 5V juures süttinud](../../../../../translated_images/et/led.ec6d94f66676a174.webp)
 
 ✅ Milliseid teisi lihtsaid kahe olekuga aktuaatoreid oskate välja mõelda? Üks näide on solenoid, mis on elektromagnet, mida saab aktiveerida, et teha asju nagu uksepolti liigutamine ukse lukustamiseks/avamiseks.
 

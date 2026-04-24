@@ -1,6 +1,6 @@
 # Uruchamianie wykrywania jakości owoców za pomocą czujnika
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-18.92c32ed1d354caa5.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -39,7 +39,7 @@ Aplikacje IoT można opisać jako *urządzenia* (rzeczy) wysyłające dane, któ
 
 ### Referencyjna architektura IoT
 
-![Referencyjna architektura IoT](../../../../../translated_images/pl/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![Referencyjna architektura IoT](../../../../../translated_images/pl/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Powyższy diagram przedstawia referencyjną architekturę IoT.
 
@@ -49,7 +49,7 @@ Powyższy diagram przedstawia referencyjną architekturę IoT.
 * **Wnioski** pochodzą z aplikacji bezserwerowych lub z analiz przeprowadzanych na przechowywanych danych.
 * **Działania** mogą obejmować wysyłanie poleceń do urządzeń lub wizualizację danych, aby ludzie mogli podejmować decyzje.
 
-![Referencyjna architektura IoT w Azure](../../../../../translated_images/pl/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Referencyjna architektura IoT w Azure](../../../../../translated_images/pl/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Powyższy diagram przedstawia niektóre z komponentów i usług omówionych w tych lekcjach oraz ich powiązania w referencyjnej architekturze IoT.
 
@@ -89,7 +89,7 @@ Musisz zbudować system, w którym owoce są wykrywane, gdy docierają na taśm�
 
 ### Prototypowanie aplikacji
 
-![Referencyjna architektura IoT dla sprawdzania jakości owoców](../../../../../translated_images/pl/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![Referencyjna architektura IoT dla sprawdzania jakości owoców](../../../../../translated_images/pl/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Powyższy diagram przedstawia referencyjną architekturę dla tego prototypu aplikacji.
 
@@ -124,7 +124,7 @@ Przejdź przez odpowiedni przewodnik, aby użyć czujnika zbliżeniowego do wykr
 
 Prototyp detektora owoców składa się z wielu komponentów komunikujących się ze sobą.
 
-![Komponenty komunikujące się ze sobą](../../../../../translated_images/pl/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Komponenty komunikujące się ze sobą](../../../../../translated_images/pl/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Czujnik zbliżeniowy mierzący odległość do owocu i wysyłający te dane do IoT Hub
 * Polecenie sterujące kamerą wysyłane z IoT Hub do urządzenia z kamerą

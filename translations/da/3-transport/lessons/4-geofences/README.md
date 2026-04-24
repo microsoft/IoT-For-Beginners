@@ -1,6 +1,6 @@
 # Geofences
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-14.63980c5150ae3c15.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -35,7 +35,7 @@ I denne lektion dækker vi:
 
 En geofence er en virtuel afgrænsning for et geografisk område i den virkelige verden. Geofences kan være cirkler defineret som et punkt og en radius (for eksempel en cirkel på 100 m omkring en bygning) eller en polygon, der dækker et område som en skolezone, bygrænser eller et universitets- eller kontorområde.
 
-![Nogle eksempler på geofences, der viser en cirkulær geofence omkring Microsofts firmabutik og en polygon-geofence omkring Microsofts vestcampus](../../../../../translated_images/da/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Nogle eksempler på geofences, der viser en cirkulær geofence omkring Microsofts firmabutik og en polygon-geofence omkring Microsofts vestcampus](../../../../../translated_images/da/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Du har måske allerede brugt geofences uden at vide det. Hvis du har sat en påmindelse i iOS' påmindelsesapp eller Google Keep baseret på en placering, har du brugt en geofence. Disse apps opsætter en geofence baseret på den angivne placering og giver dig besked, når din telefon træder ind i geofencen.
 
@@ -212,7 +212,7 @@ Det er vigtigt at kende afstanden til kanten af geofencen og kombinere dette med
 
 For eksempel, forestil dig GPS-aflæsninger, der viser, at et køretøj kører langs en vej, der ender med at løbe tæt på en geofence. Hvis en enkelt GPS-værdi er unøjagtig og placerer køretøjet inden for geofencen, på trods af at der ikke er nogen adgangsvej, kan den ignoreres.
 
-![En GPS-rute, der viser et køretøj, der passerer Microsoft-campus på 520, med GPS-aflæsninger langs vejen undtagen én på campus, inden for en geofence](../../../../../translated_images/da/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![En GPS-rute, der viser et køretøj, der passerer Microsoft-campus på 520, med GPS-aflæsninger langs vejen undtagen én på campus, inden for en geofence](../../../../../translated_images/da/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 På billedet ovenfor er der en geofence over en del af Microsoft-campus. Den røde linje viser en lastbil, der kører langs 520, med cirkler, der viser GPS-aflæsningerne. De fleste af disse aflæsninger er præcise og følger 520, men én aflæsning er unøjagtig og befinder sig inden for geofencen. Denne aflæsning kan umuligt være korrekt – der er ingen veje, hvor lastbilen pludselig kan dreje fra 520 ind på campus og derefter tilbage på 520. Koden, der tjekker denne geofence, skal tage de tidligere aflæsninger i betragtning, før den handler på resultaterne af geofence-testen.
 
 ✅ Hvilke yderligere data ville du have brug for at tjekke for at afgøre, om en GPS-aflæsning kan betragtes som korrekt?
@@ -284,7 +284,7 @@ Som du måske husker fra tidligere lektioner, giver IoT Hub dig mulighed for at 
 
 Svaret er, at det kan den ikke! I stedet kan du definere flere separate forbindelser til at læse hændelser, og hver af dem kan administrere afspilningen af ulæste meddelelser. Disse kaldes *forbrugergrupper*. Når du opretter forbindelse til endpointet, kan du angive, hvilken forbrugergruppe du vil oprette forbindelse til. Hver komponent i din applikation vil oprette forbindelse til en anden forbrugergruppe.
 
-![En IoT Hub med 3 forbrugergrupper, der distribuerer de samme meddelelser til 3 forskellige Functions-apps](../../../../../translated_images/da/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![En IoT Hub med 3 forbrugergrupper, der distribuerer de samme meddelelser til 3 forskellige Functions-apps](../../../../../translated_images/da/consumer-groups.a3262e26fc27ba20.webp)
 
 I teorien kan op til 5 applikationer oprette forbindelse til hver forbrugergruppe, og de vil alle modtage meddelelser, når de ankommer. Det er bedst at have kun én applikation, der tilgår hver forbrugergruppe, for at undgå dobbeltbehandling af meddelelser og sikre, at alle køede meddelelser behandles korrekt ved genstart. For eksempel, hvis du kører din Functions-app lokalt samtidig med, at den kører i skyen, vil begge behandle meddelelser, hvilket fører til dubletter i blob-lageret.
 

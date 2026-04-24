@@ -1,6 +1,6 @@
 # Prepoznajte govor z IoT napravo
 
-![Pregled lekcije v obliki sketchnote](../../../../../translated_images/sl/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![Pregled lekcije v obliki sketchnote](../../../../../translated_images/sl/lesson-21.e34de51354d6606f.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -51,7 +51,7 @@ Mikrofoni so na voljo v različnih vrstah:
 
     Dinamični mikrofoni ne potrebujejo napajanja za delovanje, električni signal se ustvari povsem iz mikrofona.
 
-    ![Patti Smith poje v mikrofon Shure SM58 (dinamični kardioidni tip)](../../../../../translated_images/sl/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith poje v mikrofon Shure SM58 (dinamični kardioidni tip)](../../../../../translated_images/sl/dynamic-mic.8babac890a2d80df.webp)
 
 * Trakasti - Trakasti mikrofoni so podobni dinamičnim mikrofonom, razen da imajo kovinski trak namesto membrane. Ta trak se premika v magnetnem polju in ustvarja električni tok. Tako kot dinamični mikrofoni trakasti mikrofoni ne potrebujejo napajanja za delovanje.
 
@@ -59,11 +59,11 @@ Mikrofoni so na voljo v različnih vrstah:
 
 * Kondenzatorski - Kondenzatorski mikrofoni imajo tanko kovinsko membrano in fiksno kovinsko ploščo. Elektrika se uporablja na obeh, in ko membrana vibrira, se statični naboj med ploščama spreminja, kar ustvarja signal. Kondenzatorski mikrofoni potrebujejo napajanje za delovanje – imenovano *Phantom power*.
 
-    ![C451B kondenzatorski mikrofon z majhno membrano znamke AKG Acoustics](../../../../../translated_images/sl/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![C451B kondenzatorski mikrofon z majhno membrano znamke AKG Acoustics](../../../../../translated_images/sl/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - Mikrofoni mikroelektromehanskih sistemov, ali MEMS, so mikrofoni na čipu. Imajo tlačno občutljivo membrano, vgravirano na silicijev čip, in delujejo podobno kot kondenzatorski mikrofon. Ti mikrofoni so lahko zelo majhni in integrirani v vezje.
 
-    ![MEMS mikrofon na vezju](../../../../../translated_images/sl/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![MEMS mikrofon na vezju](../../../../../translated_images/sl/mems-microphone.80574019e1f5e4d9.webp)
 
     Na zgornji sliki je čip z oznako **LEFT** MEMS mikrofon, z majhno membrano, široko manj kot milimeter.
 
@@ -159,7 +159,7 @@ Da bi se izognili zapletenosti pri treniranju in uporabi modela za budilno besed
 
 ## Pretvorba govora v besedilo
 
-![Logotip storitev govora](../../../../../translated_images/sl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logotip storitev govora](../../../../../translated_images/sl/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Tako kot pri klasifikaciji slik v prejšnjem projektu obstajajo vnaprej pripravljene AI storitve, ki lahko vzamejo govor kot zvočno datoteko in ga pretvorijo v besedilo. Ena takšnih storitev je Speech Service, del Cognitive Services, vnaprej pripravljenih AI storitev, ki jih lahko uporabite v svojih aplikacijah.
 

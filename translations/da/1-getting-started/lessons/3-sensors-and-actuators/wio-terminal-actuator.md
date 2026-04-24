@@ -26,7 +26,7 @@ Grove LED'en kommer som en modul med et udvalg af LED'er, så du kan vælge farv
 
 Tilslut LED'en.
 
-![En Grove LED](../../../../../translated_images/da/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![En Grove LED](../../../../../translated_images/da/grove-led.6c853be93f473cf2.webp)
 
 1. Vælg din favorit LED og indsæt benene i de to huller på LED-modulet.
 

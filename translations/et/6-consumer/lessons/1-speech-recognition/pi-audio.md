@@ -16,13 +16,13 @@ Nuppu saab ühendada Grove base hat-iga.
 
 #### Ülesanne - ühendage nupp
 
-![Grove nupp](../../../../../translated_images/et/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
+![Grove nupp](../../../../../translated_images/et/grove-button.a70cfbb809a85636.webp)
 
 1. Sisestage Grove kaabli üks ots nupumooduli pistikusse. See läheb sisse ainult ühel viisil.
 
 1. Kui Raspberry Pi on välja lülitatud, ühendage Grove kaabli teine ots Grove Base hat-i digitaalse pistikuga, mis on märgitud **D5**. See pistik on GPIO pin-ide kõrval olevate pistikute reas vasakult teine.
 
-![Grove nupp ühendatud pistikuga D5](../../../../../translated_images/et/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
+![Grove nupp ühendatud pistikuga D5](../../../../../translated_images/et/pi-button.c7a1a4f55943341c.webp)
 
 ## Helisalvestus
 

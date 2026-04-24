@@ -1,6 +1,6 @@
 # Kutabiri Ukuaji wa Mimea kwa IoT
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-5.42b234299279d263.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -90,7 +90,7 @@ Siku za digrii za ukuaji, au GDD, zinahesabiwa kwa siku kama wastani wa joto kwa
 
 Mchoro kamili wa GDD ni mgumu kidogo, lakini kuna mlinganyo rahisi ambao mara nyingi hutumika kama makadirio mazuri:
 
-![GDD = T max + T min kugawanywa kwa 2, yote ikipunguzwa na T base](../../../../../translated_images/sw/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min kugawanywa kwa 2, yote ikipunguzwa na T base](../../../../../translated_images/sw/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - hii ni idadi ya siku za digrii za ukuaji
 * **T max** - hii ni joto la juu la kila siku katika digrii Celsius
@@ -118,7 +118,7 @@ Tukijaza namba hizi kwenye hesabu yetu:
 
 Hii inatoa hesabu ya:
 
-![GDD = 16 + 12 kugawanywa kwa 2, yote ikipunguzwa na 10, ikitoa jibu la 4](../../../../../translated_images/sw/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 kugawanywa kwa 2, yote ikipunguzwa na 10, ikitoa jibu la 4](../../../../../translated_images/sw/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 Mahindi yalipata 4 GDD siku hiyo. Tukichukulia aina ya mahindi inayohitaji 800 GDD ili kukomaa, itahitaji GDD nyingine 796 kufikia ukomavu.
 
@@ -239,7 +239,7 @@ Hatua za kufanya hivi kwa mikono ni:
 
 Kwa mfano, ikiwa joto la juu kwa siku ni 25°C, na la chini ni 12°C:
 
-![GDD = 25 + 12 gawanya kwa 2, kisha toa 10 kutoka kwa matokeo ukipata 8.5](../../../../../translated_images/sw/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 gawanya kwa 2, kisha toa 10 kutoka kwa matokeo ukipata 8.5](../../../../../translated_images/sw/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

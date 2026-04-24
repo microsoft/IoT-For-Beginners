@@ -16,7 +16,7 @@ The ArduCam doesn't have a Grove socket; instead, it connects to both the SPI an
 
 Connect the camera.
 
-![An ArduCam sensor](../../../../../translated_images/en/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![An ArduCam sensor](../../../../../translated_images/en/arducam.20e4e4cbb2682965.webp)
 
 1. The pins on the base of the ArduCam need to be connected to the GPIO pins on the Wio Terminal. To make it easier to find the right pins, attach the GPIO pin sticker that comes with the Wio Terminal around the pins:
 
@@ -35,7 +35,7 @@ Connect the camera.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![The Wio Terminal connected to the ArduCam with jumper wires](../../../../../translated_images/en/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![The Wio Terminal connected to the ArduCam with jumper wires](../../../../../translated_images/en/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     The GND and VCC connections provide a 5V power supply to the ArduCam. It runs at 5V, unlike Grove sensors that run at 3V. This power comes directly from the USB-C connection that powers the device.
 
@@ -456,7 +456,7 @@ The Wio Terminal only supports microSD cards of up to 16GB in size. If you have 
 
 1. Power off the microSD card and eject it by pushing it in slightly and releasing it, and it will pop out. You may need to use a thin tool to do this. Plug the microSD card into your computer to view the images.
 
-    ![A picture of a banana captured using the ArduCam](../../../../../translated_images/en/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![A picture of a banana captured using the ArduCam](../../../../../translated_images/en/banana-arducam.be1b32d4267a8194.webp)
 💁 It may take a few images for the white balance of the camera to adjust itself. You will notice this based on the color of the images captured, the first few may look off color. You can always work around this by changing the code to capture a few images that are ignored in the `setup` function.
 
 

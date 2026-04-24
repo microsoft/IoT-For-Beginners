@@ -16,7 +16,7 @@ L'ArduCam non ha un connettore Grove, ma si collega ai bus SPI e I2C tramite i p
 
 Collega la fotocamera.
 
-![Un sensore ArduCam](../../../../../translated_images/it/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Un sensore ArduCam](../../../../../translated_images/it/arducam.20e4e4cbb2682965.webp)
 
 1. I pin alla base dell'ArduCam devono essere collegati ai pin GPIO del Wio Terminal. Per facilitare l'individuazione dei pin corretti, applica l'adesivo dei pin GPIO fornito con il Wio Terminal attorno ai pin:
 
@@ -35,7 +35,7 @@ Collega la fotocamera.
     | SDA         | 3 (I2C1_SDA)     | Dati seriali I2C                        |
     | SCL         | 5 (I2C1_SCL)     | Clock seriale I2C                       |
 
-    ![Il Wio Terminal collegato all'ArduCam con cavi jumper](../../../../../translated_images/it/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Il Wio Terminal collegato all'ArduCam con cavi jumper](../../../../../translated_images/it/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     I collegamenti GND e VCC forniscono un'alimentazione di 5V all'ArduCam. Funziona a 5V, a differenza dei sensori Grove che funzionano a 3V. Questa alimentazione proviene direttamente dalla connessione USB-C che alimenta il dispositivo.
 
@@ -456,7 +456,7 @@ Il Wio Terminal supporta solo schede microSD fino a 16GB di capacità. Se hai un
 
 1. Spegni il Wio Terminal e rimuovi la scheda microSD spingendola leggermente e rilasciandola, in modo che esca. Potresti dover utilizzare uno strumento sottile per farlo. Inserisci la scheda microSD nel tuo computer per visualizzare le immagini.
 
-    ![Una foto di una banana catturata con l'ArduCam](../../../../../translated_images/it/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Una foto di una banana catturata con l'ArduCam](../../../../../translated_images/it/banana-arducam.be1b32d4267a8194.webp)
 💁 Potrebbe essere necessario qualche scatto affinché il bilanciamento del bianco della fotocamera si regoli automaticamente. Noterai questo in base al colore delle immagini catturate, le prime potrebbero sembrare con colori alterati. Puoi sempre aggirare questo problema modificando il codice per catturare alcune immagini che vengono ignorate nella funzione `setup`.
 
 

@@ -1,6 +1,6 @@
 # Memahami Bahasa
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-22.6148ea28500d9e00.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -46,7 +46,7 @@ Model pemahaman bahasa adalah model AI yang dilatih untuk mengekstrak detail ter
 
 ## Membuat Model Pemahaman Bahasa
 
-![Logo LUIS](../../../../../translated_images/id/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![Logo LUIS](../../../../../translated_images/id/luis-logo.5cb4f3e88c020ee6.webp)
 
 Anda dapat membuat model pemahaman bahasa menggunakan LUIS, layanan pemahaman bahasa dari Microsoft yang merupakan bagian dari Cognitive Services.
 
@@ -169,7 +169,7 @@ Anda dapat menemukan instruksi untuk menggunakan portal LUIS di [Panduan Cepat: 
 
 1. Saat Anda memasukkan setiap contoh, LUIS akan mulai mendeteksi entitas, dan akan menggarisbawahi serta memberi label pada entitas yang ditemukan.
 
-    ![Contoh dengan angka dan satuan waktu yang digarisbawahi oleh LUIS](../../../../../translated_images/id/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Contoh dengan angka dan satuan waktu yang digarisbawahi oleh LUIS](../../../../../translated_images/id/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Tugas - melatih dan menguji model
 

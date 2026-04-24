@@ -1,6 +1,6 @@
 # ဘာသာစကားများစွာကို ပံ့ပိုးခြင်း
 
-![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော sketchnote](../../../../../translated_images/my/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော sketchnote](../../../../../translated_images/my/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကို နှိပ်ပြီး အကြီးအကျယ်ကြည့်ရှုနိုင်ပါသည်။
 
@@ -62,7 +62,7 @@ AI ဝန်ဆောင်မှုများစွာကို speech နှ
 
 ### Cognitive services Speech service
 
-![Speech service logo](../../../../../translated_images/my/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Speech service logo](../../../../../translated_images/my/azure-speech-logo.a1f08c4befb0159f.webp)
 
 ယခင်သင်ခန်းစာများတွင် သင်အသုံးပြုခဲ့သော speech service တွင် speech recognition အတွက် ဘာသာပြန်စွမ်းရည်ရှိသည်။ သင် speech ကို အသိအမှတ်ပြုသောအခါ၊ speech text ကို မူရင်းဘာသာစကားတွင်သာမက အခြားဘာသာစကားများတွင်လည်း တောင်းဆိုနိုင်သည်။
 
@@ -70,7 +70,7 @@ AI ဝန်ဆောင်မှုများစွာကို speech နှ
 
 ### Cognitive services Translator service
 
-![Translator service logo](../../../../../translated_images/my/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Translator service logo](../../../../../translated_images/my/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Translator service သည် dedicated translation service ဖြစ်ပြီး၊ စာသားများကို ဘာသာစကားတစ်ခုမှ တစ်ခု သို့မဟုတ် များစွာသော target languages သို့ ဘာသာပြန်နိုင်သည်။ ၎င်းသည် profanity masking ကဲ့သို့သော အပိုဆောင်း features များကိုလည်း ပံ့ပိုးပေးသည်။
 

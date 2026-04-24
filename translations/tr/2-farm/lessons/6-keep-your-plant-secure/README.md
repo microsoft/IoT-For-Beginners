@@ -1,6 +1,6 @@
 # Bitkinizi Güvende Tutun
 
-![Bu dersin bir skeç notu](../../../../../translated_images/tr/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Bu dersin bir skeç notu](../../../../../translated_images/tr/lesson-10.829c86b80b9403bb.webp)
 
 > Skeç notu: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -52,11 +52,11 @@ Bunlar gerçek dünya senaryolarıdır ve sürekli olarak meydana gelir. Daha ö
 
 Bir cihaz bir IoT hizmetine bağlandığında, kendini tanımlamak için bir kimlik kullanır. Sorun şu ki, bu kimlik kopyalanabilir - bir hacker, gerçek bir cihazla aynı kimliği kullanan ancak sahte veri gönderen kötü niyetli bir cihaz kurabilir.
 
-![Hem geçerli hem de kötü niyetli cihazlar aynı kimliği kullanarak telemetri gönderebilir](../../../../../translated_images/tr/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Hem geçerli hem de kötü niyetli cihazlar aynı kimliği kullanarak telemetri gönderebilir](../../../../../translated_images/tr/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Bunun çözümü, gönderilen verileri yalnızca cihaz ve bulut tarafından bilinen bir değer kullanarak şifrelenmiş bir formata dönüştürmektir. Bu işleme *şifreleme* denir ve verileri şifrelemek için kullanılan değere *şifreleme anahtarı* denir.
 
-![Şifreleme kullanılırsa, yalnızca şifrelenmiş mesajlar kabul edilir, diğerleri reddedilir](../../../../../translated_images/tr/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Şifreleme kullanılırsa, yalnızca şifrelenmiş mesajlar kabul edilir, diğerleri reddedilir](../../../../../translated_images/tr/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Bulut hizmeti, verileri *şifre çözme* adı verilen bir işlemle okunabilir bir formata dönüştürebilir. Bu işlem ya aynı şifreleme anahtarını ya da bir *şifre çözme anahtarını* kullanır. Şifrelenmiş mesaj anahtar tarafından çözülemezse, cihaz hacklenmiştir ve mesaj reddedilir.
 

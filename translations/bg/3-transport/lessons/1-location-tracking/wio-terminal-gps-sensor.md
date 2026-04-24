@@ -18,7 +18,7 @@ Grove GPS сензорът може да бъде свързан към Wio Term
 
 Свържете GPS сензора.
 
-![Grove GPS сензор](../../../../../translated_images/bg/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Grove GPS сензор](../../../../../translated_images/bg/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Поставете единия край на Grove кабела в гнездото на GPS сензора. Той ще влезе само в една посока.
 

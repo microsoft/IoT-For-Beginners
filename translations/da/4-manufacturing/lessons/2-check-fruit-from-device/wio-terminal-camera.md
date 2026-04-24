@@ -16,7 +16,7 @@ ArduCam har ikke en Grove-sokkel, men forbinder i stedet til både SPI- og I2C-b
 
 Tilslut kameraet.
 
-![En ArduCam sensor](../../../../../translated_images/da/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![En ArduCam sensor](../../../../../translated_images/da/arducam.20e4e4cbb2682965.webp)
 
 1. Pindene på bunden af ArduCam skal forbindes til GPIO-pindene på Wio Terminalen. For at gøre det nemmere at finde de rigtige pins, skal du sætte GPIO-pin-klistermærket, der følger med Wio Terminalen, rundt om pindene:
 
@@ -35,7 +35,7 @@ Tilslut kameraet.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![Wio Terminal forbundet til ArduCam med jumperkabler](../../../../../translated_images/da/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal forbundet til ArduCam med jumperkabler](../../../../../translated_images/da/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     GND- og VCC-forbindelserne leverer en 5V strømforsyning til ArduCam. Det kører på 5V, i modsætning til Grove-sensorer, der kører på 3V. Denne strøm kommer direkte fra USB-C-forbindelsen, der forsyner enheden.
 
@@ -456,7 +456,7 @@ Wio Terminalen understøtter kun microSD-kort på op til 16GB. Hvis du har et st
 
 1. Sluk for microSD-kortet og fjern det ved at skubbe det lidt ind og slippe, så det springer ud. Du skal muligvis bruge et tyndt værktøj til dette. Sæt microSD-kortet i din computer for at se billederne.
 
-    ![Et billede af en banan taget med ArduCam](../../../../../translated_images/da/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Et billede af en banan taget med ArduCam](../../../../../translated_images/da/banana-arducam.be1b32d4267a8194.webp)
 > 💁 Det kan tage et par billeder, før kameraets hvidbalance justerer sig selv. Du vil bemærke dette baseret på farven på de billeder, der bliver taget, de første par kan se ud til at have forkert farve. Du kan altid omgå dette ved at ændre koden til at tage et par billeder, der ignoreres i `setup`-funktionen.
 
 

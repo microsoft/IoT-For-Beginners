@@ -1,6 +1,6 @@
 # Uygulama Mantığınızı Buluta Taşıyın
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -28,7 +28,7 @@ Bu derste şunları ele alacağız:
 
 Sunucusuz ya da sunucusuz bilişim, farklı türdeki olaylara yanıt olarak bulutta çalışan küçük kod blokları oluşturmayı içerir. Olay gerçekleştiğinde kodunuz çalıştırılır ve olaya dair veriler kodunuza iletilir. Bu olaylar, web isteklerinden, bir kuyruğa eklenen mesajlardan, bir veritabanındaki veri değişikliklerinden veya IoT cihazları tarafından bir IoT hizmetine gönderilen mesajlardan kaynaklanabilir.
 
-![IoT hizmetinden sunucusuz bir hizmete gönderilen olaylar, aynı anda birden fazla fonksiyon tarafından işleniyor](../../../../../translated_images/tr/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![IoT hizmetinden sunucusuz bir hizmete gönderilen olaylar, aynı anda birden fazla fonksiyon tarafından işleniyor](../../../../../translated_images/tr/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Daha önce veritabanı tetikleyicileri kullandıysanız, bunu bir olay (örneğin bir satır ekleme) tarafından tetiklenen kod olarak düşünebilirsiniz.
 
@@ -54,7 +54,7 @@ Bir IoT geliştiricisi olarak, sunucusuz model idealdir. Bulut barındırmalı I
 
 Microsoft'un sunucusuz bilişim hizmeti Azure Functions olarak adlandırılır.
 
-![Azure Functions logosu](../../../../../translated_images/tr/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Azure Functions logosu](../../../../../translated_images/tr/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Aşağıdaki kısa video, Azure Functions hakkında bir genel bakış sunar.
 

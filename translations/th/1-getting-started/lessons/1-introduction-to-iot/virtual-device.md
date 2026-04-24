@@ -203,7 +203,7 @@
 
     แอปจะเริ่มทำงานและเปิดในเว็บเบราว์เซอร์ของคุณ:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/th/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/th/counterfit-first-run.433326358b669b31.webp)
 
     มันจะแสดงสถานะเป็น *Disconnected* โดยมีไฟ LED ที่มุมขวาบนปิดอยู่
 
@@ -224,7 +224,7 @@
 
 1. ในเทอร์มินัลใหม่นี้ รันไฟล์ `app.py` เหมือนเดิม สถานะของ CounterFit จะเปลี่ยนเป็น **Connected** และไฟ LED จะสว่างขึ้น
 
-    ![Counter Fit showing as connected](../../../../../translated_images/th/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/th/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 คุณสามารถหาโค้ดนี้ได้ในโฟลเดอร์ [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device)
 

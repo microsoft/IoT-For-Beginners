@@ -1,6 +1,6 @@
 # Geokerítések
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-14.63980c5150ae3c15.webp)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -35,7 +35,7 @@ Ebben a leckében a következőkről lesz szó:
 
 A geokerítés egy virtuális határ egy valós földrajzi régió körül. A geokerítések lehetnek körök, amelyeket egy pont és egy sugár határoz meg (például egy 100 méter széles kör egy épület körül), vagy poligonok, amelyek egy területet fednek le, például egy iskolaövezetet, városhatárt, egyetemi vagy irodai kampuszt.
 
-![Néhány geokerítés példa, amely egy kör alakú geokerítést mutat a Microsoft vállalati boltja körül, és egy poligon geokerítést a Microsoft nyugati kampusza körül](../../../../../translated_images/hu/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Néhány geokerítés példa, amely egy kör alakú geokerítést mutat a Microsoft vállalati boltja körül, és egy poligon geokerítést a Microsoft nyugati kampusza körül](../../../../../translated_images/hu/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Lehet, hogy már használtál geokerítéseket anélkül, hogy tudtál volna róla. Ha például az iOS emlékeztetők alkalmazásában vagy a Google Keepben helyalapú emlékeztetőt állítottál be, akkor geokerítést használtál. Ezek az alkalmazások a megadott hely alapján geokerítést állítanak fel, és értesítenek, amikor a telefonod belép a geokerítésbe.
 
@@ -282,7 +282,7 @@ Ahogy az előző leckékből emlékezhet, az IoT Hub lehetővé teszi, hogy újr
 
 A válasz az, hogy nem tudja! Ehelyett több különálló kapcsolatot definiálhat az események olvasására, és mindegyik kezelheti az olvasatlan üzenetek újrajátszását. Ezeket *fogyasztói csoportoknak* nevezzük. Amikor csatlakozik az endpointhoz, megadhatja, melyik fogyasztói csoporthoz kíván csatlakozni. Az alkalmazás minden komponense más fogyasztói csoporthoz csatlakozik.
 
-![Egy IoT Hub 3 fogyasztói csoporttal, amelyek ugyanazokat az üzeneteket osztják szét 3 különböző Functions alkalmazásnak](../../../../../translated_images/hu/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Egy IoT Hub 3 fogyasztói csoporttal, amelyek ugyanazokat az üzeneteket osztják szét 3 különböző Functions alkalmazásnak](../../../../../translated_images/hu/consumer-groups.a3262e26fc27ba20.webp)
 
 Elméletileg akár 5 alkalmazás is csatlakozhat minden fogyasztói csoporthoz, és mindegyik üzeneteket kap, amikor azok megérkeznek. A legjobb gyakorlat az, hogy minden fogyasztói csoporthoz csak egy alkalmazás férjen hozzá, hogy elkerülje az üzenetek duplikált feldolgozását, és biztosítsa, hogy újraindításkor minden sorban álló üzenet helyesen legyen feldolgozva. Például, ha a Functions alkalmazását helyben indítja el, miközben a felhőben is fut, mindkettő feldolgozná az üzeneteket, ami duplikált blobokat eredményezne a tárhelyfiókban.
 

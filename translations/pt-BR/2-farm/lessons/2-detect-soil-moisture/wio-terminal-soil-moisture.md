@@ -18,7 +18,7 @@ O sensor de umidade do solo Grove pode ser conectado à porta analógica/digital
 
 Conecte o sensor de umidade do solo.
 
-![Um sensor de umidade do solo Grove](../../../../../translated_images/pt-BR/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Um sensor de umidade do solo Grove](../../../../../translated_images/pt-BR/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Insira uma extremidade de um cabo Grove no conector do sensor de umidade do solo. Ele só encaixará de uma maneira.
 

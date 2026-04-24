@@ -28,11 +28,11 @@ Adicione o sensor de luz ao aplicativo CounterFit.
 
     1. Selecione o botão **Add** para criar o sensor de luz no pino 0.
 
-    ![As configurações do sensor de luz](../../../../../translated_images/pt-BR/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![As configurações do sensor de luz](../../../../../translated_images/pt-BR/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     O sensor de luz será criado e aparecerá na lista de sensores.
 
-    ![O sensor de luz criado](../../../../../translated_images/pt-BR/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![O sensor de luz criado](../../../../../translated_images/pt-BR/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## Programar o sensor de luz
 

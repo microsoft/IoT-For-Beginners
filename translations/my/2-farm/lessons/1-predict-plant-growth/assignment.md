@@ -33,7 +33,7 @@
 
     Jupyter သည် စတင်လည်ပတ်ပြီး notebook ကို သင့် browser တွင် ဖွင့်ပါမည်။ notebook ထဲရှိ လမ်းညွှန်ချက်များကို လိုက်နာပြီး တိုင်းတာထားသော အပူချိန်များကို မြင်သာအောင် ပြသပြီး၊ growing degree days ကိုတွက်ချက်ပါ။
 
-    ![The jupyter notebook](../../../../../translated_images/my/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![The jupyter notebook](../../../../../translated_images/my/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## အကဲဖြတ်စံနှုန်း
 

@@ -84,7 +84,7 @@
 
     ستتمكن من رؤية الصورة التي تم التقاطها، وهذه القيم في علامة التبويب **Predictions** في Custom Vision.
 
-    ![موزة في Custom Vision تم التنبؤ بأنها ناضجة بنسبة 56.8% وغير ناضجة بنسبة 43.1%](../../../../../translated_images/ar/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![موزة في Custom Vision تم التنبؤ بأنها ناضجة بنسبة 56.8% وغير ناضجة بنسبة 43.1%](../../../../../translated_images/ar/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 يمكنك العثور على هذا الكود في مجلد [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) أو [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

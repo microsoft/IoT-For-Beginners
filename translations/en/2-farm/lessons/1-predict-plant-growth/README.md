@@ -88,7 +88,7 @@ The steps to do this manually are:
 
 For example, if the highest temperature for the day is 25°C and the lowest is 12°C:
 
-![GDD = 25 + 12 divided by 2, then subtract 10 from the result giving 8.5](../../../../../translated_images/en/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 divided by 2, then subtract 10 from the result giving 8.5](../../../../../translated_images/en/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

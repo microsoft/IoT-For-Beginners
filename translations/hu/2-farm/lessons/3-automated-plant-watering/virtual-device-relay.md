@@ -28,11 +28,11 @@ Add hozzá a relét a CounterFit alkalmazáshoz.
 
     1. Kattints az **Add** gombra, hogy létrehozd a relét az 5-ös lábon.
 
-    ![A relé beállításai](../../../../../translated_images/hu/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![A relé beállításai](../../../../../translated_images/hu/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     A relé létrejön, és megjelenik az aktuátorok listájában.
 
-    ![A létrehozott relé](../../../../../translated_images/hu/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![A létrehozott relé](../../../../../translated_images/hu/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## A relé programozása
 

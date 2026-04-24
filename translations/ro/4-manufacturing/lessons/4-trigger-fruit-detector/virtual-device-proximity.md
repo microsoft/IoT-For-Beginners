@@ -36,11 +36,11 @@ Adaugă senzorul de distanță în aplicația CounterFit.
 
     1. Selectează butonul **Add** pentru a crea senzorul de distanță.
 
-    ![Setările senzorului de distanță](../../../../../translated_images/ro/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![Setările senzorului de distanță](../../../../../translated_images/ro/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     Senzorul de distanță va fi creat și va apărea în lista de senzori.
 
-    ![Senzorul de distanță creat](../../../../../translated_images/ro/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![Senzorul de distanță creat](../../../../../translated_images/ro/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## Programează senzorul de distanță
 

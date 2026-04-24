@@ -1,6 +1,6 @@
 # Spraak herkennen met een IoT-apparaat
 
-![Een schetsmatig overzicht van deze les](../../../../../translated_images/nl/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![Een schetsmatig overzicht van deze les](../../../../../translated_images/nl/lesson-21.e34de51354d6606f.webp)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -51,7 +51,7 @@ Microfoons zijn er in verschillende soorten:
 
     Dynamische microfoons hebben geen stroom nodig om te werken; het elektrische signaal wordt volledig door de microfoon zelf gegenereerd.
 
-    ![Patti Smith zingt in een Shure SM58 (dynamisch cardioïde type) microfoon](../../../../../translated_images/nl/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith zingt in een Shure SM58 (dynamisch cardioïde type) microfoon](../../../../../translated_images/nl/dynamic-mic.8babac890a2d80df.webp)
 
 * Ribbon - Ribbon-microfoons lijken op dynamische microfoons, behalve dat ze een metalen lint hebben in plaats van een membraan. Dit lint beweegt in een magnetisch veld en genereert een elektrische stroom. Net als dynamische microfoons hebben ribbon-microfoons geen stroom nodig om te werken.
 
@@ -59,11 +59,11 @@ Microfoons zijn er in verschillende soorten:
 
 * Condensator - Condensatormicrofoons hebben een dun metalen membraan en een vaste metalen achterplaat. Elektriciteit wordt toegepast op beide en terwijl het membraan trilt, verandert de statische lading tussen de platen, wat een signaal genereert. Condensatormicrofoons hebben stroom nodig om te werken - dit wordt *Phantom power* genoemd.
 
-    ![C451B klein-diafragma condensatormicrofoon van AKG Acoustics](../../../../../translated_images/nl/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![C451B klein-diafragma condensatormicrofoon van AKG Acoustics](../../../../../translated_images/nl/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - Micro-elektromechanische systemen microfoons, of MEMS, zijn microfoons op een chip. Ze hebben een drukgevoelig membraan dat is geëtst op een siliciumchip en werken vergelijkbaar met een condensatormicrofoon. Deze microfoons kunnen zeer klein zijn en geïntegreerd in schakelingen.
 
-    ![Een MEMS-microfoon op een printplaat](../../../../../translated_images/nl/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![Een MEMS-microfoon op een printplaat](../../../../../translated_images/nl/mems-microphone.80574019e1f5e4d9.webp)
 
     In de afbeelding hierboven is de chip met het label **LEFT** een MEMS-microfoon, met een klein membraan van minder dan een millimeter breed.
 
@@ -159,7 +159,7 @@ Om de complexiteit van het trainen en gebruiken van een wekwoordmodel te vermijd
 
 ## Spraak omzetten naar tekst
 
-![Logo van spraakdiensten](../../../../../translated_images/nl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo van spraakdiensten](../../../../../translated_images/nl/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Net zoals bij beeldclassificatie in een eerder project, zijn er vooraf gebouwde AI-diensten die spraak als audiobestand kunnen nemen en omzetten naar tekst. Een van deze diensten is de Speech Service, onderdeel van de Cognitive Services, vooraf gebouwde AI-diensten die je in je apps kunt gebruiken.
 

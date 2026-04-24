@@ -34,11 +34,11 @@ Idagdag ang Camera sa CounterFit app.
 
     1. Piliin ang **Add** button upang gumawa ng camera.
 
-    ![Ang mga setting ng camera](../../../../../translated_images/tl/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
+    ![Ang mga setting ng camera](../../../../../translated_images/tl/counterfit-create-camera.a5de97f59c0bd3cb.webp)
 
     Ang camera ay malilikha at lilitaw sa listahan ng mga sensor.
 
-    ![Ang nalikhang camera](../../../../../translated_images/tl/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
+    ![Ang nalikhang camera](../../../../../translated_images/tl/counterfit-camera.001ec52194c8ee5d.webp)
 
 ## Iprograma ang Camera
 
@@ -103,7 +103,7 @@ Iprograma ang device.
 
 1. I-configure ang larawan na kukunin ng camera sa CounterFit. Maaari mong itakda ang *Source* sa *File*, pagkatapos ay mag-upload ng isang image file, o itakda ang *Source* sa *WebCam*, at ang mga larawan ay kukunin mula sa iyong webcam. Siguraduhing piliin ang **Set** button pagkatapos pumili ng larawan o piliin ang iyong webcam.
 
-    ![CounterFit na may file na itinakda bilang image source, at isang webcam na nagpapakita ng tao na may hawak na saging sa preview ng webcam](../../../../../translated_images/tl/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
+    ![CounterFit na may file na itinakda bilang image source, at isang webcam na nagpapakita ng tao na may hawak na saging sa preview ng webcam](../../../../../translated_images/tl/counterfit-camera-options.eb3bd5150a8e7dff.webp)
 
 1. Ang isang larawan ay kukunin at mase-save bilang `image.jpg` sa kasalukuyang folder. Makikita mo ang file na ito sa VS Code explorer. Piliin ang file upang makita ang larawan. Kung kailangan nito ng rotation, i-update ang linya na `camera.rotation = 0` ayon sa kinakailangan at kumuha ng panibagong larawan.
 

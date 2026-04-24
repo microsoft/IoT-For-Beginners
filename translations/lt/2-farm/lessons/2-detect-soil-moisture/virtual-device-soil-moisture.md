@@ -34,11 +34,11 @@ Pridėkite dirvožemio drėgmės jutiklį į CounterFit programą.
 
     1. Paspauskite **Add** mygtuką, kad sukurtumėte *Soil Moisture* jutiklį ant Pin 0.
 
-    ![Dirvožemio drėgmės jutiklio nustatymai](../../../../../translated_images/lt/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
+    ![Dirvožemio drėgmės jutiklio nustatymai](../../../../../translated_images/lt/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp)
 
     Dirvožemio drėgmės jutiklis bus sukurtas ir pasirodys jutiklių sąraše.
 
-    ![Sukurtas dirvožemio drėgmės jutiklis](../../../../../translated_images/lt/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
+    ![Sukurtas dirvožemio drėgmės jutiklis](../../../../../translated_images/lt/counterfit-soil-moisture-sensor.81742b2de0e9de60.webp)
 
 ## Programuokite dirvožemio drėgmės jutiklio programą
 

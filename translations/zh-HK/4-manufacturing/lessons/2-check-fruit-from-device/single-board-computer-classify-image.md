@@ -84,7 +84,7 @@ Custom Vision 服務提供了一個 Python SDK，可用於分類圖片。
 
     你將能看到拍攝的圖片，以及這些值在 Custom Vision 的 **Predictions** 標籤中。
 
-    ![一根香蕉在 Custom Vision 中被預測為成熟的概率為 56.8%，未成熟的概率為 43.1%](../../../../../translated_images/zh-HK/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![一根香蕉在 Custom Vision 中被預測為成熟的概率為 56.8%，未成熟的概率為 43.1%](../../../../../translated_images/zh-HK/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 你可以在 [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) 或 [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) 文件夾中找到這段代碼。
 

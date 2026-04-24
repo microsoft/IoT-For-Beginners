@@ -16,7 +16,7 @@ ArduCam nema Grove priključak, već se povezuje na SPI i I2C sabirnice putem GP
 
 Povežite kameru.
 
-![Senzor ArduCam](../../../../../translated_images/hr/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Senzor ArduCam](../../../../../translated_images/hr/arducam.20e4e4cbb2682965.webp)
 
 1. Pinovi na bazi ArduCam-a trebaju biti povezani na GPIO pinove na Wio Terminalu. Kako biste lakše pronašli odgovarajuće pinove, zalijepite naljepnicu s GPIO pinovima koja dolazi uz Wio Terminal oko pinova:
 
@@ -35,7 +35,7 @@ Povežite kameru.
     | SDA           | 3 (I2C1_SDA)      | I2C serijski podaci                     |
     | SCL           | 5 (I2C1_SCL)      | I2C serijski sat                        |
 
-    ![Wio Terminal povezan s ArduCam-om pomoću žica](../../../../../translated_images/hr/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal povezan s ArduCam-om pomoću žica](../../../../../translated_images/hr/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     GND i VCC veze osiguravaju napajanje od 5V za ArduCam. Kamera radi na 5V, za razliku od Grove senzora koji rade na 3V. Ovo napajanje dolazi direktno iz USB-C priključka koji napaja uređaj.
 
@@ -456,7 +456,7 @@ Wio Terminal podržava samo microSD kartice do 16GB. Ako imate veću SD karticu,
 
 1. Isključite microSD karticu i izvadite je laganim pritiskom i otpuštanjem, te će iskočiti. Možda ćete morati koristiti tanki alat za ovo. Priključite microSD karticu na svoje računalo kako biste pregledali slike.
 
-    ![Slika banane snimljena pomoću ArduCam-a](../../../../../translated_images/hr/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Slika banane snimljena pomoću ArduCam-a](../../../../../translated_images/hr/banana-arducam.be1b32d4267a8194.webp)
 💁 Možda će biti potrebno nekoliko slika da se bijela ravnoteža kamere prilagodi. Primijetit ćete to na temelju boje snimljenih slika, prve nekoliko mogu izgledati neispravno u boji. Uvijek možete zaobići ovo promjenom koda kako biste snimili nekoliko slika koje se ignoriraju u funkciji `setup`.
 
 

@@ -1,6 +1,6 @@
 # Automatisk växtbevattning
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -32,7 +32,7 @@ IoT-enheter använder låg spänning. Även om detta räcker för sensorer och l
 
 Lösningen på detta är att ha en pump ansluten till en extern strömkälla och använda en aktuator för att slå på pumpen, ungefär som du skulle slå på en lampa. Det krävs en liten mängd energi (i form av energi i din kropp) för att ditt finger ska trycka på en strömbrytare, och detta ansluter lampan till nätström som körs på 110v/240v.
 
-![En strömbrytare slår på strömmen till en lampa](../../../../../translated_images/sv/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![En strömbrytare slår på strömmen till en lampa](../../../../../translated_images/sv/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Nätström](https://wikipedia.org/wiki/Mains_electricity) avser elektricitet som levereras till hem och företag via nationell infrastruktur i många delar av världen.
 
@@ -72,7 +72,7 @@ När spaken rör sig kan du vanligtvis höra den göra kontakt med elektromagnet
 
 Elektromagneten behöver inte mycket ström för att aktiveras och dra spaken, den kan styras med 3,3V eller 5V från en IoT-utvecklingssats. Utgångskretsen kan bära mycket mer ström, beroende på reläet, inklusive nätspänning eller ännu högre strömnivåer för industriellt bruk. På detta sätt kan en IoT-utvecklingssats styra ett bevattningssystem, från en liten pump för en enskild växt, till ett massivt industriellt system för en hel kommersiell gård.
 
-![Ett Grove-relä med styrkrets, utgångskrets och relä markerade](../../../../../translated_images/sv/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Ett Grove-relä med styrkrets, utgångskrets och relä markerade](../../../../../translated_images/sv/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Bilden ovan visar ett Grove-relä. Styrkretsen ansluts till en IoT-enhet och slår på eller av reläet med 3,3V eller 5V. Utgångskretsen har två terminaler, var och en kan vara ström eller jord. Utgångskretsen kan hantera upp till 250V vid 10A, tillräckligt för en rad nätanslutna enheter. Du kan få reläer som kan hantera ännu högre strömnivåer.
 

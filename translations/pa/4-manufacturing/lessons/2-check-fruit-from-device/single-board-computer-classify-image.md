@@ -84,7 +84,7 @@
 
     ਤੁਸੀਂ ਲਿਆ ਗਿਆ ਚਿੱਤਰ ਦੇਖ ਸਕੋਗੇ, ਅਤੇ ਇਹ ਮੁੱਲ **Predictions** ਟੈਬ ਵਿੱਚ ਕਸਟਮ ਵਿਜ਼ਨ ਵਿੱਚ ਵੇਖ ਸਕਦੇ ਹੋ।
 
-    ![ਕਸਟਮ ਵਿਜ਼ਨ ਵਿੱਚ ਇੱਕ ਕੇਲਾ 56.8% ਪੱਕਾ ਅਤੇ 43.1% ਕੱਚਾ ਪੇਸ਼ਗੋਈ ਕੀਤੀ ਗਈ](../../../../../translated_images/pa/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![ਕਸਟਮ ਵਿਜ਼ਨ ਵਿੱਚ ਇੱਕ ਕੇਲਾ 56.8% ਪੱਕਾ ਅਤੇ 43.1% ਕੱਚਾ ਪੇਸ਼ਗੋਈ ਕੀਤੀ ਗਈ](../../../../../translated_images/pa/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 ਤੁਸੀਂ ਇਹ ਕੋਡ [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) ਜਾਂ [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) ਫੋਲਡਰ ਵਿੱਚ ਲੱਭ ਸਕਦੇ ਹੋ।
 

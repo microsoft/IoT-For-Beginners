@@ -16,13 +16,13 @@
 
 #### وظیفه - اتصال دکمه
 
-![یک دکمه Grove](../../../../../translated_images/fa/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
+![یک دکمه Grove](../../../../../translated_images/fa/grove-button.a70cfbb809a85636.webp)
 
 1. یک سر کابل Grove را به سوکت روی ماژول دکمه وارد کنید. کابل فقط به یک جهت وارد می‌شود.
 
 1. با خاموش بودن رزبری پای، سر دیگر کابل Grove را به سوکت دیجیتال با علامت **D5** روی هت پایه Grove که به پای متصل است وصل کنید. این سوکت دومین سوکت از سمت چپ در ردیف سوکت‌های کنار پین‌های GPIO است.
 
-![دکمه Grove متصل به سوکت D5](../../../../../translated_images/fa/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
+![دکمه Grove متصل به سوکت D5](../../../../../translated_images/fa/pi-button.c7a1a4f55943341c.webp)
 
 ## ضبط صدا
 

@@ -18,7 +18,7 @@ Grove GPS 센서를 Wio Terminal에 연결할 수 있습니다.
 
 GPS 센서를 연결하세요.
 
-![Grove GPS 센서](../../../../../translated_images/ko/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Grove GPS 센서](../../../../../translated_images/ko/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Grove 케이블의 한쪽 끝을 GPS 센서의 소켓에 삽입하세요. 케이블은 한 방향으로만 들어갑니다.
 

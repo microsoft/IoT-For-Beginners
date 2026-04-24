@@ -1,6 +1,6 @@
 # ভাষা বোঝা
 
-![এই পাঠের একটি স্কেচনোট সংক্ষিপ্ত বিবরণ](../../../../../translated_images/bn/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![এই পাঠের একটি স্কেচনোট সংক্ষিপ্ত বিবরণ](../../../../../translated_images/bn/lesson-22.6148ea28500d9e00.webp)
 
 > স্কেচনোট: [নিত্য নারাসিমহান](https://github.com/nitya)। বড় সংস্করণের জন্য ছবিতে ক্লিক করুন।
 
@@ -46,7 +46,7 @@
 
 ## একটি ভাষা বোঝার মডেল তৈরি করুন
 
-![LUIS লোগো](../../../../../translated_images/bn/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![LUIS লোগো](../../../../../translated_images/bn/luis-logo.5cb4f3e88c020ee6.webp)
 
 আপনি LUIS ব্যবহার করে ভাষা বোঝার মডেল তৈরি করতে পারেন, যা মাইক্রোসফটের একটি ভাষা বোঝার পরিষেবা এবং এটি Cognitive Services-এর অংশ।
 
@@ -169,7 +169,7 @@ Microsoft Docs-এ [Quickstart: Build your app in LUIS portal](https://docs.micr
 
 1. প্রতিটি উদাহরণ প্রবেশ করার সময়, LUIS সত্তাগুলো সনাক্ত করতে শুরু করবে এবং যে কোনো সত্তা খুঁজে পেলে আন্ডারলাইন এবং লেবেল করবে।
 
-    ![LUIS উদাহরণগুলোর সংখ্যা এবং সময়ের একক আন্ডারলাইন করেছে](../../../../../translated_images/bn/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![LUIS উদাহরণগুলোর সংখ্যা এবং সময়ের একক আন্ডারলাইন করেছে](../../../../../translated_images/bn/luis-intent-examples.25716580b2d2723c.webp)
 
 ### কাজ - মডেল প্রশিক্ষণ এবং পরীক্ষা করুন
 

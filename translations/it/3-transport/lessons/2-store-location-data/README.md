@@ -1,6 +1,6 @@
 # Memorizzare i dati di localizzazione
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-12.ca7f53039712a3ec.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -75,7 +75,7 @@ I database NoSQL sono chiamati NoSQL perché non hanno la stessa struttura rigid
 
 > 💁 Nonostante il nome, alcuni database NoSQL consentono di utilizzare SQL per interrogare i dati.
 
-![Documenti in cartelle in un database NoSQL](../../../../../translated_images/it/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Documenti in cartelle in un database NoSQL](../../../../../translated_images/it/noqsl-database.62d24ccf5b73f60d.webp)
 
 I database NoSQL non hanno uno schema predefinito che limita il modo in cui i dati vengono memorizzati; puoi invece inserire qualsiasi dato non strutturato, di solito utilizzando documenti JSON. Questi documenti possono essere organizzati in cartelle, simili ai file sul tuo computer. Ogni documento può avere campi diversi rispetto ad altri documenti. Ad esempio, se stai memorizzando dati IoT dai tuoi veicoli agricoli, alcuni potrebbero avere campi per dati di accelerometro e velocità, altri potrebbero avere campi per la temperatura nel rimorchio. Se aggiungessi un nuovo tipo di camion, come uno con bilance integrate per monitorare il peso del carico, il tuo dispositivo IoT potrebbe aggiungere questo nuovo campo e potrebbe essere memorizzato senza modifiche al database.
 
@@ -89,7 +89,7 @@ In questa lezione utilizzerai un'archiviazione NoSQL per memorizzare i dati IoT.
 
 Nella lezione precedente hai acquisito dati GPS da un sensore GPS collegato al tuo dispositivo IoT. Per memorizzare questi dati IoT nel cloud, devi inviarli a un servizio IoT. Ancora una volta, utilizzerai Azure IoT Hub, lo stesso servizio IoT cloud che hai usato nel progetto precedente.
 
-![Invio di telemetria GPS da un dispositivo IoT a IoT Hub](../../../../../translated_images/it/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Invio di telemetria GPS da un dispositivo IoT a IoT Hub](../../../../../translated_images/it/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Attività - inviare dati GPS a un IoT Hub
 
@@ -171,7 +171,7 @@ I dati del percorso cold vengono archiviati in data warehouse, database progetta
 
 Una volta che i dati fluiscono nel tuo IoT Hub, puoi scrivere del codice serverless per ascoltare gli eventi pubblicati sull'endpoint compatibile con Event Hub. Questo è il percorso warm: questi dati verranno archiviati e utilizzati nella prossima lezione per creare report sul percorso.
 
-![Invio di telemetria GPS da un dispositivo IoT a IoT Hub, quindi a Azure Functions tramite un trigger di Event Hub](../../../../../translated_images/it/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Invio di telemetria GPS da un dispositivo IoT a IoT Hub, quindi a Azure Functions tramite un trigger di Event Hub](../../../../../translated_images/it/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Attività - gestire eventi GPS con codice serverless
 
@@ -193,7 +193,7 @@ Una volta che i dati fluiscono nel tuo IoT Hub, puoi scrivere del codice serverl
 
 ## Account di Archiviazione Azure
 
-![Il logo di Azure Storage](../../../../../translated_images/it/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Il logo di Azure Storage](../../../../../translated_images/it/azure-storage-logo.605c0f602c640d48.webp)
 
 Gli Account di Archiviazione Azure sono un servizio di archiviazione generico che può memorizzare dati in diversi modi. Puoi archiviare dati come blob, in code, in tabelle o come file, e tutto contemporaneamente.
 

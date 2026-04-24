@@ -1,6 +1,6 @@
 # Awtomatikong Pagdidilig ng Halaman
 
-![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/tl/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/tl/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -32,7 +32,7 @@ Ang mga IoT device ay gumagamit ng mababang boltahe. Bagama't sapat ito para sa 
 
 Ang solusyon dito ay ang pagkonekta ng pump sa isang panlabas na power supply, at paggamit ng actuator upang i-switch ang pump, katulad ng kung paano mo i-switch ang ilaw. Kailangan lamang ng kaunting kuryente (sa anyo ng enerhiya sa iyong katawan) para sa iyong daliri upang i-flip ang switch, at ito ay nagkokonekta sa ilaw sa mains electricity na tumatakbo sa 110v/240v.
 
-![Isang light switch na nagbubukas ng kuryente sa isang ilaw](../../../../../translated_images/tl/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Isang light switch na nagbubukas ng kuryente sa isang ilaw](../../../../../translated_images/tl/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Mains electricity](https://wikipedia.org/wiki/Mains_electricity) ay tumutukoy sa kuryenteng dinadala sa mga tahanan at negosyo sa pamamagitan ng pambansang imprastraktura sa maraming bahagi ng mundo.
 
@@ -72,7 +72,7 @@ Kapag gumagalaw ang lever, kadalasan ay maririnig mo itong kumokonekta sa electr
 
 Ang electromagnet ay hindi nangangailangan ng maraming kuryente upang ma-activate at mahila ang lever, maaari itong kontrolin gamit ang 3.3V o 5V output mula sa isang IoT dev kit. Ang output circuit ay maaaring magdala ng mas maraming kuryente, depende sa relay, kabilang ang mains voltage o kahit na mas mataas na antas ng kuryente para sa pang-industriya na paggamit. Sa ganitong paraan, ang isang IoT dev kit ay maaaring kontrolin ang isang sistema ng irigasyon, mula sa isang maliit na pump para sa isang halaman, hanggang sa isang malaking pang-industriya na sistema para sa isang buong komersyal na sakahan.
 
-![Isang grove relay na may control circuit, output circuit at relay na may label](../../../../../translated_images/tl/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Isang grove relay na may control circuit, output circuit at relay na may label](../../../../../translated_images/tl/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Ang imahe sa itaas ay nagpapakita ng isang Grove relay. Ang control circuit ay kumokonekta sa isang IoT device at binubuksan o pinapatay ang relay gamit ang 3.3V o 5V. Ang output circuit ay may dalawang terminal, alinman sa isa ay maaaring power o ground. Ang output circuit ay maaaring humawak ng hanggang 250V sa 10A, sapat para sa iba't ibang mains-powered na device. Maaari kang makakuha ng mga relay na maaaring humawak ng mas mataas pang antas ng kuryente.
 

@@ -208,7 +208,7 @@
 
     Ще можете да видите изображението, което е заснето, и тези стойности в раздела **Predictions** в Custom Vision.
 
-    ![Банан в Custom Vision, предсказан като узрял с 56.8% и неузрял с 43.1%](../../../../../translated_images/bg/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Банан в Custom Vision, предсказан като узрял с 56.8% и неузрял с 43.1%](../../../../../translated_images/bg/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Можете да намерите този код в папката [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

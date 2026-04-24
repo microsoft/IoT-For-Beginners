@@ -18,13 +18,13 @@
 
 חבר את חיישן לחות הקרקע.
 
-![חיישן לחות קרקע של Grove](../../../../../translated_images/he/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![חיישן לחות קרקע של Grove](../../../../../translated_images/he/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. הכנס קצה אחד של כבל Grove לשקע על חיישן לחות הקרקע. הכבל ייכנס רק בכיוון אחד.
 
 1. כשה-Raspberry Pi כבוי, חבר את הקצה השני של כבל Grove לשקע האנלוגי המסומן **A0** בכובע הבסיס של Grove המחובר ל-Pi. שקע זה הוא השני מימין, בשורה של השקעים ליד פיני ה-GPIO.
 
-![חיישן לחות הקרקע של Grove מחובר לשקע A0](../../../../../translated_images/he/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![חיישן לחות הקרקע של Grove מחובר לשקע A0](../../../../../translated_images/he/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. הכנס את חיישן לחות הקרקע לתוך הקרקע. יש לו 'קו מיקום עליון' - קו לבן שחוצה את החיישן. הכנס את החיישן עד לקו זה אך לא מעבר לו.
 

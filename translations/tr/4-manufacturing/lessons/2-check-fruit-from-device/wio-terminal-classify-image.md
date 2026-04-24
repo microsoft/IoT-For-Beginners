@@ -208,7 +208,7 @@ Bu sertifikalar genel anahtarlar içerir ve güvenli tutulmaları gerekmez. Bunl
 
     Çekilen görüntüyü ve bu değerleri Custom Vision'daki **Predictions** sekmesinde görebileceksiniz.
 
-    ![Custom Vision'da bir muz, %56.8 olgun ve %43.1 olgunlaşmamış olarak tahmin edildi](../../../../../translated_images/tr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Custom Vision'da bir muz, %56.8 olgun ve %43.1 olgunlaşmamış olarak tahmin edildi](../../../../../translated_images/tr/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Bu kodu [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) klasöründe bulabilirsiniz.
 

@@ -1,6 +1,6 @@
 # 여러 언어 지원
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-24.4246968ed058510a.webp)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -74,7 +74,7 @@
 
 ### Cognitive Services 음성 서비스
 
-![음성 서비스 로고](../../../../../translated_images/ko/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![음성 서비스 로고](../../../../../translated_images/ko/azure-speech-logo.a1f08c4befb0159f.webp)
 
 지난 몇 강의 동안 사용한 음성 서비스는 음성 인식을 위한 번역 기능을 제공합니다. 음성을 인식할 때 동일한 언어의 텍스트뿐만 아니라 다른 언어의 텍스트도 요청할 수 있습니다.
 
@@ -82,7 +82,7 @@
 
 ### Cognitive Services 번역기 서비스
 
-![번역기 서비스 로고](../../../../../translated_images/ko/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![번역기 서비스 로고](../../../../../translated_images/ko/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 번역기 서비스는 한 언어에서 하나 이상의 대상 언어로 텍스트를 번역할 수 있는 전용 번역 서비스입니다. 번역 외에도 욕설 마스킹을 포함한 다양한 추가 기능을 지원합니다. 또한 특정 단어 또는 문구에 대해 특정 번역을 제공하여 번역하지 않거나 잘 알려진 번역을 제공할 수 있습니다.
 

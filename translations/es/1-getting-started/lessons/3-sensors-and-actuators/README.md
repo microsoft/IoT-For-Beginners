@@ -1,6 +1,6 @@
 # Interactúa con el mundo físico con sensores y actuadores
 
-![Una vista general de esta lección en formato sketchnote](../../../../../translated_images/es/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Una vista general de esta lección en formato sketchnote](../../../../../translated_images/es/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -92,7 +92,7 @@ Los sensores digitales, al igual que los sensores analógicos, detectan el mundo
 
 El sensor digital más simple es un botón o interruptor. Este es un sensor con dos estados: encendido o apagado.
 
-![Un botón recibe 5 voltios. Cuando no se presiona devuelve 0 voltios, cuando se presiona devuelve 5 voltios](../../../../../translated_images/es/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Un botón recibe 5 voltios. Cuando no se presiona devuelve 0 voltios, cuando se presiona devuelve 5 voltios](../../../../../translated_images/es/button.eadb560b77ac45e5.webp)
 
 Los pines en dispositivos IoT como los pines GPIO pueden medir esta señal directamente como un 0 o 1. Si el voltaje enviado es el mismo que el voltaje devuelto, el valor leído es 1; de lo contrario, el valor leído es 0. No hay necesidad de convertir la señal, solo puede ser 1 o 0.
 
@@ -125,7 +125,7 @@ Algunos actuadores comunes incluyen:
 
 Sigue la guía correspondiente a continuación para añadir un actuador a tu dispositivo IoT, controlado por el sensor, para construir una luz nocturna IoT. Recogerá niveles de luz del sensor de luz y usará un actuador en forma de LED para emitir luz cuando el nivel de luz detectado sea demasiado bajo.
 
-![Un diagrama de flujo de la tarea que muestra los niveles de luz siendo leídos y verificados, y el LED siendo controlado](../../../../../translated_images/es/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Un diagrama de flujo de la tarea que muestra los niveles de luz siendo leídos y verificados, y el LED siendo controlado](../../../../../translated_images/es/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Computadora de placa única - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Al igual que los sensores, los actuadores pueden ser analógicos o digitales.
 Los actuadores analógicos toman una señal analógica y la convierten en algún tipo de interacción, donde la interacción cambia según el voltaje suministrado.
 
 Un ejemplo es una luz regulable, como las que podrías tener en tu casa. La cantidad de voltaje suministrado a la luz determina qué tan brillante es.
-![Una luz atenuada con un voltaje bajo y más brillante con un voltaje más alto](../../../../../translated_images/es/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Una luz atenuada con un voltaje bajo y más brillante con un voltaje más alto](../../../../../translated_images/es/dimmable-light.9ceffeb195dec1a8.webp)
 
 Al igual que con los sensores, el dispositivo IoT real funciona con señales digitales, no analógicas. Esto significa que, para enviar una señal analógica, el dispositivo IoT necesita un convertidor digital a analógico (DAC), ya sea directamente en el dispositivo IoT o en una placa de conexión. Esto convertirá los 0s y 1s del dispositivo IoT en un voltaje analógico que el actuador pueda usar.
 
@@ -187,7 +187,7 @@ Los actuadores digitales, al igual que los sensores digitales, tienen dos estado
 
 Un actuador digital simple es un LED. Cuando un dispositivo envía una señal digital de 1, se envía un voltaje alto que enciende el LED. Cuando se envía una señal digital de 0, el voltaje cae a 0V y el LED se apaga.
 
-![Un LED está apagado a 0 voltios y encendido a 5V](../../../../../translated_images/es/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Un LED está apagado a 0 voltios y encendido a 5V](../../../../../translated_images/es/led.ec6d94f66676a174.webp)
 
 ✅ ¿Qué otros actuadores simples de dos estados se te ocurren? Un ejemplo es un solenoide, que es un electroimán que puede activarse para hacer cosas como mover un cerrojo de puerta para bloquear/desbloquear una puerta.
 

@@ -1,6 +1,6 @@
 # Migreer je applicatielogica naar de cloud
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -28,7 +28,7 @@ In deze les behandelen we:
 
 Serverloos, of serverloze computing, houdt in dat je kleine blokken code maakt die in de cloud worden uitgevoerd als reactie op verschillende soorten gebeurtenissen. Wanneer de gebeurtenis plaatsvindt, wordt je code uitgevoerd en krijgt het gegevens over de gebeurtenis mee. Deze gebeurtenissen kunnen afkomstig zijn van verschillende bronnen, zoals webverzoeken, berichten in een wachtrij, wijzigingen in gegevens in een database, of berichten die door IoT-apparaten naar een IoT-service worden gestuurd.
 
-![Gebeurtenissen die worden verzonden van een IoT-service naar een serverloze service, allemaal tegelijkertijd verwerkt door meerdere functies](../../../../../translated_images/nl/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Gebeurtenissen die worden verzonden van een IoT-service naar een serverloze service, allemaal tegelijkertijd verwerkt door meerdere functies](../../../../../translated_images/nl/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Als je eerder database-triggers hebt gebruikt, kun je dit zien als iets vergelijkbaars: code die wordt geactiveerd door een gebeurtenis, zoals het invoegen van een rij.
 
@@ -54,7 +54,7 @@ Als IoT-ontwikkelaar is het serverloze model ideaal. Je kunt een functie schrijv
 
 De serverloze computing-service van Microsoft heet Azure Functions.
 
-![Het Azure Functions-logo](../../../../../translated_images/nl/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Het Azure Functions-logo](../../../../../translated_images/nl/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 De korte video hieronder geeft een overzicht van Azure Functions.
 

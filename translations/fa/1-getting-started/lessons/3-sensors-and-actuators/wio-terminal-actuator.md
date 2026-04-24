@@ -26,7 +26,7 @@ LED Grove به صورت یک ماژول با مجموعه‌ای از LEDها ا
 
 LED را متصل کنید.
 
-![یک LED Grove](../../../../../translated_images/fa/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![یک LED Grove](../../../../../translated_images/fa/grove-led.6c853be93f473cf2.webp)
 
 1. LED مورد علاقه خود را انتخاب کرده و پایه‌های آن را در دو سوراخ روی ماژول LED قرار دهید.
 

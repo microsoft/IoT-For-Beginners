@@ -1,6 +1,6 @@
 # Geoograde
 
-![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-14.63980c5150ae3c15.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -35,7 +35,7 @@ U ovoj lekciji obradit ćemo:
 
 Geooograda je virtualni perimetar za stvarnu geografsku regiju. Geooograde mogu biti krugovi definirani kao točka i radijus (na primjer, krug širine 100m oko zgrade) ili poligon koji pokriva područje poput školske zone, granica grada, sveučilišnog ili uredskog kampusa.
 
-![Primjeri geooograda koji prikazuju kružnu geooogradu oko Microsoftove trgovine i poligonsku geooogradu oko zapadnog kampusa Microsofta](../../../../../translated_images/hr/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Primjeri geooograda koji prikazuju kružnu geooogradu oko Microsoftove trgovine i poligonsku geooogradu oko zapadnog kampusa Microsofta](../../../../../translated_images/hr/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Možda ste već koristili geooograde, a da to niste znali. Ako ste postavili podsjetnik pomoću aplikacije iOS Reminders ili Google Keep na temelju lokacije, koristili ste geooogradu. Te aplikacije postavljaju geooogradu na temelju zadane lokacije i obavještavaju vas kada vaš telefon uđe u geooogradu.
 
@@ -212,7 +212,7 @@ Važno je znati udaljenost do ruba geooograde i kombinirati je s drugim informac
 
 Na primjer, zamislite GPS očitanja koja pokazuju da je vozilo vozilo cestom koja završava uz geooogradu. Ako jedno GPS očitanje nije točno i postavi vozilo unutar geooograde, unatoč tome što nema pristupa vozilima, tada se može zanemariti.
 
-![GPS trag koji pokazuje vozilo koje prolazi Microsoft kampusom na 520, s GPS očitanjima duž ceste osim jednog na kampusu, unutar geooograde](../../../../../translated_images/hr/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![GPS trag koji pokazuje vozilo koje prolazi Microsoft kampusom na 520, s GPS očitanjima duž ceste osim jednog na kampusu, unutar geooograde](../../../../../translated_images/hr/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 Na gornjoj slici prikazan je geofence preko dijela Microsoft kampusa. Crvena linija prikazuje kamion koji vozi duž autoceste 520, s krugovima koji označavaju GPS očitanja. Većina tih očitanja je točna i nalazi se duž autoceste 520, dok jedno netočno očitanje pokazuje lokaciju unutar geofencea. Nema načina da to očitanje bude ispravno - nema cesta koje bi omogućile kamionu da iznenada skrene s autoceste 520 na kampus, a zatim se vrati na autocestu 520. Kod koji provjerava ovaj geofence morat će uzeti u obzir prethodna očitanja prije nego što djeluje na rezultate testa geofencea.
 
 ✅ Koje dodatne podatke biste trebali provjeriti kako biste utvrdili može li se GPS očitanje smatrati točnim?
@@ -284,7 +284,7 @@ Kao što se sjećate iz prethodnih lekcija, IoT Hub omogućuje ponovno reproduci
 
 Odgovor je da ne može! Umjesto toga, možete definirati više odvojenih veza za čitanje događaja, a svaka od njih može upravljati reprodukcijom nepročitanih poruka. To se zove *potrošačke grupe*. Kada se povežete s krajnjom točkom, možete odrediti koju potrošačku grupu želite koristiti. Svaka komponenta vaše aplikacije povezat će se s različitom potrošačkom grupom.
 
-![Jedan IoT Hub s 3 potrošačke grupe koje distribuiraju iste poruke na 3 različite Functions aplikacije](../../../../../translated_images/hr/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Jedan IoT Hub s 3 potrošačke grupe koje distribuiraju iste poruke na 3 različite Functions aplikacije](../../../../../translated_images/hr/consumer-groups.a3262e26fc27ba20.webp)
 
 Teoretski, do 5 aplikacija može se povezati s svakom potrošačkom grupom, i sve će primati poruke kada stignu. Najbolja praksa je imati samo jednu aplikaciju koja pristupa svakoj potrošačkoj grupi kako bi se izbjeglo dupliciranje obrade poruka i osiguralo da se prilikom ponovnog pokretanja sve poruke u redu obrađuju ispravno. Na primjer, ako pokrenete svoju Functions aplikaciju lokalno, kao i u oblaku, obje bi obrađivale poruke, što bi dovelo do dupliciranja blobova pohranjenih u storage računu.
 

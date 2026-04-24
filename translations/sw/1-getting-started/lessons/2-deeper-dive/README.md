@@ -1,6 +1,6 @@
 # Uchambuzi wa Kina wa IoT
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -38,7 +38,7 @@ Sehemu ya **Kifaa** katika IoT inahusu kifaa kinachoweza kuingiliana na ulimweng
 
 Vifaa hivi huingiliana na ulimwengu wa kimwili, ama kwa kutumia sensa kukusanya data kutoka mazingira yao au kwa kudhibiti matokeo au actuators kufanya mabadiliko ya kimwili. Mfano wa kawaida wa hili ni thermostat ya kisasa - kifaa chenye sensa ya joto, njia ya kuweka joto linalotakiwa kama vile kidhibiti au skrini ya kugusa, na muunganisho na mfumo wa kupasha au kupoza ambao unaweza kuwashwa wakati joto lililogunduliwa liko nje ya kiwango kinachotakiwa. Sensa ya joto hugundua kuwa chumba ni baridi sana na actuator huwasha mfumo wa kupasha joto.
 
-![Mchoro unaoonyesha joto na kidhibiti kama pembejeo kwa kifaa cha IoT, na udhibiti wa hita kama matokeo](../../../../../translated_images/sw/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Mchoro unaoonyesha joto na kidhibiti kama pembejeo kwa kifaa cha IoT, na udhibiti wa hita kama matokeo](../../../../../translated_images/sw/basic-thermostat.a923217fd1f37e5a.webp)
 
 Kuna aina nyingi za vifaa vinavyoweza kufanya kazi kama vifaa vya IoT, kuanzia vifaa maalum vinavyogundua kitu kimoja, hadi vifaa vya matumizi ya jumla, hata simu yako ya mkononi! Simu ya mkononi inaweza kutumia sensa kugundua ulimwengu unaozunguka, na actuators kuingiliana na ulimwengu - kwa mfano, kutumia sensa ya GPS kugundua eneo lako na spika kukupa maelekezo ya kufika mahali fulani.
 
@@ -54,7 +54,7 @@ Vifaa pia havihitaji kuunganishwa moja kwa moja na Intaneti yenyewe kupitia WiFi
 
 Kwa mfano wa thermostat ya kisasa, thermostat ingeunganishwa kwa kutumia WiFi ya nyumbani na huduma ya wingu inayofanya kazi kwenye wingu. Ingetuma data ya joto kwa huduma hii ya wingu, na kutoka hapo itaandikwa kwenye hifadhidata ya aina fulani inayomruhusu mmiliki wa nyumba kuangalia joto la sasa na la zamani kwa kutumia programu ya simu. Huduma nyingine kwenye wingu ingejua joto ambalo mmiliki wa nyumba anataka, na kutuma ujumbe kurudi kwa kifaa cha IoT kupitia huduma ya wingu ili kuambia mfumo wa kupasha joto kuwasha au kuzima.
 
-![Mchoro unaoonyesha joto na kidhibiti kama pembejeo kwa kifaa cha IoT, kifaa cha IoT kikiwa na mawasiliano ya njia mbili na wingu, ambalo kwa upande wake lina mawasiliano ya njia mbili na simu, na udhibiti wa hita kama matokeo kutoka kwa kifaa cha IoT](../../../../../translated_images/sw/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Mchoro unaoonyesha joto na kidhibiti kama pembejeo kwa kifaa cha IoT, kifaa cha IoT kikiwa na mawasiliano ya njia mbili na wingu, ambalo kwa upande wake lina mawasiliano ya njia mbili na simu, na udhibiti wa hita kama matokeo kutoka kwa kifaa cha IoT](../../../../../translated_images/sw/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Toleo la kisasa zaidi linaweza kutumia AI kwenye wingu pamoja na data kutoka kwa sensa nyingine zilizounganishwa na vifaa vingine vya IoT kama sensa za uwepo zinazogundua vyumba vinavyotumika, pamoja na data kama hali ya hewa na hata kalenda yako, kufanya maamuzi ya jinsi ya kuweka joto kwa njia ya kisasa. Kwa mfano, linaweza kuzima mfumo wa kupasha joto ikiwa linasoma kutoka kwa kalenda yako kuwa uko likizoni, au kuzima mfumo wa kupasha joto kwa msingi wa chumba kwa chumba kulingana na vyumba unavyotumia, likijifunza kutoka kwa data kuwa sahihi zaidi kwa muda.
 
@@ -94,7 +94,7 @@ Kadri mzunguko wa saa unavyokuwa wa haraka, ndivyo maagizo yanavyoweza kushughul
 
 > 💁 CPU hutekeleza programu kwa kutumia [mzunguko wa fetch-decode-execute](https://wikipedia.org/wiki/Instruction_cycle). Kwa kila dundo la saa, CPU itachukua agizo linalofuata kutoka kwa kumbukumbu, kulifafanua, kisha kulitekeleza kama vile kutumia kitengo cha mantiki ya hesabu (ALU) kuongeza namba 2. Baadhi ya utekelezaji utachukua mizunguko mingi kukimbia, hivyo mzunguko unaofuata utaendeshwa kwenye dundo linalofuata baada ya agizo kukamilika.
 
-![Mzunguko wa fetch decode execute unaoonyesha kuchukua agizo kutoka kwa programu iliyohifadhiwa kwenye RAM, kisha kulifafanua na kulitekeleza kwenye CPU](../../../../../translated_images/sw/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Mzunguko wa fetch decode execute unaoonyesha kuchukua agizo kutoka kwa programu iliyohifadhiwa kwenye RAM, kisha kulifafanua na kulitekeleza kwenye CPU](../../../../../translated_images/sw/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Microcontrollers zina kasi ya saa ya chini sana ikilinganishwa na kompyuta za mezani au laptop, au hata simu nyingi za mkononi. Kwa mfano, Wio Terminal ina CPU inayofanya kazi kwa 120MHz au mizunguko 120,000,000 kwa sekunde.
 
@@ -182,7 +182,7 @@ Bodi za Arduino zinaandikwa kwa C au C++. Kutumia C/C++ kunaruhusu programu yako
 
 Ungeandika programu yako ya kuanzisha kwenye kazi ya `setup`, kama vile kuunganisha kwenye WiFi na huduma za wingu au kuanzisha pini za ingizo na toleo. Programu yako ya `loop` ingekuwa na programu ya usindikaji, kama kusoma kutoka kwa sensorer na kutuma thamani kwa wingu. Kwa kawaida ungejumuisha kuchelewesha katika kila mzunguko, kwa mfano, ikiwa unataka tu data ya sensorer kutumwa kila sekunde 10 ungeongeza kuchelewesha kwa sekunde 10 mwishoni mwa mzunguko ili microcontroller iweze kulala, kuokoa nguvu, kisha kuendesha mzunguko tena inapohitajika sekunde 10 baadaye.
 
-![Sketch ya Arduino ikiendesha setup kwanza, kisha ikiendesha loop mara kwa mara](../../../../../translated_images/sw/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Sketch ya Arduino ikiendesha setup kwanza, kisha ikiendesha loop mara kwa mara](../../../../../translated_images/sw/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Muundo huu wa programu unajulikana kama *event loop* au *message loop*. Programu nyingi hutumia hii kwa siri na ni kiwango cha kawaida kwa programu nyingi za desktop zinazoendesha kwenye OS kama Windows, macOS au Linux. `loop` husikiliza ujumbe kutoka kwa vipengele vya kiolesura cha mtumiaji kama vile vifungo, au vifaa kama kibodi, na kujibu. Unaweza kusoma zaidi katika [makala kuhusu event loop](https://wikipedia.org/wiki/Event_loop).
 

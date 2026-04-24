@@ -1,6 +1,6 @@
 # Mélyebb betekintés az IoT világába
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-2.324b0580d620c25e.webp)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -38,7 +38,7 @@ Az IoT **Dolog** része egy olyan eszközt jelent, amely képes kölcsönhatásb
 
 Ezek az eszközök érzékelők segítségével adatokat gyűjtenek a környezetükből, vagy kimeneteket és működtetőket vezérelnek, hogy fizikai változásokat idézzenek elő. Egy tipikus példa erre az okos termosztát - egy olyan eszköz, amely hőmérséklet-érzékelővel rendelkezik, egy kívánt hőmérséklet beállítására szolgáló eszközzel, például egy tárcsával vagy érintőképernyővel, valamint egy fűtési vagy hűtési rendszerhez való csatlakozással, amely bekapcsol, ha a mért hőmérséklet kívül esik a kívánt tartományon. A hőmérséklet-érzékelő érzékeli, hogy a szoba túl hideg, és egy működtető bekapcsolja a fűtést.
 
-![Egy diagram, amely bemutatja a hőmérsékletet és egy tárcsát, mint IoT eszköz bemeneteit, valamint egy fűtőberendezés vezérlését, mint kimenetet](../../../../../translated_images/hu/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Egy diagram, amely bemutatja a hőmérsékletet és egy tárcsát, mint IoT eszköz bemeneteit, valamint egy fűtőberendezés vezérlését, mint kimenetet](../../../../../translated_images/hu/basic-thermostat.a923217fd1f37e5a.webp)
 
 Számos különböző dolog működhet IoT eszközként, az egyetlen dolgot érzékelő dedikált hardvertől a többcélú eszközökig, például az okostelefonodig! Egy okostelefon érzékelőkkel képes érzékelni a környezetét, és működtetőkkel képes kölcsönhatásba lépni a világgal - például GPS-érzékelőt használva meghatározhatja a helyzetedet, és hangszórót használva navigációs utasításokat adhat egy célállomásra.
 
@@ -54,7 +54,7 @@ Az eszközök nem mindig csatlakoznak közvetlenül az Internethez WiFi-n vagy v
 
 Az okos termosztát példájánál maradva, a termosztát otthoni WiFi-n keresztül csatlakozna egy felhőszolgáltatáshoz. Ez a felhőszolgáltatás fogadná a hőmérsékleti adatokat, amelyeket egy adatbázisba írna, lehetővé téve a háztulajdonos számára, hogy egy telefonos alkalmazáson keresztül ellenőrizze az aktuális és korábbi hőmérsékleteket. Egy másik szolgáltatás a felhőben tudná, hogy a háztulajdonos milyen hőmérsékletet szeretne, és üzeneteket küldene vissza az IoT eszköznek a felhőszolgáltatáson keresztül, hogy a fűtési rendszert be- vagy kikapcsolja.
 
-![Egy diagram, amely bemutatja a hőmérsékletet és egy tárcsát, mint IoT eszköz bemeneteit, az IoT eszköz kétirányú kommunikációját a felhővel, amely szintén kétirányú kommunikációt folytat egy telefonnal, és a fűtőberendezés vezérlését, mint az IoT eszköz kimenetét](../../../../../translated_images/hu/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Egy diagram, amely bemutatja a hőmérsékletet és egy tárcsát, mint IoT eszköz bemeneteit, az IoT eszköz kétirányú kommunikációját a felhővel, amely szintén kétirányú kommunikációt folytat egy telefonnal, és a fűtőberendezés vezérlését, mint az IoT eszköz kimenetét](../../../../../translated_images/hu/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Egy még okosabb verzió mesterséges intelligenciát használhatna a felhőben, más IoT eszközökhöz csatlakozó érzékelők, például jelenlétérzékelők adataival, valamint időjárási adatokkal és akár a naptáraddal együtt, hogy intelligens módon állítsa be a hőmérsékletet. Például kikapcsolhatná a fűtést, ha a naptárad szerint nyaralni mész, vagy szobánként kapcsolhatná ki a fűtést attól függően, hogy melyik szobákat használod, az adatokból tanulva egyre pontosabbá válva az idő múlásával.
 
@@ -94,7 +94,7 @@ Minél gyorsabb az óra ciklusa, annál több utasítást lehet másodpercenkén
 
 > 💁 A CPU-k a programokat a [fetch-decode-execute ciklus](https://wikipedia.org/wiki/Instruction_cycle) segítségével hajtják végre. Minden óra ketyegésnél a CPU lekéri a következő utasítást a memóriából, dekódolja, majd végrehajtja, például egy aritmetikai logikai egység (ALU) segítségével két számot ad össze. Néhány végrehajtás több ketyegést is igénybe vehet, így a következő ciklus a következő ketyegésnél fut le, miután az utasítás befejeződött.
 
-![A fetch-decode-execute ciklus, amely bemutatja, hogy a fetch a RAM-ban tárolt programból vesz utasítást, majd dekódolja és végrehajtja azt a CPU-n](../../../../../translated_images/hu/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![A fetch-decode-execute ciklus, amely bemutatja, hogy a fetch a RAM-ban tárolt programból vesz utasítást, majd dekódolja és végrehajtja azt a CPU-n](../../../../../translated_images/hu/fetch-decode-execute.2fd6f150f6280392.webp)
 
 A mikrokontrollerek órajele sokkal alacsonyabb, mint az asztali vagy laptop számítógépeké, vagy akár a legtöbb okostelefoné. Például a Wio Terminal CPU-ja 120MHz-en, azaz 120 000 000 ciklus másodpercenként működik.
 
@@ -164,7 +164,7 @@ Az Arduino lapokat C vagy C++ nyelven programozzák. A C/C++ használata lehető
 
 A `setup` funkcióban írná meg az inicializáló kódját, például a WiFi-hez és felhőszolgáltatásokhoz való csatlakozást, vagy a bemeneti és kimeneti tűk inicializálását. A `loop` funkcióban pedig a feldolgozó kódot, például egy szenzorból való olvasást és az érték felhőbe küldését. Általában késleltetést adna a ciklus végéhez, például ha csak 10 másodpercenként szeretne szenzoradatokat küldeni, akkor 10 másodperces késleltetést adna a ciklus végéhez, hogy a mikrokontroller aludjon, energiát takarítson meg, majd 10 másodperc múlva újra futtassa a ciklust.
 
-![Egy Arduino vázlat, amely először a setup-ot futtatja, majd folyamatosan a loop-ot](../../../../../translated_images/hu/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Egy Arduino vázlat, amely először a setup-ot futtatja, majd folyamatosan a loop-ot](../../../../../translated_images/hu/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Ezt a programarchitektúrát *eseményciklusnak* vagy *üzenetciklusnak* nevezik. Sok alkalmazás használja ezt a háttérben, és ez a szabvány a legtöbb asztali alkalmazás esetében, amelyek olyan operációs rendszereken futnak, mint a Windows, macOS vagy Linux. A `loop` figyeli az üzeneteket a felhasználói felület komponenseitől, például gomboktól, vagy eszközöktől, mint a billentyűzet, és reagál rájuk. Erről többet olvashat ebben a [cikkben az eseményciklusról](https://wikipedia.org/wiki/Event_loop).
 

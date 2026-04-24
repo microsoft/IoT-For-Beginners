@@ -1,6 +1,6 @@
 # 과일 품질 감지기 훈련하기
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-15.843d21afdc6fb2bb.webp)
 
 > 스케치노트 제공: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -38,7 +38,7 @@
 
 자동 수확의 발전은 농산물 분류를 수확 현장에서 공장으로 옮겼습니다. 식품은 긴 컨베이어 벨트를 따라 이동하며, 팀이 품질 기준에 맞지 않는 농산물을 제거하는 작업을 수행했습니다. 기계를 사용하여 수확 비용은 줄었지만, 여전히 식품을 수작업으로 분류하는 데 비용이 들었습니다.
 
-![빨간 토마토는 계속 이동하고, 녹색 토마토는 레버에 의해 폐기물 통으로 밀려나는 모습](../../../../../translated_images/ko/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![빨간 토마토는 계속 이동하고, 녹색 토마토는 레버에 의해 폐기물 통으로 밀려나는 모습](../../../../../translated_images/ko/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 다음 단계는 수확기나 가공 공장에서 기계를 사용하여 분류하는 것이었습니다. 초기 기계는 광학 센서를 사용하여 색상을 감지하고, 레버나 공기 분사기를 사용하여 녹색 토마토를 폐기물 통으로 밀어내고 빨간 토마토는 컨베이어 벨트 네트워크를 따라 계속 이동하도록 했습니다.
 
@@ -62,7 +62,7 @@
 
 > 🎓 ML 모델의 결과는 *예측(predictions)*이라고 합니다.
 
-![익은 바나나와 덜 익은 바나나의 예측 결과: 익은 바나나는 99.7% 익음, 0.3% 덜 익음, 덜 익은 바나나는 1.4% 익음, 98.6% 덜 익음](../../../../../translated_images/ko/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![익은 바나나와 덜 익은 바나나의 예측 결과: 익은 바나나는 99.7% 익음, 0.3% 덜 익음, 덜 익은 바나나는 1.4% 익음, 98.6% 덜 익음](../../../../../translated_images/ko/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 ML 모델은 이진 답변을 제공하지 않고, 대신 확률을 제공합니다. 예를 들어, 모델이 바나나 사진을 받아 `익음` 99.7%, `덜 익음` 0.3%로 예측할 수 있습니다. 그런 다음 코드는 가장 높은 확률의 예측을 선택하여 바나나가 익었다고 결정합니다.
 
@@ -90,7 +90,7 @@ ML 모델은 이진 답변을 제공하지 않고, 대신 확률을 제공합니
 
 Custom Vision은 이미지 분류기를 훈련하기 위한 클라우드 기반 도구입니다. 소량의 이미지만으로도 분류기를 훈련할 수 있습니다. 웹 포털, 웹 API 또는 SDK를 통해 이미지를 업로드하고, 각 이미지에 해당 이미지의 분류를 나타내는 *태그*를 지정할 수 있습니다. 그런 다음 모델을 훈련하고, 성능을 테스트합니다. 모델에 만족하면, 웹 API 또는 SDK를 통해 액세스할 수 있는 버전을 게시할 수 있습니다.
 
-![Azure Custom Vision 로고](../../../../../translated_images/ko/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Azure Custom Vision 로고](../../../../../translated_images/ko/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 Custom Vision 모델은 분류당 최소 5개의 이미지로 훈련할 수 있지만, 더 많은 이미지가 더 좋습니다. 최소 30개의 이미지로 더 나은 결과를 얻을 수 있습니다.
 
@@ -146,7 +146,7 @@ Custom Vision을 사용하려면 먼저 Azure CLI를 사용하여 Custom Vision 
 
     프로젝트를 생성할 때, 이전에 생성한 `fruit-quality-detector-training` 리소스를 사용하세요. *분류(Classification)* 프로젝트 유형, *다중 클래스(Multiclass)* 분류 유형, *식품(Food)* 도메인을 선택합니다.
 
-    ![Custom Vision 프로젝트 설정: 이름은 fruit-quality-detector, 설명 없음, 리소스는 fruit-quality-detector-training, 프로젝트 유형은 분류, 분류 유형은 다중 클래스, 도메인은 식품으로 설정](../../../../../translated_images/ko/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Custom Vision 프로젝트 설정: 이름은 fruit-quality-detector, 설명 없음, 리소스는 fruit-quality-detector-training, 프로젝트 유형은 분류, 분류 유형은 다중 클래스, 도메인은 식품으로 설정](../../../../../translated_images/ko/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ 이미지 분류기를 위한 Custom Vision UI를 탐색하는 데 시간을 가져보세요.
 
@@ -164,7 +164,7 @@ Custom Vision을 사용하려면 먼저 Azure CLI를 사용하여 Custom Vision 
 
     * 익은 바나나 2개를 사용하여 각각 다른 각도에서 최소 7장의 사진(훈련용 5장, 테스트용 2장)을 찍으세요. 이상적으로는 더 많은 사진을 찍는 것이 좋습니다.
 
-        ![서로 다른 바나나 2개의 사진](../../../../../translated_images/ko/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![서로 다른 바나나 2개의 사진](../../../../../translated_images/ko/banana-training-images.530eb203346d73bc.webp)
 
     * 같은 과정을 덜 익은 바나나 2개로 반복하세요.
 
@@ -174,7 +174,7 @@ Custom Vision을 사용하려면 먼저 Azure CLI를 사용하여 Custom Vision 
 
 1. [Microsoft 문서의 분류기 빠른 시작에서 이미지 업로드 및 태그 지정 섹션](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images)을 따라 훈련 이미지를 업로드하세요. 익은 과일은 `ripe`로, 덜 익은 과일은 `unripe`로 태그를 지정하세요.
 
-    ![익은 바나나와 덜 익은 바나나 사진 업로드 대화창](../../../../../translated_images/ko/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![익은 바나나와 덜 익은 바나나 사진 업로드 대화창](../../../../../translated_images/ko/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. [Microsoft 문서의 분류기 훈련 섹션](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier)을 따라 업로드한 이미지로 이미지 분류기를 훈련시키세요.
 
@@ -192,7 +192,7 @@ Custom Vision을 사용하려면 먼저 Azure CLI를 사용하여 Custom Vision 
 
 1. [Microsoft 문서의 모델 테스트 섹션](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model)을 따라 이미지 분류기를 테스트하세요. 이전에 준비한 테스트 이미지를 사용하고, 훈련에 사용한 이미지는 사용하지 마세요.
 
-    ![덜 익은 바나나가 98.9% 확률로 덜 익은 것으로, 1.1% 확률로 익은 것으로 예측됨](../../../../../translated_images/ko/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![덜 익은 바나나가 98.9% 확률로 덜 익은 것으로, 1.1% 확률로 익은 것으로 예측됨](../../../../../translated_images/ko/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. 사용할 수 있는 모든 테스트 이미지를 시도하고 확률을 관찰하세요.
 

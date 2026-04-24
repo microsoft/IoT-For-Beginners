@@ -1,6 +1,6 @@
 # Įvadas į IoT
 
-![Pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnote sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 

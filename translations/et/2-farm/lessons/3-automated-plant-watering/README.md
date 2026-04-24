@@ -1,6 +1,6 @@
 # Automaatne taimede kastmine
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-7.30b5f577d3cb8e03.webp)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -32,7 +32,7 @@ IoT-seadmed kasutavad madalat pinget. Kuigi see on piisav sensorite ja madala v�
 
 Lahendus sellele probleemile on ühendada pump välise toiteallikaga ja kasutada aktuaatorit pumba sisse lülitamiseks, sarnaselt sellele, kuidas lülitate valguse sisse. Väike kogus energiat (näiteks teie keha energia) on piisav, et sõrm lülitaks lüliti sisse, mis ühendab valguse koduse elektrivõrguga, mis töötab 110v/240v pingel.
 
-![Valguselüliti lülitab valguse sisse](../../../../../translated_images/et/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Valguselüliti lülitab valguse sisse](../../../../../translated_images/et/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Kodune elektrivõrk](https://wikipedia.org/wiki/Mains_electricity) viitab elektrile, mida tarnitakse kodudesse ja ettevõtetesse riikliku infrastruktuuri kaudu paljudes maailma osades.
 
@@ -72,7 +72,7 @@ Kui kang liigub, kuulete tavaliselt, kuidas see elektromagnetiga kontakti teeb, 
 
 Elektromagnet ei vaja palju energiat, et aktiveeruda ja kangi tõmmata, seda saab juhtida 3.3V või 5V väljundiga IoT arenduskomplektist. Väljundvooluring suudab kanda palju rohkem energiat, sõltuvalt releest, sealhulgas koduvõrgu pinget või isegi kõrgemaid energiatasemeid tööstuslikuks kasutamiseks. Nii saab IoT arenduskomplekt juhtida kastmissüsteemi, alates väikesest pumbast ühe taime jaoks kuni massiivse tööstusliku süsteemini terve kommertsfarmi jaoks.
 
-![Grove relee, millel on märgitud juhtimisahel, väljundvooluring ja relee](../../../../../translated_images/et/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Grove relee, millel on märgitud juhtimisahel, väljundvooluring ja relee](../../../../../translated_images/et/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Ülaltoodud pildil on Grove relee. Juhtimisahel ühendub IoT-seadmega ja lülitab relee sisse või välja, kasutades 3.3V või 5V. Väljundvooluringil on kaks terminali, millest kumbki võib olla toide või maandus. Väljundvooluring suudab käsitleda kuni 250V pinget ja 10A voolu, mis on piisav mitmesuguste koduvõrgu seadmete jaoks. Saadaval on releed, mis suudavad käsitleda veelgi kõrgemaid energiatasemeid.
 

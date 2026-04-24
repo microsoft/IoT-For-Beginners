@@ -36,11 +36,11 @@ Legg til avstandssensoren i CounterFit-appen.
 
     1. Velg **Add**-knappen for å opprette avstandssensoren.
 
-    ![Innstillingene for avstandssensoren](../../../../../translated_images/no/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![Innstillingene for avstandssensoren](../../../../../translated_images/no/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     Avstandssensoren vil bli opprettet og vises i sensorlisten.
 
-    ![Avstandssensoren opprettet](../../../../../translated_images/no/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![Avstandssensoren opprettet](../../../../../translated_images/no/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## Programmer avstandssensoren
 

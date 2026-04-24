@@ -18,13 +18,13 @@ Sensor kelembapan tanah Grove dapat dihubungkan ke Raspberry Pi.
 
 Hubungkan sensor kelembapan tanah.
 
-![Sensor kelembapan tanah Grove](../../../../../translated_images/id/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Sensor kelembapan tanah Grove](../../../../../translated_images/id/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Masukkan salah satu ujung kabel Grove ke soket pada sensor kelembapan tanah. Kabel hanya dapat masuk dengan satu arah.
 
 1. Dengan Raspberry Pi dalam keadaan mati, hubungkan ujung kabel Grove lainnya ke soket analog yang ditandai **A0** pada Grove Base Hat yang terpasang di Pi. Soket ini adalah soket kedua dari kanan, pada baris soket di sebelah pin GPIO.
 
-![Sensor kelembapan tanah Grove terhubung ke soket A0](../../../../../translated_images/id/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Sensor kelembapan tanah Grove terhubung ke soket A0](../../../../../translated_images/id/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Masukkan sensor kelembapan tanah ke dalam tanah. Sensor memiliki 'garis posisi tertinggi' - garis putih melintang pada sensor. Masukkan sensor hingga garis ini, tetapi jangan melebihi garis tersebut.
 

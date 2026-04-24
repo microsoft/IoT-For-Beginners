@@ -20,7 +20,7 @@ O sensor Grove time of flight pode ser conectado ao Wio Terminal.
 
 Conecte o sensor time of flight.
 
-![Um sensor Grove time of flight](../../../../../translated_images/pt-BR/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Um sensor Grove time of flight](../../../../../translated_images/pt-BR/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Insira uma extremidade de um cabo Grove no conector do sensor time of flight. Ele só encaixará de uma maneira.
 

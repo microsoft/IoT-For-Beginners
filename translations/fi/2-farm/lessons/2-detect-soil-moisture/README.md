@@ -13,7 +13,7 @@ I²C-väylä koostuu kahdesta pääjohtimesta sekä kahdesta virtajohdosta:
 | VCC | Jännite yhteiskerääjä | Laitteiden virtalähde. Tämä on kytketty SDA- ja SCL-johtimiin, jotka saavat virtansa vetovastuksen kautta, joka kytkee signaalin pois päältä, kun mikään laite ei ole ohjaaja. |
 | GND | Maa | Tarjoaa yhteisen maadoituksen sähköpiirille. |
 
-![I2C-väylä, jossa 3 laitetta on kytketty SDA- ja SCL-johtimiin, jakamassa yhteisen maadoitusjohdon](../../../../../translated_images/fi/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C-väylä, jossa 3 laitetta on kytketty SDA- ja SCL-johtimiin, jakamassa yhteisen maadoitusjohdon](../../../../../translated_images/fi/i2c.83da845dde02256b.webp)
 
 Datan lähettämiseksi yksi laite antaa aloitusehdon osoittaakseen, että se on valmis lähettämään dataa. Se toimii sitten ohjaajana. Ohjaaja lähettää sen laitteen osoitteen, jonka kanssa se haluaa kommunikoida, sekä tiedon siitä, haluaako se lukea vai kirjoittaa dataa. Kun data on lähetetty, ohjaaja lähettää lopetusehdon osoittaakseen, että se on valmis. Tämän jälkeen toinen laite voi ryhtyä ohjaajaksi ja lähettää tai vastaanottaa dataa.
 

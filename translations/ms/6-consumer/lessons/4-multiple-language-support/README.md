@@ -1,6 +1,6 @@
 # Sokongan Pelbagai Bahasa
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -74,7 +74,7 @@ Terdapat beberapa perkhidmatan AI yang boleh digunakan dari aplikasi anda untuk 
 
 ### Perkhidmatan Ucapan Cognitive Services
 
-![Logo perkhidmatan ucapan](../../../../../translated_images/ms/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo perkhidmatan ucapan](../../../../../translated_images/ms/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Perkhidmatan ucapan yang telah anda gunakan dalam beberapa pelajaran lepas mempunyai keupayaan terjemahan untuk pengenalan ucapan. Apabila anda mengenali ucapan, anda boleh meminta bukan sahaja teks ucapan dalam bahasa yang sama, tetapi juga dalam bahasa lain.
 
@@ -82,7 +82,7 @@ Perkhidmatan ucapan yang telah anda gunakan dalam beberapa pelajaran lepas mempu
 
 ### Perkhidmatan Penterjemah Cognitive Services
 
-![Logo perkhidmatan penterjemah](../../../../../translated_images/ms/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Logo perkhidmatan penterjemah](../../../../../translated_images/ms/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Perkhidmatan Penterjemah ialah perkhidmatan terjemahan khusus yang boleh menterjemah teks dari satu bahasa, ke satu atau lebih bahasa sasaran. Selain menterjemah, ia menyokong pelbagai ciri tambahan termasuk menyembunyikan kata-kata kesat. Ia juga membolehkan anda memberikan terjemahan tertentu untuk perkataan atau ayat tertentu, untuk bekerja dengan istilah yang anda tidak mahu diterjemahkan, atau mempunyai terjemahan yang terkenal.
 

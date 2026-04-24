@@ -84,7 +84,7 @@ Usluga Custom Vision ima Python SDK koji možete koristiti za klasifikaciju slik
 
     Moći ćete vidjeti sliku koja je snimljena, i ove vrijednosti u **Predictions** kartici u Custom Vision.
 
-    ![Banana u Custom Visionu predviđena kao zrela s 56.8% i nezrela s 43.1%](../../../../../translated_images/hr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Banana u Custom Visionu predviđena kao zrela s 56.8% i nezrela s 43.1%](../../../../../translated_images/hr/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Ovaj kod možete pronaći u mapi [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) ili [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

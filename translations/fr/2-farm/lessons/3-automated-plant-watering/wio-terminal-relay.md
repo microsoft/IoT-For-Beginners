@@ -18,7 +18,7 @@ Le relais Grove peut être connecté au port numérique du Wio Terminal.
 
 Connectez le relais.
 
-![Un relais Grove](../../../../../translated_images/fr/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Un relais Grove](../../../../../translated_images/fr/grove-relay.d426958ca210fbd0.webp)
 
 1. Insérez une extrémité d'un câble Grove dans la prise du relais. Il ne peut être inséré que dans un seul sens.
 

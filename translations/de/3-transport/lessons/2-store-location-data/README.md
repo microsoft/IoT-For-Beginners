@@ -1,6 +1,6 @@
 # Speichere Standortdaten
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -75,7 +75,7 @@ NoSQL-Datenbanken werden als NoSQL bezeichnet, da sie nicht die gleiche starre S
 
 > 💁 Trotz ihres Namens erlauben einige NoSQL-Datenbanken die Verwendung von SQL, um die Daten abzufragen.
 
-![Dokumente in Ordnern in einer NoSQL-Datenbank](../../../../../translated_images/de/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Dokumente in Ordnern in einer NoSQL-Datenbank](../../../../../translated_images/de/noqsl-database.62d24ccf5b73f60d.webp)
 
 NoSQL-Datenbanken haben kein vordefiniertes Schema, das einschränkt, wie Daten gespeichert werden. Stattdessen können Sie beliebige unstrukturierte Daten einfügen, normalerweise in Form von JSON-Dokumenten. Diese Dokumente können in Ordnern organisiert werden, ähnlich wie Dateien auf Ihrem Computer. Jedes Dokument kann unterschiedliche Felder im Vergleich zu anderen Dokumenten haben – wenn Sie beispielsweise IoT-Daten von Ihren landwirtschaftlichen Fahrzeugen speichern, könnten einige Felder für Beschleunigungs- und Geschwindigkeitsdaten haben, andere Felder für die Temperatur im Anhänger. Wenn Sie einen neuen Lastwagentyp hinzufügen, z. B. einen mit eingebauten Waagen zur Verfolgung des Gewichts der transportierten Produkte, könnte Ihr IoT-Gerät dieses neue Feld hinzufügen, und es könnte gespeichert werden, ohne dass Änderungen an der Datenbank erforderlich sind.
 
@@ -89,7 +89,7 @@ In dieser Lektion werden Sie NoSQL-Speicher verwenden, um IoT-Daten zu speichern
 
 In der letzten Lektion haben Sie GPS-Daten von einem GPS-Sensor erfasst, der mit Ihrem IoT-Gerät verbunden ist. Um diese IoT-Daten in der Cloud zu speichern, müssen Sie sie an einen IoT-Dienst senden. Sie werden erneut Azure IoT Hub verwenden, denselben IoT-Cloud-Dienst, den Sie im vorherigen Projekt verwendet haben.
 
-![Senden von GPS-Telemetrie von einem IoT-Gerät an IoT Hub](../../../../../translated_images/de/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Senden von GPS-Telemetrie von einem IoT-Gerät an IoT Hub](../../../../../translated_images/de/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Aufgabe – GPS-Daten an einen IoT-Hub senden
 
@@ -171,7 +171,7 @@ Kalte Pfaddaten werden in Data Warehouses gespeichert – Datenbanken, die für 
 
 Sobald Daten in Ihren IoT-Hub fließen, können Sie serverlosen Code schreiben, um auf Ereignisse zu hören, die an den Event-Hub-kompatiblen Endpunkt veröffentlicht werden. Dies ist der warme Pfad – diese Daten werden gespeichert und in der nächsten Lektion für Berichte über die Reise verwendet.
 
-![Senden von GPS-Telemetrie von einem IoT-Gerät an IoT Hub, dann an Azure Functions über einen Event-Hub-Trigger](../../../../../translated_images/de/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Senden von GPS-Telemetrie von einem IoT-Gerät an IoT Hub, dann an Azure Functions über einen Event-Hub-Trigger](../../../../../translated_images/de/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Aufgabe – GPS-Ereignisse mit serverlosem Code verarbeiten
 
@@ -193,7 +193,7 @@ Sobald Daten in Ihren IoT-Hub fließen, können Sie serverlosen Code schreiben, 
 
 ## Azure Storage Accounts
 
-![Das Azure Storage-Logo](../../../../../translated_images/de/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Das Azure Storage-Logo](../../../../../translated_images/de/azure-storage-logo.605c0f602c640d48.webp)
 
 Azure Storage Accounts ist ein universeller Speicherdienst, der Daten auf verschiedene Arten speichern kann. Sie können Daten als Blobs, in Warteschlangen, in Tabellen oder als Dateien speichern – und das alles gleichzeitig.
 

@@ -1,6 +1,6 @@
 # Tilslut din enhed til internettet
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -47,7 +47,7 @@ MQTT er den mest populære kommunikationsprotokol for IoT-enheder og dækkes i d
 
 MQTT har en enkelt broker og flere klienter. Alle klienter forbinder til brokeren, og brokeren videresender beskeder til de relevante klienter. Beskeder videresendes ved hjælp af navngivne emner (topics) i stedet for at blive sendt direkte til en individuel klient. En klient kan publicere til et emne, og alle klienter, der abonnerer på det emne, vil modtage beskeden.
 
-![IoT-enhed, der publicerer telemetri på /telemetry-emnet, og cloud-tjenesten, der abonnerer på det emne](../../../../../translated_images/da/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT-enhed, der publicerer telemetri på /telemetry-emnet, og cloud-tjenesten, der abonnerer på det emne](../../../../../translated_images/da/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Lav noget research. Hvis du har mange IoT-enheder, hvordan kan du sikre, at din MQTT-broker kan håndtere alle beskederne?
 
@@ -69,7 +69,7 @@ I stedet for at håndtere kompleksiteten ved at opsætte en MQTT-broker som en d
 
 > 💁 Denne testbroker er offentlig og ikke sikker. Enhver kan lytte til, hvad du publicerer, så den bør ikke bruges til data, der skal holdes private.
 
-![Et flowdiagram over opgaven, der viser lysniveauer, der aflæses og kontrolleres, og LED'en, der styres](../../../../../translated_images/da/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Et flowdiagram over opgaven, der viser lysniveauer, der aflæses og kontrolleres, og LED'en, der styres](../../../../../translated_images/da/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Følg det relevante trin nedenfor for at forbinde din enhed til MQTT-brokeren:
 
@@ -352,7 +352,7 @@ For maskiner vil du måske beholde dataene, især hvis de bruges til at lede eft
 
 IoT-enhedsdesignere bør også overveje, om IoT-enheden kan bruges under en internetafbrydelse eller tab af signal forårsaget af placering. En smart termostat bør kunne træffe nogle begrænsede beslutninger for at kontrollere opvarmning, hvis den ikke kan sende telemetri til skyen på grund af en afbrydelse.
 
-[![Denne Ferrari blev ubrugelig, fordi nogen forsøgte at opgradere den under jorden, hvor der ikke er mobilsignal](../../../../../translated_images/da/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Denne Ferrari blev ubrugelig, fordi nogen forsøgte at opgradere den under jorden, hvor der ikke er mobilsignal](../../../../../translated_images/da/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 For MQTT til at håndtere tab af forbindelse skal enheden og serverkoden være ansvarlige for at sikre beskedlevering, hvis det er nødvendigt, f.eks. ved at kræve, at alle beskeder, der sendes, besvares med yderligere beskeder på et svar-emne, og hvis ikke, bliver de manuelt køet til at blive afspillet senere.
 
@@ -360,7 +360,7 @@ For MQTT til at håndtere tab af forbindelse skal enheden og serverkoden være a
 
 Kommandoer er beskeder sendt af skyen til en enhed, der instruerer den i at gøre noget. Det involverer ofte at give en form for output via en aktuator, men det kan også være en instruktion til selve enheden, såsom at genstarte eller indsamle ekstra telemetri og returnere det som svar på kommandoen.
 
-![En internetforbundet termostat modtager en kommando om at tænde for varmen](../../../../../translated_images/da/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![En internetforbundet termostat modtager en kommando om at tænde for varmen](../../../../../translated_images/da/commands.d6c06bbbb3a02cce.webp)
 
 En termostat kunne modtage en kommando fra skyen om at tænde for varmen. Baseret på telemetridata fra alle sensorer, hvis cloud-tjenesten har besluttet, at varmen skal være tændt, sender den den relevante kommando.
 

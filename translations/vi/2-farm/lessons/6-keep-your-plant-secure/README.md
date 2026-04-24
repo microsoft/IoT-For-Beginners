@@ -1,6 +1,6 @@
 # Giữ an toàn cho cây trồng của bạn
 
-![Một bản vẽ tóm tắt bài học này](../../../../../translated_images/vi/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Một bản vẽ tóm tắt bài học này](../../../../../translated_images/vi/lesson-10.829c86b80b9403bb.webp)
 
 > Bản vẽ bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -52,11 +52,11 @@ Nếu ứng dụng IoT của bạn không được bảo mật, có một số r
 
 Khi một thiết bị kết nối với một dịch vụ IoT, nó sử dụng một ID để xác định chính nó. Vấn đề là ID này có thể bị sao chép - một hacker có thể thiết lập một thiết bị độc hại sử dụng cùng ID với thiết bị thật nhưng gửi dữ liệu giả mạo.
 
-![Cả thiết bị hợp lệ và thiết bị độc hại đều có thể sử dụng cùng ID để gửi dữ liệu](../../../../../translated_images/vi/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Cả thiết bị hợp lệ và thiết bị độc hại đều có thể sử dụng cùng ID để gửi dữ liệu](../../../../../translated_images/vi/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Cách giải quyết vấn đề này là chuyển đổi dữ liệu được gửi thành một định dạng bị mã hóa, sử dụng một giá trị nào đó để mã hóa dữ liệu mà chỉ thiết bị và đám mây biết. Quá trình này được gọi là *mã hóa*, và giá trị được sử dụng để mã hóa dữ liệu được gọi là *khóa mã hóa*.
 
-![Nếu sử dụng mã hóa, chỉ các tin nhắn được mã hóa mới được chấp nhận, các tin nhắn khác sẽ bị từ chối](../../../../../translated_images/vi/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Nếu sử dụng mã hóa, chỉ các tin nhắn được mã hóa mới được chấp nhận, các tin nhắn khác sẽ bị từ chối](../../../../../translated_images/vi/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Dịch vụ đám mây sau đó có thể chuyển đổi dữ liệu trở lại định dạng có thể đọc được, sử dụng một quá trình gọi là *giải mã*, sử dụng cùng một khóa mã hóa hoặc một *khóa giải mã*. Nếu tin nhắn mã hóa không thể được giải mã bằng khóa, thiết bị đã bị hack và tin nhắn sẽ bị từ chối.
 

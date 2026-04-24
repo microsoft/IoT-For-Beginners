@@ -67,7 +67,7 @@
 
     तुम्ही घेतलेली प्रतिमा आणि **Predictions** टॅबमध्ये Custom Vision मध्ये हे मूल्य पाहू शकता.
 
-    ![शेल्फवर ठेवलेल्या टोमॅटो पेस्टच्या 4 कॅन्ससाठी प्रेडिक्शन - 35.8%, 33.5%, 25.7% आणि 16.6%](../../../../../translated_images/mr/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![शेल्फवर ठेवलेल्या टोमॅटो पेस्टच्या 4 कॅन्ससाठी प्रेडिक्शन - 35.8%, 33.5%, 25.7% आणि 16.6%](../../../../../translated_images/mr/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 तुम्ही हा कोड [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) किंवा [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) फोल्डरमध्ये शोधू शकता.
 

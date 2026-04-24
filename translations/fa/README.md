@@ -1,27 +1,27 @@
-[![GitHub license](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![مجوز GitHub](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)
+[![مشارکت‌کنندگان GitHub](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)
+[![مشکلات GitHub](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)
+[![درخواست‌های کشش GitHub](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)
+[![خوش‌آمدگویی درخواست‌های کشش](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/IoT-For-Beginners/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
+[![ناظرین GitHub](https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/IoT-For-Beginners/watchers/)
+[![شاخه‌های GitHub](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
+[![ستاره‌های GitHub](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
 ### به جامعه Azure AI Foundry بپیوندید
 
-اگر در ساخت برنامه‌های هوش مصنوعی گیر کرده‌اید یا سوالی دارید، به جمع یادگیرندگان و توسعه‌دهندگان با تجربه در بحث‌های مربوط به MCP بپیوندید. این یک جامعه حمایتی است که در آن سوالات پذیرفته می‌شوند و دانش به صورت آزادانه به اشتراک گذاشته می‌شود.
+اگر گیر کرده‌اید یا سوالی درباره ساخت برنامه‌های هوش مصنوعی دارید، به همراه یادگیرندگان و توسعه‌دهندگان باتجربه در بحث‌های پیرامون MCP بپیوندید. این یک جامعه حمایتی است که در آن پرسش‌ها استقبال می‌شوند و دانش به صورت آزادانه به اشتراک گذاشته می‌شود.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-اگر بازخورد محصول دارید یا در هنگام ساخت با اشکال مواجه شدید، به آدرس زیر مراجعه کنید:
+اگر بازخورد محصول دارید یا هنگام ساخت با خطا مواجه شدید، به اینجا مراجعه کنید:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-برای شروع استفاده از این منابع، مراحل زیر را دنبال کنید:
-1. **کتابخانه را فورک کنید**: روی [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork) کلیک کنید
-2. **کتابخانه را کلون کنید**:   `git clone https://github.com/microsoft/IoT-For-Beginners.git`
-3. [**به Discord Microsoft Foundry بپیوندید و با کارشناسان و توسعه‌دهندگان همفکر ملاقات کنید**](https://discord.com/invite/ByRwuEEgH4)
+برای شروع استفاده از این منابع مراحل زیر را دنبال کنید:
+1. **شاخه‌ای از مخزن بسازید**: کلیک کنید [![شاخه‌های GitHub](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)
+2. **مخزن را کلون کنید**:   `git clone https://github.com/microsoft/IoT-For-Beginners.git`
+3. [**به Discord مایکروسافت فاندری بپیوندید و با کارشناسان و توسعه‌دهندگان هم‌سطح خود ملاقات کنید**](https://discord.com/invite/ByRwuEEgH4)
 
 
 ### 🌐 پشتیبانی چندزبانه
@@ -29,123 +29,133 @@
 #### پشتیبانی شده از طریق GitHub Action (خودکار و همیشه به‌روز)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](./README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+[عربی](../ar/README.md) | [بنگالی](../bn/README.md) | [بلغاری](../bg/README.md) | [برمه‌ای (میانمار)](../my/README.md) | [چینی (ساده شده)](../zh-CN/README.md) | [چینی (سنتی، هنگ‌کنگ)](../zh-HK/README.md) | [چینی (سنتی، ماکائو)](../zh-MO/README.md) | [چینی (سنتی، تایوان)](../zh-TW/README.md) | [کرواسی](../hr/README.md) | [چک](../cs/README.md) | [دانمارکی](../da/README.md) | [هلندی](../nl/README.md) | [استونیایی](../et/README.md) | [فنلاندی](../fi/README.md) | [فرانسوی](../fr/README.md) | [آلمانی](../de/README.md) | [یونانی](../el/README.md) | [عبری](../he/README.md) | [هندی](../hi/README.md) | [مجارستانی](../hu/README.md) | [اندونزیایی](../id/README.md) | [ایتالیایی](../it/README.md) | [ژاپنی](../ja/README.md) | [کانادا](../kn/README.md) | [خمری](../km/README.md) | [کره‌ای](../ko/README.md) | [لیتوانیایی](../lt/README.md) | [مالایایی](../ms/README.md) | [مالایالام](../ml/README.md) | [مراتی](../mr/README.md) | [نپالی](../ne/README.md) | [پیدگین نیجریه‌ای](../pcm/README.md) | [نروژی](../no/README.md) | [فارسی (Farsi)](./README.md) | [لهستانی](../pl/README.md) | [پرتغالی (برزیل)](../pt-BR/README.md) | [پرتغالی (پرتغال)](../pt-PT/README.md) | [پنجابی (گورموقی)](../pa/README.md) | [رومانیایی](../ro/README.md) | [روسی](../ru/README.md) | [صربی (سیریلیک)](../sr/README.md) | [اسلواکی](../sk/README.md) | [اسلوونیایی](../sl/README.md) | [اسپانیایی](../es/README.md) | [سواحلی](../sw/README.md) | [سوئدی](../sv/README.md) | [تاگالوگ (فیلیپینی)](../tl/README.md) | [تامیلی](../ta/README.md) | [تلگو](../te/README.md) | [تایلندی](../th/README.md) | [ترکی](../tr/README.md) | [اوکراینی](../uk/README.md) | [اردو](../ur/README.md) | [ویتنامی](../vi/README.md)
 
-> **ترجیح می‌دهید به صورت محلی کلون کنید؟**
-
-> این مخزن شامل بیش از ۵۰ ترجمه زبان است که اندازه دانلود را به طور قابل توجهی افزایش می‌دهد. برای کلون کردن بدون ترجمه‌ها، از sparse checkout استفاده کنید:
+> **ترجیح می‌دهید محلی کلون کنید؟**
+>
+> این مخزن شامل بیش از ۵۰ ترجمه زبان است که حجم دانلود را به‌شدت افزایش می‌دهد. برای کلون کردن بدون ترجمه‌ها، از sparse checkout استفاده کنید:
+>
+> **Bash / macOS / لینوکس:**
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/IoT-For-Beginners.git
 > cd IoT-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> این به شما همه چیز لازم برای تکمیل دوره با دانلودی بسیار سریع‌تر را می‌دهد.
+>
+> **CMD (ویندوز):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/IoT-For-Beginners.git
+> cd IoT-For-Beginners
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> این به شما همه چیز مورد نیاز برای انجام دوره را با دانلودی بسیار سریع‌تر می‌دهد.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-# اینترنت اشیاء برای مبتدیان - یک برنامه درسی
+# IoT برای مبتدیان - یک برنامه آموزشی
 
-مدافعان ابر Azure در مایکروسافت خوشحالند که یک برنامه درسی 12 هفته‌ای و 24 درس را درباره اصول اینترنت اشیاء ارائه دهند. هر درس شامل کوییزهای قبل و بعد از درس، دستورالعمل‌های مکتوب برای تکمیل درس، یک راه‌حل، یک تکلیف و موارد بیشتر است. روش آموزشی مبتنی بر پروژه ما به شما اجازه می‌دهد همزمان با ساختن یاد بگیرید، که روشی اثبات شده برای تثبیت مهارت‌های جدید است.
+مدافعان ابری آزور در مایکروسافت خوشحالند یک دوره آموزشی ۱۲ هفته‌ای شامل ۲۴ درس درباره مبانی اینترنت اشیاء ارائه دهند. هر درس شامل آزمون‌های قبل و بعد از درس، دستورالعمل‌های نوشتاری برای تکمیل درس، یک راه‌حل، یک تمرین و موارد دیگر است. روش آموزش مبتنی بر پروژه ما به شما امکان می‌دهد در حین ساخت یاد بگیرید، روشی اثبات شده برای «پایدار شدن» مهارت‌های جدید.
 
-پروژه‌ها سفر غذا را از مزرعه تا میز پوشش می‌دهند. این شامل کشاورزی، لجستیک، تولید، خرده‌فروشی و مصرف‌کننده - همه حوزه‌های محبوب صنعت برای دستگاه‌های اینترنت اشیاء است.
+پروژه‌ها جریان غذا را از مزرعه تا میز بررسی می‌کنند. این شامل کشاورزی، لجستیک، تولید، فروش و مصرف‌کننده است - همه حوزه‌های محبوب صنعتی برای دستگاه‌های IoT.
 
-![نقشه راه دوره شامل 24 درس که معرفی، کشاورزی، حمل و نقل، پردازش، خرده‌فروشی و آشپزی را پوشش می‌دهد](../../translated_images/fa/Roadmap.bb1dec285dda0eda.webp)
+![نقشه راه دوره که ۲۴ درس را پوشش می‌دهد شامل معرفی، کشاورزی، حمل و نقل، پردازش، فروش و آشپزی](../../translated_images/fa/Roadmap.bb1dec285dda0eda.webp)
 
-> یادداشت تصویری توسط [Nitya Narasimhan](https://github.com/nitya). برای نسخه بزرگ‌تر روی تصویر کلیک کنید.
+> یادداشت طرح توسط [Nitya Narasimhan](https://github.com/nitya). برای نسخه بزرگ‌تر روی تصویر کلیک کنید.
 
-**از نویسندگان ما، [Jen Fox](https://github.com/jenfoxbot)، [Jen Looper](https://github.com/jlooper)، [Jim Bennett](https://github.com/jimbobbennett)، و هنرمند یادداشت تصویری ما [Nitya Narasimhan](https://github.com/nitya) صمیمانه سپاسگزاریم.**
+**از نویسندگان ما، [Jen Fox](https://github.com/jenfoxbot)، [Jen Looper](https://github.com/jlooper)، [Jim Bennett](https://github.com/jimbobbennett)، و هنرمند یادداشت طرح ما [Nitya Narasimhan](https://github.com/nitya) صمیمانه تشکر می‌کنیم.**
 
-**همچنین از تیم ما از [دانشجویان سفیر مایکروسافت](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) که این برنامه درسی را مرور و ترجمه کرده‌اند سپاسگزاریم - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), و [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
+**همچنین از تیم ما از [سفیران دانشجویی مایکروسافت](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) که این دوره را بازبینی و ترجمه کرده‌اند نیز سپاسگزاریم - [Aditya Garg](https://github.com/AdityaGarg00)، [Anurag Sharma](https://github.com/Anurag-0-1-A)، [Arpita Das](https://github.com/Arpiiitaaa)، [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/)، [Bhavesh Suneja](https://github.com/EliteWarrior315)، [Faith Hunja](https://faithhunja.github.io/)، [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/)، [Manvi Jha](https://github.com/Severus-Matthew)، [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/)، [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119)، [Mohammad Zulfikar](https://github.com/mohzulfikar)، [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba)، [Thanmai Gowducheruvu](https://github.com/innovation-platform)، و [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
 
 با تیم آشنا شوید!
 
-[![ویدئوی تبلیغاتی](../../images/IOT.gif)](https://youtu.be/-wippUJRi5k)
+[![ویدئوی معرفی](../../images/IOT.gif)](https://youtu.be/-wippUJRi5k)
 
 **گیف توسط** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
 
-> 🎥 روی تصویر بالا برای دیدن یک ویدئو درباره پروژه کلیک کنید!
+> 🎥 برای دیدن ویدئو درباره پروژه روی تصویر بالا کلیک کنید!
 
-> **معلمان**، ما [پیشنهاداتی ارائه داده‌ایم](for-teachers.md) در مورد نحوه استفاده از این برنامه درسی. اگر می‌خواهید درس‌های خود را ایجاد کنید، قالب درسی نیز اضافه کرده‌ایم [lesson template](lesson-template/README.md).
+> **معلمان**، ما [برخی پیشنهادات](for-teachers.md) را درباره نحوه استفاده از این دوره ارائه داده‌ایم. اگر می‌خواهید درس‌های خود را ایجاد کنید، ما همچنین یک [قالب درس](lesson-template/README.md) را وارد کرده‌ایم.
 
-> **[دانش‌آموزان](https://aka.ms/student-page)**، برای استفاده از این برنامه درسی به تنهایی، کل مخزن را فورک کنید و تمرین‌ها را خودتان انجام دهید، ابتدا با یک کوییز قبل از درس شروع کنید، سپس درس را بخوانید و بقیه فعالیت‌ها را کامل کنید. سعی کنید پروژه‌ها را با درک درس‌ها بسازید، نه کپی کردن کد راه‌حل؛ با این حال کد راه‌حل در پوشه‌های /solutions هر درس پروژه‌محور موجود است. ایده دیگر این است که یک گروه مطالعه با دوستان تشکیل دهید و با هم محتوا را مرور کنید. برای مطالعه بیشتر، مایکروسافت لرن را توصیه می‌کنیم [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
+> **[دانش‌آموزان](https://aka.ms/student-page)**، برای استفاده مستقل از این دوره، کل مخزن را شاخه گرفته و تمرین‌ها را به تنهایی انجام دهید، شروع با یک آزمون پیش از درس، سپس مطالعه درس و انجام سایر فعالیت‌ها. سعی کنید پروژه‌ها را با درک درس‌ها بسازید نه صرفا کپی کردن کد راه‌حل؛ هر چند آن کد در پوشه‌های /solutions در هر درس متمرکز بر پروژه موجود است. ایده دیگر تشکیل یک گروه مطالعه با دوستان و مرور محتوا به‌صورت گروهی است. برای مطالعه بیشتر، ما [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn) را توصیه می‌کنیم.
 
-برای دریافت نمای کلی ویدیویی این دوره، این ویدئو را ببینید:
+برای مرور ویدیویی این دوره، این ویدئو را ببینید:
 
-[![ویدئوی تبلیغاتی](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
+[![ویدئوی معرفی](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "ویدئوی معرفی")
 
-> 🎥 روی تصویر بالا برای دیدن یک ویدئو درباره پروژه کلیک کنید!
+> 🎥 برای دیدن ویدئو درباره پروژه روی تصویر بالا کلیک کنید!
 
-## روش آموزشی
+## روش آموزش
 
-ما دو اصل آموزشی را در ساخت این برنامه درسی انتخاب کرده‌ایم: اطمینان از مبتنی بودن آن بر پروژه و اینکه شامل کوییزهای مکرر باشد. تا پایان این سری، دانش‌آموزان یک سیستم مانیتورینگ و آبیاری گیاه، ردیاب وسیله نقلیه، یک سیستم کارخانه هوشمند برای پیگیری و بررسی غذا، و تایمر آشپزی کنترل‌شده با صدا ساخته‌اند و اصول اولیه اینترنت اشیاء از جمله نحوه نوشتن کد دستگاه، اتصال به ابر، تحلیل تلمتری و اجرای هوش مصنوعی در لبه را یاد گرفته‌اند.
+در ساخت این دوره، دو اصل آموزشی را انتخاب کرده‌ایم: اطمینان از اینکه مبتنی بر پروژه است و شامل آزمون‌های مکرر می‌باشد. در پایان این سری، دانش‌آموزان سیستمی برای مانیتورینگ و آبیاری گیاه، ردیاب وسیله نقلیه، تنظیم هوشمند کارخانه برای بررسی و ردگیری غذا، و تایمر آشپزی با کنترل صوتی ساخته‌اند و اصول اولیه اینترنت اشیاء از جمله نحوه نوشتن کد دستگاه، اتصال به ابر، تحلیل تلماتری و اجرای هوش مصنوعی در لبه را یاد گرفته‌اند.
 
-با اطمینان از هماهنگی محتوا با پروژه‌ها، فرایند یادگیری برای دانش‌آموزان جذاب‌تر شده و حفظ مفاهیم افزایش می‌یابد.
+اطمینان از هماهنگی محتوا با پروژه‌ها، فرآیند یادگیری را برای دانش‌آموزان جذاب‌تر می‌کند و حفظ مفاهیم را افزایش می‌دهد.
 
-علاوه بر این، یک کوییز کم‌فشار قبل از کلاس نیت دانش‌آموز برای یادگیری موضوع را تنظیم می‌کند، در حالی که کوییز دوم بعد از کلاس به حفظ بیشتر کمک می‌کند. این برنامه درسی طوری طراحی شده که انعطاف‌پذیر و سرگرم‌کننده باشد و می‌توان آن را کامل یا بخش به بخش طی کرد. پروژه‌ها کوچک شروع شده و تا پایان دوره ۱۲ هفته‌ای به طور فزاینده‌ای پیچیده می‌شوند.
+علاوه بر این، یک آزمون کم‌استرس پیش از کلاس نیت دانش‌آموز را برای یادگیری موضوع تنظیم می‌کند، در حالی که آزمون دوم پس از کلاس موجب حفظ بیشتر می‌شود. این دوره به گونه‌ای طراحی شده که منعطف و سرگرم‌کننده باشد و بتوان آن را به‌طور کامل یا بخشی از آن را گذراند. پروژه‌ها از کوچک شروع شده و تا پایان چرخه ۱۲ هفته‌ای به تدریج پیچیده‌تر می‌شوند.
 
-هر پروژه مبتنی بر سخت‌افزار واقعی در دسترس دانش‌آموزان و علاقمندان است. هر پروژه به حوزه مخصوص خودش نگاه می‌کند و دانش زمینه‌ای مرتبط ارائه می‌دهد. برای موفقیت به عنوان توسعه‌دهنده، درک حوزه‌ای که در آن مشکل حل می‌کنید مفید است، ارائه این دانش زمینه‌ای به دانش‌آموزان اجازه می‌دهد درباره راه‌حل‌ها و یادگیری‌های اینترنت اشیاء خود در زمینه نوع واقعی از مشکلی که ممکن است به عنوان توسعه‌دهنده اینترنت اشیاء از آنها خواسته شود فکر کنند. دانش‌آموزان دلیل «چرا»ی راه‌حل‌هایی را که می‌سازند می‌آموزند و به کاربر نهایی نیز احترام می‌گذارند.
+هر پروژه بر اساس سخت‌افزار واقعی در دسترس دانش‌آموزان و علاقه‌مندان استوار است. هر پروژه به حوزه خاص پروژه می‌پردازد و دانش پس‌زمینه مرتبط را فراهم می‌کند. برای موفقیت در توسعه، درک حوزه‌ای که در آن مشکلات حل می‌کنید کمک‌کننده است؛ فراهم کردن این دانش پس‌زمینه به دانش‌آموزان اجازه می‌دهد تا درباره راه‌حل‌های IoT و یادگیری خود در زمینه نوع مشکلات واقعی که ممکن است از آن‌ها خواسته شود به عنوان توسعه‌دهنده IoT حل کنند، فکر کنند. دانش‌آموزان «چرایی» راه‌حل‌هایی که می‌سازند را می‌آموزند و قدرشناسی نسبت به کاربر نهایی پیدا می‌کنند.
 
 ## سخت‌افزار
+ما دو انتخاب سخت‌افزاری اینترنت اشیا برای استفاده در پروژه‌ها داریم که بسته به ترجیح شخصی، دانش زبان برنامه‌نویسی یا علایق، اهداف یادگیری و دسترسی متفاوت هستند. همچنین نسخه‌ای به نام «سخت‌افزار مجازی» را برای کسانی که به سخت‌افزار دسترسی ندارند یا می‌خواهند قبل از خرید، بیشتر یاد بگیرند ارائه داده‌ایم. شما می‌توانید اطلاعات بیشتر را در صفحه [hardware](./hardware.md) بخوانید، که شامل فهرست خرید و لینک‌هایی برای خرید کیت‌های کامل از دوستان ما در Seeed Studio است.
 
-ما دو انتخاب سخت‌افزاری اینترنت اشیاء برای استفاده در پروژه‌ها داریم که بستگی به ترجیحات شخصی، دانش زبان برنامه‌نویسی، اهداف یادگیری و دسترسی دارد. نسخه‌ای از سخت‌افزار «مجازی» نیز برای کسانی که به سخت‌افزار دسترسی ندارند یا می‌خواهند قبل از خرید بیشتر یاد بگیرند ارائه شده است. شما می‌توانید بیشتر بخوانید و فهرست خرید را در [صفحه سخت‌افزار](./hardware.md) پیدا کنید، شامل لینک‌هایی برای خرید کیت‌های کامل از دوستان ما در Seeed Studio.
-> 💁 راهنمای [رفتار](CODE_OF_CONDUCT.md)، [مشارکت](CONTRIBUTING.md)، و [ترجمه](TRANSLATIONS.md) ما را بیابید. ما از بازخورد سازنده شما استقبال می‌کنیم!
+> 💁 دستورالعمل‌های [قوانین رفتاری](CODE_OF_CONDUCT.md)، [مشارکت](CONTRIBUTING.md) و [ترجمه](TRANSLATIONS.md) ما را بیابید. ما از بازخورد سازنده شما استقبال می‌کنیم!
 >
-> 🔧 مشکلی دارید؟ راهنمای [عیب‌یابی](TROUBLESHOOTING.md) ما را برای راه‌حل‌های مشکلات رایج بررسی کنید.
+> 🔧 مشکلی دارید؟ راهنمای [عیب‌یابی](TROUBLESHOOTING.md) ما را برای حل مشکلات رایج بررسی کنید.
 
-## هر درس شامل:
+## هر درس شامل موارد زیر است:
 
-- اسکچ‌نوت
-- ویدئوی تکمیلی اختیاری
-- آزمون گرم‌کردن پیش از درس
-- درس کتبی
-- برای درس‌های مبتنی بر پروژه، راهنمای گام به گام ساخت پروژه
-- بررسی دانش
+- نکات کلیدی بصورت طرح یادداشت
+- ویدیوی تکمیلی اختیاری
+- آزمون گرم‌کننده قبل از درس
+- درس مکتوب
+- برای درس‌های پروژه‌محور، راهنمای گام‌به‌گام ساخت پروژه
+- ارزیابی‌های دانش
 - یک چالش
-- مطالعه تکمیلی
+- مطالعات تکمیلی
 - تمرین
 - [آزمون پس از درس](https://ff-quizzes.netlify.app/en/)
 
-> **نکته‌ای درباره آزمون‌ها**: تمامی آزمون‌ها در پوشه quiz-app قرار دارند، با مجموع ۴۸ آزمون که هر کدام شامل سه سؤال است. این آزمون‌ها از درس‌ها پیوند داده شده‌اند اما می‌توان اپلیکیشن آزمون را به صورت محلی اجرا کرد یا در Azure مستقر نمود؛ دستورالعمل‌ها در پوشه `quiz-app` آمده است. این آزمون‌ها به تدریج بومی‌سازی می‌شوند.
+> **تذکری درباره آزمون‌ها**: تمام آزمون‌ها در پوشه quiz-app قرار دارند، که شامل ۴۸ آزمون هر کدام با سه سوال هستند. آنها از داخل درس‌ها لینک شده‌اند، اما اپلیکیشن آزمون می‌تواند به صورت محلی اجرا یا روی Azure مستقر شود؛ دستورالعمل را در پوشه `quiz-app` دنبال کنید. این آزمون‌ها به تدریج محلی‌سازی می‌شوند.
 
 ## دروس
 
-|       |              نام پروژه              |                       مفاهیم تدریس شده                       | اهداف یادگیری                                                                                                                                                 |                                                        درس مرتبط                                                         |
-| :---: | :------------------------------------: | :---------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
-|  ۰۱   | [شروع به کار](./1-getting-started/README.md) |                     مقدمه‌ای بر اینترنت اشیا                     | اصول پایه اینترنت اشیا و اجزای اصلی راه‌حل‌های اینترنت اشیا مانند حسگرها و خدمات ابری را بیاموزید در حالی که دستگاه اینترنت اشیای خود را راه‌اندازی می‌کنید |                      [مقدمه‌ای بر اینترنت اشیا](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |
-|  ۰۲   | [شروع به کار](./1-getting-started/README.md) |                   بررسی عمیق‌تر اینترنت اشیا                    | درباره اجزای یک سیستم اینترنت اشیا، میکروکنترلرها و کامپیوترهای تک برد بیشتر بیاموزید                                                            |                        [بررسی عمیق‌تر اینترنت اشیا](./1-getting-started/lessons/2-deeper-dive/README.md)                         |
-|  ۰۳   | [شروع به کار](./1-getting-started/README.md) | تعامل با دنیای فیزیکی با حسگرها و عملگرها | درباره حسگرها برای جمع‌آوری داده‌ها از دنیای فیزیکی و عملگرها برای ارسال بازخورد بیاموزید، در حالی که یک چراغ شب‌تاب می‌سازید                                           | [تعامل با دنیای فیزیکی با حسگرها و عملگرها](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
-|  ۰۴   | [شروع به کار](./1-getting-started/README.md) |             اتصال دستگاه به اینترنت             | درباره نحوه اتصال دستگاه اینترنت اشیا به اینترنت برای ارسال و دریافت پیام‌ها با اتصال چراغ شب‌تاب خود به یک کارگزار MQTT بیاموزید                               |               [اتصال دستگاه به اینترنت](./1-getting-started/lessons/4-connect-internet/README.md)                |
-|  ۰۵   |            [مزرعه](./2-farm/README.md)            |                    پیش‌بینی رشد گیاه                     | یاد بگیرید چگونه رشد گیاه را با استفاده از داده‌های دمایی که توسط دستگاه اینترنت اشیا ثبت شده پیش‌بینی کنید                                                                                  |                          [پیش‌بینی رشد گیاه](./2-farm/lessons/1-predict-plant-growth/README.md)                           |
-|  ۰۶   |            [مزرعه](./2-farm/README.md)            |                    تشخیص رطوبت خاک                     | یاد بگیرید چگونه رطوبت خاک را تشخیص دهید و حسگر رطوبت خاک را کالیبره کنید                                                                                              |                          [تشخیص رطوبت خاک](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |
-|  ۰۷   |            [مزرعه](./2-farm/README.md)            |                  آبیاری خودکار گیاه                   | یاد بگیرید چگونه آبیاری را با استفاده از رله و MQTT زمان‌بندی و خودکار کنید                                                                                                      |                      [آبیاری خودکار گیاه](./2-farm/lessons/3-automated-plant-watering/README.md)                       |
-|  ۰۸   |            [مزرعه](./2-farm/README.md)            |               مهاجرت گیاه خود به ابر               | درباره ابر و خدمات اینترنت اشیا میزبانی شده در ابر و نحوه اتصال گیاه خود به یکی از این خدمات به جای کارگزار عمومی MQTT بیاموزید                                   |               [مهاجرت گیاه خود به ابر](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                |
-|  ۰۹   |            [مزرعه](./2-farm/README.md)            |         مهاجرت منطق برنامه‌نویسی خود به ابر         | یاد بگیرید چگونه می‌توانید منطق برنامه‌نویسی در ابر بنویسید که به پیام‌های اینترنت اشیا پاسخ می‌دهد                                                                          |         [مهاجرت منطق برنامه‌نویسی به ابر](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)         |
-|  ۱۰   |            [مزرعه](./2-farm/README.md)            |                   محافظت از گیاه خود                    | درباره امنیت در اینترنت اشیا و نحوه محافظت از گیاه خود با کلیدها و گواهینامه‌ها بیاموزید                                                                          |                        [محافظت از گیاه خود](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
-|  ۱۱   |       [حمل و نقل](./3-transport/README.md)       |                      ردیابی موقعیت مکانی                      | درباره ردیابی موقعیت GPS برای دستگاه‌های اینترنت اشیا بیاموزید                                                                                                                   |                           [ردیابی موقعیت مکانی](./3-transport/lessons/1-location-tracking/README.md)                           |
-|  ۱۲   |       [حمل و نقل](./3-transport/README.md)       |                     ذخیره داده‌های موقعیت                     | یاد بگیرید چگونه داده‌های اینترنت اشیا را ذخیره کنید تا بعداً قابل مشاهده یا تحلیل باشند                                                                                                      |                         [ذخیره داده‌های موقعیت](./3-transport/lessons/2-store-location-data/README.md)                         |
-|  ۱۳   |       [حمل و نقل](./3-transport/README.md)       |                   تجسم داده‌های موقعیت                   | درباره تجسم داده‌های موقعیت روی نقشه و چگونگی نمایش نقشه‌ها از دنیای واقعی سه‌بعدی به صورت دو بعدی بیاموزید                                                            |                     [تجسم داده‌های موقعیت](./3-transport/lessons/3-visualize-location-data/README.md)                     |
-|  ۱۴   |       [حمل و نقل](./3-transport/README.md)       |                          حصارهای جغرافیایی                          | درباره حصارهای جغرافیایی و اینکه چگونه می‌توانند برای هشدار هنگام نزدیک شدن خودروها در زنجیره تامین به مقصدشان استفاده شوند بیاموزید                                           |                                   [حصارهای جغرافیایی](./3-transport/lessons/4-geofences/README.md)                                   |
-|  ۱۵   |   [تولید](./4-manufacturing/README.md)   |               آموزش تشخیص کیفیت میوه                | درباره آموزش یک طبقه‌بند تصویر در ابر برای تشخیص کیفیت میوه بیاموزید                                                                                       |                 [آموزش تشخیص کیفیت میوه](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
-|  ۱۶   |   [تولید](./4-manufacturing/README.md)   |           بررسی کیفیت میوه از دستگاه اینترنت اشیا            | درباره استفاده از دستگاه تشخیص کیفیت میوه خود از دستگاه اینترنت اشیا بیاموزید                                                                                                    |           [بررسی کیفیت میوه از دستگاه اینترنت اشیا](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
-|  ۱۷   |   [تولید](./4-manufacturing/README.md)   |             اجرای دستگاه تشخیص میوه روی لبه شبکه             | درباره اجرای دستگاه تشخیص میوه روی یک دستگاه اینترنت اشیا در لبه شبکه بیاموزید                                                                                                |             [اجرای دستگاه تشخیص میوه روی لبه شبکه](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
-|  ۱۸   |   [تولید](./4-manufacturing/README.md)   |        فعال‌سازی تشخیص کیفیت میوه از حسگر        | درباره فعال‌سازی تشخیص کیفیت میوه از طریق حسگر بیاموزید                                                                                                        |        [فعال‌سازی تشخیص کیفیت میوه از حسگر](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
-|  ۱۹   |          [خرده‌فروشی](./5-retail/README.md)          |                   آموزش تشخیص موجودی                    | یاد بگیرید چگونه از تشخیص شیء برای آموزش یک تشخیص‌دهنده موجودی برای شمارش موجودی در فروشگاه استفاده کنید                                                                                |                        [آموزش تشخیص موجودی](./5-retail/lessons/1-train-stock-detector/README.md)                         |
-|  ۲۰   |          [خرده‌فروشی](./5-retail/README.md)          |               بررسی موجودی از دستگاه اینترنت اشیا                | یاد بگیرید چگونه با استفاده از یک مدل تشخیص شیء، موجودی را از دستگاه اینترنت اشیا بررسی کنید                                                                                         |                     [بررسی موجودی از دستگاه اینترنت اشیا](./5-retail/lessons/2-check-stock-device/README.md)                      |
-|  ۲۱   |        [مصرف‌کننده](./6-consumer/README.md)        |             تشخیص گفتار با یک دستگاه اینترنت اشیا             | یاد بگیرید چگونه از دستگاه اینترنت اشیا برای تشخیص گفتار به منظور ساخت یک تایمر هوشمند استفاده کنید                                                                                             |                  [تشخیص گفتار با دستگاه اینترنت اشیا](./6-consumer/lessons/1-speech-recognition/README.md)                  |
-|  ۲۲   |        [مصرف‌کننده](./6-consumer/README.md)        |                     درک زبان                     | یاد بگیرید چگونه جملاتی که به دستگاه اینترنت اشیا گفته می‌شود را درک کنید                                                                                                           |                        [درک زبان](./6-consumer/lessons/2-language-understanding/README.md)                        |
-|  ۲۳   |        [مصرف‌کننده](./6-consumer/README.md)        |           تنظیم تایمر و ارائه بازخورد گفتاری           | یاد بگیرید چگونه تایمر را روی دستگاه اینترنت اشیا تنظیم کنید و بازخورد گفتاری درباره زمان تنظیم و پایان تایمر ارائه دهید                                                    |                 [تنظیم تایمر و ارائه بازخورد گفتاری](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
-|  ۲۴   |        [مصرف‌کننده](./6-consumer/README.md)        |                 پشتیبانی از چند زبان                 | یاد بگیرید چگونه از چند زبان پشتیبانی کنید، هم در هنگام صحبت شدن به تایمر هوشمند و هم پاسخ‌هایی که ارائه می‌دهد                                                               |                   [پشتیبانی از چند زبان](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
+|       |              نام پروژه               |                       مفاهیم تدریس شده                       | اهداف یادگیری                                                                                                                                                 |                                                        درس مرتبط                                                         |
+| :---: | :---------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------: |
+|  ۰۱   | [شروع کار](./1-getting-started/README.md) |                     مقدمه‌ای بر اینترنت اشیا                | اصول پایه اینترنت اشیا و اجزای اصلی راهکارهای اینترنت اشیا مانند حسگرها و سرویس‌های ابری را یاد بگیرید در حالی که دستگاه اینترنت اشیا اول خود را راه‌اندازی می‌کنید |                      [مقدمه‌ای بر اینترنت اشیا](./1-getting-started/lessons/1-introduction-to-iot/README.md)                   |
+|  ۰۲   | [شروع کار](./1-getting-started/README.md) |                   بررسی عمیق‌تر اینترنت اشیا                 | با اجزای یک سیستم اینترنت اشیا و همچنین میکروکنترلرها و کامپیوترهای تک‌بردی بیشتر آشنا شوید                                                                |                        [بررسی عمیق‌تر اینترنت اشیا](./1-getting-started/lessons/2-deeper-dive/README.md)                       |
+|  ۰۳   | [شروع کار](./1-getting-started/README.md) | تعامل با دنیای فیزیکی با حسگرها و عملگرها                   | با حسگرها برای جمع‌آوری داده از دنیای فیزیکی و عملگرها برای ارسال بازخورد آشنا شوید، ضمن ساخت یک چراغ خواب                                               | [تعامل با دنیای فیزیکی با حسگرها و عملگرها](./1-getting-started/lessons/3-sensors-and-actuators/README.md)                 |
+|  ۰۴   | [شروع کار](./1-getting-started/README.md) |             اتصال دستگاهتان به اینترنت                       | نحوه اتصال دستگاه اینترنت اشیا به اینترنت برای ارسال و دریافت پیام‌ها را یاد بگیرید؛ در حالی که چراغ خواب خود را به یک کارگزار MQTT متصل می‌کنید            |               [اتصال دستگاه به اینترنت](./1-getting-started/lessons/4-connect-internet/README.md)                            |
+|  ۰۵   |            [کشاورزی](./2-farm/README.md)             |                    پیش‌بینی رشد گیاه                        | نحوه پیش‌بینی رشد گیاه با استفاده از داده دما که توسط دستگاه اینترنت اشیا ضبط شده است را یاد بگیرید                                                          |                          [پیش‌بینی رشد گیاه](./2-farm/lessons/1-predict-plant-growth/README.md)                              |
+|  ۰۶   |            [کشاورزی](./2-farm/README.md)             |                    تشخیص رطوبت خاک                          | نحوه تشخیص رطوبت خاک و کالیبراسیون حسگر رطوبت خاک را یاد بگیرید                                                                                              |                          [تشخیص رطوبت خاک](./2-farm/lessons/2-detect-soil-moisture/README.md)                               |
+|  ۰۷   |            [کشاورزی](./2-farm/README.md)             |                  آبیاری خودکار گیاه                          | نحوه خودکارسازی و زمان‌بندی آبیاری با استفاده از رله و MQTT را یاد بگیرید                                                                                     |                      [آبیاری خودکار گیاه](./2-farm/lessons/3-automated-plant-watering/README.md)                             |
+|  ۰۸   |            [کشاورزی](./2-farm/README.md)             |               مهاجرت گیاه خود به فضای ابری                   | با خدمات ابری و سرویس‌های میزبانی شده اینترنت اشیا در ابر آشنا شوید و یاد بگیرید چگونه به جای کارگزار MQTT عمومی، گیاهتان را به یکی از این سرویس‌ها متصل کنید |               [مهاجرت گیاه به فضای ابری](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                       |
+|  ۰۹   |            [کشاورزی](./2-farm/README.md)             |         انتقال منطق برنامه به فضای ابری                      | یاد بگیرید چگونه می‌توانید منطق برنامه را در فضای ابری بنویسید که به پیام‌های اینترنت اشیا پاسخ دهد                                                          |         [انتقال منطق برنامه به فضای ابری](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)                   |
+|  ۱۰   |            [کشاورزی](./2-farm/README.md)             |                   ایمن نگه داشتن گیاه                         | با امنیت در اینترنت اشیا آشنا شوید و یاد بگیرید چگونه با کلیدها و گواهی‌ها گیاه خود را ایمن نگه دارید                                                         |                        [ایمن نگه داشتن گیاه](./2-farm/lessons/6-keep-your-plant-secure/README.md)                            |
+|  ۱۱   |       [حمل‌ونقل](./3-transport/README.md)        |                      ردیابی موقعیت مکانی                     | درباره ردیابی موقعیت مکانی GPS برای دستگاه‌های اینترنت اشیا بیاموزید                                                                                            |                           [ردیابی موقعیت مکانی](./3-transport/lessons/1-location-tracking/README.md)                         |
+|  ۱۲   |       [حمل‌ونقل](./3-transport/README.md)        |                     ذخیره اطلاعات موقعیت                       | نحوه ذخیره داده‌های اینترنت اشیا برای مشاهده یا تحلیل بعدی را یاد بگیرید                                                                                        |                         [ذخیره اطلاعات موقعیت](./3-transport/lessons/2-store-location-data/README.md)                        |
+|  ۱۳   |       [حمل‌ونقل](./3-transport/README.md)        |                   تجسم داده‌های موقعیت                        | درباره تجسم داده‌های موقعیت روی نقشه و نحوه نمایش دنیای سه‌بعدی واقعی روی نقشه‌های دو بعدی بیاموزید                                                           |                     [تجسم داده‌های موقعیت](./3-transport/lessons/3-visualize-location-data/README.md)                       |
+|  ۱۴   |       [حمل‌ونقل](./3-transport/README.md)        |                          حصارهای جغرافیایی                   | درباره حصارهای جغرافیایی و نحوه استفاده از آنها برای هشدار هنگام نزدیک شدن خودروهای زنجیره تأمین به مقصد آشنا شوید                                           |                                   [حصارهای جغرافیایی](./3-transport/lessons/4-geofences/README.md)                         |
+|  ۱۵   |   [تولید](./4-manufacturing/README.md)            |               آموزش یک تشخیص‌دهنده کیفیت میوه                | درباره آموزش یک طبقه‌بند تصویر در فضای ابری برای تشخیص کیفیت میوه بیاموزید                                                                                     |                 [آموزش تشخیص‌دهنده کیفیت میوه](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                |
+|  ۱۶   |   [تولید](./4-manufacturing/README.md)            |           بررسی کیفیت میوه از دستگاه اینترنت اشیا           | درباره استفاده از دستگاه تشخیص کیفیت میوه تان از یک دستگاه اینترنت اشیا یاد بگیرید                                                                              |           [بررسی کیفیت میوه از دستگاه اینترنت اشیا](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)          |
+|  ۱۷   |   [تولید](./4-manufacturing/README.md)            |             اجرای تشخیص‌دهنده میوه روی لبه                    | درباره اجرای دستگاه تشخیص میوه روی دستگاه اینترنت اشیا روی لبه بیاموزید                                                                                         |             [اجرای تشخیص‌دهنده میوه روی لبه](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)                |
+|  ۱۸   |   [تولید](./4-manufacturing/README.md)            |        تحریک تشخیص کیفیت میوه از حسگر                        | درباره تحریک تشخیص کیفیت میوه از یک حسگر آشنا شوید                                                                                                             |        [تحریک تشخیص کیفیت میوه از حسگر](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)                      |
+|  ۱۹   |          [خرده‌فروشی](./5-retail/README.md)       |                   آموزش تشخیص موجودی                          | نحوه استفاده از تشخیص اشیاء برای آموزش تشخیص‌دهنده موجودی برای شمارش موجودی در یک فروشگاه یاد بگیرید                                                           |                        [آموزش تشخیص‌دهنده موجودی](./5-retail/lessons/1-train-stock-detector/README.md)                     |
+|  ۲۰   |          [خرده‌فروشی](./5-retail/README.md)       |               بررسی موجودی از دستگاه اینترنت اشیا            | نحوه بررسی موجودی از دستگاه اینترنت اشیا با استفاده از مدل تشخیص اشیاء را یاد بگیرید                                                                           |                     [بررسی موجودی از دستگاه اینترنت اشیا](./5-retail/lessons/2-check-stock-device/README.md)                |
+|  ۲۱   |        [مصرف‌کننده](./6-consumer/README.md)       |             شناخت گفتار با دستگاه اینترنت اشیا               | نحوه شناخت گفتار از دستگاه اینترنت اشیا برای ساخت یک تایمر هوشمند را یاد بگیرید                                                                                |                  [شناخت گفتار با دستگاه اینترنت اشیا](./6-consumer/lessons/1-speech-recognition/README.md)                  |
+|  ۲۲   |        [مصرف‌کننده](./6-consumer/README.md)       |                     درک زبان                                  | نحوه درک جملات گفتاری به یک دستگاه اینترنت اشیا را بیاموزید                                                                                                   |                        [درک زبان](./6-consumer/lessons/2-language-understanding/README.md)                                   |
+|  ۲۳   |        [مصرف‌کننده](./6-consumer/README.md)       |           تنظیم تایمر و ارائه بازخورد گفتاری                  | نحوه تنظیم تایمر روی دستگاه اینترنت اشیا و ارائه بازخورد گفتاری درباره زمان شروع و پایان تایمر را یاد بگیرید                                                    |                 [تنظیم تایمر و ارائه بازخورد گفتاری](./6-consumer/lessons/3-spoken-feedback/README.md)                      |
+|  ۲۴   |        [مصرف‌کننده](./6-consumer/README.md)       |                 پشتیبانی از زبان‌های متعدد                   | نحوه پشتیبانی از زبان‌های متعدد، هم در دریافت و هم در پاسخ‌های تایمر هوشمند خود را یاد بگیرید                                                                    |                   [پشتیبانی از زبان‌های متعدد](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
 
 ## دسترسی آفلاین
 
-شما می‌توانید این مستندات را به صورت آفلاین با استفاده از [Docsify](https://docsify.js.org/#/) اجرا کنید. این مخزن را فورک کنید، [Docsify را نصب کنید](https://docsify.js.org/#/quickstart) روی ماشین محلی خود، سپس در پوشه ریشه این مخزن، دستور `docsify serve` را اجرا کنید. وب‌سایت روی پورت ۳۰۰۰ روی لوکال‌هاست شما سرو می‌شود: `localhost:3000`.
+می‌توانید این مستندات را به صورت آفلاین با استفاده از [Docsify](https://docsify.js.org/#/) اجرا کنید. این مخزن را فورک کرده، [Docsify را نصب کنید](https://docsify.js.org/#/quickstart) روی سیستم محلی خود و سپس در پوشه ریشه این مخزن دستور `docsify serve` را اجرا کنید. سایت روی پورت ۳۰۰۰ روی لوکال‌هاست شما در دسترس خواهد بود: `localhost:3000`.
 
 ## آزمون
 
-از جامعه ممنونیم که آزمون تعاملی را میزبانی می‌کند که دانش شما را در هر فصل می‌سنجد. شما می‌توانید دانش خود را [اینجا](https://ff-quizzes.netlify.app/en/) بسنجید 
+از جامعه بخاطر میزبانی آزمون تعاملی که دانش شما را در هر فصل می‌سنجد تشکر می‌کنیم. دانش خود را [در اینجا](https://ff-quizzes.netlify.app/en/) امتحان کنید.
 
 ### PDF
 
-اگر نیاز دارید، می‌توانید یک فایل PDF از این محتوا برای دسترسی آفلاین ایجاد کنید. برای این کار، مطمئن شوید که [npm را نصب کرده‌اید](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) و دستورات زیر را در پوشه ریشه این مخزن اجرا کنید:
+اگر نیاز دارید می‌توانید نسخه PDF این محتوا را برای استفاده آفلاین ایجاد کنید. برای این کار مطمئن شوید [npm نصب شده است](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) و دستورات زیر را در پوشه ریشه این مخزن اجرا کنید:
 
 ```sh
 npm i
@@ -154,60 +164,59 @@ npm run convert
 
 ### اسلایدها
 
-برای برخی از دروس، مجموعه اسلاید در پوشه [slides](../../slides) موجود است.
+برای برخی از دروس مجموعه اسلایدهایی در پوشه [slides](../../slides) وجود دارد.
 
+## دروس دیگر
 
-## برنامه‌های درسی دیگر
-
-تیم ما برنامه‌های درسی دیگری نیز تولید می‌کند! ببینید:
+تیم ما دروس دیگری نیز تولید می‌کند! نگاهی بیندازید به:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
-[![LangChain4j برای مبتدیان](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
-[![LangChain.js برای مبتدیان](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
-
+[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
 ### Azure / Edge / MCP / Agents
-[![AZD برای مبتدیان](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI برای مبتدیان](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP برای مبتدیان](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![عامل‌های هوش مصنوعی برای مبتدیان](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![هوش مصنوعی لبه برای مبتدی‌ها](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP برای مبتدی‌ها](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![عامل‌های هوش مصنوعی برای مبتدی‌ها](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### سری هوش مصنوعی مولد
-[![هوش مصنوعی مولد برای مبتدیان](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![هوش مصنوعی مولد برای مبتدی‌ها](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![هوش مصنوعی مولد (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![هوش مصنوعی مولد (جاوا)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
-[![هوش مصنوعی مولد (جاوااسکریپت)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+[![هوش مصنوعی مولد (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![هوش مصنوعی مولد (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### یادگیری پایه
-[![یادگیری ماشین برای مبتدیان](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![علم داده برای مبتدیان](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![هوش مصنوعی برای مبتدیان](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![امنیت سایبری برای مبتدیان](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![توسعه وب برای مبتدیان](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![اینترنت اشیاء برای مبتدیان](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![توسعه XR برای مبتدیان](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+### یادگیری پایه‌ای
+[![یادگیری ماشین برای مبتدی‌ها](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![علم داده برای مبتدی‌ها](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![هوش مصنوعی برای مبتدی‌ها](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![امنیت سایبری برای مبتدی‌ها](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![توسعه وب برای مبتدی‌ها](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![اینترنت اشیاء برای مبتدی‌ها](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![توسعه XR برای مبتدی‌ها](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### سری کاپایلوت
-[![کاپایلوت برای برنامه‌نویسی جفتی هوش مصنوعی](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![کاپایلوت برای C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![ماجراجویی کاپایلوت](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+### سری کمک‌برنامه (کاپیلت)
+[![کاپیلت برای برنامه‌نویسی جفتی هوش مصنوعی](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![کاپیلت برای C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![ماجراجویی کاپیلت](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## اعتبار تصاویر
+## نسبت دادن تصاویر
 
-شما می‌توانید تمام اعتبارها برای تصاویر استفاده شده در این آموزش را در جای لازم در [اعتبارها](./attributions.md) بیابید.
+شما می‌توانید تمام نسبت‌ها برای تصاویر استفاده شده در این برنامه آموزشی را در صورت نیاز در [نسبت‌ها](./attributions.md) پیدا کنید.
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **سلب مسئولیت**:  
-این سند با استفاده از خدمات ترجمه ماشینی [Co-op Translator](https://github.com/Azure/co-op-translator) ترجمه شده است. در حالی که ما در تلاش برای دقت هستیم، لطفاً توجه داشته باشید که ترجمه‌های خودکار ممکن است حاوی خطاها یا نادرستی‌هایی باشند. سند اصلی در زبان بومی آن باید به عنوان منبع معتبر در نظر گرفته شود. برای اطلاعات حیاتی، توصیه می‌شود از ترجمه حرفه‌ای انسانی استفاده شود. ما مسئول هیچ گونه سوءتفاهم یا برداشت نادرستی که ناشی از استفاده از این ترجمه باشد، نمی‌باشیم.
+این سند با استفاده از سرویس ترجمه هوش مصنوعی [Co-op Translator](https://github.com/Azure/co-op-translator) ترجمه شده است. در حالی که ما در تلاش برای دقت هستیم، لطفاً توجه داشته باشید که ترجمه‌های خودکار ممکن است شامل اشتباهات یا نادقیق‌گی‌هایی باشند. سند اصلی به زبان بومی خود باید به عنوان منبع معتبر در نظر گرفته شود. برای اطلاعات حیاتی، ترجمه حرفه‌ای انسانی توصیه می‌شود. ما مسئول هیچ گونه سو تفاهم یا سوء تعبیر ناشی از استفاده از این ترجمه نیستیم.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

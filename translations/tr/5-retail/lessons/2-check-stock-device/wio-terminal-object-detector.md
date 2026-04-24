@@ -95,7 +95,7 @@ Görüntüleri sınıflandırmak için kullandığınız kod, nesneleri algılam
 
     Çekilen görüntüyü ve bu değerleri Custom Vision'daki **Predictions** sekmesinde görebileceksiniz.
 
-    ![Bir rafta 4 kutu domates salçası ve 35.8%, 33.5%, 25.7% ve 16.6% algılama tahminleri](../../../../../translated_images/tr/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![Bir rafta 4 kutu domates salçası ve 35.8%, 33.5%, 25.7% ve 16.6% algılama tahminleri](../../../../../translated_images/tr/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Bu kodu [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) klasöründe bulabilirsiniz.
 

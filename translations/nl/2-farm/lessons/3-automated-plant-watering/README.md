@@ -1,6 +1,6 @@
 # Geautomatiseerd planten water geven
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-7.30b5f577d3cb8e03.webp)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -32,7 +32,7 @@ IoT-apparaten gebruiken een lage spanning. Hoewel dit voldoende is voor sensoren
 
 De oplossing hiervoor is een pomp die is aangesloten op een externe stroomvoorziening, en een actuator die de pomp aanzet, vergelijkbaar met hoe je een lichtschakelaar gebruikt. Het kost een kleine hoeveelheid energie (in de vorm van energie in je lichaam) om met je vinger een schakelaar om te zetten, en dit verbindt het licht met netstroom van 110v/240v.
 
-![Een lichtschakelaar zet stroom aan voor een lamp](../../../../../translated_images/nl/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Een lichtschakelaar zet stroom aan voor een lamp](../../../../../translated_images/nl/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Netstroom](https://wikipedia.org/wiki/Mains_electricity) verwijst naar de elektriciteit die via nationale infrastructuur wordt geleverd aan huizen en bedrijven in veel delen van de wereld.
 
@@ -72,7 +72,7 @@ Wanneer de hendel beweegt, kun je meestal horen dat deze contact maakt met de el
 
 De elektromagneet heeft niet veel stroom nodig om te activeren en de hendel aan te trekken; hij kan worden aangestuurd met de 3,3V of 5V uitgang van een IoT-ontwikkelkit. Het uitgangscircuit kan veel meer stroom dragen, afhankelijk van het relais, inclusief netspanning of zelfs hogere vermogensniveaus voor industrieel gebruik. Op deze manier kan een IoT-ontwikkelkit een irrigatiesysteem aansturen, van een kleine pomp voor een enkele plant tot een enorm industrieel systeem voor een hele commerciële boerderij.
 
-![Een Grove-relais met het besturingscircuit, uitgangscircuit en relais gelabeld](../../../../../translated_images/nl/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Een Grove-relais met het besturingscircuit, uitgangscircuit en relais gelabeld](../../../../../translated_images/nl/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 De bovenstaande afbeelding toont een Grove-relais. Het besturingscircuit wordt aangesloten op een IoT-apparaat en schakelt het relais in of uit met 3,3V of 5V. Het uitgangscircuit heeft twee aansluitingen; beide kunnen stroom of aarde zijn. Het uitgangscircuit kan tot 250V bij 10A aan, genoeg voor een reeks apparaten op netstroom. Je kunt relais krijgen die nog hogere vermogensniveaus aankunnen.
 

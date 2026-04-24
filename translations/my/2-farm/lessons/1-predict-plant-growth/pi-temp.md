@@ -16,7 +16,7 @@ Grove အပူချိန်အာရုံခံကိရိယာကို R
 
 အပူချိန်အာရုံခံကိရိယာကို ချိတ်ဆက်ပါ
 
-![A grove temperature sensor](../../../../../translated_images/my/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![A grove temperature sensor](../../../../../translated_images/my/grove-dht11.07f8eafceee17004.webp)
 
 1. Grove cable တစ်ဖက်ကို စိုထိုင်းဆနှင့် အပူချိန်အာရုံခံကိရိယာ၏ socket တွင် ထည့်ပါ။ ၎င်းသည် တစ်ဖက်ဘက်သာ ထည့်နိုင်ပါသည်။
 

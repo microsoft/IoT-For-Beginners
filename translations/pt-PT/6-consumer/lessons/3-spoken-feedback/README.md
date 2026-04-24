@@ -1,6 +1,6 @@
 # Definir um temporizador e fornecer feedback falado
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-23.f38483e1d4df4828.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 

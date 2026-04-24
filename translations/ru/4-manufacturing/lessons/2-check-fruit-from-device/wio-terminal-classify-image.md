@@ -208,7 +208,7 @@
 
     Вы сможете увидеть изображение, которое было снято, и эти значения на вкладке **Predictions** в Custom Vision.
 
-    ![Банан в Custom Vision, предсказанный как спелый на 56.8% и неспелый на 43.1%](../../../../../translated_images/ru/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Банан в Custom Vision, предсказанный как спелый на 56.8% и неспелый на 43.1%](../../../../../translated_images/ru/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Вы можете найти этот код в папке [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

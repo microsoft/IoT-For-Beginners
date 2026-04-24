@@ -1,6 +1,6 @@
 # Datos de ubicación de la tienda
 
-![Una vista general en sketchnote de esta lección](../../../../../translated_images/es/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Una vista general en sketchnote de esta lección](../../../../../translated_images/es/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -75,7 +75,7 @@ Las bases de datos NoSQL se llaman NoSQL porque no tienen la misma estructura r�
 
 > 💁 A pesar de su nombre, algunas bases de datos NoSQL permiten usar SQL para consultar los datos.
 
-![Documentos en carpetas en una base de datos NoSQL](../../../../../translated_images/es/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Documentos en carpetas en una base de datos NoSQL](../../../../../translated_images/es/noqsl-database.62d24ccf5b73f60d.webp)
 
 Las bases de datos NoSQL no tienen un esquema predefinido que limite cómo se almacenan los datos; en cambio, puedes insertar cualquier dato no estructurado, generalmente utilizando documentos JSON. Estos documentos pueden organizarse en carpetas, similar a los archivos en tu computadora. Cada documento puede tener diferentes campos en comparación con otros documentos. Por ejemplo, si estuvieras almacenando datos IoT de tus vehículos agrícolas, algunos podrían tener campos para datos de acelerómetro y velocidad, mientras que otros podrían tener campos para la temperatura en el remolque. Si agregaras un nuevo tipo de camión, como uno con básculas integradas para rastrear el peso de los productos transportados, entonces tu dispositivo IoT podría agregar este nuevo campo y podría almacenarse sin cambios en la base de datos.
 
@@ -89,7 +89,7 @@ En esta lección, usarás almacenamiento NoSQL para guardar datos IoT.
 
 En la última lección capturaste datos GPS de un sensor GPS conectado a tu dispositivo IoT. Para almacenar estos datos IoT en la nube, necesitas enviarlos a un servicio IoT. Una vez más, usarás Azure IoT Hub, el mismo servicio IoT en la nube que utilizaste en el proyecto anterior.
 
-![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub](../../../../../translated_images/es/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub](../../../../../translated_images/es/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Tarea - enviar datos GPS a un IoT Hub
 
@@ -171,7 +171,7 @@ Los datos de ruta fría se almacenan en almacenes de datos: bases de datos dise�
 
 Una vez que los datos están fluyendo hacia tu IoT Hub, puedes escribir código sin servidor para escuchar eventos publicados en el punto de conexión compatible con Event-Hub. Esta es la ruta templada: estos datos serán almacenados y utilizados en la próxima lección para informes sobre el recorrido.
 
-![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub, luego a Azure Functions mediante un disparador de Event Hub](../../../../../translated_images/es/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub, luego a Azure Functions mediante un disparador de Event Hub](../../../../../translated_images/es/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Tarea - manejar eventos GPS usando código sin servidor
 
@@ -193,7 +193,7 @@ Una vez que los datos están fluyendo hacia tu IoT Hub, puedes escribir código 
 
 ## Cuentas de Almacenamiento de Azure
 
-![El logotipo de Azure Storage](../../../../../translated_images/es/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![El logotipo de Azure Storage](../../../../../translated_images/es/azure-storage-logo.605c0f602c640d48.webp)
 
 Las Cuentas de Almacenamiento de Azure son un servicio de almacenamiento de propósito general que puede almacenar datos de diversas maneras. Puedes almacenar datos como blobs, en colas, en tablas o como archivos, y todo al mismo tiempo.
 

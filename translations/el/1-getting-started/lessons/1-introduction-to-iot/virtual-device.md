@@ -203,7 +203,7 @@
 
     Η εφαρμογή θα ξεκινήσει να εκτελείται και θα ανοίξει στον περιηγητή σας:
 
-    ![Η εφαρμογή Counter Fit εκτελείται σε περιηγητή](../../../../../translated_images/el/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Η εφαρμογή Counter Fit εκτελείται σε περιηγητή](../../../../../translated_images/el/counterfit-first-run.433326358b669b31.webp)
 
     Θα εμφανίζεται ως *Disconnected*, με το LED στην επάνω δεξιά γωνία να είναι σβηστό.
 
@@ -224,7 +224,7 @@
 
 1. Στο νέο αυτό τερματικό, εκτελέστε το αρχείο `app.py` όπως πριν. Η κατάσταση του CounterFit θα αλλάξει σε **Connected** και το LED θα ανάψει.
 
-    ![Το Counter Fit δείχνει ότι είναι συνδεδεμένο](../../../../../translated_images/el/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Το Counter Fit δείχνει ότι είναι συνδεδεμένο](../../../../../translated_images/el/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Μπορείτε να βρείτε αυτόν τον κώδικα στον φάκελο [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

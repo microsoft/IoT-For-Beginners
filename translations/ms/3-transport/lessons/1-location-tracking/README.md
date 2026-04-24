@@ -1,6 +1,6 @@
 # Penjejakan Lokasi
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-11.9fddbac4b664c6d5.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -63,13 +63,13 @@ Bumi adalah sfera - bulatan tiga dimensi. Oleh itu, titik-titik ditentukan denga
 
 > 💁 Tiada siapa yang benar-benar tahu sebab asal mengapa bulatan dibahagikan kepada 360 darjah. [Halaman darjah (sudut) di Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) merangkumi beberapa sebab yang mungkin.
 
-![Garis latitud dari 90° di Kutub Utara, 45° di tengah-tengah antara Kutub Utara dan khatulistiwa, 0° di khatulistiwa, -45° di tengah-tengah antara khatulistiwa dan Kutub Selatan, dan -90° di Kutub Selatan](../../../../../translated_images/ms/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
+![Garis latitud dari 90° di Kutub Utara, 45° di tengah-tengah antara Kutub Utara dan khatulistiwa, 0° di khatulistiwa, -45° di tengah-tengah antara khatulistiwa dan Kutub Selatan, dan -90° di Kutub Selatan](../../../../../translated_images/ms/latitude-lines.11d8d91dfb2014a5.webp)
 
 Latitud diukur menggunakan garis yang mengelilingi Bumi dan berjalan selari dengan khatulistiwa, membahagikan Hemisfera Utara dan Selatan kepada 90° setiap satu. Khatulistiwa berada pada 0°, Kutub Utara berada pada 90°, juga dikenali sebagai 90° Utara, dan Kutub Selatan berada pada -90°, atau 90° Selatan.
 
 Longitud diukur sebagai bilangan darjah yang diukur dari timur ke barat. Asal 0° longitud dipanggil *Prime Meridian*, dan ditentukan pada tahun 1884 sebagai garis dari Kutub Utara ke Kutub Selatan yang melalui [Observatori Diraja British di Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Garis longitud yang pergi dari -180° ke barat Prime Meridian, ke 0° di Prime Meridian, ke 180° timur Prime Meridian](../../../../../translated_images/ms/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
+![Garis longitud yang pergi dari -180° ke barat Prime Meridian, ke 0° di Prime Meridian, ke 180° timur Prime Meridian](../../../../../translated_images/ms/longitude-meridians.ab4ef1c91c064586.webp)
 
 > 🎓 Meridian adalah garis lurus khayalan yang pergi dari Kutub Utara ke Kutub Selatan, membentuk separuh bulatan.
 
@@ -100,7 +100,7 @@ Koordinat untuk satu titik sentiasa diberikan sebagai `latitud, longitud`, jadi 
 * Latitud 47.6423109 (47.6423109 darjah utara khatulistiwa)
 * Longitud -122.1390293 (122.1390293 darjah barat Prime Meridian).
 
-![Kampus Microsoft pada 47.6423109,-122.117198](../../../../../translated_images/ms/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
+![Kampus Microsoft pada 47.6423109,-122.117198](../../../../../translated_images/ms/microsoft-gps-location-world.a321d481b010f6ad.webp)
 
 ## Sistem Penentududukan Global (GPS)
 
@@ -112,7 +112,7 @@ Sistem GPS berfungsi dengan mempunyai beberapa satelit yang menghantar isyarat d
 
 > 💁 Sensor GPS memerlukan antena untuk mengesan gelombang radio. Antena yang dibina ke dalam trak dan kereta dengan GPS di atas papan diletakkan untuk mendapatkan isyarat yang baik, biasanya pada cermin depan atau bumbung. Jika anda menggunakan sistem GPS yang berasingan, seperti telefon pintar atau peranti IoT, maka anda perlu memastikan bahawa antena yang dibina ke dalam sistem GPS atau telefon mempunyai pandangan yang jelas ke langit, seperti dipasang pada cermin depan.
 
-![Dengan mengetahui jarak dari sensor ke pelbagai satelit, lokasi boleh dikira](../../../../../translated_images/ms/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
+![Dengan mengetahui jarak dari sensor ke pelbagai satelit, lokasi boleh dikira](../../../../../translated_images/ms/gps-satellites.04acf1148fe25fbf.webp)
 
 Satelit GPS mengelilingi Bumi, bukan pada titik tetap di atas sensor, jadi data lokasi termasuk ketinggian di atas paras laut serta latitud dan longitud.
 

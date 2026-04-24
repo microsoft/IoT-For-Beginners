@@ -26,7 +26,7 @@ Otherwise
 
 قم بتوصيل الـ LED.
 
-![صورة لـ Grove LED](../../../../../translated_images/ar/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![صورة لـ Grove LED](../../../../../translated_images/ar/grove-led.6c853be93f473cf2.webp)
 
 1. اختر الـ LED المفضل لديك وأدخل الأرجل في الثقبين الموجودين على وحدة الـ LED.
 

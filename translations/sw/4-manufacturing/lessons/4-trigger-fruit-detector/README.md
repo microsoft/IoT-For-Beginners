@@ -1,6 +1,6 @@
 # Kuchochea Utambuzi wa Ubora wa Matunda Kutoka kwa Kihisi
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -39,7 +39,7 @@ Programu za IoT zinaweza kuelezewa kama *vitu* (vifaa) vinavyotuma data inayozal
 
 ### Usanifu wa Marejeleo wa IoT
 
-![Usanifu wa marejeleo wa IoT](../../../../../translated_images/sw/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![Usanifu wa marejeleo wa IoT](../../../../../translated_images/sw/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Mchoro hapo juu unaonyesha usanifu wa marejeleo wa IoT.
 
@@ -49,7 +49,7 @@ Mchoro hapo juu unaonyesha usanifu wa marejeleo wa IoT.
 * **Ufahamu** hutoka kwa programu zisizo na seva, au kutoka kwa uchambuzi unaofanywa kwenye data iliyohifadhiwa.
 * **Vitendo** vinaweza kuwa amri zinazotumwa kwa vifaa, au vielelezo vya data vinavyoruhusu binadamu kufanya maamuzi.
 
-![Usanifu wa marejeleo wa IoT](../../../../../translated_images/sw/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Usanifu wa marejeleo wa IoT](../../../../../translated_images/sw/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Mchoro hapo juu unaonyesha baadhi ya vipengele na huduma zilizoshughulikiwa hadi sasa katika masomo haya na jinsi zinavyounganishwa katika usanifu wa marejeleo wa IoT.
 
@@ -89,7 +89,7 @@ Unahitaji kujenga mfumo ambapo matunda hugunduliwa yanapowasili kwenye mkanda wa
 
 ### Kutengeneza Mfano wa Programu Yako
 
-![Usanifu wa marejeleo wa IoT kwa ukaguzi wa ubora wa matunda](../../../../../translated_images/sw/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![Usanifu wa marejeleo wa IoT kwa ukaguzi wa ubora wa matunda](../../../../../translated_images/sw/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Mchoro hapo juu unaonyesha usanifu wa marejeleo kwa programu hii ya mfano.
 
@@ -124,7 +124,7 @@ Fanya kazi kupitia mwongozo husika kutumia kihisi cha ukaribu kugundua kitu kwa 
 
 Mfano wa kigunduzi cha matunda una vipengele vingi vinavyowasiliana.
 
-![Vipengele vinavyowasiliana](../../../../../translated_images/sw/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Vipengele vinavyowasiliana](../../../../../translated_images/sw/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Kihisi cha ukaribu kinachopima umbali hadi kwenye tunda na kutuma hii kwa IoT Hub
 * Amri ya kudhibiti kamera inayotoka kwa IoT Hub kwenda kwenye kifaa cha kamera

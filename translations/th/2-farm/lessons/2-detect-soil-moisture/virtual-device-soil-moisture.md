@@ -34,11 +34,11 @@
 
     1. กดปุ่ม **Add** เพื่อสร้างเซ็นเซอร์ *Soil Moisture* บน Pin 0
 
-    ![การตั้งค่าเซ็นเซอร์วัดความชื้นในดิน](../../../../../translated_images/th/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
+    ![การตั้งค่าเซ็นเซอร์วัดความชื้นในดิน](../../../../../translated_images/th/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp)
 
     เซ็นเซอร์วัดความชื้นในดินจะถูกสร้างขึ้นและปรากฏในรายการเซ็นเซอร์
 
-    ![เซ็นเซอร์วัดความชื้นในดินที่ถูกสร้างขึ้น](../../../../../translated_images/th/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
+    ![เซ็นเซอร์วัดความชื้นในดินที่ถูกสร้างขึ้น](../../../../../translated_images/th/counterfit-soil-moisture-sensor.81742b2de0e9de60.webp)
 
 ## เขียนโปรแกรมสำหรับแอปเซ็นเซอร์วัดความชื้นในดิน
 

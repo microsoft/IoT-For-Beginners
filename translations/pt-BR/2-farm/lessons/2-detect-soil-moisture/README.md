@@ -13,7 +13,7 @@ O I²C possui um barramento composto por 2 fios principais, além de 2 fios de a
 | VCC | Coletor Comum de Voltagem | A fonte de alimentação para os dispositivos. Este fio está conectado aos fios SDA e SCL para fornecer energia por meio de um resistor pull-up que desliga o sinal quando nenhum dispositivo é o controlador. |
 | GND | Terra | Fornece um terra comum para o circuito elétrico. |
 
-![Barramento I2C com 3 dispositivos conectados aos fios SDA e SCL, compartilhando um fio de terra comum](../../../../../translated_images/pt-BR/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![Barramento I2C com 3 dispositivos conectados aos fios SDA e SCL, compartilhando um fio de terra comum](../../../../../translated_images/pt-BR/i2c.83da845dde02256b.webp)
 
 Para enviar dados, um dispositivo emitirá uma condição de início para indicar que está pronto para enviar dados. Ele então se tornará o controlador. O controlador envia o endereço do dispositivo com o qual deseja se comunicar, juntamente com a informação se deseja ler ou escrever dados. Após a transmissão dos dados, o controlador envia uma condição de parada para indicar que terminou. Depois disso, outro dispositivo pode se tornar o controlador e enviar ou receber dados.
 

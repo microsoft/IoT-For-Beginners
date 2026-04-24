@@ -1,6 +1,6 @@
 # Podłącz swoje urządzenie do Internetu
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-4.7344e074ea68fa54.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 
@@ -47,7 +47,7 @@ MQTT jest najpopularniejszym protokołem komunikacyjnym dla urządzeń IoT i jes
 
 MQTT działa na zasadzie jednego brokera i wielu klientów. Wszystkie klienty łączą się z brokerem, a broker przekazuje wiadomości do odpowiednich klientów. Wiadomości są przekazywane za pomocą nazwanych tematów, zamiast być wysyłane bezpośrednio do konkretnego klienta. Klient może publikować wiadomości w temacie, a każdy klient subskrybujący ten temat otrzyma wiadomość.
 
-![Urządzenie IoT publikujące telemetrię w temacie /telemetry, a usługa w chmurze subskrybująca ten temat](../../../../../translated_images/pl/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Urządzenie IoT publikujące telemetrię w temacie /telemetry, a usługa w chmurze subskrybująca ten temat](../../../../../translated_images/pl/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Zrób badania. Jeśli masz wiele urządzeń IoT, jak możesz zapewnić, że Twój broker MQTT poradzi sobie z wszystkimi wiadomościami?
 
@@ -69,7 +69,7 @@ Zamiast zajmować się złożonością konfiguracji brokera MQTT w ramach tego z
 
 > 💁 Ten serwer testowy jest publiczny i nie jest zabezpieczony. Każdy może słuchać tego, co publikujesz, więc nie powinien być używany do przesyłania danych, które muszą pozostać prywatne.
 
-![Schemat przepływu zadania pokazujący odczyty poziomów światła, ich sprawdzanie i kontrolę diody LED](../../../../../translated_images/pl/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Schemat przepływu zadania pokazujący odczyty poziomów światła, ich sprawdzanie i kontrolę diody LED](../../../../../translated_images/pl/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Wykonaj odpowiedni krok poniżej, aby podłączyć swoje urządzenie do brokera MQTT:
 
@@ -350,7 +350,7 @@ Dla maszyn możesz chcieć zachować dane, zwłaszcza jeśli są one używane do
 
 Projektanci urządzeń IoT powinni również rozważyć, czy urządzenie IoT może być używane podczas przerwy w dostępie do Internetu lub utraty sygnału spowodowanej lokalizacją. Inteligentny termostat powinien być w stanie podejmować pewne ograniczone decyzje dotyczące sterowania ogrzewaniem, jeśli nie może wysyłać danych telemetrycznych do chmury z powodu przerwy.
 
-[![Ten ferrari został "zbrickowany", ponieważ ktoś próbował go zaktualizować pod ziemią, gdzie nie ma zasięgu](../../../../../translated_images/pl/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ten ferrari został "zbrickowany", ponieważ ktoś próbował go zaktualizować pod ziemią, gdzie nie ma zasięgu](../../../../../translated_images/pl/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Aby MQTT mogło obsłużyć utratę łączności, kod urządzenia i serwera będzie musiał być odpowiedzialny za zapewnienie dostarczenia wiadomości, jeśli jest to konieczne, na przykład poprzez wymaganie, aby wszystkie wysłane wiadomości były potwierdzane dodatkowymi wiadomościami na temacie odpowiedzi, a jeśli nie, były ręcznie kolejkowane do ponownego wysłania później.
 
@@ -358,7 +358,7 @@ Aby MQTT mogło obsłużyć utratę łączności, kod urządzenia i serwera będ
 
 Polecenia to wiadomości wysyłane przez chmurę do urządzenia, instruujące je, aby coś zrobiło. Najczęściej polega to na generowaniu jakiegoś rodzaju wyjścia za pomocą aktuatora, ale może to być również instrukcja dla samego urządzenia, na przykład aby się zrestartowało lub zebrało dodatkowe dane telemetryczne i zwróciło je jako odpowiedź na polecenie.
 
-![Termostat podłączony do Internetu odbierający polecenie włączenia ogrzewania](../../../../../translated_images/pl/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Termostat podłączony do Internetu odbierający polecenie włączenia ogrzewania](../../../../../translated_images/pl/commands.d6c06bbbb3a02cce.webp)
 
 Termostat mógłby otrzymać polecenie z chmury, aby włączyć ogrzewanie. Na podstawie danych telemetrycznych ze wszystkich czujników, jeśli usługa chmurowa zdecyduje, że ogrzewanie powinno być włączone, wysyła odpowiednie polecenie.
 

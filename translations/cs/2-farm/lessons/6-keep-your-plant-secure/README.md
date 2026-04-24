@@ -1,6 +1,6 @@
 # Udržujte svou rostlinu v bezpečí
 
-![Přehled lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Přehled lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -52,11 +52,11 @@ Toto jsou scénáře z reálného světa, které se dějí neustále. Některé 
 
 Když se zařízení připojuje k IoT službě, používá ID k identifikaci. Problém je, že toto ID může být zkopírováno – hacker by mohl nastavit škodlivé zařízení, které používá stejné ID jako skutečné zařízení, ale posílá falešná data.
 
-![Platná i škodlivá zařízení mohou používat stejné ID k odesílání telemetrie](../../../../../translated_images/cs/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Platná i škodlivá zařízení mohou používat stejné ID k odesílání telemetrie](../../../../../translated_images/cs/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Řešením je převést data, která jsou odesílána, do zašifrovaného formátu pomocí hodnoty známé pouze zařízení a cloudu. Tento proces se nazývá *šifrování* a hodnota použitá k šifrování dat se nazývá *šifrovací klíč*.
 
-![Pokud je použito šifrování, budou přijímány pouze zašifrované zprávy, ostatní budou odmítnuty](../../../../../translated_images/cs/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Pokud je použito šifrování, budou přijímány pouze zašifrované zprávy, ostatní budou odmítnuty](../../../../../translated_images/cs/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Cloudová služba pak může data převést zpět do čitelného formátu pomocí procesu nazývaného *dešifrování*, buď pomocí stejného šifrovacího klíče, nebo *dešifrovacího klíče*. Pokud zašifrovanou zprávu nelze dešifrovat klíčem, zařízení bylo hacknuto a zpráva je odmítnuta.
 

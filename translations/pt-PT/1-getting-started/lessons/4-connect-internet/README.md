@@ -1,6 +1,6 @@
 # Conecte o seu dispositivo à Internet
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-4.7344e074ea68fa54.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -47,7 +47,7 @@ O MQTT é o protocolo de comunicação mais popular para dispositivos IoT e ser�
 
 O MQTT possui um único broker e vários clientes. Todos os clientes se conectam ao broker, e o broker encaminha mensagens para os clientes relevantes. As mensagens são roteadas usando tópicos nomeados, em vez de serem enviadas diretamente para um cliente individual. Um cliente pode publicar em um tópico, e qualquer cliente que assinar esse tópico receberá a mensagem.
 
-![Dispositivo IoT publicando telemetria no tópico /telemetry, e o serviço na nuvem assinando esse tópico](../../../../../translated_images/pt-PT/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Dispositivo IoT publicando telemetria no tópico /telemetry, e o serviço na nuvem assinando esse tópico](../../../../../translated_images/pt-PT/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Faça uma pesquisa. Se você tiver muitos dispositivos IoT, como pode garantir que o seu broker MQTT consiga lidar com todas as mensagens?
 
@@ -69,7 +69,7 @@ Em vez de lidar com as complexidades de configurar um broker MQTT como parte des
 
 > 💁 Este broker de teste é público e não é seguro. Qualquer pessoa pode estar ouvindo o que você publica, então ele não deve ser usado com dados que precisam ser mantidos privados.
 
-![Um fluxograma da tarefa mostrando os níveis de luz sendo lidos e verificados, e o LED sendo controlado](../../../../../translated_images/pt-PT/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Um fluxograma da tarefa mostrando os níveis de luz sendo lidos e verificados, e o LED sendo controlado](../../../../../translated_images/pt-PT/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Siga o passo relevante abaixo para conectar o seu dispositivo ao broker MQTT:
 
@@ -350,7 +350,7 @@ Para máquinas, pode querer manter os dados, especialmente se forem usados para 
 
 Os designers de dispositivos IoT também devem considerar se o dispositivo IoT pode ser usado durante uma interrupção da Internet ou perda de sinal causada pela localização. Um termóstato inteligente deve ser capaz de tomar algumas decisões limitadas para controlar o aquecimento se não puder enviar telemetria para a cloud devido a uma interrupção.
 
-[![Este Ferrari ficou inutilizado porque alguém tentou atualizá-lo num local subterrâneo sem receção de sinal](../../../../../translated_images/pt-PT/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Este Ferrari ficou inutilizado porque alguém tentou atualizá-lo num local subterrâneo sem receção de sinal](../../../../../translated_images/pt-PT/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Para o MQTT lidar com uma perda de conectividade, o código do dispositivo e do servidor será responsável por garantir a entrega das mensagens, se necessário, por exemplo, exigindo que todas as mensagens enviadas sejam respondidas por mensagens adicionais num tópico de resposta e, caso contrário, sejam enfileiradas manualmente para serem reproduzidas mais tarde.
 
@@ -358,7 +358,7 @@ Para o MQTT lidar com uma perda de conectividade, o código do dispositivo e do 
 
 Comandos são mensagens enviadas pela cloud para um dispositivo, instruindo-o a fazer algo. Na maioria das vezes, isso envolve fornecer algum tipo de saída através de um atuador, mas pode ser uma instrução para o próprio dispositivo, como reiniciar ou recolher telemetria extra e devolvê-la como resposta ao comando.
 
-![Um termóstato conectado à Internet a receber um comando para ligar o aquecimento](../../../../../translated_images/pt-PT/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Um termóstato conectado à Internet a receber um comando para ligar o aquecimento](../../../../../translated_images/pt-PT/commands.d6c06bbbb3a02cce.webp)
 
 Um termóstato pode receber um comando da cloud para ligar o aquecimento. Com base nos dados de telemetria de todos os sensores, se o serviço na cloud decidir que o aquecimento deve estar ligado, envia o comando relevante.
 

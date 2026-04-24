@@ -13,7 +13,7 @@ I²C har en buss som består av två huvudkablar, tillsammans med två strömkab
 | VCC | Voltage common collector | Strömförsörjningen för enheterna. Den är ansluten till SDA- och SCL-kablarna för att ge deras ström via ett pull-up-motstånd som stänger av signalen när ingen enhet är styrenhet. |
 | GND | Ground | Ger en gemensam jord för den elektriska kretsen. |
 
-![I2C-buss med 3 enheter anslutna till SDA- och SCL-kablarna, som delar en gemensam jordkabel](../../../../../translated_images/sv/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C-buss med 3 enheter anslutna till SDA- och SCL-kablarna, som delar en gemensam jordkabel](../../../../../translated_images/sv/i2c.83da845dde02256b.webp)
 
 För att skicka data kommer en enhet att utfärda ett startvillkor för att visa att den är redo att skicka data. Den blir då styrenheten. Styrenheten skickar sedan adressen till den enhet den vill kommunicera med, tillsammans med information om den vill läsa eller skriva data. Efter att data har överförts skickar styrenheten ett stoppvillkor för att indikera att den är klar. Därefter kan en annan enhet bli styrenhet och skicka eller ta emot data.
 

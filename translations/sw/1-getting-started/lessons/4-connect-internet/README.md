@@ -1,6 +1,6 @@
 # Unganisha kifaa chako na Intaneti
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -47,7 +47,7 @@ MQTT ni itifaki maarufu zaidi ya mawasiliano kwa vifaa vya IoT na imeelezwa kati
 
 MQTT ina broker mmoja na wateja wengi. Wateja wote huunganishwa na broker, na broker husambaza ujumbe kwa wateja husika. Ujumbe husambazwa kwa kutumia mada zilizotajwa, badala ya kutumwa moja kwa moja kwa mteja mmoja. Mteja anaweza kuchapisha kwenye mada, na wateja wowote wanaosubscribe kwa mada hiyo watapokea ujumbe.
 
-![Kifaa cha IoT kinachochapisha telemetry kwenye mada ya /telemetry, na huduma ya wingu inayosubscribe kwa mada hiyo](../../../../../translated_images/sw/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Kifaa cha IoT kinachochapisha telemetry kwenye mada ya /telemetry, na huduma ya wingu inayosubscribe kwa mada hiyo](../../../../../translated_images/sw/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Fanya utafiti. Ikiwa una vifaa vingi vya IoT, unaweza kuhakikisha vipi kwamba broker yako ya MQTT inaweza kushughulikia ujumbe wote?
 
@@ -69,7 +69,7 @@ Badala ya kushughulikia ugumu wa kusanidi broker ya MQTT kama sehemu ya kazi hii
 
 > 💁 Broker hii ya majaribio ni ya umma na si salama. Mtu yeyote anaweza kusikiliza unachochapisha, hivyo haipaswi kutumiwa na data yoyote inayohitaji kubaki siri.
 
-![Mchoro wa mtiririko wa kazi unaonyesha viwango vya mwanga vinavyosomwa na kuchunguzwa, na LED ikidhibitiwa](../../../../../translated_images/sw/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Mchoro wa mtiririko wa kazi unaonyesha viwango vya mwanga vinavyosomwa na kuchunguzwa, na LED ikidhibitiwa](../../../../../translated_images/sw/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Fuata hatua husika hapa chini kuunganisha kifaa chako na broker ya MQTT:
 
@@ -350,7 +350,7 @@ Kwa mashine unaweza kutaka kuhifadhi data, hasa ikiwa inatumika kutafuta mwenend
 
 Wabunifu wa vifaa vya IoT wanapaswa pia kuzingatia ikiwa kifaa cha IoT kinaweza kutumika wakati wa kukatika kwa mtandao au kupoteza ishara kunakosababishwa na eneo. Thermostat ya kisasa inapaswa kuwa na uwezo wa kufanya maamuzi machache ya kudhibiti joto ikiwa haiwezi kutuma telemetry kwa wingu kutokana na kukatika.
 
-[![Ferrari hii iliharibika kwa sababu mtu alijaribu kuiboresha chini ya ardhi ambapo hakuna mawasiliano ya simu](../../../../../translated_images/sw/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ferrari hii iliharibika kwa sababu mtu alijaribu kuiboresha chini ya ardhi ambapo hakuna mawasiliano ya simu](../../../../../translated_images/sw/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Kwa MQTT kushughulikia kupoteza muunganisho, msimbo wa kifaa na seva utahitaji kuwajibika kuhakikisha ujumbe unafika ikiwa unahitajika, kwa mfano kwa kuhitaji kwamba ujumbe wote uliotumwa ujibiwe na ujumbe wa ziada kwenye mada ya majibu, na ikiwa sivyo, ujumbe huo uhifadhiwe kwa mkono ili utumwe tena baadaye.
 
@@ -358,7 +358,7 @@ Kwa MQTT kushughulikia kupoteza muunganisho, msimbo wa kifaa na seva utahitaji k
 
 Amri ni ujumbe unaotumwa na wingu kwenda kwa kifaa, ukielekeza kifaa kufanya jambo fulani. Mara nyingi hii inahusisha kutoa aina fulani ya pato kupitia actuator, lakini inaweza kuwa maagizo kwa kifaa chenyewe, kama kuwasha upya, au kukusanya telemetry ya ziada na kuirudisha kama jibu kwa amri.
 
-![Thermostat iliyounganishwa na mtandao ikipokea amri ya kuwasha joto](../../../../../translated_images/sw/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Thermostat iliyounganishwa na mtandao ikipokea amri ya kuwasha joto](../../../../../translated_images/sw/commands.d6c06bbbb3a02cce.webp)
 
 Thermostat inaweza kupokea amri kutoka kwa wingu kuwasha joto. Kulingana na data ya telemetry kutoka kwa sensorer zote, ikiwa huduma ya wingu imeamua kuwa joto linapaswa kuwashwa, basi inatuma amri husika.
 

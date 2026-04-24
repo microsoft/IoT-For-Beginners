@@ -1,6 +1,6 @@
 # 타이머 설정 및 음성 피드백 제공
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-23.f38483e1d4df4828.webp)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 

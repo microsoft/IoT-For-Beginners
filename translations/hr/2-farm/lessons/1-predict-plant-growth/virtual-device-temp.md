@@ -38,11 +38,11 @@ Dodajte senzore vlage i temperature u CounterFit aplikaciju.
 
     1. Odaberite gumb **Add** za kreiranje senzora vlage na pinu 5.
 
-    ![Postavke senzora vlage](../../../../../translated_images/hr/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
+    ![Postavke senzora vlage](../../../../../translated_images/hr/counterfit-create-humidity-sensor.2750e27b6f30e09c.webp)
 
     Senzor vlage će biti kreiran i pojavit će se na popisu senzora.
 
-    ![Kreirani senzor vlage](../../../../../translated_images/hr/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
+    ![Kreirani senzor vlage](../../../../../translated_images/hr/counterfit-humidity-sensor.7b12f7f339e430cb.webp)
 
 1. Kreirajte senzor temperature:
 
@@ -54,11 +54,11 @@ Dodajte senzore vlage i temperature u CounterFit aplikaciju.
 
     1. Odaberite gumb **Add** za kreiranje senzora temperature na pinu 6.
 
-    ![Postavke senzora temperature](../../../../../translated_images/hr/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
+    ![Postavke senzora temperature](../../../../../translated_images/hr/counterfit-create-temperature-sensor.199350ed34f7343d.webp)
 
     Senzor temperature će biti kreiran i pojavit će se na popisu senzora.
 
-    ![Kreirani senzor temperature](../../../../../translated_images/hr/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
+    ![Kreirani senzor temperature](../../../../../translated_images/hr/counterfit-temperature-sensor.f0560236c96a9016.webp)
 
 ## Programiranje aplikacije za senzor temperature
 

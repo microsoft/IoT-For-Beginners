@@ -36,11 +36,11 @@ CounterFitアプリにLEDを追加します。
 
     1. **Add**ボタンを選択して、Pin 5にLEDを作成します。
 
-    ![LEDの設定](../../../../../translated_images/ja/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
+    ![LEDの設定](../../../../../translated_images/ja/counterfit-create-led.ba9db1c9b8c622a6.webp)
 
     LEDが作成され、アクチュエータリストに表示されます。
 
-    ![作成されたLED](../../../../../translated_images/ja/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
+    ![作成されたLED](../../../../../translated_images/ja/counterfit-led.c0ab02de6d256ad8.webp)
 
     LEDが作成されたら、*Color*ピッカーを使用して色を変更できます。色を選択した後、**Set**ボタンを選択して色を変更します。
 

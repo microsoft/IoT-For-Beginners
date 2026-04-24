@@ -13,7 +13,7 @@ I²C ina basi inayojumuisha nyaya kuu 2, pamoja na nyaya 2 za nguvu:
 | VCC | Voltage common collector | Chanzo cha nguvu kwa vifaa. Hii imeunganishwa na nyaya za SDA na SCL ili kutoa nguvu zao kupitia resistor ya kuvuta juu inayozima ishara wakati hakuna kifaa kinachofanya kazi kama kidhibiti. |
 | GND | Ardhi | Hii hutoa ardhi ya kawaida kwa mzunguko wa umeme. |
 
-![Basi la I2C na vifaa 3 vilivyounganishwa kwenye nyaya za SDA na SCL, zikishiriki waya wa ardhi ya kawaida](../../../../../translated_images/sw/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![Basi la I2C na vifaa 3 vilivyounganishwa kwenye nyaya za SDA na SCL, zikishiriki waya wa ardhi ya kawaida](../../../../../translated_images/sw/i2c.83da845dde02256b.webp)
 
 Ili kutuma data, kifaa kimoja kitaanzisha hali ya kuanza kuonyesha kuwa kiko tayari kutuma data. Kisha kitakuwa kidhibiti. Kidhibiti kitatuma anwani ya kifaa ambacho kinataka kuwasiliana nacho, pamoja na ikiwa kinataka kusoma au kuandika data. Baada ya data kusafirishwa, kidhibiti kitatuma hali ya kusimama kuonyesha kuwa kimekamilisha. Baada ya hapo kifaa kingine kinaweza kuwa kidhibiti na kutuma au kupokea data.
 

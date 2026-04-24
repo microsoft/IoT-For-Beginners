@@ -1,6 +1,6 @@
 # Collega il tuo dispositivo a Internet
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-4.7344e074ea68fa54.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -47,7 +47,7 @@ MQTT è il protocollo di comunicazione più popolare per i dispositivi IoT ed è
 
 MQTT utilizza un singolo broker e più client. Tutti i client si connettono al broker, e il broker instrada i messaggi ai client pertinenti. I messaggi vengono instradati utilizzando argomenti denominati, piuttosto che essere inviati direttamente a un singolo client. Un client può pubblicare su un argomento, e tutti i client che si iscrivono a quell'argomento riceveranno il messaggio.
 
-![Dispositivo IoT che pubblica telemetria sull'argomento /telemetry, e il servizio cloud che si iscrive a quell'argomento](../../../../../translated_images/it/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Dispositivo IoT che pubblica telemetria sull'argomento /telemetry, e il servizio cloud che si iscrive a quell'argomento](../../../../../translated_images/it/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Fai una ricerca. Se hai molti dispositivi IoT, come puoi assicurarti che il tuo broker MQTT sia in grado di gestire tutti i messaggi?
 
@@ -69,7 +69,7 @@ Piuttosto che affrontare le complessità di configurare un broker MQTT come part
 
 > 💁 Questo broker di test è pubblico e non sicuro. Chiunque potrebbe ascoltare ciò che pubblichi, quindi non dovrebbe essere utilizzato con dati che devono rimanere privati.
 
-![Diagramma di flusso dell'assegnazione che mostra i livelli di luce letti e controllati, e il controllo del LED](../../../../../translated_images/it/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Diagramma di flusso dell'assegnazione che mostra i livelli di luce letti e controllati, e il controllo del LED](../../../../../translated_images/it/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Segui il passaggio pertinente qui sotto per connettere il tuo dispositivo al broker MQTT:
 
@@ -350,7 +350,7 @@ Per i macchinari, potresti voler conservare i dati, specialmente se vengono util
 
 I progettisti di dispositivi IoT dovrebbero anche considerare se il dispositivo IoT può essere utilizzato durante un'interruzione di Internet o una perdita di segnale causata dalla posizione. Un termostato intelligente dovrebbe essere in grado di prendere alcune decisioni limitate per controllare il riscaldamento se non può inviare telemetria al cloud a causa di un'interruzione.
 
-[![Questa Ferrari è stata bloccata perché qualcuno ha provato ad aggiornarla sottoterra dove non c'è ricezione cellulare](../../../../../translated_images/it/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Questa Ferrari è stata bloccata perché qualcuno ha provato ad aggiornarla sottoterra dove non c'è ricezione cellulare](../../../../../translated_images/it/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Per MQTT, per gestire una perdita di connettività, il codice del dispositivo e del server dovrà essere responsabile di garantire la consegna dei messaggi se necessario, ad esempio richiedendo che tutti i messaggi inviati siano risposti con messaggi aggiuntivi su un topic di risposta, e se non lo sono, vengono messi in coda manualmente per essere riprodotti in seguito.
 
@@ -358,7 +358,7 @@ Per MQTT, per gestire una perdita di connettività, il codice del dispositivo e 
 
 I comandi sono messaggi inviati dal cloud a un dispositivo, che gli istruiscono di fare qualcosa. La maggior parte delle volte ciò comporta la generazione di un output tramite un attuatore, ma può essere un'istruzione per il dispositivo stesso, come riavviarsi o raccogliere telemetria aggiuntiva e restituirla come risposta al comando.
 
-![Un termostato connesso a Internet che riceve un comando per accendere il riscaldamento](../../../../../translated_images/it/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Un termostato connesso a Internet che riceve un comando per accendere il riscaldamento](../../../../../translated_images/it/commands.d6c06bbbb3a02cce.webp)
 
 Un termostato potrebbe ricevere un comando dal cloud per accendere il riscaldamento. Basandosi sui dati di telemetria di tutti i sensori, se il servizio cloud ha deciso che il riscaldamento deve essere acceso, invia il comando pertinente.
 

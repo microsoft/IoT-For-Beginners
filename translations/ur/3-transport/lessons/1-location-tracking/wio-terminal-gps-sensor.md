@@ -18,7 +18,7 @@ Grove GPS سینسر کو وائیو ٹرمینل سے جوڑا جا سکتا ہ
 
 جی پی ایس سینسر کو جوڑیں۔
 
-![ایک Grove GPS سینسر](../../../../../translated_images/ur/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![ایک Grove GPS سینسر](../../../../../translated_images/ur/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Grove کیبل کے ایک سرے کو جی پی ایس سینسر کے ساکٹ میں ڈالیں۔ یہ صرف ایک ہی سمت میں جائے گا۔
 

@@ -84,7 +84,7 @@ Custom Vision सेवामा छविहरू वर्गीकरण ग
 
     तपाईंले खिचिएको छवि देख्न सक्नुहुनेछ, र यी मानहरू Custom Vision को **Predictions** ट्याबमा देख्न सक्नुहुनेछ।
 
-    ![Custom Vision मा एउटा केरा, 56.8% मा पाको र 43.1% मा काँचो भविष्यवाणी गरिएको](../../../../../translated_images/ne/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Custom Vision मा एउटा केरा, 56.8% मा पाको र 43.1% मा काँचो भविष्यवाणी गरिएको](../../../../../translated_images/ne/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 तपाईंले यो कोड [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) वा [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) फोल्डरमा फेला पार्न सक्नुहुन्छ।
 

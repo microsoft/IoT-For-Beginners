@@ -1,6 +1,6 @@
 # Úvod do IoT
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 

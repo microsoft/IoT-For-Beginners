@@ -18,7 +18,7 @@ Grove relee saab ühendada Wio Terminali digitaalse pordiga.
 
 Ühendage relee.
 
-![Grove relee](../../../../../translated_images/et/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Grove relee](../../../../../translated_images/et/grove-relay.d426958ca210fbd0.webp)
 
 1. Sisestage Grove kaabli üks ots relee pistikusse. See läheb sisse ainult ühel viisil.
 

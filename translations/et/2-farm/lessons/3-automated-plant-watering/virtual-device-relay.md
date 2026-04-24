@@ -28,11 +28,11 @@ Lisa relee CounterFit rakendusse.
 
     1. Valige **Add** nupp, et luua relee Pin 5-le.
 
-    ![Relee seaded](../../../../../translated_images/et/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![Relee seaded](../../../../../translated_images/et/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     Relee luuakse ja ilmub aktuaatorite loendisse.
 
-    ![Loodud relee](../../../../../translated_images/et/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![Loodud relee](../../../../../translated_images/et/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## Programmeeri relee
 

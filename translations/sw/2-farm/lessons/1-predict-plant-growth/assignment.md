@@ -33,7 +33,7 @@ Baada ya kuwa na data ya joto, unaweza kutumia Jupyter Notebook katika repo hii 
 
     Jupyter itaanza na kufungua notebook katika kivinjari chako. Fuata maelekezo katika notebook ili kuonyesha joto lililopimwa, na kuhesabu siku za digrii za ukuaji.
 
-    ![Notebook ya Jupyter](../../../../../translated_images/sw/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Notebook ya Jupyter](../../../../../translated_images/sw/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## Rubric
 

@@ -18,7 +18,7 @@ Rơ le Grove có thể được kết nối với cổng kỹ thuật số của
 
 Kết nối rơ le.
 
-![Một rơ le Grove](../../../../../translated_images/vi/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Một rơ le Grove](../../../../../translated_images/vi/grove-relay.d426958ca210fbd0.webp)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên rơ le. Nó chỉ có thể cắm theo một chiều.
 

@@ -28,11 +28,11 @@ Add the relay to the CounterFit app.
 
     1. Click the **Add** button to create the relay on Pin 5.
 
-    ![The relay settings](../../../../../translated_images/en/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![The relay settings](../../../../../translated_images/en/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     The relay will be created and will appear in the actuators list.
 
-    ![The relay created](../../../../../translated_images/en/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![The relay created](../../../../../translated_images/en/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## Program the Relay
 

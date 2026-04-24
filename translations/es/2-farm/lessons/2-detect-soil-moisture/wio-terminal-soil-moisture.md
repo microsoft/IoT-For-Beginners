@@ -18,7 +18,7 @@ El sensor de humedad del suelo Grove puede conectarse al puerto analógico/digit
 
 Conecta el sensor de humedad del suelo.
 
-![Un sensor Grove de humedad del suelo](../../../../../translated_images/es/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Un sensor Grove de humedad del suelo](../../../../../translated_images/es/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Inserta un extremo de un cable Grove en el conector del sensor de humedad del suelo. Solo encajará de una manera.
 

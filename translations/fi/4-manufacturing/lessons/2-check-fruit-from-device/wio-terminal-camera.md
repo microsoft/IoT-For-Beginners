@@ -16,7 +16,7 @@ ArduCam ei sisällä Grove-liitintä, vaan se yhdistetään sekä SPI- että I2C
 
 Yhdistä kamera.
 
-![ArduCam-anturi](../../../../../translated_images/fi/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![ArduCam-anturi](../../../../../translated_images/fi/arducam.20e4e4cbb2682965.webp)
 
 1. ArduCamin pohjassa olevat pinnit täytyy yhdistää Wio Terminalin GPIO-pinneihin. Jotta oikeat pinnit löytyvät helpommin, kiinnitä Wio Terminalin mukana tuleva GPIO-tarralappu pinneihin:
 
@@ -35,7 +35,7 @@ Yhdistä kamera.
     | SDA           | 3 (I2C1_SDA)         | I2C-sarjadata                          |
     | SCL           | 5 (I2C1_SCL)         | I2C-sarjakello                         |
 
-    ![Wio Terminal yhdistetty ArduCamiin hyppylangoilla](../../../../../translated_images/fi/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal yhdistetty ArduCamiin hyppylangoilla](../../../../../translated_images/fi/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     GND- ja VCC-liitännät tarjoavat 5V virtalähteen ArduCamille. Se toimii 5V:lla, toisin kuin Grove-anturit, jotka toimivat 3V:lla. Tämä virta tulee suoraan USB-C-liitännästä, joka syöttää virtaa laitteelle.
 
@@ -456,7 +456,7 @@ Wio Terminal tukee vain enintään 16GB:n microSD-kortteja. Jos sinulla on suure
 
 1. Sammuta microSD-kortti ja poista se painamalla sitä hieman sisään ja vapauttamalla, jolloin se ponnahtaa ulos. Saatat joutua käyttämään ohutta työkalua tähän. Liitä microSD-kortti tietokoneeseesi nähdäksesi kuvat.
 
-    ![Kuva banaanista, otettu ArduCamilla](../../../../../translated_images/fi/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Kuva banaanista, otettu ArduCamilla](../../../../../translated_images/fi/banana-arducam.be1b32d4267a8194.webp)
 💁 Kameran valkotasapainon säätämiseen voi kulua muutama kuva. Huomaat tämän kuvien värin perusteella, ensimmäiset kuvat voivat näyttää väriltään poikkeavilta. Voit aina kiertää tämän muuttamalla koodia siten, että `setup`-funktiossa otetaan muutama kuva, jotka jätetään huomiotta.
 
 

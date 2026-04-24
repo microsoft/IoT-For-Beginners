@@ -1,6 +1,6 @@
 # Pastikan Tumbuhan Anda Selamat
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -52,11 +52,11 @@ Ini adalah senario dunia sebenar, dan berlaku sepanjang masa. Beberapa contoh te
 
 Apabila peranti menyambung ke perkhidmatan IoT, ia menggunakan ID untuk mengenal pasti dirinya. Masalahnya ialah ID ini boleh digandakan - penggodam boleh menyediakan peranti berniat jahat yang menggunakan ID yang sama seperti peranti sebenar tetapi menghantar data palsu.
 
-![Kedua-dua peranti sah dan berniat jahat boleh menggunakan ID yang sama untuk menghantar telemetri](../../../../../translated_images/ms/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Kedua-dua peranti sah dan berniat jahat boleh menggunakan ID yang sama untuk menghantar telemetri](../../../../../translated_images/ms/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Cara untuk mengatasi masalah ini adalah dengan menukar data yang dihantar ke format yang dikodkan, menggunakan nilai tertentu yang hanya diketahui oleh peranti dan awan. Proses ini dipanggil *penyulitan*, dan nilai yang digunakan untuk menyulitkan data dipanggil *kunci penyulitan*.
 
-![Jika penyulitan digunakan, hanya mesej yang disulitkan akan diterima, yang lain akan ditolak](../../../../../translated_images/ms/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Jika penyulitan digunakan, hanya mesej yang disulitkan akan diterima, yang lain akan ditolak](../../../../../translated_images/ms/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Perkhidmatan awan kemudian boleh menukar data kembali ke format yang boleh dibaca, menggunakan proses yang dipanggil *penyahulitan*, sama ada menggunakan kunci penyulitan yang sama, atau *kunci penyahulitan*. Jika mesej yang disulitkan tidak dapat dinyahulitkan oleh kunci, peranti telah digodam dan mesej ditolak.
 

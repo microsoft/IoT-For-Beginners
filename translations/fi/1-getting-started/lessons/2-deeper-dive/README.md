@@ -1,6 +1,6 @@
 # Syvällisempi katsaus IoT:hen
 
-![Tämän oppitunnin sketchnote](../../../../../translated_images/fi/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Tämän oppitunnin sketchnote](../../../../../translated_images/fi/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -38,7 +38,7 @@ IoT:n **laite**-osa viittaa laitteeseen, joka voi olla vuorovaikutuksessa fyysis
 
 Nämä laitteet ovat vuorovaikutuksessa fyysisen maailman kanssa joko käyttämällä antureita ympäristönsä tietojen keräämiseen tai ohjaamalla ulostuloja tai toimilaitteita fyysisten muutosten tekemiseksi. Tyypillinen esimerkki on älykäs termostaatti – laite, jossa on lämpötila-anturi, tapa asettaa haluttu lämpötila, kuten säädin tai kosketusnäyttö, ja yhteys lämmitys- tai jäähdytysjärjestelmään, joka voidaan kytkeä päälle, kun havaittu lämpötila on halutun alueen ulkopuolella. Lämpötila-anturi havaitsee, että huone on liian kylmä, ja toimilaite kytkee lämmityksen päälle.
 
-![Kaavio, jossa lämpötila ja säädin ovat IoT-laitteen syötteitä, ja lämmittimen ohjaus on ulostulo](../../../../../translated_images/fi/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Kaavio, jossa lämpötila ja säädin ovat IoT-laitteen syötteitä, ja lämmittimen ohjaus on ulostulo](../../../../../translated_images/fi/basic-thermostat.a923217fd1f37e5a.webp)
 
 IoT-laitteina voi toimia valtava määrä erilaisia laitteita, yksinkertaisista antureista yleiskäyttöisiin laitteisiin, jopa älypuhelimeesi! Älypuhelin voi käyttää antureita ympäristönsä havaitsemiseen ja toimilaitteita vuorovaikutukseen maailman kanssa – esimerkiksi GPS-anturia sijaintisi havaitsemiseen ja kaiutinta navigointiohjeiden antamiseen määränpäähän.
 
@@ -54,7 +54,7 @@ Laitteet eivät myöskään aina yhdistä suoraan Internetiin WiFi- tai langalli
 
 Esimerkkinä älykkäästä termostaatista, termostaatti yhdistyy kodin WiFi-verkon kautta pilvipalveluun. Se lähettää lämpötilatiedot tähän pilvipalveluun, josta ne tallennetaan jonkinlaiseen tietokantaan, jolloin kodinomistaja voi tarkistaa nykyiset ja aiemmat lämpötilat puhelinsovelluksella. Toinen pilvipalvelu tietää, mikä lämpötila kodinomistajaa miellyttää, ja lähettää viestejä IoT-laitteelle pilvipalvelun kautta kertoakseen lämmitysjärjestelmälle, milloin se kytketään päälle tai pois päältä.
 
-![Kaavio, jossa lämpötila ja säädin ovat IoT-laitteen syötteitä, IoT-laite on kaksisuuntaisessa yhteydessä pilveen, joka puolestaan on kaksisuuntaisessa yhteydessä puhelimeen, ja lämmittimen ohjaus on ulostulo IoT-laitteesta](../../../../../translated_images/fi/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Kaavio, jossa lämpötila ja säädin ovat IoT-laitteen syötteitä, IoT-laite on kaksisuuntaisessa yhteydessä pilveen, joka puolestaan on kaksisuuntaisessa yhteydessä puhelimeen, ja lämmittimen ohjaus on ulostulo IoT-laitteesta](../../../../../translated_images/fi/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Älykkäämpi versio voisi käyttää pilvessä olevaa tekoälyä ja tietoja muista IoT-laitteisiin liitetyistä antureista, kuten tilan käyttöä havaitsevista antureista, sekä tietoja, kuten säätietoja ja jopa kalenteriasi, tehdäkseen päätöksiä lämpötilan asettamisesta älykkäästi. Esimerkiksi se voisi kytkeä lämmityksen pois päältä, jos kalenterisi mukaan olet lomalla, tai säätää lämmitystä huonekohtaisesti sen mukaan, mitä huoneita käytät, oppien datasta ajan myötä tarkemmaksi.
 
@@ -94,7 +94,7 @@ Mitä nopeampi kellosykli, sitä enemmän käskyjä voidaan käsitellä sekunnis
 
 > 💁 Suorittimet suorittavat ohjelmia käyttäen [fetch-decode-execute-sykliä](https://wikipedia.org/wiki/Instruction_cycle). Jokaisella kellotikillä suoritin hakee seuraavan käskyn muistista, dekoodaa sen ja suorittaa sen, esimerkiksi käyttämällä aritmeettis-loogista yksikköä (ALU) kahden luvun yhteenlaskuun. Jotkut suoritukset vievät useita tikkejä, joten seuraava sykli alkaa seuraavalla tikillä, kun käsky on suoritettu.
 
-![Fetch-decode-execute-syklit, joissa fetch hakee käskyn ohjelmasta RAM-muistista, dekoodaa ja suorittaa sen suorittimessa](../../../../../translated_images/fi/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Fetch-decode-execute-syklit, joissa fetch hakee käskyn ohjelmasta RAM-muistista, dekoodaa ja suorittaa sen suorittimessa](../../../../../translated_images/fi/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Mikrokontrollereiden kellonopeudet ovat paljon alhaisempia kuin pöytätietokoneiden, kannettavien tietokoneiden tai useimpien älypuhelimien. Esimerkiksi Wio Terminalin suoritin toimii 120 MHz:n nopeudella eli 120 000 000 sykliä sekunnissa.
 
@@ -182,7 +182,7 @@ Arduino-kortit ohjelmoidaan C- tai C++-kielellä. C/C++:n käyttö mahdollistaa 
 
 Kirjoittaisit alustuslogiikkasi `setup`-funktioon, kuten WiFi-yhteyden muodostamisen ja pilvipalveluihin yhdistämisen tai pinnejä syötölle ja lähdölle alustettaessa. `loop`-funktioon sisältyisi prosessointikoodi, kuten sensorin lukeminen ja arvon lähettäminen pilveen. Lisäisit yleensä viiveen jokaiseen silmukkaan, esimerkiksi jos haluat sensoridatan lähetettävän vain 10 sekunnin välein, lisäisit 10 sekunnin viiveen silmukan loppuun, jotta mikro-ohjain voi nukkua, säästää virtaa ja suorittaa silmukan uudelleen tarvittaessa 10 sekunnin kuluttua.
 
-![Arduino-sketch, joka suorittaa ensin setupin ja sitten loopin toistuvasti](../../../../../translated_images/fi/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Arduino-sketch, joka suorittaa ensin setupin ja sitten loopin toistuvasti](../../../../../translated_images/fi/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Tämä ohjelma-arkkitehtuuri tunnetaan nimellä *tapahtumasilmukka* tai *viestisilmukka*. Monet sovellukset käyttävät tätä taustalla, ja se on standardi useimmille työpöytäsovelluksille, jotka toimivat käyttöjärjestelmissä kuten Windows, macOS tai Linux. `loop` kuuntelee viestejä käyttöliittymäkomponenteilta, kuten painikkeilta, tai laitteilta, kuten näppäimistöltä, ja reagoi niihin. Voit lukea lisää tästä [artikkelista tapahtumasilmukasta](https://wikipedia.org/wiki/Event_loop).
 

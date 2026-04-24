@@ -1,6 +1,6 @@
 # Halten Sie Ihre Pflanze sicher
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -52,11 +52,11 @@ Dies sind reale Szenarien, die ständig passieren. Einige Beispiele wurden in fr
 
 Wenn ein Gerät eine Verbindung zu einem IoT-Dienst herstellt, verwendet es eine ID, um sich zu identifizieren. Das Problem ist, dass diese ID geklont werden kann – ein Hacker könnte ein bösartiges Gerät einrichten, das dieselbe ID wie ein echtes Gerät verwendet, aber falsche Daten sendet.
 
-![Sowohl gültige als auch bösartige Geräte könnten dieselbe ID verwenden, um Telemetrie zu senden](../../../../../translated_images/de/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Sowohl gültige als auch bösartige Geräte könnten dieselbe ID verwenden, um Telemetrie zu senden](../../../../../translated_images/de/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Die Lösung besteht darin, die gesendeten Daten in ein verschlüsseltes Format umzuwandeln, wobei ein Wert verwendet wird, der nur dem Gerät und der Cloud bekannt ist. Dieser Prozess wird *Verschlüsselung* genannt, und der Wert, der zur Verschlüsselung der Daten verwendet wird, wird als *Verschlüsselungsschlüssel* bezeichnet.
 
-![Wenn Verschlüsselung verwendet wird, werden nur verschlüsselte Nachrichten akzeptiert, andere werden abgelehnt](../../../../../translated_images/de/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Wenn Verschlüsselung verwendet wird, werden nur verschlüsselte Nachrichten akzeptiert, andere werden abgelehnt](../../../../../translated_images/de/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Der Cloud-Dienst kann die Daten dann mit einem Prozess namens *Entschlüsselung* wieder in ein lesbares Format umwandeln, entweder mit demselben Verschlüsselungsschlüssel oder einem *Entschlüsselungsschlüssel*. Wenn die verschlüsselte Nachricht nicht mit dem Schlüssel entschlüsselt werden kann, wurde das Gerät gehackt und die Nachricht wird abgelehnt.
 

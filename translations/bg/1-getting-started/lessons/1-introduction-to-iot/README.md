@@ -1,6 +1,6 @@
 # Въведение в IoT
 
-![Скица на урока](../../../../../translated_images/bg/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Скица на урока](../../../../../translated_images/bg/lesson-1.2606670fa61ee904.webp)
 
 > Скица от [Nitya Narasimhan](https://github.com/nitya). Кликнете върху изображението за по-голяма версия.
 

@@ -1,6 +1,6 @@
 # Sijainnin seuranta
 
-![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
+![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-11.9fddbac4b664c6d5.webp)
 
 > Luonnoskuva: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -63,13 +63,13 @@ Maapallo on pallo – kolmiulotteinen ympyrä. Tämän vuoksi pisteet määritel
 
 > 💁 Kukaan ei oikeastaan tiedä alkuperäistä syytä siihen, miksi ympyrät jaetaan 360 asteeseen. [Wikipedia-sivu asteista (kulma)](https://wikipedia.org/wiki/Degree_(angle)) käsittelee joitakin mahdollisia syitä.
 
-![Leveysasteiden linjat: 90° pohjoisnavalla, 45° puolivälissä pohjoisnavan ja päiväntasaajan välillä, 0° päiväntasaajalla, -45° puolivälissä päiväntasaajan ja etelänavan välillä ja -90° etelänavalla](../../../../../translated_images/fi/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
+![Leveysasteiden linjat: 90° pohjoisnavalla, 45° puolivälissä pohjoisnavan ja päiväntasaajan välillä, 0° päiväntasaajalla, -45° puolivälissä päiväntasaajan ja etelänavan välillä ja -90° etelänavalla](../../../../../translated_images/fi/latitude-lines.11d8d91dfb2014a5.webp)
 
 Leveysaste mitataan linjoilla, jotka kiertävät maapallon ja kulkevat rinnakkain päiväntasaajan kanssa, jakaen pohjoisen ja eteläisen pallonpuoliskon 90° kumpaankin. Päiväntasaaja on 0°, pohjoisnapa on 90°, joka tunnetaan myös nimellä 90° pohjoista, ja etelänapa on -90°, eli 90° etelää.
 
 Pituusaste mitataan astemääränä itään ja länteen. Pituusasteen 0° alkuperä, *päämeridiaani*, määriteltiin vuonna 1884 linjaksi, joka kulkee pohjoisnavalta etelänavalle ja kulkee [Britannian kuninkaallisen observatorion Greenwichissä, Englannissa](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Pituusasteiden linjat: -180° päämeridiaanin länsipuolella, 0° päämeridiaanilla, 180° päämeridiaanin itäpuolella](../../../../../translated_images/fi/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
+![Pituusasteiden linjat: -180° päämeridiaanin länsipuolella, 0° päämeridiaanilla, 180° päämeridiaanin itäpuolella](../../../../../translated_images/fi/longitude-meridians.ab4ef1c91c064586.webp)
 
 > 🎓 Meridiaani on kuvitteellinen suora linja, joka kulkee pohjoisnavalta etelänavalle muodostaen puolikaaren.
 
@@ -100,7 +100,7 @@ Pisteen koordinaatit annetaan aina muodossa `leveysaste, pituusaste`, joten aiem
 * Leveysasteen 47.6423109 (47.6423109 astetta pohjoiseen päiväntasaajasta)
 * Pituusasteen -122.1390293 (122.1390293 astetta länteen päämeridiaanista).
 
-![Microsoftin kampus koordinaateissa 47.6423109,-122.117198](../../../../../translated_images/fi/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
+![Microsoftin kampus koordinaateissa 47.6423109,-122.117198](../../../../../translated_images/fi/microsoft-gps-location-world.a321d481b010f6ad.webp)
 
 ## Global Positioning Systems (GPS)
 
@@ -112,7 +112,7 @@ GPS-järjestelmät toimivat siten, että useat satelliitit lähettävät signaal
 
 > 💁 GPS-anturit tarvitsevat antenneja havaitakseen radiotaajuuksia. Kuorma-autoihin ja autoihin sisäänrakennettujen GPS-järjestelmien antennit on sijoitettu hyvän signaalin saamiseksi, yleensä tuulilasiin tai katolle. Jos käytät erillistä GPS-järjestelmää, kuten älypuhelinta tai IoT-laitetta, sinun on varmistettava, että GPS-järjestelmään tai puhelimeen sisäänrakennettu antenni on selkeästi näkyvissä taivaalle, esimerkiksi tuulilasilla.
 
-![Kun anturin etäisyys useista satelliiteista tiedetään, sijainti voidaan laskea](../../../../../translated_images/fi/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
+![Kun anturin etäisyys useista satelliiteista tiedetään, sijainti voidaan laskea](../../../../../translated_images/fi/gps-satellites.04acf1148fe25fbf.webp)
 
 GPS-satelliitit kiertävät maapalloa, eivät ole kiinteässä pisteessä anturin yläpuolella, joten sijaintitieto sisältää korkeuden merenpinnan yläpuolella sekä leveys- ja pituusasteen.
 

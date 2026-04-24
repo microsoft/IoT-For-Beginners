@@ -1,6 +1,6 @@
 # Verificarea calității fructelor cu un dispozitiv IoT
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-16.215daf18b00631fb.webp)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -26,7 +26,7 @@
 
 Senzorii de cameră, așa cum sugerează numele, sunt camere care pot fi conectate la un dispozitiv IoT. Acestea pot captura imagini statice sau pot înregistra fluxuri video. Unele camere returnează date brute ale imaginii, în timp ce altele comprimă datele într-un fișier imagine, cum ar fi JPEG sau PNG. De obicei, camerele compatibile cu dispozitivele IoT sunt mult mai mici și au o rezoluție mai scăzută decât cele cu care sunteți obișnuiți, dar există și camere de înaltă rezoluție care rivalizează cu telefoanele de top. Puteți găsi o varietate de lentile interschimbabile, configurații cu mai multe camere, camere termice în infraroșu sau camere UV.
 
-![Lumina dintr-o scenă trece printr-o lentilă și este focalizată pe un senzor CMOS](../../../../../translated_images/ro/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
+![Lumina dintr-o scenă trece printr-o lentilă și este focalizată pe un senzor CMOS](../../../../../translated_images/ro/cmos-sensor.75f9cd74decb1371.webp)
 
 Majoritatea senzorilor de cameră utilizează senzori de imagine în care fiecare pixel este o fotodiodă. O lentilă focalizează imaginea pe senzorul de imagine, iar mii sau milioane de fotodiode detectează lumina care cade pe fiecare dintre ele, înregistrând aceasta ca date de pixel.
 
@@ -74,7 +74,7 @@ Iterațiile sunt publicate din portalul Custom Vision.
 
 1. Selectați butonul **Publish** pentru iterație.
 
-    ![Butonul de publicare](../../../../../translated_images/ro/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
+    ![Butonul de publicare](../../../../../translated_images/ro/custom-vision-publish-button.b7174e1977b0c33b.webp)
 
 1. În dialogul *Publish Model*, setați *Prediction resource* la resursa `fruit-quality-detector-prediction` creată în lecția anterioară. Lăsați numele ca `Iteration2` și selectați butonul **Publish**.
 
@@ -88,7 +88,7 @@ Iterațiile sunt publicate din portalul Custom Vision.
 
     De asemenea, luați o copie a valorii *Prediction-Key*. Aceasta este o cheie de securitate pe care trebuie să o transmiteți când apelați modelul. Doar aplicațiile care transmit această cheie au permisiunea de a utiliza modelul, orice alte aplicații sunt respinse.
 
-    ![Dialogul API de predicție care arată URL-ul și cheia](../../../../../translated_images/ro/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![Dialogul API de predicție care arată URL-ul și cheia](../../../../../translated_images/ro/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ Când o nouă iterație este publicată, aceasta va avea un nume diferit. Cum credeți că ați putea schimba iterația utilizată de un dispozitiv IoT?
 
@@ -109,7 +109,7 @@ Este posibil să constatați că rezultatele obținute folosind camera conectat�
 
 Pentru a obține cele mai bune rezultate pentru un clasificator de imagini, doriți să antrenați modelul cu imagini cât mai asemănătoare cu cele utilizate pentru predicții. De exemplu, dacă ați folosit camera telefonului pentru a captura imagini pentru antrenament, calitatea imaginii, claritatea și culorile vor fi diferite față de o cameră conectată la un dispozitiv IoT.
 
-![2 imagini cu banane, una cu rezoluție scăzută și iluminare slabă de la un dispozitiv IoT, cealaltă cu rezoluție înaltă și iluminare bună de la un telefon](../../../../../translated_images/ro/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
+![2 imagini cu banane, una cu rezoluție scăzută și iluminare slabă de la un dispozitiv IoT, cealaltă cu rezoluție înaltă și iluminare bună de la un telefon](../../../../../translated_images/ro/banana-picture-compare.174df164dc326a42.webp)
 
 În imaginea de mai sus, fotografia cu banana din stânga a fost realizată folosind o cameră Raspberry Pi, iar cea din dreapta a fost realizată cu același banana în aceeași locație folosind un iPhone. Există o diferență vizibilă în calitate - fotografia realizată cu iPhone-ul este mai clară, cu culori mai vii și mai mult contrast.
 

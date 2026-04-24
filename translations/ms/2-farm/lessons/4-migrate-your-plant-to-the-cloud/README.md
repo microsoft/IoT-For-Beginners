@@ -1,6 +1,6 @@
 # Migrasikan Tumbuhan Anda ke Awan
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -46,8 +46,8 @@ Ini boleh menjadi sangat mahal, memerlukan pelbagai pekerja yang mahir, dan sang
 
 Awan sering kali disebut secara bergurau sebagai 'komputer orang lain'. Idea asalnya mudah - daripada membeli komputer, anda menyewa komputer orang lain. Orang lain, iaitu penyedia pengkomputeran awan, akan menguruskan pusat data yang besar. Mereka akan bertanggungjawab membeli dan memasang perkakasan, menguruskan bekalan kuasa dan penyejukan, rangkaian, keselamatan bangunan, kemas kini perkakasan dan perisian, segalanya. Sebagai pelanggan, anda akan menyewa komputer yang anda perlukan, menyewa lebih banyak apabila permintaan meningkat, kemudian mengurangkan jumlah yang anda sewa jika permintaan menurun. Pusat data awan ini terletak di seluruh dunia.
 
-![Pusat data awan Microsoft](../../../../../translated_images/ms/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Perancangan pengembangan pusat data awan Microsoft](../../../../../translated_images/ms/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Pusat data awan Microsoft](../../../../../translated_images/ms/azure-region-existing.73f704604f2aa6cb.webp)
+![Perancangan pengembangan pusat data awan Microsoft](../../../../../translated_images/ms/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Pusat data ini boleh berukuran beberapa kilometer persegi. Imej di atas diambil beberapa tahun lalu di pusat data awan Microsoft, dan menunjukkan saiz awal, bersama dengan perancangan pengembangan. Kawasan yang telah dibersihkan untuk pengembangan adalah lebih dari 5 kilometer persegi.
 
@@ -108,11 +108,11 @@ Perkhidmatan IoT di awan menyelesaikan masalah ini. Ia diselenggara oleh penyedi
 
 Peranti IoT menyambung ke perkhidmatan awan sama ada menggunakan SDK peranti (pustaka yang menyediakan kod untuk bekerja dengan ciri perkhidmatan), atau secara langsung melalui protokol komunikasi seperti MQTT atau HTTP. SDK peranti biasanya merupakan laluan termudah kerana ia menguruskan segalanya untuk anda, seperti mengetahui topik apa yang perlu diterbitkan atau dilanggan, dan cara menguruskan keselamatan.
 
-![Peranti menyambung ke perkhidmatan menggunakan SDK peranti. Kod pelayan juga menyambung ke perkhidmatan melalui SDK](../../../../../translated_images/ms/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Peranti menyambung ke perkhidmatan menggunakan SDK peranti. Kod pelayan juga menyambung ke perkhidmatan melalui SDK](../../../../../translated_images/ms/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Peranti anda kemudian berkomunikasi dengan bahagian lain aplikasi anda melalui perkhidmatan ini - serupa dengan cara anda menghantar telemetri dan menerima arahan melalui MQTT. Ini biasanya menggunakan SDK perkhidmatan atau pustaka serupa. Mesej datang dari peranti anda ke perkhidmatan di mana komponen lain aplikasi anda kemudian boleh membacanya, dan mesej boleh dihantar kembali ke peranti anda.
 
-![Peranti tanpa kunci rahsia yang sah tidak dapat menyambung ke perkhidmatan IoT](../../../../../translated_images/ms/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Peranti tanpa kunci rahsia yang sah tidak dapat menyambung ke perkhidmatan IoT](../../../../../translated_images/ms/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Perkhidmatan ini melaksanakan keselamatan dengan mengetahui semua peranti yang boleh menyambung dan menghantar data, sama ada dengan mendaftarkan peranti terlebih dahulu dengan perkhidmatan, atau dengan memberikan peranti kunci rahsia atau sijil yang boleh mereka gunakan untuk mendaftarkan diri mereka dengan perkhidmatan pada kali pertama mereka menyambung. Peranti yang tidak dikenali tidak dapat menyambung, jika mereka mencuba, perkhidmatan akan menolak sambungan dan mengabaikan mesej yang dihantar oleh mereka.
 
@@ -124,7 +124,7 @@ Komponen lain aplikasi anda boleh menyambung ke perkhidmatan IoT dan mengetahui 
 
 Sekarang anda mempunyai langganan Azure, anda boleh mendaftar untuk perkhidmatan IoT. Perkhidmatan IoT dari Microsoft dipanggil Azure IoT Hub.
 
-![Logo Azure IoT Hub](../../../../../translated_images/ms/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Logo Azure IoT Hub](../../../../../translated_images/ms/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Video di bawah memberikan gambaran ringkas tentang Azure IoT Hub:
 

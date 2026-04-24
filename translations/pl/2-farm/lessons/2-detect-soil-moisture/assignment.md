@@ -20,7 +20,7 @@ Będziesz musiał powtórzyć te kroki kilkukrotnie, aby uzyskać potrzebne odcz
 
 Grawimetryczna wilgotność gleby jest obliczana jako:
 
-![wilgotność gleby % to waga mokrej gleby minus waga suchej gleby, podzielone przez wagę suchej gleby, pomnożone przez 100](../../../../../translated_images/pl/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
+![wilgotność gleby % to waga mokrej gleby minus waga suchej gleby, podzielone przez wagę suchej gleby, pomnożone przez 100](../../../../../translated_images/pl/gsm-calculation.6da38c6201eec14e.webp)
 
 * W  
 - waga mokrej gleby  
@@ -29,7 +29,7 @@ Grawimetryczna wilgotność gleby jest obliczana jako:
 
 Na przykład, załóżmy, że masz próbkę gleby, która waży 212 g w stanie mokrym i 197 g w stanie suchym.
 
-![Wypełnione obliczenie](../../../../../translated_images/pl/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
+![Wypełnione obliczenie](../../../../../translated_images/pl/gsm-calculation-example.99f9803b4f29e976.webp)
 
 * W = 212 g  
 * W = 197 g  

@@ -1,6 +1,6 @@
 # Ilipat ang iyong application logic sa cloud
 
-![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -28,7 +28,7 @@ Sa araling ito, tatalakayin natin ang:
 
 Ang serverless, o serverless computing, ay tumutukoy sa paggawa ng maliliit na piraso ng code na tumatakbo sa cloud bilang tugon sa iba't ibang uri ng mga event. Kapag nangyari ang event, tatakbo ang iyong code at bibigyan ito ng data tungkol sa event. Ang mga event na ito ay maaaring magmula sa iba't ibang bagay, kabilang ang web requests, mga mensahe sa queue, pagbabago sa data sa database, o mga mensaheng ipinadala sa isang IoT service ng mga IoT device.
 
-![Mga event na ipinapadala mula sa isang IoT service patungo sa isang serverless service, lahat ay pinoproseso nang sabay-sabay ng maraming function](../../../../../translated_images/tl/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Mga event na ipinapadala mula sa isang IoT service patungo sa isang serverless service, lahat ay pinoproseso nang sabay-sabay ng maraming function](../../../../../translated_images/tl/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Kung gumamit ka na ng database triggers dati, maaari mong isipin ito bilang katulad nito, kung saan ang code ay na-trigger ng isang event tulad ng pag-insert ng row.
 
@@ -54,7 +54,7 @@ Bilang isang IoT developer, ang serverless model ay perpekto. Maaari kang magsul
 
 Ang serverless computing service mula sa Microsoft ay tinatawag na Azure Functions.
 
-![Ang logo ng Azure Functions](../../../../../translated_images/tl/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Ang logo ng Azure Functions](../../../../../translated_images/tl/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Ang maikling video sa ibaba ay nagbibigay ng overview ng Azure Functions:
 

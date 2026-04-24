@@ -95,7 +95,7 @@
 
     Вы сможете увидеть изображение, которое было сделано, а также эти значения на вкладке **Predictions** в Custom Vision.
 
-    ![4 банки томатной пасты на полке с предсказаниями для 4 обнаружений: 35.8%, 33.5%, 25.7% и 16.6%](../../../../../translated_images/ru/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 банки томатной пасты на полке с предсказаниями для 4 обнаружений: 35.8%, 33.5%, 25.7% и 16.6%](../../../../../translated_images/ru/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Вы можете найти этот код в папке [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

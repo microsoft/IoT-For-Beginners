@@ -95,7 +95,7 @@ O código que utilizou para classificar imagens é muito semelhante ao código p
 
     Poderá ver a imagem capturada e estes valores no separador **Predictions** no Custom Vision.
 
-    ![4 latas de polpa de tomate numa prateleira com previsões para as 4 deteções de 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/pt-PT/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 latas de polpa de tomate numa prateleira com previsões para as 4 deteções de 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/pt-PT/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Pode encontrar este código na pasta [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

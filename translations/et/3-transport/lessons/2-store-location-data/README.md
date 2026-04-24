@@ -1,6 +1,6 @@
 # Poe asukohaandmed
 
-![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-12.ca7f53039712a3ec.webp)
 
 > Visandmärkmed: [Nitya Narasimhan](https://github.com/nitya). Klõpsake pildil, et näha suuremat versiooni.
 
@@ -75,7 +75,7 @@ NoSQL-andmebaasid on nimetatud NoSQL-iks, kuna neil puudub SQL-andmebaaside jäi
 
 > 💁 Hoolimata nende nimest, võimaldavad mõned NoSQL-andmebaasid kasutada SQL-i andmete pärimiseks.
 
-![Dokumendid kaustades NoSQL-andmebaasis](../../../../../translated_images/et/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Dokumendid kaustades NoSQL-andmebaasis](../../../../../translated_images/et/noqsl-database.62d24ccf5b73f60d.webp)
 
 NoSQL-andmebaasidel puudub eelnevalt määratletud skeem, mis piiraks andmete salvestamist; selle asemel saate sisestada mis tahes struktureerimata andmeid, tavaliselt JSON-dokumentidena. Need dokumendid saab korraldada kaustadesse, sarnaselt failidele teie arvutis. Iga dokument võib sisaldada erinevaid välju võrreldes teiste dokumentidega - näiteks kui salvestate IoT-andmeid oma farmisõidukitest, võivad mõned sisaldada kiirendus- ja kiirusandmeid, teised aga haagise temperatuuriandmeid. Kui lisate uue veokitüübi, näiteks sisseehitatud kaaludega veoki, mis jälgib veetava toodangu kaalu, võib teie IoT-seade lisada selle uue välja ja see salvestatakse ilma andmebaasi muutmata.
 
@@ -89,7 +89,7 @@ Selles õppetunnis kasutate NoSQL-salvestust IoT-andmete salvestamiseks.
 
 Eelmises õppetunnis kogusite GPS-andmeid GPS-andurilt, mis oli ühendatud teie IoT-seadmega. IoT-andmete pilves salvestamiseks peate need saatma IoT-teenusesse. Jällegi kasutate Azure IoT Hubi, sama IoT-pilveteenust, mida kasutasite eelmises projektis.
 
-![GPS-telemeetria saatmine IoT-seadmest IoT Hubi](../../../../../translated_images/et/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![GPS-telemeetria saatmine IoT-seadmest IoT Hubi](../../../../../translated_images/et/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Ülesanne - GPS-andmete saatmine IoT Hubi
 
@@ -171,7 +171,7 @@ Külma tee andmed salvestatakse andmeladudesse - andmebaasidesse, mis on mõeldu
 
 Kui andmed voolavad teie IoT Hubi, saate kirjutada serverivaba koodi, et kuulata sündmusi, mis avaldatakse Event-Hubiga ühilduval lõpp-punktil. See on soe tee - need andmed salvestatakse ja neid kasutatakse järgmises õppetunnis teekonna aruandluseks.
 
-![GPS-telemeetria saatmine IoT-seadmest IoT Hubi, seejärel Azure Functionsisse sündmuste huba päästiku kaudu](../../../../../translated_images/et/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![GPS-telemeetria saatmine IoT-seadmest IoT Hubi, seejärel Azure Functionsisse sündmuste huba päästiku kaudu](../../../../../translated_images/et/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Ülesanne - GPS-sündmuste käsitlemine serverivaba koodi abil
 
@@ -194,7 +194,7 @@ Kui andmed voolavad teie IoT Hubi, saate kirjutada serverivaba koodi, et kuulata
 
 ## Azure'i salvestuskontod
 
-![Azure Storage logo](../../../../../translated_images/et/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Azure Storage logo](../../../../../translated_images/et/azure-storage-logo.605c0f602c640d48.webp)
 
 Azure'i salvestuskontod on üldotstarbeline salvestusteenus, mis võimaldab andmeid salvestada mitmel erineval viisil. Sa saad andmeid salvestada blobidena, järjekordades, tabelites või failidena – ja seda kõike samaaegselt.
 

@@ -1,6 +1,6 @@
 # স্টক ডিটেক্টর প্রশিক্ষণ করুন
 
-![এই পাঠের একটি স্কেচনোট ওভারভিউ](../../../../../translated_images/bn/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![এই পাঠের একটি স্কেচনোট ওভারভিউ](../../../../../translated_images/bn/lesson-19.cf6973cecadf080c.webp)
 
 > স্কেচনোট করেছেন [নিত্য নারাসিমহান](https://github.com/nitya)। বড় সংস্করণের জন্য ছবিতে ক্লিক করুন।
 
@@ -36,7 +36,7 @@
 
 ইমেজ ক্লাসিফিকেশন হলো পুরো ছবিকে শ্রেণীবদ্ধ করা - পুরো ছবিটি প্রতিটি ট্যাগের সাথে কতটা মিলে যায় তার সম্ভাবনা নির্ধারণ করা। আপনি মডেল প্রশিক্ষণের জন্য ব্যবহৃত প্রতিটি ট্যাগের জন্য সম্ভাবনা ফিরে পাবেন।
 
-![কাজু বাদাম এবং টমেটো পেস্টের ইমেজ ক্লাসিফিকেশন](../../../../../translated_images/bn/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![কাজু বাদাম এবং টমেটো পেস্টের ইমেজ ক্লাসিফিকেশন](../../../../../translated_images/bn/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 উপরের উদাহরণে, দুটি ছবি একটি মডেল ব্যবহার করে শ্রেণীবদ্ধ করা হয়েছে যা কাজু বাদামের টব বা টমেটো পেস্টের ক্যান শ্রেণীবদ্ধ করতে প্রশিক্ষিত। প্রথম ছবিটি একটি কাজু বাদামের টব এবং এতে ইমেজ ক্লাসিফায়ার থেকে দুটি ফলাফল পাওয়া গেছে:
 
@@ -60,7 +60,7 @@
 
 > 🎓 *বাউন্ডিং বক্স* হলো বস্তুর চারপাশের বক্স।
 
-![কাজু বাদাম এবং টমেটো পেস্টের অবজেক্ট ডিটেকশন](../../../../../translated_images/bn/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![কাজু বাদাম এবং টমেটো পেস্টের অবজেক্ট ডিটেকশন](../../../../../translated_images/bn/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 উপরের ছবিতে একটি কাজু বাদামের টব এবং তিনটি টমেটো পেস্টের ক্যান রয়েছে। অবজেক্ট ডিটেক্টর কাজু বাদাম শনাক্ত করেছে এবং বাউন্ডিং বক্সটি ফিরিয়ে দিয়েছে যা কাজু বাদাম ধারণ করে, এই ক্ষেত্রে ৯৭.৬% সম্ভাবনা। অবজেক্ট ডিটেক্টর তিনটি টমেটো পেস্টের ক্যানও শনাক্ত করেছে এবং তিনটি আলাদা বাউন্ডিং বক্স প্রদান করেছে, প্রতিটি শনাক্তকৃত ক্যানের জন্য একটি করে এবং প্রতিটির জন্য একটি শতাংশ সম্ভাবনা যে বাউন্ডিং বক্সটি একটি টমেটো পেস্টের ক্যান ধারণ করে।
 
@@ -111,7 +111,7 @@
 
     যখন আপনি আপনার প্রকল্প তৈরি করবেন, নিশ্চিত করুন যে আপনি পূর্বে তৈরি করা `stock-detector-training` রিসোর্সটি ব্যবহার করছেন। *Object Detection* প্রকল্প টাইপ এবং *Products on Shelves* ডোমেইন ব্যবহার করুন।
 
-    ![Custom Vision প্রকল্পের সেটিংস যেখানে নাম দেওয়া হয়েছে fruit-quality-detector, কোনো বিবরণ নেই, রিসোর্স সেট করা হয়েছে fruit-quality-detector-training, প্রকল্প টাইপ সেট করা হয়েছে classification, classification টাইপ সেট করা হয়েছে multi class এবং ডোমেইন সেট করা হয়েছে food](../../../../../translated_images/bn/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![Custom Vision প্রকল্পের সেটিংস যেখানে নাম দেওয়া হয়েছে fruit-quality-detector, কোনো বিবরণ নেই, রিসোর্স সেট করা হয়েছে fruit-quality-detector-training, প্রকল্প টাইপ সেট করা হয়েছে classification, classification টাইপ সেট করা হয়েছে multi class এবং ডোমেইন সেট করা হয়েছে food](../../../../../translated_images/bn/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ Products on Shelves ডোমেইন বিশেষভাবে দোকানের তাকের স্টক শনাক্ত করার জন্য লক্ষ্যবস্তু। Microsoft ডকুমেন্টেশনের [Select a domain ডকুমেন্টেশন](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection) এ বিভিন্ন ডোমেইন সম্পর্কে আরও পড়ুন।
 
@@ -133,11 +133,11 @@
 
 1. Microsoft ডকুমেন্টেশনের [Build an object detector quickstart এর Upload and tag images সেকশন](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) অনুসরণ করে আপনার প্রশিক্ষণের ছবিগুলো আপলোড করুন। শনাক্ত করতে চান এমন বস্তুর ধরন অনুযায়ী প্রাসঙ্গিক ট্যাগ তৈরি করুন।
 
-    ![পাকা এবং কাঁচা কলার ছবি আপলোডের ডায়ালগ](../../../../../translated_images/bn/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![পাকা এবং কাঁচা কলার ছবি আপলোডের ডায়ালগ](../../../../../translated_images/bn/image-upload-object-detector.77c7892c3093cb59.webp)
 
     যখন আপনি বস্তুর জন্য বাউন্ডিং বক্স আঁকবেন, তখন সেগুলো বস্তুর চারপাশে সুন্দরভাবে আঁকুন। সব ছবির জন্য বাউন্ডিং বক্স আঁকতে কিছুটা সময় লাগতে পারে, তবে টুলটি অনুমান করবে কোনগুলো বাউন্ডিং বক্স, যা কাজটি দ্রুত করবে।
 
-    ![টমেটো পেস্ট ট্যাগিং](../../../../../translated_images/bn/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![টমেটো পেস্ট ট্যাগিং](../../../../../translated_images/bn/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 যদি প্রতিটি বস্তুর জন্য আপনার ১৫টির বেশি ছবি থাকে, তাহলে আপনি ১৫টি ছবি আপলোড করার পর প্রশিক্ষণ দিতে পারেন এবং **Suggested tags** ফিচারটি ব্যবহার করতে পারেন। এটি প্রশিক্ষিত মডেল ব্যবহার করে ট্যাগবিহীন ছবিতে বস্তু শনাক্ত করবে। আপনি শনাক্তকৃত বস্তুগুলো নিশ্চিত করতে পারবেন বা প্রত্যাখ্যান করে নতুন করে বাউন্ডিং বক্স আঁকতে পারবেন। এটি *অনেক* সময় বাঁচাতে পারে।
 
@@ -155,7 +155,7 @@
 
 1. **Quick Test** বোতামটি ব্যবহার করে পরীক্ষার ছবিগুলো আপলোড করুন এবং নিশ্চিত করুন যে বস্তুগুলো শনাক্ত হয়েছে। পূর্বে প্রশিক্ষণের জন্য ব্যবহৃত কোনো ছবির পরিবর্তে পরীক্ষার জন্য তৈরি ছবিগুলো ব্যবহার করুন।
 
-    ![৩টি টমেটো পেস্টের ক্যান শনাক্ত হয়েছে, সম্ভাবনা ৩৮%, ৩৫.৫% এবং ৩৪.৬%](../../../../../translated_images/bn/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![৩টি টমেটো পেস্টের ক্যান শনাক্ত হয়েছে, সম্ভাবনা ৩৮%, ৩৫.৫% এবং ৩৪.৬%](../../../../../translated_images/bn/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. আপনার কাছে থাকা সব পরীক্ষার ছবি ব্যবহার করে দেখুন এবং সম্ভাবনাগুলো পর্যবেক্ষণ করুন।
 

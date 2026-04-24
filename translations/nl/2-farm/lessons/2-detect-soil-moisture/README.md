@@ -13,7 +13,7 @@ I²C heeft een bus bestaande uit 2 hoofddraden, samen met 2 stroomdraden:
 | VCC | Voltage common collector | De stroomvoorziening voor de apparaten. Deze is verbonden met de SDA- en SCL-draden om hun stroom te leveren via een pull-up weerstand die het signaal uitschakelt wanneer geen enkel apparaat de controller is. |
 | GND | Aarde | Dit biedt een gemeenschappelijke grond voor het elektrische circuit. |
 
-![I2C-bus met 3 apparaten aangesloten op de SDA- en SCL-draden, die een gemeenschappelijke aarddraad delen](../../../../../translated_images/nl/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C-bus met 3 apparaten aangesloten op de SDA- en SCL-draden, die een gemeenschappelijke aarddraad delen](../../../../../translated_images/nl/i2c.83da845dde02256b.webp)
 
 Om gegevens te verzenden, zal een apparaat een startconditie afgeven om aan te geven dat het klaar is om gegevens te verzenden. Het wordt dan de controller. De controller verzendt vervolgens het adres van het apparaat waarmee het wil communiceren, samen met de informatie of het gegevens wil lezen of schrijven. Nadat de gegevens zijn verzonden, stuurt de controller een stopconditie om aan te geven dat het klaar is. Hierna kan een ander apparaat de controller worden en gegevens verzenden of ontvangen.
 

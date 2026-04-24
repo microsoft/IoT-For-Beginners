@@ -18,7 +18,7 @@ Czujnik wilgotności gleby Grove można podłączyć do konfigurowalnego portu a
 
 Podłącz czujnik wilgotności gleby.
 
-![Czujnik wilgotności gleby Grove](../../../../../translated_images/pl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Czujnik wilgotności gleby Grove](../../../../../translated_images/pl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Włóż jeden koniec kabla Grove do gniazda na czujniku wilgotności gleby. Kabel wejdzie tylko w jednym kierunku.
 

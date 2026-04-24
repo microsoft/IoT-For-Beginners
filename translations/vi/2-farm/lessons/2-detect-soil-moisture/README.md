@@ -13,7 +13,7 @@ I²C có một bus gồm 2 dây chính, cùng với 2 dây nguồn:
 | VCC | Voltage common collector | Nguồn cung cấp cho các thiết bị. Dây này được kết nối với dây SDA và SCL để cung cấp năng lượng thông qua một điện trở kéo lên, giúp tắt tín hiệu khi không có thiết bị nào là bộ điều khiển. |
 | GND | Ground | Cung cấp một điểm nối đất chung cho mạch điện. |
 
-![Bus I2C với 3 thiết bị được kết nối với dây SDA và SCL, chia sẻ một dây nối đất chung](../../../../../translated_images/vi/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![Bus I2C với 3 thiết bị được kết nối với dây SDA và SCL, chia sẻ một dây nối đất chung](../../../../../translated_images/vi/i2c.83da845dde02256b.webp)
 
 Để gửi dữ liệu, một thiết bị sẽ phát ra điều kiện bắt đầu để cho biết nó sẵn sàng gửi dữ liệu. Sau đó, nó sẽ trở thành bộ điều khiển. Bộ điều khiển sau đó gửi địa chỉ của thiết bị mà nó muốn giao tiếp, cùng với việc nó muốn đọc hay ghi dữ liệu. Sau khi dữ liệu đã được truyền, bộ điều khiển gửi điều kiện dừng để chỉ ra rằng nó đã hoàn thành. Sau đó, một thiết bị khác có thể trở thành bộ điều khiển và gửi hoặc nhận dữ liệu.
 

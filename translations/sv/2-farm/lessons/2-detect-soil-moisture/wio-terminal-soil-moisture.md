@@ -18,7 +18,7 @@ Grove jordfuktighetssensorn kan anslutas till Wio Terminals konfigurerbara analo
 
 Anslut jordfuktighetssensorn.
 
-![En Grove jordfuktighetssensor](../../../../../translated_images/sv/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![En Grove jordfuktighetssensor](../../../../../translated_images/sv/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Sätt ena änden av en Grove-kabel i uttaget på jordfuktighetssensorn. Den går bara att sätta i på ett sätt.
 

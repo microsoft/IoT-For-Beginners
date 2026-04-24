@@ -26,7 +26,7 @@ De Grove LED wordt geleverd als een module met een selectie van LEDs, zodat je d
 
 Sluit de LED aan.
 
-![Een Grove LED](../../../../../translated_images/nl/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Een Grove LED](../../../../../translated_images/nl/grove-led.6c853be93f473cf2.webp)
 
 1. Kies je favoriete LED en steek de pootjes in de twee gaten op de LED-module.
 

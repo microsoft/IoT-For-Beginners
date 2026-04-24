@@ -18,7 +18,7 @@ Grove senzor vlhkosti pôdy sa dá pripojiť k konfigurovateľnému analógovém
 
 Pripojte senzor vlhkosti pôdy.
 
-![Grove senzor vlhkosti pôdy](../../../../../translated_images/sk/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove senzor vlhkosti pôdy](../../../../../translated_images/sk/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Zasuňte jeden koniec Grove kábla do zásuvky na senzore vlhkosti pôdy. Kábel sa dá zasunúť iba jedným spôsobom.
 

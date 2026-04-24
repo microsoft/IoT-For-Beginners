@@ -1,6 +1,6 @@
 # ਬਹੁ-ਭਾਸ਼ਾਈ ਸਹਾਇਤਾ
 
-![ਇਸ ਪਾਠ ਦਾ ਇੱਕ ਸਕੈਚਨੋਟ ਝਲਕ](../../../../../translated_images/pa/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![ਇਸ ਪਾਠ ਦਾ ਇੱਕ ਸਕੈਚਨੋਟ ਝਲਕ](../../../../../translated_images/pa/lesson-24.4246968ed058510a.webp)
 
 > ਸਕੈਚਨੋਟ [ਨਿਤਿਆ ਨਰਸਿੰਹਨ](https://github.com/nitya) ਦੁਆਰਾ। ਵੱਡੇ ਵਰਜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਕਲਿਕ ਕਰੋ।
 
@@ -66,7 +66,7 @@
 
 ### Cognitive services Speech service
 
-![Speech service ਦਾ ਲੋਗੋ](../../../../../translated_images/pa/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Speech service ਦਾ ਲੋਗੋ](../../../../../translated_images/pa/azure-speech-logo.a1f08c4befb0159f.webp)
 
 ਪਿਛਲੇ ਪਾਠਾਂ ਵਿੱਚ ਤੁਸੀਂ ਜੋ Speech service ਵਰਤ ਰਹੇ ਹੋ, ਉਸ ਵਿੱਚ ਬੋਲਣ ਦੀ ਪਛਾਣ ਲਈ ਅਨੁਵਾਦ ਸਮਰਥਨ ਹੈ। ਜਦੋਂ ਤੁਸੀਂ ਬੋਲਣ ਦੀ ਪਛਾਣ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਬੋਲਣ ਦੀ ਲਿਖਤ ਨੂੰ ਨਾ ਸਿਰਫ਼ ਉਸੇ ਭਾਸ਼ਾ ਵਿੱਚ, ਸਗੋਂ ਹੋਰ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਵੀ ਮੰਗ ਸਕਦੇ ਹੋ।
 
@@ -74,7 +74,7 @@
 
 ### Cognitive services Translator service
 
-![Translator service ਦਾ ਲੋਗੋ](../../../../../translated_images/pa/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Translator service ਦਾ ਲੋਗੋ](../../../../../translated_images/pa/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Translator service ਇੱਕ ਸਮਰਪਿਤ ਅਨੁਵਾਦ ਸੇਵਾ ਹੈ ਜੋ ਇੱਕ ਭਾਸ਼ਾ ਤੋਂ ਇੱਕ ਜਾਂ ਇੱਕ ਤੋਂ ਵੱਧ ਟਾਰਗਟ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਲਿਖਤ ਦਾ ਅਨੁਵਾਦ ਕਰ ਸਕਦੀ ਹੈ। ਅਨੁਵਾਦ ਕਰਨ ਦੇ ਨਾਲ, ਇਹ ਕਈ ਵਾਧੂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦੀ ਹੈ ਜਿਵੇਂ ਕਿ ਅਸ਼ਲੀਲਤਾ ਨੂੰ ਛੁਪਾਉਣਾ। ਇਹ ਤੁਹਾਨੂੰ ਕਿਸੇ ਵਿਸ਼ੇਸ਼ ਸ਼ਬਦ ਜਾਂ ਵਾਕ ਲਈ ਇੱਕ ਵਿਸ਼ੇਸ਼ ਅਨੁਵਾਦ ਪ੍ਰਦਾਨ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦੀ ਹੈ, ਉਹ ਸ਼ਬਦ ਜੋ ਤੁਸੀਂ ਅਨੁਵਾਦ ਨਹੀਂ ਕਰਨਾ ਚਾਹੁੰਦੇ, ਜਾਂ ਇੱਕ ਵਿਸ਼ੇਸ਼ ਜਾਣਿਆ-ਪਛਾਣਿਆ ਅਨੁਵਾਦ।
 

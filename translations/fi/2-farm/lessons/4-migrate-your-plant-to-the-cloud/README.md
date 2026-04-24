@@ -1,6 +1,6 @@
 # Siirrä kasvisi pilveen
 
-![Tämän oppitunnin yhteenveto sketchnotena](../../../../../translated_images/fi/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Tämän oppitunnin yhteenveto sketchnotena](../../../../../translated_images/fi/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -46,8 +46,8 @@ Tämä oli usein erittäin kallista, vaati laajaa osaamista ja oli hidasta muutt
 
 Pilveä kutsutaan usein vitsikkäästi "jonkun toisen tietokoneeksi". Alkuperäinen idea oli yksinkertainen – tietokoneiden ostamisen sijaan vuokrataan jonkun toisen tietokone. Pilvipalveluntarjoaja hallinnoi valtavia datakeskuksia ja vastaa kaikesta: laitteiston hankinnasta ja asennuksesta, sähkön ja jäähdytyksen hallinnasta, verkkoyhteyksistä, rakennusten turvallisuudesta sekä laitteiston ja ohjelmistojen päivityksistä. Asiakkaana vuokraat tarvitsemasi tietokoneet, lisäät kapasiteettia kysynnän kasvaessa ja vähennät sitä kysynnän laskiessa. Näitä pilvidatakeskuksia on ympäri maailmaa.
 
-![Microsoftin pilvidatakeskus](../../../../../translated_images/fi/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Microsoftin pilvidatakeskuksen suunniteltu laajennus](../../../../../translated_images/fi/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Microsoftin pilvidatakeskus](../../../../../translated_images/fi/azure-region-existing.73f704604f2aa6cb.webp)
+![Microsoftin pilvidatakeskuksen suunniteltu laajennus](../../../../../translated_images/fi/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Nämä datakeskukset voivat olla useiden neliökilometrien kokoisia. Yllä olevat kuvat on otettu muutama vuosi sitten Microsoftin pilvidatakeskuksesta, ja ne näyttävät keskuksen alkuperäisen koon sekä suunnitellun laajennuksen. Laajennusta varten raivattu alue on yli 5 neliökilometriä.
 
@@ -108,11 +108,11 @@ Pilven IoT-palvelut ratkaisevat nämä ongelmat. Niitä ylläpitävät suuret pi
 
 IoT-laitteet yhdistävät pilvipalveluun joko laite-SDK:n (kirjasto, joka tarjoaa koodia palvelun ominaisuuksien hyödyntämiseen) avulla tai suoraan viestintäprotokollan, kuten MQTT:n tai HTTP:n, kautta. Laite-SDK on yleensä helpoin tapa, koska se hoitaa kaiken puolestasi, kuten tietää, mitä aiheita julkaista tai tilata, ja miten käsitellä turvallisuutta.
 
-![Laitteet yhdistävät palveluun laite-SDK:n avulla. Palvelinkoodi yhdistää palveluun myös SDK:n kautta](../../../../../translated_images/fi/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Laitteet yhdistävät palveluun laite-SDK:n avulla. Palvelinkoodi yhdistää palveluun myös SDK:n kautta](../../../../../translated_images/fi/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Laitteesi kommunikoi sitten sovelluksesi muiden osien kanssa tämän palvelun kautta – samalla tavalla kuin lähetit telemetriatietoja ja vastaanotit komentoja MQTT:n kautta. Tämä tapahtuu yleensä palvelu-SDK:n tai vastaavan kirjaston avulla. Viestit tulevat laitteeltasi palveluun, jossa sovelluksesi muut osat voivat lukea ne, ja viestit voidaan lähettää takaisin laitteellesi.
 
-![Laitteet, joilla ei ole voimassa olevaa salaisuutta, eivät voi yhdistää IoT-palveluun](../../../../../translated_images/fi/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Laitteet, joilla ei ole voimassa olevaa salaisuutta, eivät voi yhdistää IoT-palveluun](../../../../../translated_images/fi/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Nämä palvelut toteuttavat turvallisuuden tietämällä kaikista laitteista, jotka voivat yhdistää ja lähettää tietoja, joko rekisteröimällä laitteet etukäteen palveluun tai antamalla laitteille salaisia avaimia tai varmenteita, joita ne voivat käyttää rekisteröityessään palveluun ensimmäistä kertaa. Tuntemattomat laitteet eivät voi yhdistää; jos ne yrittävät, palvelu hylkää yhteyden ja jättää niiden lähettämät viestit huomiotta.
 
@@ -124,7 +124,7 @@ Sovelluksesi muut osat voivat yhdistää IoT-palveluun ja saada tietoa kaikista 
 
 Nyt kun sinulla on Azure-tilaus, voit rekisteröityä IoT-palveluun. Microsoftin IoT-palvelu tunnetaan nimellä Azure IoT Hub.
 
-![Azure IoT Hub -logo](../../../../../translated_images/fi/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Azure IoT Hub -logo](../../../../../translated_images/fi/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Alla oleva video antaa lyhyen yleiskatsauksen Azure IoT Hubista:
 

@@ -95,7 +95,7 @@ Koden du använde för att klassificera bilder är mycket lik koden för att det
 
     Du kommer att kunna se bilden som togs, och dessa värden i fliken **Predictions** i Custom Vision.
 
-    ![4 burkar tomatpuré på en hylla med förutsägelser för de 4 detektionerna med 35.8%, 33.5%, 25.7% och 16.6%](../../../../../translated_images/sv/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 burkar tomatpuré på en hylla med förutsägelser för de 4 detektionerna med 35.8%, 33.5%, 25.7% och 16.6%](../../../../../translated_images/sv/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Du kan hitta denna kod i mappen [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

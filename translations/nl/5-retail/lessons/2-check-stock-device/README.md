@@ -1,6 +1,6 @@
 # Controleer voorraad met een IoT-apparaat
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-20.0211df9551a8abb3.webp)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -62,7 +62,7 @@ Iteraties worden gepubliceerd vanuit het Custom Vision-portaal.
 
 1. Selecteer de knop **Publish** voor de iteratie.
 
-    ![De publiceerknop](../../../../../translated_images/nl/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![De publiceerknop](../../../../../translated_images/nl/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. Stel in het dialoogvenster *Publish Model* de *Prediction resource* in op de `stock-detector-prediction`-resource die je in de vorige les hebt gemaakt. Laat de naam staan als `Iteration2` en selecteer de knop **Publish**.
 
@@ -76,7 +76,7 @@ Iteraties worden gepubliceerd vanuit het Custom Vision-portaal.
 
     Neem ook een kopie van de waarde *Prediction-Key*. Dit is een beveiligde sleutel die je moet doorgeven wanneer je het model aanroept. Alleen applicaties die deze sleutel doorgeven mogen het model gebruiken, andere applicaties worden geweigerd.
 
-    ![Het dialoogvenster voorspelling-API met de URL en sleutel](../../../../../translated_images/nl/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![Het dialoogvenster voorspelling-API met de URL en sleutel](../../../../../translated_images/nl/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ Wanneer een nieuwe iteratie wordt gepubliceerd, heeft deze een andere naam. Hoe denk je dat je de iteratie zou veranderen die een IoT-apparaat gebruikt?
 
@@ -95,7 +95,7 @@ Wanneer je de objectdetector gebruikt, krijg je niet alleen de gedetecteerde obj
 
 De resultaten van een voorspelling in het tabblad **Predictions** in Custom Vision hebben de omgrenzende kaders getekend op de afbeelding die werd verzonden voor voorspelling.
 
-![4 blikken tomatenpuree op een plank met voorspellingen voor de 4 detecties van 35.8%, 33.5%, 25.7% en 16.6%](../../../../../translated_images/nl/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![4 blikken tomatenpuree op een plank met voorspellingen voor de 4 detecties van 35.8%, 33.5%, 25.7% en 16.6%](../../../../../translated_images/nl/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 In de bovenstaande afbeelding zijn 4 blikken tomatenpuree gedetecteerd. In de resultaten is een rood vierkant over elk gedetecteerd object gelegd, wat het omgrenzende kader voor de afbeelding aangeeft.
 
@@ -103,7 +103,7 @@ In de bovenstaande afbeelding zijn 4 blikken tomatenpuree gedetecteerd. In de re
 
 Omgrenzende kaders worden gedefinieerd met 4 waarden - top, left, height en width. Deze waarden zijn op een schaal van 0-1, wat de posities als een percentage van de grootte van de afbeelding vertegenwoordigt. De oorsprong (de 0,0-positie) is de linkerbovenhoek van de afbeelding, dus de topwaarde is de afstand vanaf de bovenkant, en de onderkant van het omgrenzende kader is de top plus de hoogte.
 
-![Een omgrenzend kader rond een blik tomatenpuree](../../../../../translated_images/nl/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![Een omgrenzend kader rond een blik tomatenpuree](../../../../../translated_images/nl/bounding-box.1420a7ea0d3d15f7.webp)
 
 De bovenstaande afbeelding is 600 pixels breed en 800 pixels hoog. Het omgrenzende kader begint op 320 pixels naar beneden, wat een topcoördinaat van 0.4 geeft (800 x 0.4 = 320). Vanaf links begint het omgrenzende kader op 240 pixels naar rechts, wat een left-coördinaat van 0.4 geeft (600 x 0.4 = 240). De hoogte van het omgrenzende kader is 240 pixels, wat een hoogtewaarde van 0.3 geeft (800 x 0.3 = 240). De breedte van het omgrenzende kader is 120 pixels, wat een breedtewaarde van 0.2 geeft (600 x 0.2 = 120).
 
@@ -118,7 +118,7 @@ Door percentagewaarden van 0-1 te gebruiken, maakt het niet uit hoe groot de afb
 
 Je kunt omgrenzende kaders combineren met waarschijnlijkheden om te evalueren hoe nauwkeurig een detectie is. Bijvoorbeeld, een objectdetector kan meerdere objecten detecteren die overlappen, bijvoorbeeld één blik dat binnen een ander blik wordt gedetecteerd. Je code kan de omgrenzende kaders bekijken, begrijpen dat dit onmogelijk is, en alle objecten negeren die significant overlappen met andere objecten.
 
-![Twee omgrenzende kaders overlappen een blik tomatenpuree](../../../../../translated_images/nl/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![Twee omgrenzende kaders overlappen een blik tomatenpuree](../../../../../translated_images/nl/overlap-object-detection.d431e03cae75072a.webp)
 
 In het bovenstaande voorbeeld gaf één omgrenzend kader een voorspeld blik tomatenpuree aan met 78.3%. Een tweede omgrenzend kader is iets kleiner en bevindt zich binnen het eerste omgrenzende kader met een waarschijnlijkheid van 64.3%. Je code kan de omgrenzende kaders controleren, zien dat ze volledig overlappen, en de lagere waarschijnlijkheid negeren omdat het onmogelijk is dat één blik binnen een ander blik zit.
 

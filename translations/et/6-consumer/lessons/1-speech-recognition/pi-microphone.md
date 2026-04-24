@@ -34,7 +34,7 @@ Mikrofon ja kõlarid tuleb ühendada ja konfigureerida.
 
 1. Kui kasutad ReSpeaker 2-Mics Pi HAT-i, võid eemaldada Grove baashati ja paigaldada ReSpeaker hatti selle asemele.
 
-    ![Raspberry Pi koos ReSpeaker hatiga](../../../../../translated_images/et/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
+    ![Raspberry Pi koos ReSpeaker hatiga](../../../../../translated_images/et/pi-respeaker-hat.f00fabe7dd039a93.webp)
 
     Sul on hiljem õppetunnis vaja Grove nuppu, kuid see on selle hatti sisse ehitatud, seega Grove baashatti ei ole vaja.
 

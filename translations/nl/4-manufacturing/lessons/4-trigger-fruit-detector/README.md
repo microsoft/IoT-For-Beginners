@@ -1,6 +1,6 @@
 # Trigger fruitkwaliteit detecteren met een sensor
 
-![Een schetsmatig overzicht van deze les](../../../../../translated_images/nl/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Een schetsmatig overzicht van deze les](../../../../../translated_images/nl/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -39,7 +39,7 @@ IoT-toepassingen kunnen worden beschreven als *things* (apparaten) die gegevens 
 
 ### Referentie IoT-architectuur
 
-![Een referentie IoT-architectuur](../../../../../translated_images/nl/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![Een referentie IoT-architectuur](../../../../../translated_images/nl/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 De bovenstaande afbeelding toont een referentie IoT-architectuur.
 
@@ -49,7 +49,7 @@ De bovenstaande afbeelding toont een referentie IoT-architectuur.
 * **Insights** komen van serverloze toepassingen of van analyses uitgevoerd op opgeslagen gegevens.
 * **Actions** kunnen commando's zijn die naar apparaten worden gestuurd, of visualisaties van gegevens waarmee mensen beslissingen kunnen nemen.
 
-![Een referentie IoT-architectuur](../../../../../translated_images/nl/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Een referentie IoT-architectuur](../../../../../translated_images/nl/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 De bovenstaande afbeelding toont enkele van de componenten en services die tot nu toe in deze lessen zijn behandeld en hoe ze samenkomen in een referentie IoT-architectuur.
 
@@ -89,7 +89,7 @@ Je moet een systeem bouwen waarin fruit wordt gedetecteerd zodra het op de trans
 
 ### Je toepassing prototypen
 
-![Een referentie IoT-architectuur voor fruitkwaliteitscontrole](../../../../../translated_images/nl/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![Een referentie IoT-architectuur voor fruitkwaliteitscontrole](../../../../../translated_images/nl/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 De bovenstaande afbeelding toont een referentiearchitectuur voor deze prototype-toepassing.
 
@@ -124,7 +124,7 @@ Werk de relevante gids door om een nabijheidssensor te gebruiken om een object t
 
 Het prototype van de fruitdetector heeft meerdere componenten die met elkaar communiceren.
 
-![De componenten communiceren met elkaar](../../../../../translated_images/nl/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![De componenten communiceren met elkaar](../../../../../translated_images/nl/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Een nabijheidssensor die de afstand tot een stuk fruit meet en dit naar IoT Hub stuurt
 * Het commando om de camera te bedienen dat van IoT Hub naar het camera-apparaat komt

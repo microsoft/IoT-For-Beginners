@@ -1,6 +1,6 @@
 # Sambungkan peranti anda ke Internet
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -47,7 +47,7 @@ MQTT adalah protokol komunikasi paling popular untuk peranti IoT dan akan dibinc
 
 MQTT mempunyai satu broker dan pelbagai klien. Semua klien disambungkan ke broker, dan broker mengarahkan mesej kepada klien yang relevan. Mesej diarahkan menggunakan topik yang dinamakan, bukannya dihantar terus kepada klien individu. Klien boleh menerbitkan kepada satu topik, dan mana-mana klien yang melanggan topik itu akan menerima mesej tersebut.
 
-![Peranti IoT menerbitkan telemetri pada topik /telemetry, dan perkhidmatan awan melanggan topik tersebut](../../../../../translated_images/ms/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Peranti IoT menerbitkan telemetri pada topik /telemetry, dan perkhidmatan awan melanggan topik tersebut](../../../../../translated_images/ms/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Lakukan penyelidikan. Jika anda mempunyai banyak peranti IoT, bagaimana anda boleh memastikan broker MQTT anda dapat mengendalikan semua mesej?
 
@@ -69,7 +69,7 @@ Daripada menangani kerumitan menyiapkan broker MQTT sebagai sebahagian daripada 
 
 > 💁 Broker ujian ini adalah awam dan tidak selamat. Sesiapa sahaja boleh mendengar apa yang anda terbitkan, jadi ia tidak boleh digunakan dengan data yang perlu dirahsiakan.
 
-![Carta alir tugasan menunjukkan tahap cahaya dibaca dan diperiksa, dan LED dikawal](../../../../../translated_images/ms/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Carta alir tugasan menunjukkan tahap cahaya dibaca dan diperiksa, dan LED dikawal](../../../../../translated_images/ms/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Ikuti langkah yang relevan di bawah untuk menyambungkan peranti anda ke broker MQTT:
 
@@ -350,7 +350,7 @@ Untuk mesin, anda mungkin ingin menyimpan data, terutamanya jika ia digunakan un
 
 Pereka peranti IoT juga harus mempertimbangkan sama ada peranti IoT boleh digunakan semasa gangguan Internet atau kehilangan isyarat disebabkan oleh lokasi. Termostat pintar harus dapat membuat beberapa keputusan terhad untuk mengawal pemanasan jika ia tidak dapat menghantar telemetri ke awan disebabkan oleh gangguan.
 
-[![Ferrari ini menjadi tidak berfungsi kerana seseorang cuba menaik tarafnya di bawah tanah di mana tiada isyarat selular](../../../../../translated_images/ms/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ferrari ini menjadi tidak berfungsi kerana seseorang cuba menaik tarafnya di bawah tanah di mana tiada isyarat selular](../../../../../translated_images/ms/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Untuk MQTT menangani kehilangan sambungan, kod peranti dan pelayan perlu bertanggungjawab untuk memastikan penghantaran mesej jika diperlukan, contohnya dengan memerlukan semua mesej yang dihantar dijawab oleh mesej tambahan pada topik balasan, dan jika tidak, ia diletakkan dalam barisan secara manual untuk dihantar semula kemudian.
 
@@ -358,7 +358,7 @@ Untuk MQTT menangani kehilangan sambungan, kod peranti dan pelayan perlu bertang
 
 Arahan adalah mesej yang dihantar oleh awan kepada peranti, mengarahkannya untuk melakukan sesuatu. Kebanyakan masa ini melibatkan memberikan beberapa jenis output melalui aktuator, tetapi ia juga boleh menjadi arahan untuk peranti itu sendiri, seperti untuk memulakan semula, atau mengumpulkan telemetri tambahan dan mengembalikannya sebagai respons kepada arahan.
 
-![Termostat yang disambungkan ke Internet menerima arahan untuk menghidupkan pemanasan](../../../../../translated_images/ms/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Termostat yang disambungkan ke Internet menerima arahan untuk menghidupkan pemanasan](../../../../../translated_images/ms/commands.d6c06bbbb3a02cce.webp)
 
 Termostat boleh menerima arahan dari awan untuk menghidupkan pemanasan. Berdasarkan data telemetri dari semua sensor, jika perkhidmatan awan telah memutuskan bahawa pemanasan harus dihidupkan, maka ia menghantar arahan yang berkaitan.
 

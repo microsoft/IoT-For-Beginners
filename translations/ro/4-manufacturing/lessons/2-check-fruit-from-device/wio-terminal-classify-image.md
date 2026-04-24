@@ -208,7 +208,7 @@ Aceste certificate conțin chei publice și nu trebuie păstrate în siguranță
 
     Vei putea vedea imaginea capturată și aceste valori în fila **Predictions** din Custom Vision.
 
-    ![O banană în Custom Vision prezisă ca fiind coaptă cu 56.8% și necoaptă cu 43.1%](../../../../../translated_images/ro/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![O banană în Custom Vision prezisă ca fiind coaptă cu 56.8% și necoaptă cu 43.1%](../../../../../translated_images/ro/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Poți găsi acest cod în folderul [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

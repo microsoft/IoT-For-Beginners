@@ -26,7 +26,7 @@ Grove LED pateikiamas kaip modulis su kelių spalvų LED pasirinkimu, leidžian�
 
 Prijunkite LED.
 
-![Grove LED](../../../../../translated_images/lt/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/lt/grove-led.6c853be93f473cf2.webp)
 
 1. Pasirinkite mėgstamą LED ir įstatykite jo kojeles į dvi skyles LED modulyje.
 

@@ -1,6 +1,6 @@
 ## Ramalkan Pertumbuhan Tumbuhan dengan IoT
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-5.42b234299279d263.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -102,7 +102,7 @@ Langkah-langkah untuk melakukannya secara manual adalah:
 
 Sebagai contoh, jika suhu tertinggi untuk hari tersebut ialah 25°C, dan terendah ialah 12°C:
 
-![GDD = 25 + 12 dibahagi dengan 2, kemudian tolak 10 daripada hasil memberikan 8.5](../../../../../translated_images/ms/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 dibahagi dengan 2, kemudian tolak 10 daripada hasil memberikan 8.5](../../../../../translated_images/ms/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

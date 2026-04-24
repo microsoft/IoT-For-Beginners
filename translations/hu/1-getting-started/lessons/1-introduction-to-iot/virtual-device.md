@@ -203,7 +203,7 @@ Második 'Hello World' lépésként futtatni fogod a CounterFit alkalmazást, é
 
     Az alkalmazás elindul, és megnyílik a webböngésződben:
 
-    ![A Counter Fit alkalmazás futása böngészőben](../../../../../translated_images/hu/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![A Counter Fit alkalmazás futása böngészőben](../../../../../translated_images/hu/counterfit-first-run.433326358b669b31.webp)
 
     *Disconnected* állapotban lesz, a jobb felső sarokban lévő LED ki lesz kapcsolva.
 
@@ -224,7 +224,7 @@ Második 'Hello World' lépésként futtatni fogod a CounterFit alkalmazást, é
 
 1. Ebben az új terminálban futtasd az `app.py` fájlt, ahogy korábban. A CounterFit állapota **Connected**-re változik, és a LED világítani fog.
 
-    ![Counter Fit csatlakoztatva](../../../../../translated_images/hu/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit csatlakoztatva](../../../../../translated_images/hu/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Ezt a kódot megtalálod a [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) mappában.
 

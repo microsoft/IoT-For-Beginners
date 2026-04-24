@@ -20,7 +20,7 @@ Grove ٹائم آف فلائٹ سینسر کو راسپبیری پائی سے ج
 
 ٹائم آف فلائٹ سینسر کو جوڑیں۔
 
-![ایک Grove ٹائم آف فلائٹ سینسر](../../../../../translated_images/ur/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![ایک Grove ٹائم آف فلائٹ سینسر](../../../../../translated_images/ur/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Grove کیبل کے ایک سرے کو ٹائم آف فلائٹ سینسر کے ساکٹ میں ڈالیں۔ یہ صرف ایک ہی سمت میں داخل ہوگا۔
 

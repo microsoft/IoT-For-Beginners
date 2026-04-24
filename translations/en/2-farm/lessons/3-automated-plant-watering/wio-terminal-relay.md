@@ -18,7 +18,7 @@ The Grove relay can be connected to the Wio Terminal's digital port.
 
 Connect the relay.
 
-![A grove relay](../../../../../translated_images/en/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![A grove relay](../../../../../translated_images/en/grove-relay.d426958ca210fbd0.webp)
 
 1. Insert one end of a Grove cable into the socket on the relay. It will only fit one way.
 

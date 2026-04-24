@@ -1,6 +1,6 @@
 # Suport pentru mai multe limbi
 
-![O prezentare grafică a acestei lecții](../../../../../translated_images/ro/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![O prezentare grafică a acestei lecții](../../../../../translated_images/ro/lesson-24.4246968ed058510a.webp)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -74,7 +74,7 @@ Există o serie de servicii AI care pot fi utilizate din aplicațiile tale pentr
 
 ### Serviciul de vorbire Cognitive Services
 
-![Logo-ul serviciului de vorbire](../../../../../translated_images/ro/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo-ul serviciului de vorbire](../../../../../translated_images/ro/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Serviciul de vorbire pe care l-ai utilizat în lecțiile anterioare are capabilități de traducere pentru recunoașterea vorbirii. Când recunoști vorbirea, poți solicita nu doar textul vorbirii în aceeași limbă, ci și în alte limbi.
 
@@ -82,7 +82,7 @@ Serviciul de vorbire pe care l-ai utilizat în lecțiile anterioare are capabili
 
 ### Serviciul Translator Cognitive Services
 
-![Logo-ul serviciului Translator](../../../../../translated_images/ro/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Logo-ul serviciului Translator](../../../../../translated_images/ro/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Serviciul Translator este un serviciu dedicat traducerii care poate traduce textul dintr-o limbă în una sau mai multe limbi țintă. Pe lângă traducere, acesta suportă o gamă largă de funcții suplimentare, inclusiv mascarea limbajului obscen. De asemenea, îți permite să oferi o traducere specifică pentru un anumit cuvânt sau propoziție, pentru a lucra cu termeni pe care nu dorești să-i traduci sau să ai o traducere bine-cunoscută.
 

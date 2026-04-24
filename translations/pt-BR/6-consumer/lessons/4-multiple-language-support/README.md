@@ -1,6 +1,6 @@
 # Suporte a múltiplos idiomas
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-24.4246968ed058510a.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -74,7 +74,7 @@ Existem vários serviços de IA que podem ser usados em seus aplicativos para tr
 
 ### Serviço de fala dos serviços cognitivos
 
-![O logotipo do serviço de fala](../../../../../translated_images/pt-BR/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![O logotipo do serviço de fala](../../../../../translated_images/pt-BR/azure-speech-logo.a1f08c4befb0159f.webp)
 
 O serviço de fala que você tem usado nas últimas lições possui capacidades de tradução para reconhecimento de fala. Quando você reconhece fala, pode solicitar não apenas o texto da fala no mesmo idioma, mas também em outros idiomas.
 
@@ -82,7 +82,7 @@ O serviço de fala que você tem usado nas últimas lições possui capacidades 
 
 ### Serviço de tradutor dos serviços cognitivos
 
-![O logotipo do serviço de tradutor](../../../../../translated_images/pt-BR/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![O logotipo do serviço de tradutor](../../../../../translated_images/pt-BR/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 O serviço de tradutor é um serviço dedicado de tradução que pode traduzir texto de um idioma para um ou mais idiomas de destino. Além de traduzir, ele suporta uma ampla gama de recursos extras, incluindo mascaramento de palavrões. Ele também permite que você forneça uma tradução específica para uma palavra ou frase, para trabalhar com termos que você não deseja traduzir ou que possuem uma tradução bem conhecida.
 

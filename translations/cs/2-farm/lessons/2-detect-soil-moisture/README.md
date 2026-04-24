@@ -13,7 +13,7 @@ I²C má sběrnici složenou ze 2 hlavních vodičů spolu s 2 napájecími vodi
 | VCC | Voltage common collector | Napájení pro zařízení. Je připojeno k vodičům SDA a SCL, aby jim poskytovalo napájení přes pull-up rezistor, který vypíná signál, když žádné zařízení není řadičem. |
 | GND | Ground | Poskytuje společnou zem pro elektrický obvod. |
 
-![I2C sběrnice se 3 zařízeními připojenými k vodičům SDA a SCL, sdílející společný zemnící vodič](../../../../../translated_images/cs/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C sběrnice se 3 zařízeními připojenými k vodičům SDA a SCL, sdílející společný zemnící vodič](../../../../../translated_images/cs/i2c.83da845dde02256b.webp)
 
 Pro přenos dat jedno zařízení vydá startovací podmínku, aby ukázalo, že je připraveno posílat data. Poté se stane řadičem. Řadič následně pošle adresu zařízení, se kterým chce komunikovat, spolu s informací, zda chce data číst nebo zapisovat. Po přenosu dat řadič pošle stopovací podmínku, aby naznačil, že skončil. Poté se jiné zařízení může stát řadičem a posílat nebo přijímat data.
 

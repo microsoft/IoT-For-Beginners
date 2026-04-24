@@ -208,7 +208,7 @@ HTTPS முடிவுகளுடன் தொடர்பு கொள்ள
 
    நீங்கள் எடுத்த படத்தையும், இந்த மதிப்புகளையும் Custom Vision இன் **Predictions** தாவலில் காணலாம்.
 
-   ![Custom Vision இல் ஒரு வாழைப்பழம் 56.8% பழுத்தது மற்றும் 43.1% பழுத்தவில்லை என முன்னறிவிக்கப்பட்டது](../../../../../translated_images/ta/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+   ![Custom Vision இல் ஒரு வாழைப்பழம் 56.8% பழுத்தது மற்றும் 43.1% பழுத்தவில்லை என முன்னறிவிக்கப்பட்டது](../../../../../translated_images/ta/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 இந்த குறியீட்டை [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) கோப்புறையில் காணலாம்.
 

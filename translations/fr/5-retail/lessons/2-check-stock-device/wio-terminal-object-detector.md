@@ -95,7 +95,7 @@ Le code que vous avez utilisé pour classifier des images est très similaire à
 
     Vous pourrez voir l'image capturée, ainsi que ces valeurs dans l'onglet **Predictions** de Custom Vision.
 
-    ![4 boîtes de concentré de tomate sur une étagère avec des prédictions pour les 4 détections de 35,8 %, 33,5 %, 25,7 % et 16,6 %](../../../../../translated_images/fr/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 boîtes de concentré de tomate sur une étagère avec des prédictions pour les 4 détections de 35,8 %, 33,5 %, 25,7 % et 16,6 %](../../../../../translated_images/fr/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Vous pouvez trouver ce code dans le dossier [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

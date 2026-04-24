@@ -67,7 +67,7 @@ Image classification အတွက် အသုံးပြုခဲ့သော 
 
     ဖမ်းယူထားသော ရုပ်ပုံနှင့် Prediction tab တွင် ရလဒ်များကို Custom Vision တွင် ကြည့်ရှုနိုင်ပါမည်။
 
-    ![စင်္ကြံပေါ်ရှိ ခရမ်းချဉ်ပေါင်း ၄ ကန်နှင့် ၃၅.၈%, ၃၃.၅%, ၂၅.၇% နှင့် ၁၆.၆% ရှိသော prediction များ](../../../../../translated_images/my/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![စင်္ကြံပေါ်ရှိ ခရမ်းချဉ်ပေါင်း ၄ ကန်နှင့် ၃၅.၈%, ၃၃.၅%, ၂၅.၇% နှင့် ၁၆.၆% ရှိသော prediction များ](../../../../../translated_images/my/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 ဤ code ကို [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) သို့မဟုတ် [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) ဖိုလ်ဒါတွင် ရှာနိုင်ပါသည်။
 

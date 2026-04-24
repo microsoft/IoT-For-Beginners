@@ -1,6 +1,6 @@
 # Opslag van locatiegegevens
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -75,7 +75,7 @@ NoSQL-databases worden NoSQL genoemd omdat ze niet dezelfde rigide structuur heb
 
 > 💁 Ondanks hun naam staan sommige NoSQL-databases toe dat je SQL gebruikt om de gegevens op te vragen.
 
-![Documenten in mappen in een NoSQL-database](../../../../../translated_images/nl/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Documenten in mappen in een NoSQL-database](../../../../../translated_images/nl/noqsl-database.62d24ccf5b73f60d.webp)
 
 NoSQL-databases hebben geen vooraf gedefinieerd schema dat beperkt hoe gegevens worden opgeslagen; in plaats daarvan kun je ongestructureerde gegevens invoegen, meestal met JSON-documenten. Deze documenten kunnen worden georganiseerd in mappen, vergelijkbaar met bestanden op je computer. Elk document kan verschillende velden hebben ten opzichte van andere documenten - bijvoorbeeld, als je IoT-gegevens van je landbouwvoertuigen opslaat, kunnen sommige velden hebben voor versnellingsmeter- en snelheidsgegevens, terwijl andere velden hebben voor de temperatuur in de aanhanger. Als je een nieuw type vrachtwagen toevoegt, zoals een met ingebouwde weegschalen om het gewicht van de vervoerde producten te volgen, kan je IoT-apparaat dit nieuwe veld toevoegen en kan het worden opgeslagen zonder wijzigingen aan de database.
 
@@ -89,7 +89,7 @@ In deze les ga je NoSQL-opslag gebruiken om IoT-gegevens op te slaan.
 
 In de vorige les heb je GPS-gegevens vastgelegd van een GPS-sensor die is aangesloten op je IoT-apparaat. Om deze IoT-gegevens in de cloud op te slaan, moet je ze naar een IoT-service verzenden. Je gebruikt opnieuw Azure IoT Hub, dezelfde IoT-cloudservice die je in het vorige project hebt gebruikt.
 
-![GPS-telemetrie verzenden van een IoT-apparaat naar IoT Hub](../../../../../translated_images/nl/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![GPS-telemetrie verzenden van een IoT-apparaat naar IoT Hub](../../../../../translated_images/nl/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Taak - GPS-gegevens verzenden naar een IoT Hub
 
@@ -171,7 +171,7 @@ Koude pad-gegevens worden opgeslagen in datawarehouses - databases die zijn ontw
 
 Zodra gegevens naar je IoT Hub stromen, kun je serverloze code schrijven om te luisteren naar gebeurtenissen die worden gepubliceerd naar het Event-Hub compatibele eindpunt. Dit is het warme pad - deze gegevens worden opgeslagen en gebruikt in de volgende les voor rapportage over de reis.
 
-![GPS-telemetrie verzenden van een IoT-apparaat naar IoT Hub, vervolgens naar Azure Functions via een event hub trigger](../../../../../translated_images/nl/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![GPS-telemetrie verzenden van een IoT-apparaat naar IoT Hub, vervolgens naar Azure Functions via een event hub trigger](../../../../../translated_images/nl/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Taak - GPS-evenementen verwerken met serverloze code
 
@@ -193,7 +193,7 @@ Zodra gegevens naar je IoT Hub stromen, kun je serverloze code schrijven om te l
 
 ## Azure Storage Accounts
 
-![Het Azure Storage-logo](../../../../../translated_images/nl/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Het Azure Storage-logo](../../../../../translated_images/nl/azure-storage-logo.605c0f602c640d48.webp)
 
 Azure Storage Accounts is een algemene opslagservice waarmee je gegevens op verschillende manieren kunt opslaan. Je kunt gegevens opslaan als blobs, in wachtrijen, in tabellen of als bestanden, en dit allemaal tegelijkertijd.
 

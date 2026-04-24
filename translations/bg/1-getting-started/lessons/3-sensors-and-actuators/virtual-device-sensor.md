@@ -28,11 +28,11 @@
 
     1. Натиснете бутона **Add**, за да създадете светлинния сензор на Pin 0.
 
-    ![Настройки на светлинния сензор](../../../../../translated_images/bg/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![Настройки на светлинния сензор](../../../../../translated_images/bg/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     Светлинният сензор ще бъде създаден и ще се появи в списъка със сензори.
 
-    ![Създаден светлинен сензор](../../../../../translated_images/bg/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![Създаден светлинен сензор](../../../../../translated_images/bg/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## Програмиране на светлинния сензор
 

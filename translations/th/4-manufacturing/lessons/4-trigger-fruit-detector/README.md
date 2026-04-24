@@ -1,6 +1,6 @@
 # เริ่มต้นการตรวจสอบคุณภาพผลไม้จากเซ็นเซอร์
 
-![ภาพรวมของบทเรียนนี้ในรูปแบบสเก็ตโน้ต](../../../../../translated_images/th/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![ภาพรวมของบทเรียนนี้ในรูปแบบสเก็ตโน้ต](../../../../../translated_images/th/lesson-18.92c32ed1d354caa5.webp)
 
 > สเก็ตโน้ตโดย [Nitya Narasimhan](https://github.com/nitya) คลิกที่ภาพเพื่อดูเวอร์ชันขนาดใหญ่
 
@@ -39,7 +39,7 @@
 
 ### สถาปัตยกรรม IoT อ้างอิง
 
-![สถาปัตยกรรม IoT อ้างอิง](../../../../../translated_images/th/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![สถาปัตยกรรม IoT อ้างอิง](../../../../../translated_images/th/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 ภาพด้านบนแสดงสถาปัตยกรรม IoT อ้างอิง
 
@@ -49,7 +49,7 @@
 * **ข้อมูลเชิงลึก** มาจากแอปพลิเคชันแบบไร้เซิร์ฟเวอร์ หรือจากการวิเคราะห์ข้อมูลที่จัดเก็บไว้
 * **การกระทำ** อาจเป็นคำสั่งที่ส่งไปยังอุปกรณ์ หรือการแสดงผลข้อมูลที่ช่วยให้มนุษย์ตัดสินใจ
 
-![สถาปัตยกรรม IoT อ้างอิง](../../../../../translated_images/th/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![สถาปัตยกรรม IoT อ้างอิง](../../../../../translated_images/th/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 ภาพด้านบนแสดงองค์ประกอบและบริการบางส่วนที่ครอบคลุมในบทเรียนนี้ และวิธีการเชื่อมโยงกันในสถาปัตยกรรม IoT อ้างอิง
 
@@ -89,7 +89,7 @@
 
 ### การสร้างต้นแบบแอปพลิเคชันของคุณ
 
-![สถาปัตยกรรม IoT อ้างอิงสำหรับการตรวจสอบคุณภาพผลไม้](../../../../../translated_images/th/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![สถาปัตยกรรม IoT อ้างอิงสำหรับการตรวจสอบคุณภาพผลไม้](../../../../../translated_images/th/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 ภาพด้านบนแสดงสถาปัตยกรรมอ้างอิงสำหรับแอปพลิเคชันต้นแบบนี้
 
@@ -124,7 +124,7 @@
 
 ตัวตรวจสอบผลไม้ต้นแบบมีองค์ประกอบหลายตัวที่สื่อสารกัน
 
-![องค์ประกอบที่สื่อสารกัน](../../../../../translated_images/th/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![องค์ประกอบที่สื่อสารกัน](../../../../../translated_images/th/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * เซ็นเซอร์วัดระยะทางที่วัดระยะทางไปยังผลไม้และส่งข้อมูลนี้ไปยัง IoT Hub
 * คำสั่งควบคุมกล้องที่มาจาก IoT Hub ไปยังอุปกรณ์กล้อง

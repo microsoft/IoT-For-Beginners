@@ -1,6 +1,6 @@
 # IoT Cihazından Stok Kontrolü
 
-![Bu dersin genel görünümünü gösteren bir skeç notu](../../../../../translated_images/tr/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![Bu dersin genel görünümünü gösteren bir skeç notu](../../../../../translated_images/tr/lesson-20.0211df9551a8abb3.webp)
 
 > Skeç notu: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -62,7 +62,7 @@ Sürümler, Custom Vision portalından yayınlanır.
 
 1. Sürüm için **Publish** düğmesini seçin.
 
-    ![Yayınla düğmesi](../../../../../translated_images/tr/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![Yayınla düğmesi](../../../../../translated_images/tr/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. *Publish Model* iletişim kutusunda, *Prediction resource* alanını önceki derste oluşturduğunuz `stock-detector-prediction` kaynağına ayarlayın. Adı `Iteration2` olarak bırakın ve **Publish** düğmesini seçin.
 
@@ -76,7 +76,7 @@ Sürümler, Custom Vision portalından yayınlanır.
 
     Ayrıca *Prediction-Key* değerinin bir kopyasını alın. Bu, modeli çağırırken geçirmeniz gereken güvenli bir anahtardır. Yalnızca bu anahtarı geçen uygulamalar modeli kullanabilir, diğer tüm uygulamalar reddedilir.
 
-    ![Tahmin API'si iletişim kutusu, URL ve anahtarı gösteriyor](../../../../../translated_images/tr/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![Tahmin API'si iletişim kutusu, URL ve anahtarı gösteriyor](../../../../../translated_images/tr/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ Yeni bir sürüm yayınlandığında, farklı bir adı olacaktır. IoT cihazının kullandığı sürümü nasıl değiştireceğinizi düşünüyorsunuz?
 
@@ -95,7 +95,7 @@ Nesne dedektörünü kullandığınızda, yalnızca tespit edilen nesneleri etik
 
 Custom Vision'daki **Predictions** sekmesindeki bir tahminin sonuçları, tahmin için gönderilen görüntüde çizilmiş sınır kutularına sahiptir.
 
-![Bir rafta 4 kutu domates salçası, tahminler 35.8%, 33.5%, 25.7% ve 16.6%](../../../../../translated_images/tr/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![Bir rafta 4 kutu domates salçası, tahminler 35.8%, 33.5%, 25.7% ve 16.6%](../../../../../translated_images/tr/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 Yukarıdaki görselde, 4 kutu domates salçası tespit edilmiştir. Sonuçlarda, görüntüde tespit edilen her nesne için bir kırmızı kare yerleştirilmiştir ve bu, görüntü için sınır kutusunu belirtir.
 
@@ -103,7 +103,7 @@ Yukarıdaki görselde, 4 kutu domates salçası tespit edilmiştir. Sonuçlarda,
 
 Sınır kutuları 4 değerle tanımlanır - üst, sol, yükseklik ve genişlik. Bu değerler 0-1 arasında bir ölçekle ifade edilir ve görüntünün boyutuna göre bir yüzde olarak pozisyonları temsil eder. Başlangıç noktası (0,0 pozisyonu) görüntünün sol üst köşesidir, bu nedenle üst değer yukarıdan olan mesafeyi, sınır kutusunun altı ise üst artı yükseklik değerini ifade eder.
 
-![Bir domates salçası kutusunun etrafında bir sınır kutusu](../../../../../translated_images/tr/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![Bir domates salçası kutusunun etrafında bir sınır kutusu](../../../../../translated_images/tr/bounding-box.1420a7ea0d3d15f7.webp)
 
 Yukarıdaki görsel 600 piksel genişliğinde ve 800 piksel yüksekliğindedir. Sınır kutusu 320 piksel aşağıdan başlar, bu da 0.4 üst koordinatını verir (800 x 0.4 = 320). Soldan, sınır kutusu 240 piksel ileride başlar, bu da 0.4 sol koordinatını verir (600 x 0.4 = 240). Sınır kutusunun yüksekliği 240 piksel, bu da 0.3 yükseklik değerini verir (800 x 0.3 = 240). Sınır kutusunun genişliği 120 piksel, bu da 0.2 genişlik değerini verir (600 x 0.2 = 120).
 
@@ -118,7 +118,7 @@ Yukarıdaki görsel 600 piksel genişliğinde ve 800 piksel yüksekliğindedir. 
 
 Sınır kutularını olasılıklarla birleştirerek bir tespitin ne kadar doğru olduğunu değerlendirebilirsiniz. Örneğin, bir nesne dedektörü üst üste binen birden fazla nesne tespit edebilir, örneğin bir kutunun içinde başka bir kutu tespit edebilir. Kodunuz sınır kutularını inceleyebilir, bunun imkansız olduğunu anlayabilir ve diğer nesnelerle önemli ölçüde örtüşen nesneleri görmezden gelebilir.
 
-![Bir domates salçası kutusunu kapsayan iki sınır kutusu](../../../../../translated_images/tr/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![Bir domates salçası kutusunu kapsayan iki sınır kutusu](../../../../../translated_images/tr/overlap-object-detection.d431e03cae75072a.webp)
 
 Yukarıdaki örnekte, bir sınır kutusu %78.3 olasılıkla bir domates salçası kutusu tespit ettiğini belirtmiştir. İkinci bir sınır kutusu biraz daha küçüktür ve ilk sınır kutusunun içinde %64.3 olasılıkla bir tespit yapmıştır. Kodunuz sınır kutularını kontrol edebilir, tamamen örtüştüklerini görebilir ve daha düşük olasılığı görmezden gelebilir çünkü bir kutunun başka bir kutunun içinde olması mümkün değildir.
 

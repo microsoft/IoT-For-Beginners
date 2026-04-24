@@ -37,7 +37,7 @@
     >
     > 例えば、LUISを英語でトレーニングし、ユーザー言語としてフランス語を使用したい場合、"set a 2 minute and 27 second timer"のような文を英語からフランス語にBing翻訳を使用して翻訳し、**Listen translation**ボタンを使用して翻訳をマイクに話しかけることができます。
     >
-    > ![Bing翻訳のListen translationボタン](../../../../../translated_images/ja/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Bing翻訳のListen translationボタン](../../../../../translated_images/ja/bing-translate.348aa796d6efe2a9.webp)
 
 1. `recognizer_config`と`recognizer`の宣言を以下のコードに置き換えてください：
 

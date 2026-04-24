@@ -18,7 +18,7 @@ Grove senzor vlažnosti tla može se povezati na Wio Terminalov konfigurabilni a
 
 Povežite senzor vlažnosti tla.
 
-![Grove senzor vlažnosti tla](../../../../../translated_images/hr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove senzor vlažnosti tla](../../../../../translated_images/hr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Umetnite jedan kraj Grove kabela u utičnicu na senzoru vlažnosti tla. Kabel će ući samo na jedan način.
 

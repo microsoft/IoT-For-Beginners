@@ -18,7 +18,7 @@ Grove senzor temperature može se povezati na digitalni port Wio Terminala.
 
 Povežite senzor temperature.
 
-![Grove senzor temperature](../../../../../translated_images/hr/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Grove senzor temperature](../../../../../translated_images/hr/grove-dht11.07f8eafceee17004.webp)
 
 1. Umetnite jedan kraj Grove kabela u utičnicu na senzoru za vlagu i temperaturu. Kabel će se moći umetnuti samo na jedan način.
 

@@ -1,6 +1,6 @@
 # Ühenda oma seade Internetiga
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-4.7344e074ea68fa54.webp)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -47,7 +47,7 @@ MQTT on IoT-seadmete seas kõige populaarsem suhtlusprotokoll ja seda käsitleta
 
 MQTT-l on üks vahendaja ja mitu klienti. Kõik kliendid ühenduvad vahendajaga, ja vahendaja suunab sõnumid vastavatele klientidele. Sõnumeid suunatakse nimeliste teemade kaudu, mitte otse individuaalsele kliendile. Klient saab avaldada teemas ja kõik kliendid, kes seda teemat tellivad, saavad sõnumi.
 
-![IoT-seade avaldab telemeetria teemal /telemetry ja pilveteenus tellib seda teemat](../../../../../translated_images/et/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT-seade avaldab telemeetria teemal /telemetry ja pilveteenus tellib seda teemat](../../../../../translated_images/et/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Uuri lähemalt. Kui sul on palju IoT-seadmeid, kuidas tagada, et sinu MQTT vahendaja suudab kõiki sõnumeid hallata?
 
@@ -69,7 +69,7 @@ Selle ülesande raames ei pea sa tegelema MQTT vahendaja seadistamise keerukuseg
 
 > 💁 See testvahendaja on avalik ja mitte turvaline. Kõik võivad kuulata, mida sa avaldad, seega ei tohiks seda kasutada andmetega, mis peavad jääma privaatseks.
 
-![Ülesande vooskeem, mis näitab valguse taseme lugemist ja kontrollimist ning LED-i juhtimist](../../../../../translated_images/et/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Ülesande vooskeem, mis näitab valguse taseme lugemist ja kontrollimist ning LED-i juhtimist](../../../../../translated_images/et/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Järgi allpool toodud samme, et ühendada oma seade MQTT vahendajaga:
 
@@ -351,7 +351,7 @@ Masinate puhul võib olla vajalik andmed säilitada, eriti kui neid kasutatakse 
 
 IoT-seadme disainerid peaksid kaaluma ka seda, kas IoT-seadet saab kasutada internetikatkestuse või signaali kadumise korral, mis on põhjustatud asukohast. Nutikas termostaat peaks suutma teha mõningaid piiratud otsuseid kütmise juhtimiseks, kui see ei saa telemeetriat pilve saata katkestuse tõttu.
 
-[![See Ferrari muutus kasutuskõlbmatuks, kuna keegi üritas seda uuendada maa all, kus pole mobiililevi](../../../../../translated_images/et/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![See Ferrari muutus kasutuskõlbmatuks, kuna keegi üritas seda uuendada maa all, kus pole mobiililevi](../../../../../translated_images/et/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 MQTT puhul, et käsitleda ühenduse kaotust, peavad seade ja serveri kood vastutama sõnumite edastamise tagamise eest, kui see on vajalik, näiteks nõudes, et kõik saadetud sõnumid vastatakse täiendavate sõnumitega vastusteemal, ja kui ei, siis need järjekorrastatakse käsitsi, et hiljem uuesti saata.
 
@@ -359,7 +359,7 @@ MQTT puhul, et käsitleda ühenduse kaotust, peavad seade ja serveri kood vastut
 
 Käsklused on sõnumid, mida pilv saadab seadmele, juhendades seda midagi tegema. Enamasti hõlmab see mingisuguse väljundi andmist läbi aktuaatori, kuid see võib olla juhis seadmele endale, näiteks taaskäivitamiseks või lisatelemeetria kogumiseks ja vastusena käsklusele tagastamiseks.
 
-![Internetiühendusega termostaat, mis saab käsu kütmise sisselülitamiseks](../../../../../translated_images/et/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Internetiühendusega termostaat, mis saab käsu kütmise sisselülitamiseks](../../../../../translated_images/et/commands.d6c06bbbb3a02cce.webp)
 
 Termostaat võiks saada pilvest käsu kütmise sisselülitamiseks. Kõigi sensorite telemeetriaandmete põhjal otsustab pilveteenus, et küte peaks olema sisse lülitatud, ja saadab vastava käsu.
 

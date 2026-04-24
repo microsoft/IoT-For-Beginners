@@ -34,11 +34,11 @@ Fügen Sie den Bodenfeuchtigkeitssensor zur CounterFit-App hinzu.
 
     1. Wählen Sie die Schaltfläche **Add**, um den *Soil Moisture*-Sensor auf Pin 0 zu erstellen.
 
-    ![Die Einstellungen des Bodenfeuchtigkeitssensors](../../../../../translated_images/de/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
+    ![Die Einstellungen des Bodenfeuchtigkeitssensors](../../../../../translated_images/de/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp)
 
     Der Bodenfeuchtigkeitssensor wird erstellt und erscheint in der Sensorliste.
 
-    ![Der erstellte Bodenfeuchtigkeitssensor](../../../../../translated_images/de/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
+    ![Der erstellte Bodenfeuchtigkeitssensor](../../../../../translated_images/de/counterfit-soil-moisture-sensor.81742b2de0e9de60.webp)
 
 ## Das Bodenfeuchtigkeitssensor-Programm schreiben
 

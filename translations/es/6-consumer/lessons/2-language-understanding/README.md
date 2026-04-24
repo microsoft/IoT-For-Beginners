@@ -1,6 +1,6 @@
 # Comprender el lenguaje
 
-![Una vista general en sketchnote de esta lección](../../../../../translated_images/es/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![Una vista general en sketchnote de esta lección](../../../../../translated_images/es/lesson-22.6148ea28500d9e00.webp)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -46,7 +46,7 @@ Los modelos de comprensión del lenguaje son modelos de inteligencia artificial 
 
 ## Crear un modelo de comprensión del lenguaje
 
-![El logo de LUIS](../../../../../translated_images/es/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![El logo de LUIS](../../../../../translated_images/es/luis-logo.5cb4f3e88c020ee6.webp)
 
 Puedes crear modelos de comprensión del lenguaje utilizando LUIS, un servicio de comprensión del lenguaje de Microsoft que forma parte de Cognitive Services.
 
@@ -169,7 +169,7 @@ Puedes encontrar instrucciones para usar el portal de LUIS en la [documentación
 
 1. A medida que ingreses cada ejemplo, LUIS comenzará a detectar entidades y subrayará y etiquetará las que encuentre.
 
-    ![Los ejemplos con los números y unidades de tiempo subrayados por LUIS](../../../../../translated_images/es/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Los ejemplos con los números y unidades de tiempo subrayados por LUIS](../../../../../translated_images/es/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Tarea - entrenar y probar el modelo
 

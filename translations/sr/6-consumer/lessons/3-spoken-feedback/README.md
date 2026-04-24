@@ -1,6 +1,6 @@
 # Поставите тајмер и пружите усмене повратне информације
 
-![Преглед лекције у виду скице](../../../../../translated_images/sr/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Преглед лекције у виду скице](../../../../../translated_images/sr/lesson-23.f38483e1d4df4828.webp)
 
 > Скица од [Nitya Narasimhan](https://github.com/nitya). Кликните на слику за већу верзију.
 

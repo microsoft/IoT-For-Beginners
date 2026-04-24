@@ -1,6 +1,6 @@
 # Supporto per più lingue
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-24.4246968ed058510a.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -74,7 +74,7 @@ Esistono numerosi servizi AI che possono essere utilizzati dalle tue applicazion
 
 ### Servizio vocale di Cognitive Services
 
-![Il logo del servizio vocale](../../../../../translated_images/it/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Il logo del servizio vocale](../../../../../translated_images/it/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Il servizio vocale che hai utilizzato nelle lezioni precedenti ha capacità di traduzione per il riconoscimento vocale. Quando riconosci il parlato, puoi richiedere non solo il testo del parlato nella stessa lingua, ma anche in altre lingue.
 
@@ -82,7 +82,7 @@ Il servizio vocale che hai utilizzato nelle lezioni precedenti ha capacità di t
 
 ### Servizio Translator di Cognitive Services
 
-![Il logo del servizio Translator](../../../../../translated_images/it/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Il logo del servizio Translator](../../../../../translated_images/it/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Il servizio Translator è un servizio di traduzione dedicato che può tradurre testo da una lingua a una o più lingue di destinazione. Oltre alla traduzione, supporta una vasta gamma di funzionalità extra, tra cui la mascheratura delle volgarità. Ti consente anche di fornire una traduzione specifica per una particolare parola o frase, per lavorare con termini che non vuoi tradurre o che hanno una traduzione specifica ben nota.
 

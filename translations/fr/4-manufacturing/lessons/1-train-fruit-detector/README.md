@@ -1,6 +1,6 @@
 # Former un détecteur de qualité des fruits
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-15.843d21afdc6fb2bb.webp)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -38,7 +38,7 @@ Toutes les cultures ne mûrissent pas uniformément. Les tomates, par exemple, p
 
 L'essor de la récolte automatisée a déplacé le tri des produits de la récolte à l'usine. Les aliments voyagent sur de longs tapis roulants avec des équipes de personnes qui trient les produits en retirant tout ce qui ne répond pas aux normes de qualité requises. La récolte était moins chère grâce aux machines, mais il y avait toujours un coût pour trier manuellement les aliments.
 
-![Si une tomate rouge est détectée, elle continue son chemin sans interruption. Si une tomate verte est détectée, elle est poussée dans une poubelle par un levier](../../../../../translated_images/fr/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![Si une tomate rouge est détectée, elle continue son chemin sans interruption. Si une tomate verte est détectée, elle est poussée dans une poubelle par un levier](../../../../../translated_images/fr/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 L'évolution suivante a été d'utiliser des machines pour trier, soit intégrées dans la moissonneuse, soit dans les usines de traitement. La première génération de ces machines utilisait des capteurs optiques pour détecter les couleurs, contrôlant des actionneurs pour pousser les tomates vertes dans une poubelle à l'aide de leviers ou de jets d'air, laissant les tomates rouges continuer sur un réseau de tapis roulants.
 
@@ -62,7 +62,7 @@ Par exemple, vous pourriez donner à un modèle des millions de photos de banane
 
 > 🎓 Les résultats des modèles de ML sont appelés *prédictions*
 
-![2 bananes, une mûre avec une prédiction de 99,7% mûre, 0,3% non mûre, et une non mûre avec une prédiction de 1,4% mûre, 98,6% non mûre](../../../../../translated_images/fr/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![2 bananes, une mûre avec une prédiction de 99,7% mûre, 0,3% non mûre, et une non mûre avec une prédiction de 1,4% mûre, 98,6% non mûre](../../../../../translated_images/fr/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 Les modèles de ML ne donnent pas une réponse binaire, mais plutôt des probabilités. Par exemple, un modèle peut recevoir une photo de banane et prédire `mûr` à 99,7% et `non mûr` à 0,3%. Votre code choisirait alors la meilleure prédiction et déciderait que la banane est mûre.
 
@@ -90,7 +90,7 @@ Il existe une large gamme d'outils qui peuvent vous aider à faire cela, y compr
 
 Custom Vision est un outil basé sur le cloud pour entraîner des classificateurs d'images. Il vous permet d'entraîner un classificateur en utilisant seulement un petit nombre d'images. Vous pouvez télécharger des images via un portail web, une API web ou un SDK, en attribuant à chaque image une *étiquette* correspondant à sa classification. Vous entraînez ensuite le modèle et le testez pour voir ses performances. Une fois satisfait du modèle, vous pouvez publier des versions accessibles via une API web ou un SDK.
 
-![Le logo Azure Custom Vision](../../../../../translated_images/fr/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Le logo Azure Custom Vision](../../../../../translated_images/fr/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 Vous pouvez entraîner un modèle Custom Vision avec seulement 5 images par classification, mais plus il y en a, mieux c'est. Vous obtiendrez de meilleurs résultats avec au moins 30 images.
 
@@ -146,7 +146,7 @@ Pour utiliser Custom Vision, vous devez d'abord créer deux ressources Cognitive
 
     Lors de la création de votre projet, assurez-vous d'utiliser la ressource `fruit-quality-detector-training` que vous avez créée précédemment. Utilisez un type de projet *Classification*, un type de classification *Multiclass*, et le domaine *Food*.
 
-    ![Les paramètres du projet Custom Vision avec le nom défini sur fruit-quality-detector, aucune description, la ressource définie sur fruit-quality-detector-training, le type de projet défini sur classification, le type de classification défini sur multiclass et le domaine défini sur food](../../../../../translated_images/fr/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Les paramètres du projet Custom Vision avec le nom défini sur fruit-quality-detector, aucune description, la ressource définie sur fruit-quality-detector-training, le type de projet défini sur classification, le type de classification défini sur multiclass et le domaine défini sur food](../../../../../translated_images/fr/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ Prenez le temps d'explorer l'interface utilisateur Custom Vision pour votre classificateur d'images.
 
@@ -164,7 +164,7 @@ Les classificateurs d'images fonctionnent à très basse résolution. Par exempl
 
     * En utilisant 2 bananes mûres, prenez plusieurs photos de chacune sous différents angles, en prenant au moins 7 photos (5 pour l'entraînement, 2 pour le test), mais idéalement plus.
 
-        ![Photos de 2 bananes différentes](../../../../../translated_images/fr/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![Photos de 2 bananes différentes](../../../../../translated_images/fr/banana-training-images.530eb203346d73bc.webp)
 
     * Répétez le même processus avec 2 bananes non mûres.
 
@@ -174,7 +174,7 @@ Les classificateurs d'images fonctionnent à très basse résolution. Par exempl
 
 1. Suivez la [section sur le téléchargement et l'étiquetage des images du guide de démarrage rapide pour créer un classificateur sur la documentation Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) pour télécharger vos images d'entraînement. Étiquetez les fruits mûrs comme `ripe` et les fruits non mûrs comme `unripe`.
 
-    ![Les boîtes de dialogue de téléchargement montrant l'importation d'images de bananes mûres et non mûres](../../../../../translated_images/fr/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![Les boîtes de dialogue de téléchargement montrant l'importation d'images de bananes mûres et non mûres](../../../../../translated_images/fr/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. Suivez la [section sur l'entraînement du classificateur du guide de démarrage rapide pour créer un classificateur sur la documentation Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) pour entraîner le classificateur d'images avec vos images téléchargées.
 
@@ -192,7 +192,7 @@ Une fois votre classificateur entraîné, vous pouvez le tester en lui fournissa
 
 1. Suivez la [documentation sur le test de votre modèle sur la documentation Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) pour tester votre classificateur d'images. Utilisez les images de test que vous avez créées précédemment, et non celles utilisées pour l'entraînement.
 
-    ![Une banane non mûre prédite comme non mûre avec une probabilité de 98,9 %, mûre avec une probabilité de 1,1 %](../../../../../translated_images/fr/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![Une banane non mûre prédite comme non mûre avec une probabilité de 98,9 %, mûre avec une probabilité de 1,1 %](../../../../../translated_images/fr/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. Essayez toutes les images de test dont vous disposez et observez les probabilités.
 

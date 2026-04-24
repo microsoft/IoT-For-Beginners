@@ -1,6 +1,6 @@
 ## Napovedovanje rasti rastlin z IoT
 
-![Pregled lekcije v obliki sketchnote](../../../../../translated_images/sl/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Pregled lekcije v obliki sketchnote](../../../../../translated_images/sl/lesson-5.42b234299279d263.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -90,7 +90,7 @@ Dnevi rastne stopnje ali GDD se izračunajo na dan kot povprečna temperatura v 
 
 Celotna formula za GDD je nekoliko zapletena, vendar obstaja poenostavljena enačba, ki se pogosto uporablja kot dobra približek:
 
-![GDD = T max + T min deljeno z 2, vse minus T base](../../../../../translated_images/sl/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min deljeno z 2, vse minus T base](../../../../../translated_images/sl/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - to je število dni rastne stopnje
 * **T max** - to je dnevna maksimalna temperatura v stopinjah Celzija
@@ -118,7 +118,7 @@ Prvi dan nad osnovno temperaturo so bile izmerjene naslednje temperature:
 
 To daje izračun:
 
-![GDD = 16 + 12 deljeno z 2, vse minus 10, kar daje rezultat 4](../../../../../translated_images/sl/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 deljeno z 2, vse minus 10, kar daje rezultat 4](../../../../../translated_images/sl/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 Koruza je prejela 4 GDD tisti dan. Če predpostavimo sorto koruze, ki potrebuje 800 GDD za zrelost, bo potrebovala še 796 GDD, da doseže zrelost.
 
@@ -239,7 +239,7 @@ Koraki za ročni izračun so:
 
 Na primer, če je najvišja temperatura dneva 25°C, najnižja pa 12°C:
 
-![GDD = 25 + 12 deljeno z 2, nato odštejte 10 od rezultata, kar daje 8.5](../../../../../translated_images/sl/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 deljeno z 2, nato odštejte 10 od rezultata, kar daje 8.5](../../../../../translated_images/sl/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

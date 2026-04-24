@@ -95,7 +95,7 @@
 
     আপনি তোলা ছবিটি এবং এই মানগুলো **Predictions** ট্যাবে Custom Vision-এ দেখতে পারবেন।
 
-    ![শেলফে ৪টি টমেটো পেস্টের ক্যান এবং ৪টি ডিটেকশনের সম্ভাবনা ৩৫.৮%, ৩৩.৫%, ২৫.৭% এবং ১৬.৬%](../../../../../translated_images/bn/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![শেলফে ৪টি টমেটো পেস্টের ক্যান এবং ৪টি ডিটেকশনের সম্ভাবনা ৩৫.৮%, ৩৩.৫%, ২৫.৭% এবং ১৬.৬%](../../../../../translated_images/bn/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 আপনি এই কোডটি [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) ফোল্ডারে খুঁজে পেতে পারেন।
 

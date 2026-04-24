@@ -203,7 +203,7 @@ Bilang pangalawang hakbang ng 'Hello World', patakbuhin mo ang CounterFit app at
 
     Ang app ay magsisimulang tumakbo at magbubukas sa iyong web browser:
 
-    ![Ang Counter Fit app na tumatakbo sa browser](../../../../../translated_images/tl/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Ang Counter Fit app na tumatakbo sa browser](../../../../../translated_images/tl/counterfit-first-run.433326358b669b31.webp)
 
     Ito ay mamarkahan bilang *Disconnected*, na may LED sa kanang-itaas na sulok na naka-off.
 
@@ -224,7 +224,7 @@ Bilang pangalawang hakbang ng 'Hello World', patakbuhin mo ang CounterFit app at
 
 1. Sa bagong terminal na ito, patakbuhin ang `app.py` file tulad ng dati. Ang status ng CounterFit ay magbabago sa **Connected** at ang LED ay iilaw.
 
-    ![Counter Fit na nagpapakita ng konektado](../../../../../translated_images/tl/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit na nagpapakita ng konektado](../../../../../translated_images/tl/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Maaari mong mahanap ang code na ito sa [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) folder.
 

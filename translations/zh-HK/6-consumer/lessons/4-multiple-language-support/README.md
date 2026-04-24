@@ -1,6 +1,6 @@
 # 支援多語言
 
-![本課程的手繪筆記概覽](../../../../../translated_images/zh-HK/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/zh-HK/lesson-24.4246968ed058510a.webp)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -74,7 +74,7 @@
 
 ### 認知服務語音服務
 
-![語音服務標誌](../../../../../translated_images/zh-HK/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![語音服務標誌](../../../../../translated_images/zh-HK/azure-speech-logo.a1f08c4befb0159f.webp)
 
 你在過去幾課中使用的語音服務具有語音識別的翻譯功能。當你進行語音識別時，可以請求不僅獲取相同語言的文字，還可以獲取其他語言的翻譯文字。
 
@@ -82,7 +82,7 @@
 
 ### 認知服務翻譯服務
 
-![翻譯服務標誌](../../../../../translated_images/zh-HK/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![翻譯服務標誌](../../../../../translated_images/zh-HK/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 翻譯服務是一個專門的翻譯服務，可以將文字從一種語言翻譯成一種或多種目標語言。除了翻譯，它還支援許多額外功能，例如屏蔽不雅詞語。它還允許你為特定單詞或句子提供特定翻譯，以處理不希望翻譯的術語或具有特定知名翻譯的術語。
 

@@ -1,6 +1,6 @@
 # Nastavte časovač a poskytnite hovorenú spätnú väzbu
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 

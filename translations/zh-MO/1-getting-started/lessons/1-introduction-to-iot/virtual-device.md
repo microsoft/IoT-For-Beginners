@@ -203,7 +203,7 @@ Python 的一個強大功能是能夠安裝 [Pip 套件](https://pypi.org)——
 
     該應用將開始運行並在瀏覽器中打開：
 
-    ![在瀏覽器中運行的 Counter Fit 應用](../../../../../translated_images/zh-MO/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![在瀏覽器中運行的 Counter Fit 應用](../../../../../translated_images/zh-MO/counterfit-first-run.433326358b669b31.webp)
 
     它將顯示為 *Disconnected*，右上角的 LED 為關閉狀態。
 
@@ -224,7 +224,7 @@ Python 的一個強大功能是能夠安裝 [Pip 套件](https://pypi.org)——
 
 1. 在這個新終端中，像之前一樣運行 `app.py` 文件。CounterFit 的狀態將變為 **Connected**，LED 會亮起。
 
-    ![Counter Fit 顯示為已連接](../../../../../translated_images/zh-MO/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit 顯示為已連接](../../../../../translated_images/zh-MO/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 你可以在 [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) 資料夾中找到這段程式碼。
 

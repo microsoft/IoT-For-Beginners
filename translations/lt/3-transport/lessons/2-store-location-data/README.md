@@ -1,6 +1,6 @@
 # Parduotuvės vietos duomenys
 
-![Šios pamokos eskizų apžvalga](../../../../../translated_images/lt/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Šios pamokos eskizų apžvalga](../../../../../translated_images/lt/lesson-12.ca7f53039712a3ec.webp)
 
 > Eskizą sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -75,7 +75,7 @@ NoSQL duomenų bazės vadinamos NoSQL, nes jos neturi tokios griežtos struktūr
 
 > 💁 Nepaisant jų pavadinimo, kai kurios NoSQL duomenų bazės leidžia naudoti SQL užklausoms vykdyti.
 
-![Dokumentai aplankuose NoSQL duomenų bazėje](../../../../../translated_images/lt/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Dokumentai aplankuose NoSQL duomenų bazėje](../../../../../translated_images/lt/noqsl-database.62d24ccf5b73f60d.webp)
 
 NoSQL duomenų bazės neturi iš anksto apibrėžtos schemos, kuri ribotų, kaip duomenys saugomi. Vietoj to, galite įterpti bet kokius nestruktūrizuotus duomenis, paprastai naudojant JSON dokumentus. Šie dokumentai gali būti organizuojami į aplankus, panašiai kaip failai jūsų kompiuteryje. Kiekvienas dokumentas gali turėti skirtingus laukus nei kiti dokumentai – pavyzdžiui, jei saugote IoT duomenis iš savo ūkio transporto priemonių, kai kurie gali turėti laukus akselerometro ir greičio duomenims, kiti – priekabos temperatūros duomenims. Jei pridėtumėte naujo tipo sunkvežimį, pavyzdžiui, su įmontuotomis svarstyklėmis, skirtomis stebėti vežamo krovinio svorį, jūsų IoT įrenginys galėtų pridėti šį naują lauką, ir jis būtų saugomas be jokių pakeitimų duomenų bazėje.
 
@@ -89,7 +89,7 @@ Kai kurios gerai žinomos NoSQL duomenų bazės yra Azure CosmosDB, MongoDB ir C
 
 Praėjusioje pamokoje fiksavote GPS duomenis iš GPS jutiklio, prijungto prie jūsų IoT įrenginio. Norėdami saugoti šiuos IoT duomenis debesyje, turite juos siųsti į IoT paslaugą. Vėl naudosite Azure IoT Hub – tą pačią IoT debesijos paslaugą, kurią naudojote ankstesniame projekte.
 
-![GPS telemetrijos siuntimas iš IoT įrenginio į IoT Hub](../../../../../translated_images/lt/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![GPS telemetrijos siuntimas iš IoT įrenginio į IoT Hub](../../../../../translated_images/lt/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Užduotis – GPS duomenų siuntimas į IoT Hub
 
@@ -187,7 +187,7 @@ Kai duomenys pasiekia jūsų IoT Hub, galite parašyti serverless kodą, kuris k
 
 ## Azure saugyklos paskyros
 
-![Azure saugyklos logotipas](../../../../../translated_images/lt/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Azure saugyklos logotipas](../../../../../translated_images/lt/azure-storage-logo.605c0f602c640d48.webp)
 
 Azure saugyklos paskyros yra universali saugyklos paslauga, kuri gali saugoti duomenis įvairiais būdais. Duomenis galite saugoti kaip blobus, eilėse, lentelėse arba failuose, ir visa tai vienu metu.
 

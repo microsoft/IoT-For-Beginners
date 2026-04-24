@@ -28,11 +28,11 @@
 
     1. اضغط على زر **إضافة** لإنشاء مستشعر الضوء على الدبوس 0.
 
-    ![إعدادات مستشعر الضوء](../../../../../translated_images/ar/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![إعدادات مستشعر الضوء](../../../../../translated_images/ar/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     سيتم إنشاء مستشعر الضوء وسيظهر في قائمة المستشعرات.
 
-    ![تم إنشاء مستشعر الضوء](../../../../../translated_images/ar/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![تم إنشاء مستشعر الضوء](../../../../../translated_images/ar/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## برمجة مستشعر الضوء
 

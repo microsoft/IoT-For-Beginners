@@ -1,6 +1,6 @@
 # Indstil en timer og giv mundtlig feedback
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 

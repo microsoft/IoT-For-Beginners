@@ -1,6 +1,6 @@
 # Bir zamanlayıcı ayarlayın ve sesli geri bildirim sağlayın
 
-![Bu dersin bir sketchnote özeti](../../../../../translated_images/tr/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Bu dersin bir sketchnote özeti](../../../../../translated_images/tr/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 

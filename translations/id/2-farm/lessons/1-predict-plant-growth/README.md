@@ -1,6 +1,6 @@
 # Prediksi Pertumbuhan Tanaman dengan IoT
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-5.42b234299279d263.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -90,7 +90,7 @@ Hari derajat pertumbuhan, atau GDD dihitung per hari sebagai suhu rata-rata dala
 
 Rumus lengkap untuk GDD sedikit rumit, tetapi ada persamaan yang disederhanakan yang sering digunakan sebagai pendekatan yang baik:
 
-![GDD = T max + T min dibagi 2, semua dikurangi T base](../../../../../translated_images/id/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min dibagi 2, semua dikurangi T base](../../../../../translated_images/id/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - ini adalah jumlah hari derajat pertumbuhan
 * **T max** - ini adalah suhu maksimum harian dalam derajat Celsius
@@ -118,7 +118,7 @@ Memasukkan angka-angka ini ke dalam perhitungan kita:
 
 Ini memberikan perhitungan:
 
-![GDD = 16 + 12 dibagi 2, semua dikurangi 10, memberikan jawaban 4](../../../../../translated_images/id/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 dibagi 2, semua dikurangi 10, memberikan jawaban 4](../../../../../translated_images/id/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 Jagung menerima 4 GDD pada hari itu. Dengan asumsi varietas jagung yang membutuhkan 800 GDD untuk matang, ia akan membutuhkan 796 GDD lagi untuk mencapai kematangan.
 
@@ -239,7 +239,7 @@ Langkah-langkah untuk melakukannya secara manual adalah:
 
 Sebagai contoh, jika suhu tertinggi untuk hari itu adalah 25°C, dan terendah adalah 12°C:
 
-![GDD = 25 + 12 dibagi 2, lalu kurangi 10 dari hasilnya sehingga menghasilkan 8.5](../../../../../translated_images/id/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 dibagi 2, lalu kurangi 10 dari hasilnya sehingga menghasilkan 8.5](../../../../../translated_images/id/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

@@ -1,6 +1,6 @@
 # 训练水果质量检测器
 
-![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-15.843d21afdc6fb2bb.webp)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -38,7 +38,7 @@
 
 自动化收割的兴起将农产品的分类从田间转移到了工厂。在工厂中，食品通过长长的传送带运输，由人工团队挑选出不符合质量标准的产品。尽管机械化收割降低了收割成本，但人工分类仍然需要一定的费用。
 
-![如果检测到红色西红柿，它会继续前进。如果检测到绿色西红柿，杠杆会将其弹入废料箱](../../../../../translated_images/zh-CN/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![如果检测到红色西红柿，它会继续前进。如果检测到绿色西红柿，杠杆会将其弹入废料箱](../../../../../translated_images/zh-CN/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 下一步的进化是使用机器进行分类，这些机器可以内置在收割机中或位于加工厂中。第一代此类机器使用光学传感器检测颜色，通过控制执行器将绿色西红柿用杠杆或气流弹入废料箱，而红色西红柿则继续沿传送带网络前进。
 
@@ -62,7 +62,7 @@
 
 > 🎓 机器学习模型的结果称为*预测*
 
-![两根香蕉，一根成熟的预测为 99.7% 成熟，0.3% 未成熟；另一根未成熟的预测为 1.4% 成熟，98.6% 未成熟](../../../../../translated_images/zh-CN/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![两根香蕉，一根成熟的预测为 99.7% 成熟，0.3% 未成熟；另一根未成熟的预测为 1.4% 成熟，98.6% 未成熟](../../../../../translated_images/zh-CN/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 机器学习模型不会给出二元答案，而是提供概率。例如，一个模型可能会对一张香蕉图片预测 `成熟` 的概率为 99.7%，`未成熟` 的概率为 0.3%。您的代码会选择最优预测，并判断这根香蕉是成熟的。
 
@@ -90,7 +90,7 @@
 
 Custom Vision 是一个基于云的工具，用于训练图像分类器。它允许您仅使用少量图片训练分类器。您可以通过 Web 门户、Web API 或 SDK 上传图片，并为每张图片添加一个*标签*，表示该图片的分类。然后，您可以训练模型并测试其性能。一旦对模型满意，您可以发布其版本，通过 Web API 或 SDK 访问。
 
-![Azure Custom Vision 标志](../../../../../translated_images/zh-CN/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Azure Custom Vision 标志](../../../../../translated_images/zh-CN/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 您可以用每个分类仅 5 张图片训练一个 Custom Vision 模型，但图片越多效果越好。至少 30 张图片可以获得更好的结果。
 
@@ -146,7 +146,7 @@ Custom Vision 是 Microsoft 提供的一系列 AI 工具（称为 Cognitive Serv
 
     创建项目时，请确保使用之前创建的 `fruit-quality-detector-training` 资源。选择*分类*项目类型、*多分类*分类类型，并选择*食品*领域。
 
-    ![Custom Vision 项目的设置，名称为 fruit-quality-detector，无描述，资源为 fruit-quality-detector-training，项目类型为分类，分类类型为多分类，领域为食品](../../../../../translated_images/zh-CN/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Custom Vision 项目的设置，名称为 fruit-quality-detector，无描述，资源为 fruit-quality-detector-training，项目类型为分类，分类类型为多分类，领域为食品](../../../../../translated_images/zh-CN/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ 花些时间探索您的图像分类器的 Custom Vision UI。
 
@@ -164,7 +164,7 @@ Custom Vision 是 Microsoft 提供的一系列 AI 工具（称为 Cognitive Serv
 
     * 使用2个成熟的香蕉，从不同角度为每个香蕉拍摄几张图片，至少拍摄7张（5张用于训练，2张用于测试），但理想情况下更多。
 
-        ![两根不同香蕉的照片](../../../../../translated_images/zh-CN/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![两根不同香蕉的照片](../../../../../translated_images/zh-CN/banana-training-images.530eb203346d73bc.webp)
 
     * 对2个未成熟的香蕉重复相同的过程。
 
@@ -174,7 +174,7 @@ Custom Vision 是 Microsoft 提供的一系列 AI 工具（称为 Cognitive Serv
 
 1. 按照[Microsoft文档中构建分类器快速入门的上传和标记图片部分](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images)上传你的训练图片。将成熟的水果标记为`ripe`，未成熟的水果标记为`unripe`。
 
-    ![上传成熟和未成熟香蕉图片的对话框](../../../../../translated_images/zh-CN/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![上传成熟和未成熟香蕉图片的对话框](../../../../../translated_images/zh-CN/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. 按照[Microsoft文档中构建分类器快速入门的训练分类器部分](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier)训练你的图像分类器。
 
@@ -192,7 +192,7 @@ Custom Vision 是 Microsoft 提供的一系列 AI 工具（称为 Cognitive Serv
 
 1. 按照[Microsoft文档中测试模型的文档](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model)测试你的图像分类器。使用你之前创建的测试图片，而不是任何用于训练的图片。
 
-    ![一个未成熟香蕉被预测为未成熟，概率为98.9%，成熟概率为1.1%](../../../../../translated_images/zh-CN/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![一个未成熟香蕉被预测为未成熟，概率为98.9%，成熟概率为1.1%](../../../../../translated_images/zh-CN/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. 尝试使用你所有的测试图片，并观察概率。
 

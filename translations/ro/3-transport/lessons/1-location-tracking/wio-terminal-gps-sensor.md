@@ -18,7 +18,7 @@ Senzorul Grove GPS poate fi conectat la Wio Terminal.
 
 Conectează senzorul GPS.
 
-![Un senzor Grove GPS](../../../../../translated_images/ro/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Un senzor Grove GPS](../../../../../translated_images/ro/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Introdu un capăt al cablului Grove în soclul senzorului GPS. Acesta va intra doar într-un singur mod.
 

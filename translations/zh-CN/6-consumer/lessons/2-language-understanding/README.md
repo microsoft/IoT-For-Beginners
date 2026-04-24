@@ -1,6 +1,6 @@
 # 理解语言
 
-![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-22.6148ea28500d9e00.webp)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -46,7 +46,7 @@
 
 ## 创建语言理解模型
 
-![LUIS标志](../../../../../translated_images/zh-CN/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![LUIS标志](../../../../../translated_images/zh-CN/luis-logo.5cb4f3e88c020ee6.webp)
 
 你可以使用LUIS（Language Understanding Intelligent Service）创建语言理解模型，这是微软认知服务的一部分。
 
@@ -169,7 +169,7 @@
 
 1. 每输入一个示例，LUIS会开始检测实体，并会下划线并标记它找到的任何实体。
 
-    ![LUIS对示例中的数字和时间单位进行下划线标记](../../../../../translated_images/zh-CN/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![LUIS对示例中的数字和时间单位进行下划线标记](../../../../../translated_images/zh-CN/luis-intent-examples.25716580b2d2723c.webp)
 
 ### 任务 - 训练和测试模型
 

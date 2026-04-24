@@ -18,13 +18,13 @@ A Grove talajnedvesség-érzékelő csatlakoztatható a Raspberry Pi-hez.
 
 Csatlakoztasd a talajnedvesség-érzékelőt.
 
-![Egy Grove talajnedvesség-érzékelő](../../../../../translated_images/hu/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Egy Grove talajnedvesség-érzékelő](../../../../../translated_images/hu/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Dugj be egy Grove kábelt az érzékelő csatlakozójába. Csak egy irányban illeszkedik.
 
 1. Kapcsold ki a Raspberry Pi-t, majd csatlakoztasd a Grove kábel másik végét a Grove Base Hat analóg csatlakozójába, amely **A0** jelöléssel van ellátva. Ez a csatlakozó a GPIO csatlakozók melletti sorban, jobbról a második.
 
-![A Grove talajnedvesség-érzékelő csatlakoztatva az A0 csatlakozóhoz](../../../../../translated_images/hu/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![A Grove talajnedvesség-érzékelő csatlakoztatva az A0 csatlakozóhoz](../../../../../translated_images/hu/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Helyezd az érzékelőt a talajba. Az érzékelőn van egy "legmagasabb pozíció vonal" - egy fehér vonal. Helyezd az érzékelőt a vonalig, de ne azon túl.
 

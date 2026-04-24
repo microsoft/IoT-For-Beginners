@@ -1,6 +1,6 @@
 # Auslösen der Obstqualitätsprüfung durch einen Sensor
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -39,7 +39,7 @@ IoT-Anwendungen können als *Dinge* (Geräte) beschrieben werden, die Daten send
 
 ### Referenz-IoT-Architektur
 
-![Eine Referenz-IoT-Architektur](../../../../../translated_images/de/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![Eine Referenz-IoT-Architektur](../../../../../translated_images/de/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Das obige Diagramm zeigt eine Referenz-IoT-Architektur.
 
@@ -49,7 +49,7 @@ Das obige Diagramm zeigt eine Referenz-IoT-Architektur.
 * **Erkenntnisse** stammen aus serverlosen Anwendungen oder aus Analysen gespeicherter Daten.
 * **Aktionen** können Befehle sein, die an Geräte gesendet werden, oder die Visualisierung von Daten, die es Menschen ermöglichen, Entscheidungen zu treffen.
 
-![Eine Referenz-IoT-Architektur](../../../../../translated_images/de/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Eine Referenz-IoT-Architektur](../../../../../translated_images/de/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Das obige Diagramm zeigt einige der bisher behandelten Komponenten und Dienste und wie sie in einer Referenz-IoT-Architektur miteinander verbunden sind.
 
@@ -89,7 +89,7 @@ Sie müssen ein System entwickeln, bei dem Obst erkannt wird, sobald es auf dem 
 
 ### Prototyping Ihrer Anwendung
 
-![Eine Referenz-IoT-Architektur für die Obstqualitätsprüfung](../../../../../translated_images/de/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![Eine Referenz-IoT-Architektur für die Obstqualitätsprüfung](../../../../../translated_images/de/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Das obige Diagramm zeigt eine Referenzarchitektur für diese Prototypanwendung.
 
@@ -124,7 +124,7 @@ Arbeiten Sie die entsprechende Anleitung durch, um mit Ihrem IoT-Gerät ein Obje
 
 Der Prototyp-Obstdetektor hat mehrere Komponenten, die miteinander kommunizieren.
 
-![Die Komponenten kommunizieren miteinander](../../../../../translated_images/de/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Die Komponenten kommunizieren miteinander](../../../../../translated_images/de/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Ein Näherungssensor misst den Abstand zu einem Stück Obst und sendet dies an IoT Hub
 * Der Befehl zur Steuerung der Kamera kommt von IoT Hub zum Kameragerät

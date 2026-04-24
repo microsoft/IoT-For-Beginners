@@ -1,6 +1,6 @@
 # Migrasikan tanaman Anda ke cloud
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -46,8 +46,8 @@ Hal ini bisa sangat mahal, membutuhkan berbagai macam karyawan yang terampil, da
 
 Cloud sering kali disebut secara bercanda sebagai 'komputer milik orang lain'. Ide awalnya sederhana - alih-alih membeli komputer, Anda menyewa komputer milik orang lain. Orang lain, penyedia komputasi cloud, akan mengelola pusat data besar. Mereka akan bertanggung jawab untuk membeli dan menginstal perangkat keras, mengelola daya dan pendinginan, jaringan, keamanan gedung, pembaruan perangkat keras dan perangkat lunak, semuanya. Sebagai pelanggan, Anda akan menyewa komputer yang Anda butuhkan, menyewa lebih banyak saat permintaan meningkat, lalu mengurangi jumlah yang Anda sewa jika permintaan menurun. Pusat data cloud ini ada di seluruh dunia.
 
-![Pusat data cloud Microsoft](../../../../../translated_images/id/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Ekspansi yang direncanakan untuk pusat data cloud Microsoft](../../../../../translated_images/id/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Pusat data cloud Microsoft](../../../../../translated_images/id/azure-region-existing.73f704604f2aa6cb.webp)
+![Ekspansi yang direncanakan untuk pusat data cloud Microsoft](../../../../../translated_images/id/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Pusat data ini bisa memiliki ukuran beberapa kilometer persegi. Gambar di atas diambil beberapa tahun yang lalu di pusat data cloud Microsoft, dan menunjukkan ukuran awal, bersama dengan ekspansi yang direncanakan. Area yang dibersihkan untuk ekspansi lebih dari 5 kilometer persegi.
 
@@ -108,11 +108,11 @@ Layanan IoT di cloud menyelesaikan masalah ini. Mereka dikelola oleh penyedia cl
 
 Perangkat IoT terhubung ke layanan cloud baik menggunakan SDK perangkat (perpustakaan yang menyediakan kode untuk bekerja dengan fitur layanan), atau langsung melalui protokol komunikasi seperti MQTT atau HTTP. SDK perangkat biasanya merupakan rute termudah karena menangani semuanya untuk Anda, seperti mengetahui topik apa yang harus dipublikasikan atau berlangganan, dan cara menangani keamanan.
 
-![Perangkat terhubung ke layanan menggunakan SDK perangkat. Kode server juga terhubung ke layanan melalui SDK](../../../../../translated_images/id/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Perangkat terhubung ke layanan menggunakan SDK perangkat. Kode server juga terhubung ke layanan melalui SDK](../../../../../translated_images/id/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Perangkat Anda kemudian berkomunikasi dengan bagian lain dari aplikasi Anda melalui layanan ini - mirip dengan cara Anda mengirim telemetri dan menerima perintah melalui MQTT. Ini biasanya menggunakan SDK layanan atau perpustakaan serupa. Pesan datang dari perangkat Anda ke layanan di mana komponen lain dari aplikasi Anda kemudian dapat membacanya, dan pesan kemudian dapat dikirim kembali ke perangkat Anda.
 
-![Perangkat tanpa kunci rahasia yang valid tidak dapat terhubung ke layanan IoT](../../../../../translated_images/id/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Perangkat tanpa kunci rahasia yang valid tidak dapat terhubung ke layanan IoT](../../../../../translated_images/id/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Layanan ini menerapkan keamanan dengan mengetahui semua perangkat yang dapat terhubung dan mengirim data, baik dengan memiliki perangkat yang telah terdaftar sebelumnya dengan layanan, atau dengan memberikan perangkat kunci rahasia atau sertifikat yang dapat mereka gunakan untuk mendaftarkan diri mereka dengan layanan saat pertama kali terhubung. Perangkat yang tidak dikenal tidak dapat terhubung, jika mereka mencoba layanan akan menolak koneksi dan mengabaikan pesan yang dikirim oleh mereka.
 
@@ -124,7 +124,7 @@ Komponen lain dari aplikasi Anda dapat terhubung ke layanan IoT dan mempelajari 
 
 Sekarang Anda memiliki langganan Azure, Anda dapat mendaftar untuk layanan IoT. Layanan IoT dari Microsoft disebut Azure IoT Hub.
 
-![Logo Azure IoT Hub](../../../../../translated_images/id/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Logo Azure IoT Hub](../../../../../translated_images/id/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Video di bawah ini memberikan gambaran singkat tentang Azure IoT Hub:
 

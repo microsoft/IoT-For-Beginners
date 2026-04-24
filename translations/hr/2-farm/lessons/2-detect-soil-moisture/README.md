@@ -13,7 +13,7 @@ I²C ima sabirnicu sastavljenu od 2 glavne žice, uz 2 žice za napajanje:
 | VCC | Zajednički kolektor napona | Napajanje za uređaje. Ovo je povezano s SDA i SCL žicama kako bi im osiguralo napajanje putem pull-up otpornika koji isključuje signal kada nijedan uređaj nije kontroler. |
 | GND | Zemlja | Ovo osigurava zajedničku zemlju za električni krug. |
 
-![I2C sabirnica s 3 uređaja povezana na SDA i SCL žice, dijeleći zajedničku zemlju](../../../../../translated_images/hr/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C sabirnica s 3 uređaja povezana na SDA i SCL žice, dijeleći zajedničku zemlju](../../../../../translated_images/hr/i2c.83da845dde02256b.webp)
 
 Za slanje podataka, jedan uređaj će izdati početni uvjet kako bi pokazao da je spreman za slanje podataka. Tada postaje kontroler. Kontroler zatim šalje adresu uređaja s kojim želi komunicirati, zajedno s informacijom želi li čitati ili pisati podatke. Nakon što su podaci preneseni, kontroler šalje završni uvjet kako bi naznačio da je završio. Nakon toga drugi uređaj može postati kontroler i slati ili primati podatke.
 

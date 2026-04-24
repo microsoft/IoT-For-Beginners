@@ -18,7 +18,7 @@ Grove relé môže byť pripojené k digitálnemu portu Wio Terminalu.
 
 Pripojte relé.
 
-![Grove relé](../../../../../translated_images/sk/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Grove relé](../../../../../translated_images/sk/grove-relay.d426958ca210fbd0.webp)
 
 1. Zasuňte jeden koniec Grove kábla do zásuvky na relé. Kábel sa zasunie iba jedným spôsobom.
 

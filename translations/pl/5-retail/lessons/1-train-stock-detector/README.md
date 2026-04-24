@@ -1,6 +1,6 @@
 # Trenuj detektor zapasów
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-19.cf6973cecadf080c.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 
@@ -36,7 +36,7 @@ Wykrywanie obiektów polega na wykrywaniu obiektów na obrazach za pomocą AI. W
 
 Klasyfikacja obrazów polega na klasyfikowaniu całego obrazu - jakie są prawdopodobieństwa, że cały obraz pasuje do każdego tagu. Otrzymujesz prawdopodobieństwa dla każdego tagu użytego do trenowania modelu.
 
-![Klasyfikacja obrazów dla orzechów nerkowca i koncentratu pomidorowego](../../../../../translated_images/pl/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![Klasyfikacja obrazów dla orzechów nerkowca i koncentratu pomidorowego](../../../../../translated_images/pl/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 Na powyższym przykładzie dwa obrazy są klasyfikowane za pomocą modelu trenowanego do klasyfikowania opakowań orzechów nerkowca lub puszek koncentratu pomidorowego. Pierwszy obraz przedstawia opakowanie orzechów nerkowca i ma dwa wyniki z klasyfikatora obrazów:
 
@@ -60,7 +60,7 @@ Kiedy używasz go do przewidywania obrazów, zamiast otrzymywać listę tagów i
 
 > 🎓 *Ramki ograniczające* to ramki wokół obiektu.
 
-![Wykrywanie obiektów dla orzechów nerkowca i koncentratu pomidorowego](../../../../../translated_images/pl/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![Wykrywanie obiektów dla orzechów nerkowca i koncentratu pomidorowego](../../../../../translated_images/pl/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 Powyższy obraz zawiera zarówno opakowanie orzechów nerkowca, jak i trzy puszki koncentratu pomidorowego. Detektor obiektów wykrył orzechy nerkowca, zwracając ramkę ograniczającą, która zawiera orzechy nerkowca, z procentowym prawdopodobieństwem, że ramka ograniczająca zawiera obiekt, w tym przypadku 97.6%. Detektor obiektów wykrył również trzy puszki koncentratu pomidorowego i dostarcza trzy oddzielne ramki ograniczające, po jednej dla każdej wykrytej puszki, a każda z nich ma procentowe prawdopodobieństwo, że ramka ograniczająca zawiera puszkę koncentratu pomidorowego.
 
@@ -111,7 +111,7 @@ Możesz trenować detektor obiektów za pomocą Custom Vision, w podobny sposób
 
     Podczas tworzenia projektu upewnij się, że używasz zasobu `stock-detector-training`, który utworzyłeś wcześniej. Użyj typu projektu *Object Detection* oraz domeny *Products on Shelves*.
 
-    ![Ustawienia projektu Custom Vision z nazwą ustawioną na fruit-quality-detector, bez opisu, zasobem ustawionym na fruit-quality-detector-training, typem projektu ustawionym na klasyfikację, typami klasyfikacji ustawionymi na multi class i domenami ustawionymi na food](../../../../../translated_images/pl/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![Ustawienia projektu Custom Vision z nazwą ustawioną na fruit-quality-detector, bez opisu, zasobem ustawionym na fruit-quality-detector-training, typem projektu ustawionym na klasyfikację, typami klasyfikacji ustawionymi na multi class i domenami ustawionymi na food](../../../../../translated_images/pl/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ Domeny produktów na półkach są specjalnie przeznaczone do wykrywania zapasów na półkach sklepowych. Przeczytaj więcej o różnych domenach w [dokumentacji wyboru domen na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -133,11 +133,11 @@ Aby trenować swój model, będziesz potrzebować zestawu obrazów zawierającyc
 
 1. Postępuj zgodnie z sekcją [Przesyłanie i tagowanie obrazów w szybkim starcie budowy detektora obiektów w dokumentacji Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), aby przesłać swoje obrazy treningowe. Utwórz odpowiednie tagi w zależności od typów obiektów, które chcesz wykrywać.
 
-    ![Dialogi przesyłania pokazujące przesyłanie obrazów dojrzałych i niedojrzałych bananów](../../../../../translated_images/pl/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![Dialogi przesyłania pokazujące przesyłanie obrazów dojrzałych i niedojrzałych bananów](../../../../../translated_images/pl/image-upload-object-detector.77c7892c3093cb59.webp)
 
     Podczas rysowania ramek ograniczających dla obiektów, trzymaj je ciasno wokół obiektu. Może to zająć trochę czasu, aby obrysować wszystkie obrazy, ale narzędzie wykryje, co uważa za ramki ograniczające, co przyspieszy proces.
 
-    ![Tagowanie koncentratu pomidorowego](../../../../../translated_images/pl/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![Tagowanie koncentratu pomidorowego](../../../../../translated_images/pl/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 Jeśli masz więcej niż 15 obrazów dla każdego obiektu, możesz trenować po 15, a następnie użyć funkcji **Suggested tags**. Użyje ona trenowanego modelu do wykrywania obiektów na nieoznaczonym obrazie. Możesz wtedy potwierdzić wykryte obiekty lub odrzucić i ponownie narysować ramki ograniczające. To może zaoszczędzić *dużo* czasu.
 
@@ -155,7 +155,7 @@ Po przeszkoleniu detektora obiektów możesz go przetestować, podając mu nowe 
 
 1. Użyj przycisku **Quick Test**, aby przesłać obrazy testowe i zweryfikować, czy obiekty zostały wykryte. Użyj obrazów testowych, które stworzyłeś wcześniej, a nie żadnych obrazów użytych do treningu.
 
-    ![3 puszki koncentratu pomidorowego wykryte z prawdopodobieństwami 38%, 35.5% i 34.6%](../../../../../translated_images/pl/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![3 puszki koncentratu pomidorowego wykryte z prawdopodobieństwami 38%, 35.5% i 34.6%](../../../../../translated_images/pl/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. Wypróbuj wszystkie obrazy testowe, do których masz dostęp, i obserwuj prawdopodobieństwa.
 

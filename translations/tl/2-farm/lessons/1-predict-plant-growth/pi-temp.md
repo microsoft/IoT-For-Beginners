@@ -16,7 +16,7 @@ Ang Grove temperature sensor ay maaaring ikonekta sa Raspberry Pi.
 
 Ikonekta ang temperature sensor
 
-![Isang Grove temperature sensor](../../../../../translated_images/tl/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Isang Grove temperature sensor](../../../../../translated_images/tl/grove-dht11.07f8eafceee17004.webp)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng humidity at temperature sensor. Isa lang ang tamang paraan para maipasok ito.
 

@@ -203,7 +203,7 @@ Ako druhý krok 'Hello World' spustíte aplikáciu CounterFit a pripojíte k nej
 
     Aplikácia sa spustí a otvorí vo vašom webovom prehliadači:
 
-    ![Aplikácia Counter Fit spustená v prehliadači](../../../../../translated_images/sk/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Aplikácia Counter Fit spustená v prehliadači](../../../../../translated_images/sk/counterfit-first-run.433326358b669b31.webp)
 
     Bude označená ako *Disconnected* a LED v pravom hornom rohu bude vypnutá.
 
@@ -224,7 +224,7 @@ Ako druhý krok 'Hello World' spustíte aplikáciu CounterFit a pripojíte k nej
 
 1. V tomto novom termináli spustite súbor `app.py` ako predtým. Stav CounterFit sa zmení na **Connected** a LED sa rozsvieti.
 
-    ![Counter Fit zobrazuje stav Connected](../../../../../translated_images/sk/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit zobrazuje stav Connected](../../../../../translated_images/sk/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Tento kód nájdete v priečinku [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

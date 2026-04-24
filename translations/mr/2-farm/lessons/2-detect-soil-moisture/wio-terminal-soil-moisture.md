@@ -18,7 +18,7 @@ Grove मातीतील आर्द्रता सेन्सर Wio Term
 
 मातीतील आर्द्रता सेन्सर जोडा.
 
-![Grove मातीतील आर्द्रता सेन्सर](../../../../../translated_images/mr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove मातीतील आर्द्रता सेन्सर](../../../../../translated_images/mr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove केबलचा एक टोक मातीतील आर्द्रता सेन्सरच्या सॉकेटमध्ये घाला. ती फक्त एका बाजूने जाईल.
 

@@ -84,7 +84,7 @@
 
     Galėsite matyti užfiksuotą vaizdą ir šias reikšmes **Predictions** skirtuke „Custom Vision“.
 
-    ![Bananas „Custom Vision“ klasifikuotas kaip prinokęs su 56.8% tikimybe ir neprinokęs su 43.1% tikimybe](../../../../../translated_images/lt/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Bananas „Custom Vision“ klasifikuotas kaip prinokęs su 56.8% tikimybe ir neprinokęs su 43.1% tikimybe](../../../../../translated_images/lt/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Šį kodą galite rasti aplanke [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) arba [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

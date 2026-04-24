@@ -13,7 +13,7 @@ I²C má zbernicu zloženú z 2 hlavných vodičov spolu s 2 napájacími vodič
 | VCC | Spoločný kolektor napätia | Napájanie pre zariadenia. Toto je pripojené k vodičom SDA a SCL, aby im poskytovalo napájanie cez pull-up rezistor, ktorý vypína signál, keď žiadne zariadenie nie je ovládačom. |
 | GND | Zem | Poskytuje spoločnú zem pre elektrický obvod. |
 
-![I2C zbernica s 3 zariadeniami pripojenými k vodičom SDA a SCL, ktoré zdieľajú spoločný zemný vodič](../../../../../translated_images/sk/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C zbernica s 3 zariadeniami pripojenými k vodičom SDA a SCL, ktoré zdieľajú spoločný zemný vodič](../../../../../translated_images/sk/i2c.83da845dde02256b.webp)
 
 Na odosielanie dát jedno zariadenie vydá štartovaciu podmienku, aby ukázalo, že je pripravené odosielať dáta. Potom sa stane ovládačom. Ovládač následne pošle adresu zariadenia, s ktorým chce komunikovať, spolu s informáciou, či chce dáta čítať alebo zapisovať. Po prenose dát ovládač pošle stop podmienku, aby naznačil, že skončil. Potom sa iné zariadenie môže stať ovládačom a odosielať alebo prijímať dáta.
 

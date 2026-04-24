@@ -18,7 +18,7 @@ Sensor kelembapan tanah Grove boleh disambungkan kepada port analog/digital yang
 
 Sambungkan sensor kelembapan tanah.
 
-![Sensor kelembapan tanah Grove](../../../../../translated_images/ms/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Sensor kelembapan tanah Grove](../../../../../translated_images/ms/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Masukkan satu hujung kabel Grove ke soket pada sensor kelembapan tanah. Ia hanya boleh dimasukkan dalam satu arah sahaja.
 

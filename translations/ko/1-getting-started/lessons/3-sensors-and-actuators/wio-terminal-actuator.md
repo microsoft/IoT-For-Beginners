@@ -26,7 +26,7 @@ Grove LED는 여러 색상의 LED를 선택할 수 있는 모듈로 제공됩니
 
 LED를 연결하세요.
 
-![Grove LED](../../../../../translated_images/ko/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/ko/grove-led.6c853be93f473cf2.webp)
 
 1. 좋아하는 LED를 선택하여 LED 모듈의 두 구멍에 다리를 삽입하세요.
 

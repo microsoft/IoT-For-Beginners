@@ -1,6 +1,6 @@
 # Trenuj detektor jakości owoców
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-15.843d21afdc6fb2bb.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -38,7 +38,7 @@ Nie wszystkie plony dojrzewają równomiernie. Na przykład pomidory mogą mieć
 
 Wzrost automatyzacji zbiorów przeniósł sortowanie produktów z pola do fabryki. Żywność trafiała na długie taśmy przenośnikowe, gdzie zespoły ludzi usuwały produkty niespełniające standardów jakości. Zbiory były tańsze dzięki maszynom, ale nadal istniał koszt ręcznego sortowania żywności.
 
-![Jeśli wykryty zostanie czerwony pomidor, kontynuuje swoją drogę. Jeśli wykryty zostanie zielony pomidor, dźwignia przerzuca go do kosza na odpady](../../../../../translated_images/pl/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![Jeśli wykryty zostanie czerwony pomidor, kontynuuje swoją drogę. Jeśli wykryty zostanie zielony pomidor, dźwignia przerzuca go do kosza na odpady](../../../../../translated_images/pl/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 Kolejną ewolucją było wykorzystanie maszyn do sortowania, wbudowanych w kombajny lub używanych w zakładach przetwórczych. Pierwsza generacja tych maszyn używała czujników optycznych do wykrywania kolorów, sterując siłownikami, które przerzucały zielone pomidory do kosza na odpady za pomocą dźwigni lub strumieni powietrza, pozostawiając czerwone pomidory na taśmach przenośnikowych.
 
@@ -62,7 +62,7 @@ Na przykład możesz dostarczyć modelowi miliony zdjęć niedojrzałych bananó
 
 > 🎓 Wyniki modeli ML nazywane są *przewidywaniami*.
 
-![2 banany, jeden dojrzały z przewidywaniem 99,7% dojrzały, 0,3% niedojrzały, i jeden niedojrzały z przewidywaniem 1,4% dojrzały, 98,6% niedojrzały](../../../../../translated_images/pl/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![2 banany, jeden dojrzały z przewidywaniem 99,7% dojrzały, 0,3% niedojrzały, i jeden niedojrzały z przewidywaniem 1,4% dojrzały, 98,6% niedojrzały](../../../../../translated_images/pl/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 Modele ML nie dają odpowiedzi binarnej, zamiast tego podają prawdopodobieństwa. Na przykład model może otrzymać zdjęcie banana i przewidzieć `dojrzały` na poziomie 99,7% oraz `niedojrzały` na poziomie 0,3%. Twój kod wybierze najlepsze przewidywanie i zdecyduje, że banan jest dojrzały.
 
@@ -90,7 +90,7 @@ Istnieje wiele narzędzi, które mogą Ci w tym pomóc, w tym usługi w chmurze,
 
 Custom Vision to narzędzie w chmurze do trenowania klasyfikatorów obrazów. Pozwala trenować klasyfikator, używając jedynie niewielkiej liczby obrazów. Możesz przesyłać obrazy przez portal internetowy, API lub SDK, przypisując każdemu obrazowi *tag*, który określa jego klasyfikację. Następnie trenujesz model i testujesz go, aby sprawdzić, jak dobrze działa. Gdy jesteś zadowolony z modelu, możesz opublikować jego wersje, które można uzyskać za pośrednictwem API internetowego lub SDK.
 
-![Logo Azure Custom Vision](../../../../../translated_images/pl/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Logo Azure Custom Vision](../../../../../translated_images/pl/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 Możesz wytrenować model Custom Vision, używając zaledwie 5 obrazów na klasyfikację, ale więcej to lepiej. Lepsze wyniki uzyskasz, mając co najmniej 30 obrazów.
 
@@ -146,7 +146,7 @@ Aby korzystać z Custom Vision, najpierw musisz utworzyć dwa zasoby Cognitive S
 
     Podczas tworzenia projektu upewnij się, że używasz zasobu `fruit-quality-detector-training`, który utworzyłeś wcześniej. Wybierz typ projektu *Classification*, typ klasyfikacji *Multiclass* oraz domenę *Food*.
 
-    ![Ustawienia projektu Custom Vision z nazwą ustawioną na fruit-quality-detector, bez opisu, zasobem ustawionym na fruit-quality-detector-training, typem projektu ustawionym na classification, typem klasyfikacji ustawionym na multi class i domeną ustawioną na food](../../../../../translated_images/pl/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Ustawienia projektu Custom Vision z nazwą ustawioną na fruit-quality-detector, bez opisu, zasobem ustawionym na fruit-quality-detector-training, typem projektu ustawionym na classification, typem klasyfikacji ustawionym na multi class i domeną ustawioną na food](../../../../../translated_images/pl/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ Poświęć trochę czasu na zapoznanie się z interfejsem użytkownika Custom Vision dla swojego klasyfikatora obrazów.
 
@@ -164,7 +164,7 @@ Klasyfikatory obrazów działają na bardzo niskiej rozdzielczości. Na przykła
 
     * Używając 2 dojrzałych bananów, zrób kilka zdjęć każdego z nich z różnych kątów, wykonując co najmniej 7 zdjęć (5 do treningu, 2 do testów), ale najlepiej więcej.
 
-        ![Zdjęcia 2 różnych bananów](../../../../../translated_images/pl/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![Zdjęcia 2 różnych bananów](../../../../../translated_images/pl/banana-training-images.530eb203346d73bc.webp)
 
     * Powtórz ten sam proces, używając 2 niedojrzałych bananów.
 
@@ -174,7 +174,7 @@ Klasyfikatory obrazów działają na bardzo niskiej rozdzielczości. Na przykła
 
 1. Postępuj zgodnie z [sekcją przesyłania i tagowania obrazów w szybkim przewodniku po tworzeniu klasyfikatora w dokumentacji Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), aby przesłać swoje zdjęcia treningowe. Oznacz dojrzałe owoce jako `ripe`, a niedojrzałe jako `unripe`.
 
-    ![Okna dialogowe przesyłania zdjęć dojrzałych i niedojrzałych bananów](../../../../../translated_images/pl/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![Okna dialogowe przesyłania zdjęć dojrzałych i niedojrzałych bananów](../../../../../translated_images/pl/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. Postępuj zgodnie z [sekcją trenowania klasyfikatora w szybkim przewodniku po tworzeniu klasyfikatora w dokumentacji Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier), aby wytrenować klasyfikator obrazów na przesłanych zdjęciach.
 
@@ -192,7 +192,7 @@ Gdy klasyfikator zostanie wytrenowany, możesz go przetestować, dostarczając n
 
 1. Postępuj zgodnie z [dokumentacją testowania modelu w dokumentacji Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model), aby przetestować swój klasyfikator obrazów. Użyj zdjęć testowych, które stworzyłeś wcześniej, a nie tych, które wykorzystałeś do treningu.
 
-    ![Niedojrzały banan przewidziany jako niedojrzały z prawdopodobieństwem 98,9%, dojrzały z prawdopodobieństwem 1,1%](../../../../../translated_images/pl/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![Niedojrzały banan przewidziany jako niedojrzały z prawdopodobieństwem 98,9%, dojrzały z prawdopodobieństwem 1,1%](../../../../../translated_images/pl/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. Wypróbuj wszystkie zdjęcia testowe, do których masz dostęp, i zaobserwuj prawdopodobieństwa.
 

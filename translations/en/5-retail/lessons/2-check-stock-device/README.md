@@ -1,6 +1,6 @@
 # Check stock from an IoT device
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-20.0211df9551a8abb3.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -62,7 +62,7 @@ Iterations are published through the Custom Vision portal.
 
 1. Click the **Publish** button for the iteration.
 
-    ![The publish button](../../../../../translated_images/en/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![The publish button](../../../../../translated_images/en/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. In the *Publish Model* dialog, set the *Prediction resource* to the `stock-detector-prediction` resource you created in the last lesson. Keep the name as `Iteration2`, and click the **Publish** button.
 
@@ -76,7 +76,7 @@ Iterations are published through the Custom Vision portal.
 
     Also, copy the *Prediction-Key* value. This secure key is required to access the model. Only applications with this key can use the model; others will be denied access.
 
-    ![The prediction API dialog showing the URL and key](../../../../../translated_images/en/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![The prediction API dialog showing the URL and key](../../../../../translated_images/en/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ When a new iteration is published, it will have a different name. How would you update the IoT device to use the new iteration?
 
@@ -95,7 +95,7 @@ When you use the object detector, it not only identifies objects with their tags
 
 In the **Predictions** tab of Custom Vision, the results of a prediction include bounding boxes drawn on the image sent for analysis.
 
-![4 cans of tomato paste on a shelf with predictions for the 4 detections of 35.8%, 33.5%, 25.7% and 16.6%](../../../../../translated_images/en/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![4 cans of tomato paste on a shelf with predictions for the 4 detections of 35.8%, 33.5%, 25.7% and 16.6%](../../../../../translated_images/en/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 In the image above, 4 cans of tomato paste were detected. Red rectangles indicate the bounding boxes for each detected object.
 
@@ -103,7 +103,7 @@ In the image above, 4 cans of tomato paste were detected. Red rectangles indicat
 
 Bounding boxes are defined by four values: top, left, height, and width. These values range from 0 to 1, representing percentages of the image's dimensions. The origin (0,0) is the top-left corner of the image. The top value indicates the distance from the top, while the bottom of the bounding box is calculated as the top plus the height.
 
-![A bounding box around a can of tomato paste](../../../../../translated_images/en/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![A bounding box around a can of tomato paste](../../../../../translated_images/en/bounding-box.1420a7ea0d3d15f7.webp)
 
 In the image above, which is 600 pixels wide and 800 pixels tall, the bounding box starts 320 pixels down, giving a top value of 0.4 (800 x 0.4 = 320). From the left, it starts 240 pixels across, giving a left value of 0.4 (600 x 0.4 = 240). The height is 240 pixels, giving a height value of 0.3 (800 x 0.3 = 240). The width is 120 pixels, giving a width value of 0.2 (600 x 0.2 = 120).
 
@@ -118,7 +118,7 @@ Using percentage values ensures that the bounding box scales proportionally, reg
 
 Bounding boxes and probabilities can be used to evaluate detection accuracy. For example, if overlapping objects are detected, your code can analyze the bounding boxes and ignore improbable detections.
 
-![Two bounding boxes overlapping a can of tomato paste](../../../../../translated_images/en/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![Two bounding boxes overlapping a can of tomato paste](../../../../../translated_images/en/overlap-object-detection.d431e03cae75072a.webp)
 
 In the example above, one bounding box predicts a can of tomato paste with 78.3% confidence. A second, smaller bounding box inside the first predicts the same object with 64.3% confidence. Your code can identify the overlap and discard the less probable detection.
 

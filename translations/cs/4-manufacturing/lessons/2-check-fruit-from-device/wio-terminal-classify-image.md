@@ -208,7 +208,7 @@ Certifikáty obsahují veřejné klíče a není nutné je uchovávat v tajnosti
 
     Budete schopni vidět obrázek, který byl pořízen, a tyto hodnoty na záložce **Predictions** ve službě Custom Vision.
 
-    ![Banán v Custom Vision předpovězený jako zralý na 56.8% a nezralý na 43.1%](../../../../../translated_images/cs/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Banán v Custom Vision předpovězený jako zralý na 56.8% a nezralý na 43.1%](../../../../../translated_images/cs/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Tento kód najdete ve složce [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

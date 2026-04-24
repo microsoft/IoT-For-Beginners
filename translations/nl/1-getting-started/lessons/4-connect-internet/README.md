@@ -1,6 +1,6 @@
 # Verbind je apparaat met het internet
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-4.7344e074ea68fa54.webp)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -47,7 +47,7 @@ MQTT is het meest populaire communicatieprotocol voor IoT-apparaten en wordt in 
 
 MQTT heeft één broker en meerdere clients. Alle clients maken verbinding met de broker, en de broker stuurt berichten door naar de relevante clients. Berichten worden gerouteerd via benoemde onderwerpen (topics), in plaats van rechtstreeks naar een individuele client te worden verzonden. Een client kan publiceren naar een onderwerp, en alle clients die zich op dat onderwerp hebben geabonneerd, ontvangen het bericht.
 
-![IoT-apparaat publiceert telemetrie op het /telemetry-onderwerp, en de clouddienst abonneert zich op dat onderwerp](../../../../../translated_images/nl/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT-apparaat publiceert telemetrie op het /telemetry-onderwerp, en de clouddienst abonneert zich op dat onderwerp](../../../../../translated_images/nl/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Doe wat onderzoek. Als je veel IoT-apparaten hebt, hoe kun je ervoor zorgen dat je MQTT-broker alle berichten aankan?
 
@@ -69,7 +69,7 @@ In plaats van de complexiteit van het opzetten van een MQTT-broker als onderdeel
 
 > 💁 Deze testbroker is openbaar en niet beveiligd. Iedereen kan luisteren naar wat je publiceert, dus het mag niet worden gebruikt voor gegevens die privé moeten blijven.
 
-![Een stroomdiagram van de opdracht met lichtniveaus die worden gelezen en gecontroleerd, en de LED die wordt bestuurd](../../../../../translated_images/nl/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Een stroomdiagram van de opdracht met lichtniveaus die worden gelezen en gecontroleerd, en de LED die wordt bestuurd](../../../../../translated_images/nl/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Volg de relevante stap hieronder om je apparaat te verbinden met de MQTT-broker:
 
@@ -350,7 +350,7 @@ Voor machines wil je de gegevens misschien bewaren, vooral als ze worden gebruik
 
 Ontwerpers van IoT-apparaten moeten ook overwegen of het IoT-apparaat kan worden gebruikt tijdens een internetstoring of signaalverlies door locatie. Een slimme thermostaat moet in staat zijn om enkele beperkte beslissingen te nemen om de verwarming te regelen als het geen telemetrie naar de cloud kan verzenden vanwege een storing.
 
-[![Deze Ferrari werd onbruikbaar omdat iemand probeerde hem te upgraden op een plek zonder mobiel bereik](../../../../../translated_images/nl/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Deze Ferrari werd onbruikbaar omdat iemand probeerde hem te upgraden op een plek zonder mobiel bereik](../../../../../translated_images/nl/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Voor MQTT om met een verlies van connectiviteit om te gaan, moeten het apparaat en de servercode verantwoordelijk zijn voor het waarborgen van berichtlevering indien nodig. Bijvoorbeeld door te eisen dat alle verzonden berichten worden beantwoord met aanvullende berichten op een antwoordonderwerp. Als dat niet gebeurt, worden ze handmatig in een wachtrij geplaatst om later opnieuw te worden verzonden.
 
@@ -358,7 +358,7 @@ Voor MQTT om met een verlies van connectiviteit om te gaan, moeten het apparaat 
 
 Opdrachten zijn berichten die door de cloud naar een apparaat worden verzonden om het te instrueren iets te doen. Meestal houdt dit in dat er een soort uitvoer wordt gegeven via een actuator, maar het kan ook een instructie zijn voor het apparaat zelf, zoals opnieuw opstarten of extra telemetrie verzamelen en deze als reactie op de opdracht retourneren.
 
-![Een internetverbonden thermostaat die een opdracht ontvangt om de verwarming aan te zetten](../../../../../translated_images/nl/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Een internetverbonden thermostaat die een opdracht ontvangt om de verwarming aan te zetten](../../../../../translated_images/nl/commands.d6c06bbbb3a02cce.webp)
 
 Een thermostaat kan een opdracht van de cloud ontvangen om de verwarming aan te zetten. Op basis van de telemetriegegevens van alle sensoren heeft de cloudservice besloten dat de verwarming aan moet, dus stuurt het de relevante opdracht.
 

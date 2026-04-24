@@ -1,6 +1,6 @@
 # Tartsd biztonságban a növényedet
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-10.829c86b80b9403bb.webp)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -52,11 +52,11 @@ Ezek valós életbeli forgatókönyvek, és gyakran előfordulnak. Néhány pél
 
 Amikor egy eszköz csatlakozik egy IoT szolgáltatáshoz, egy azonosítót használ, hogy azonosítsa magát. A probléma az, hogy ez az azonosító klónozható - egy hacker beállíthat egy rosszindulatú eszközt, amely ugyanazt az azonosítót használja, mint egy valódi eszköz, de hamis adatokat küld.
 
-![Mind a valódi, mind a rosszindulatú eszköz ugyanazt az azonosítót használhatja telemetria küldésére](../../../../../translated_images/hu/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Mind a valódi, mind a rosszindulatú eszköz ugyanazt az azonosítót használhatja telemetria küldésére](../../../../../translated_images/hu/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 A megoldás az, hogy az elküldött adatokat egy kódolt formátumba alakítjuk, egy olyan érték segítségével, amelyet csak az eszköz és a felhő ismer. Ezt a folyamatot *titkosításnak* nevezzük, és az adat titkosításához használt értéket *titkosítási kulcsnak* hívjuk.
 
-![Ha titkosítást használunk, akkor csak a titkosított üzeneteket fogadják el, a többit elutasítják](../../../../../translated_images/hu/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Ha titkosítást használunk, akkor csak a titkosított üzeneteket fogadják el, a többit elutasítják](../../../../../translated_images/hu/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 A felhőszolgáltatás ezután visszaalakítja az adatokat olvasható formátumba, egy *dekódolási kulcs* segítségével. Ha a titkosított üzenetet nem lehet dekódolni a kulccsal, az eszközt feltörték, és az üzenetet elutasítják.
 

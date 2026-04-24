@@ -18,7 +18,7 @@ De Grove bodemvochtsensor kan worden aangesloten op de configureerbare analoge/d
 
 Verbind de bodemvochtsensor.
 
-![Een Grove bodemvochtsensor](../../../../../translated_images/nl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Een Grove bodemvochtsensor](../../../../../translated_images/nl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op de bodemvochtsensor. Deze past maar op één manier.
 

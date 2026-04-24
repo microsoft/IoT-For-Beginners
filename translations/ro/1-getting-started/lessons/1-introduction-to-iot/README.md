@@ -1,6 +1,6 @@
 # Introducere în IoT
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-1.2606670fa61ee904.webp)
 
 > Ilustrație realizată de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 

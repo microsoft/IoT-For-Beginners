@@ -37,7 +37,7 @@
     >
     > לדוגמה, אם אימנתם את LUIS באנגלית, אך ברצונכם להשתמש בצרפתית כשפת המשתמש, תוכלו לתרגם משפטים כמו "הגדר טיימר של 2 דקות ו-27 שניות" מאנגלית לצרפתית באמצעות Bing Translate, ואז להשתמש בכפתור **Listen translation** כדי לדבר את התרגום למיקרופון שלכם.
     >
-    > ![כפתור האזנה לתרגום ב-Bing Translate](../../../../../translated_images/he/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![כפתור האזנה לתרגום ב-Bing Translate](../../../../../translated_images/he/bing-translate.348aa796d6efe2a9.webp)
 
 1. החליפו את ההצהרות `recognizer_config` ו-`recognizer` עם הבאות:
 

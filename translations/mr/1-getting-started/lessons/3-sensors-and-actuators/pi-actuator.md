@@ -26,7 +26,7 @@ Grove LED एक मॉड्यूल म्हणून येतो ज्य
 
 LED जोडा.
 
-![एक Grove LED](../../../../../translated_images/mr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![एक Grove LED](../../../../../translated_images/mr/grove-led.6c853be93f473cf2.webp)
 
 1. तुमचा आवडता LED निवडा आणि LED मॉड्यूलवरील दोन छिद्रांमध्ये त्याचे पाय घाला.
 
@@ -40,7 +40,7 @@ LED जोडा.
 
 1. रास्पबेरी पाय बंद असताना, Grove केबलचा दुसरा टोक Grove Base हॅटवरील **D5** चिन्ह असलेल्या डिजिटल सॉकेटला जोडा. हा सॉकेट GPIO पिन्सच्या शेजारी असलेल्या सॉकेट्सच्या रांगेतील डावीकडून दुसरा आहे.
 
-![Grove LED D5 सॉकेटला जोडलेला](../../../../../translated_images/mr/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![Grove LED D5 सॉकेटला जोडलेला](../../../../../translated_images/mr/pi-led.97f1d474981dc35d.webp)
 
 ## रात्रीचा दिवा प्रोग्राम करा
 

@@ -1,6 +1,6 @@
 # Kontrolli laoseisu IoT-seadmest
 
-![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-20.0211df9551a8abb3.webp)
 
 > Visandmärkmed: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -62,7 +62,7 @@ Iteratsioone avaldatakse Custom Vision portaalist.
 
 1. Valige iteratsiooni **Publish** nupp.
 
-    ![Avaldamise nupp](../../../../../translated_images/et/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![Avaldamise nupp](../../../../../translated_images/et/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. *Publish Model* dialoogis määrake *Prediction resource* väärtuseks `stock-detector-prediction` ressurss, mille lõite eelmises õppetunnis. Jätke nimi `Iteration2` ja valige **Publish** nupp.
 
@@ -76,7 +76,7 @@ Iteratsioone avaldatakse Custom Vision portaalist.
 
     Samuti kopeerige *Prediction-Key* väärtus. See on turvaline võti, mida peate mudeli kutsumisel edastama. Ainult rakendused, mis edastavad selle võtme, saavad mudelit kasutada, kõik muud rakendused lükatakse tagasi.
 
-    ![Ennustuse API dialoog, mis näitab URL-i ja võtit](../../../../../translated_images/et/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![Ennustuse API dialoog, mis näitab URL-i ja võtit](../../../../../translated_images/et/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ Kui uus iteratsioon avaldatakse, on sellel erinev nimi. Kuidas arvate, et saaksite muuta iteratsiooni, mida IoT-seade kasutab?
 
@@ -95,7 +95,7 @@ Kui kasutate objektidetektorit, saate tagasi mitte ainult tuvastatud objektid ko
 
 Ennustuse tulemused **Predictions** vahekaardil Custom Visionis näitavad piiravaid kaste pildil, mis saadeti ennustamiseks.
 
-![4 purki tomatipastat riiulil koos ennustustega 4 tuvastuse kohta: 35.8%, 33.5%, 25.7% ja 16.6%](../../../../../translated_images/et/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![4 purki tomatipastat riiulil koos ennustustega 4 tuvastuse kohta: 35.8%, 33.5%, 25.7% ja 16.6%](../../../../../translated_images/et/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 Ülaltoodud pildil tuvastati 4 purki tomatipastat. Tulemuste osas on iga tuvastatud objekti jaoks pildile lisatud punane ruut, mis näitab pildi piiravat kasti.
 
@@ -103,7 +103,7 @@ Ennustuse tulemused **Predictions** vahekaardil Custom Visionis näitavad piirav
 
 Piiravad kastid määratletakse 4 väärtusega - top, left, height ja width. Need väärtused on skaalal 0-1, mis esindavad positsioone pildi suuruse protsendina. Alguspunkt (0,0 positsioon) on pildi vasak ülemine nurk, seega top väärtus on kaugus ülevalt ja piirava kasti põhi on top pluss height.
 
-![Piirav kast tomatipasta purgi ümber](../../../../../translated_images/et/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![Piirav kast tomatipasta purgi ümber](../../../../../translated_images/et/bounding-box.1420a7ea0d3d15f7.webp)
 
 Ülaltoodud pilt on 600 pikslit lai ja 800 pikslit kõrge. Piirav kast algab 320 pikslit allpool, andes top koordinaadiks 0.4 (800 x 0.4 = 320). Vasakult algab piirav kast 240 pikslit üle, andes left koordinaadiks 0.4 (600 x 0.4 = 240). Piirava kasti kõrgus on 240 pikslit, andes height väärtuseks 0.3 (800 x 0.3 = 240). Piirava kasti laius on 120 pikslit, andes width väärtuseks 0.2 (600 x 0.2 = 120).
 
@@ -118,7 +118,7 @@ Protsendiväärtuste kasutamine skaalal 0-1 tähendab, et olenemata pildi suurus
 
 Piiravaid kaste saab kasutada koos tõenäosustega, et hinnata, kui täpne tuvastus on. Näiteks võib objektidetektor tuvastada mitu objekti, mis kattuvad, näiteks tuvastades ühe purgi teise sees. Teie kood võiks vaadata piiravaid kaste, mõista, et see on võimatu, ja ignoreerida kõiki objekte, millel on märkimisväärne kattumine teiste objektidega.
 
-![Kaks piiravat kasti kattuvad tomatipasta purgiga](../../../../../translated_images/et/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![Kaks piiravat kasti kattuvad tomatipasta purgiga](../../../../../translated_images/et/overlap-object-detection.d431e03cae75072a.webp)
 
 Ülaltoodud näites näitab üks piirav kast ennustatud tomatipasta purki tõenäosusega 78.3%. Teine piirav kast on veidi väiksem ja asub esimese piirava kasti sees tõenäosusega 64.3%. Teie kood võib kontrollida piiravaid kaste, näha, et need kattuvad täielikult, ja ignoreerida madalama tõenäosusega tuvastust, kuna pole võimalik, et üks purk on teise sees.
 

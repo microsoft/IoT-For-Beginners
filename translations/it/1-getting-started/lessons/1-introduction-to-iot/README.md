@@ -1,6 +1,6 @@
 # Introduzione all'IoT
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-1.2606670fa61ee904.webp)
 
 > Disegno di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 

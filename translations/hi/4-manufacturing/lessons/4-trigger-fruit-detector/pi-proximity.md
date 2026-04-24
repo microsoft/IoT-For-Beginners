@@ -20,7 +20,7 @@ Grove टाइम ऑफ फ्लाइट सेंसर को रास्
 
 टाइम ऑफ फ्लाइट सेंसर को कनेक्ट करें।
 
-![एक Grove टाइम ऑफ फ्लाइट सेंसर](../../../../../translated_images/hi/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![एक Grove टाइम ऑफ फ्लाइट सेंसर](../../../../../translated_images/hi/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Grove केबल के एक सिरे को टाइम ऑफ फ्लाइट सेंसर के सॉकेट में डालें। यह केवल एक ही दिशा में जाएगा।
 

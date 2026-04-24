@@ -26,7 +26,7 @@ Grove LED kommer som en modul med ett urval av LED-lampor, vilket gör att du ka
 
 Anslut LED-lampan.
 
-![En Grove LED](../../../../../translated_images/sv/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![En Grove LED](../../../../../translated_images/sv/grove-led.6c853be93f473cf2.webp)
 
 1. Välj din favorit-LED och sätt in benen i de två hålen på LED-modulen.
 

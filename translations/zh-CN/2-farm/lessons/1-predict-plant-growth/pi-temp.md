@@ -16,7 +16,7 @@ Grove 温度传感器可以连接到树莓派。
 
 连接温度传感器
 
-![一个 Grove 温度传感器](../../../../../translated_images/zh-CN/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![一个 Grove 温度传感器](../../../../../translated_images/zh-CN/grove-dht11.07f8eafceee17004.webp)
 
 1. 将 Grove 电缆的一端插入湿度和温度传感器上的插座。它只能以一种方式插入。
 

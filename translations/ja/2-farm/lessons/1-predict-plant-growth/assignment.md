@@ -33,7 +33,7 @@
 
     Jupyterが起動し、ブラウザでノートブックが開きます。ノートブック内の指示に従って、測定された温度を可視化し、成長度日（GDD）を計算してください。
 
-    ![Jupyter Notebookの画面](../../../../../translated_images/ja/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Jupyter Notebookの画面](../../../../../translated_images/ja/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## 評価基準
 

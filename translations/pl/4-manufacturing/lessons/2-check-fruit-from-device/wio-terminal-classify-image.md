@@ -208,7 +208,7 @@ Certyfikaty te zawierają klucze publiczne i nie muszą być przechowywane w spo
 
     Będziesz mógł zobaczyć obraz, który został zrobiony, oraz te wartości na karcie **Predictions** w Custom Vision.
 
-    ![Banana w Custom Vision przewidziany jako dojrzały w 56,8% i niedojrzały w 43,1%](../../../../../translated_images/pl/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Banana w Custom Vision przewidziany jako dojrzały w 56,8% i niedojrzały w 43,1%](../../../../../translated_images/pl/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Kod ten znajdziesz w folderze [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

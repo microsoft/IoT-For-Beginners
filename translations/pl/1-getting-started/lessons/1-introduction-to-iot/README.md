@@ -1,6 +1,6 @@
 # Wprowadzenie do IoT
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-1.2606670fa61ee904.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 

@@ -20,7 +20,7 @@ Ang Grove time of flight sensor ay maaaring ikonekta sa Raspberry Pi.
 
 Ikonekta ang time of flight sensor.
 
-![Isang Grove time of flight sensor](../../../../../translated_images/tl/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Isang Grove time of flight sensor](../../../../../translated_images/tl/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng time of flight sensor. Isang paraan lamang ang tamang pagpasok nito.
 

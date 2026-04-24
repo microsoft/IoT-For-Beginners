@@ -37,7 +37,7 @@
     >
     > Наприклад, якщо ви навчаєте LUIS англійською, але хочете використовувати французьку як мову користувача, ви можете перекладати речення, такі як "set a 2 minute and 27 second timer", з англійської на французьку за допомогою Bing Translate, а потім використовувати кнопку **Listen translation**, щоб озвучити переклад у ваш мікрофон.
     >
-    > ![Кнопка прослуховування перекладу на Bing Translate](../../../../../translated_images/uk/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Кнопка прослуховування перекладу на Bing Translate](../../../../../translated_images/uk/bing-translate.348aa796d6efe2a9.webp)
 
 1. Замініть декларації `recognizer_config` і `recognizer` наступним:
 

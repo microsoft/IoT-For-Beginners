@@ -18,13 +18,13 @@ Czujnik wilgotności gleby Grove można podłączyć do Raspberry Pi.
 
 Podłącz czujnik wilgotności gleby.
 
-![Czujnik wilgotności gleby Grove](../../../../../translated_images/pl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Czujnik wilgotności gleby Grove](../../../../../translated_images/pl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Włóż jeden koniec kabla Grove do gniazda na czujniku wilgotności gleby. Kabel można włożyć tylko w jeden sposób.
 
 1. Przy wyłączonym Raspberry Pi podłącz drugi koniec kabla Grove do gniazda analogowego oznaczonego **A0** na Grove Base Hat przymocowanym do Raspberry Pi. To gniazdo znajduje się drugie od prawej strony w rzędzie gniazd obok pinów GPIO.
 
-![Czujnik wilgotności gleby Grove podłączony do gniazda A0](../../../../../translated_images/pl/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Czujnik wilgotności gleby Grove podłączony do gniazda A0](../../../../../translated_images/pl/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Włóż czujnik wilgotności gleby do gleby. Na czujniku znajduje się linia oznaczająca "najwyższy poziom" - biała linia przecinająca czujnik. Włóż czujnik do gleby do tej linii, ale nie głębiej.
 

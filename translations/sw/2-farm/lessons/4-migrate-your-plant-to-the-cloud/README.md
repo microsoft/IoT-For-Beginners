@@ -1,6 +1,6 @@
 # Hamisha mmea wako kwenye wingu
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -46,8 +46,8 @@ Hii ilikuwa ghali sana, ilihitaji wafanyakazi wenye ujuzi mbalimbali, na ilikuwa
 
 Wingu mara nyingi hurejelewa kwa utani kama 'kompyuta ya mtu mwingine'. Wazo la awali lilikuwa rahisi - badala ya kununua kompyuta, unakodisha kompyuta ya mtu mwingine. Mtoa huduma wa wingu angeweza kusimamia vituo vikubwa vya data. Wao wangekuwa na jukumu la kununua na kusakinisha vifaa, kusimamia umeme na baridi, mtandao, usalama wa jengo, masasisho ya vifaa na programu, kila kitu. Kama mteja, ungekodisha kompyuta unazohitaji, ukikodisha zaidi wakati mahitaji yanapoongezeka, kisha kupunguza idadi unayokodisha ikiwa mahitaji yanapungua. Vituo hivi vya data vya wingu viko kote ulimwenguni.
 
-![Kituo cha data cha wingu cha Microsoft](../../../../../translated_images/sw/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Upanuzi uliopangwa wa kituo cha data cha wingu cha Microsoft](../../../../../translated_images/sw/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Kituo cha data cha wingu cha Microsoft](../../../../../translated_images/sw/azure-region-existing.73f704604f2aa6cb.webp)
+![Upanuzi uliopangwa wa kituo cha data cha wingu cha Microsoft](../../../../../translated_images/sw/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Vituo hivi vya data vinaweza kuwa na ukubwa wa kilomita za mraba nyingi. Picha zilizo hapo juu zilipigwa miaka michache iliyopita katika kituo cha data cha wingu cha Microsoft, na zinaonyesha ukubwa wa awali, pamoja na upanuzi uliopangwa. Eneo lililoandaliwa kwa ajili ya upanuzi lina zaidi ya kilomita za mraba 5.
 
@@ -108,11 +108,11 @@ Huduma za IoT kwenye wingu hutatua matatizo haya. Zinasimamiwa na watoa huduma w
 
 Vifaa vya IoT vinaunganishwa na huduma ya wingu ama kwa kutumia SDK ya kifaa (maktaba inayotoa msimbo wa kufanya kazi na vipengele vya huduma), au moja kwa moja kupitia itifaki ya mawasiliano kama vile MQTT au HTTP. SDK ya kifaa mara nyingi ni njia rahisi zaidi kwani inashughulikia kila kitu kwa niaba yako, kama vile kujua mada za kuchapisha au kujiandikisha, na jinsi ya kushughulikia usalama.
 
-![Vifaa vinaunganishwa na huduma kwa kutumia SDK ya kifaa. Msimbo wa seva pia unaunganishwa na huduma kupitia SDK](../../../../../translated_images/sw/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Vifaa vinaunganishwa na huduma kwa kutumia SDK ya kifaa. Msimbo wa seva pia unaunganishwa na huduma kupitia SDK](../../../../../translated_images/sw/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Kifaa chako kisha huwasiliana na sehemu nyingine za programu yako kupitia huduma hii - sawa na jinsi ulivyotuma telemetry na kupokea amri kupitia MQTT. Hii mara nyingi hufanyika kwa kutumia SDK ya huduma au maktaba kama hiyo. Ujumbe hutoka kwenye kifaa chako kwenda kwenye huduma ambapo sehemu nyingine za programu yako zinaweza kuusoma, na ujumbe unaweza kutumwa kurudi kwenye kifaa chako.
 
-![Vifaa visivyo na ufunguo wa siri halali haviwezi kuunganishwa na huduma ya IoT](../../../../../translated_images/sw/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Vifaa visivyo na ufunguo wa siri halali haviwezi kuunganishwa na huduma ya IoT](../../../../../translated_images/sw/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Huduma hizi hutekeleza usalama kwa kujua kuhusu vifaa vyote vinavyoweza kuunganishwa na kutuma data, ama kwa kuwa na vifaa vilivyosajiliwa mapema na huduma, au kwa kuvipa vifaa funguo za siri au vyeti ambavyo vinaweza kutumia kujisajili na huduma mara ya kwanza vinapounganishwa. Vifaa visivyojulikana haviwezi kuunganishwa, vikijaribu huduma hukataa muunganisho na kupuuza ujumbe unaotumwa navyo.
 
@@ -124,7 +124,7 @@ Sehemu nyingine za programu yako zinaweza kuunganishwa na huduma ya IoT na kujif
 
 Sasa kwa kuwa una usajili wa Azure, unaweza kujisajili kwa huduma ya IoT. Huduma ya IoT kutoka Microsoft inaitwa Azure IoT Hub.
 
-![Nembo ya Azure IoT Hub](../../../../../translated_images/sw/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Nembo ya Azure IoT Hub](../../../../../translated_images/sw/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Video hapa chini inatoa muhtasari mfupi wa Azure IoT Hub:
 

@@ -16,13 +16,13 @@ Knappen kan tilsluttes Grove-basen.
 
 #### Opgave - tilslut knappen
 
-![En Grove-knap](../../../../../translated_images/da/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
+![En Grove-knap](../../../../../translated_images/da/grove-button.a70cfbb809a85636.webp)
 
 1. Sæt den ene ende af et Grove-kabel i stikket på knapmodulet. Det kan kun sættes i på én måde.
 
 1. Med Raspberry Pi'en slukket, tilslut den anden ende af Grove-kablet til det digitale stik mærket **D5** på Grove Base HAT'en, der er tilsluttet Pi'en. Dette stik er det andet fra venstre i rækken af stik ved siden af GPIO-pindene.
 
-![Grove-knappen tilsluttet stik D5](../../../../../translated_images/da/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
+![Grove-knappen tilsluttet stik D5](../../../../../translated_images/da/pi-button.c7a1a4f55943341c.webp)
 
 ## Optag lyd
 

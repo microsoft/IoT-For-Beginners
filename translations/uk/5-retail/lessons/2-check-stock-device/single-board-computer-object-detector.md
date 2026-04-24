@@ -67,7 +67,7 @@
 
     Ви зможете побачити зображення, яке було зроблено, і ці значення у вкладці **Predictions** в Custom Vision.
 
-    ![4 банки томатної пасти на полиці з передбаченнями для 4 виявлень: 35.8%, 33.5%, 25.7% і 16.6%](../../../../../translated_images/uk/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 банки томатної пасти на полиці з передбаченнями для 4 виявлень: 35.8%, 33.5%, 25.7% і 16.6%](../../../../../translated_images/uk/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Ви можете знайти цей код у папці [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) або [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

@@ -1,6 +1,6 @@
 # Melatih Detektor Kualitas Buah
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-15.843d21afdc6fb2bb.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -38,7 +38,7 @@ Tidak semua tanaman matang secara merata. Tomat, misalnya, masih bisa memiliki b
 
 Kenaikan penggunaan mesin panen otomatis memindahkan proses penyortiran hasil panen dari ladang ke pabrik. Makanan akan bergerak di atas sabuk konveyor panjang dengan tim orang yang memeriksa hasil panen dan menghapus apa pun yang tidak memenuhi standar kualitas yang diperlukan. Memanen menjadi lebih murah berkat mesin, tetapi masih ada biaya untuk menyortir makanan secara manual.
 
-![Jika tomat merah terdeteksi, ia melanjutkan perjalanannya tanpa gangguan. Jika tomat hijau terdeteksi, ia dilempar ke tempat sampah oleh tuas](../../../../../translated_images/id/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![Jika tomat merah terdeteksi, ia melanjutkan perjalanannya tanpa gangguan. Jika tomat hijau terdeteksi, ia dilempar ke tempat sampah oleh tuas](../../../../../translated_images/id/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 Evolusi berikutnya adalah menggunakan mesin untuk menyortir, baik yang terintegrasi dalam mesin panen, atau di pabrik pengolahan. Generasi pertama dari mesin ini menggunakan sensor optik untuk mendeteksi warna, mengontrol aktuator untuk mendorong tomat hijau ke tempat sampah menggunakan tuas atau semburan udara, meninggalkan tomat merah untuk melanjutkan perjalanan di jaringan sabuk konveyor.
 
@@ -62,7 +62,7 @@ Misalnya, Anda dapat memberikan model jutaan gambar pisang yang belum matang seb
 
 > 🎓 Hasil dari model ML disebut *prediksi*
 
-![2 pisang, satu matang dengan prediksi 99.7% matang, 0.3% belum matang, dan satu belum matang dengan prediksi 1.4% matang, 98.6% belum matang](../../../../../translated_images/id/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![2 pisang, satu matang dengan prediksi 99.7% matang, 0.3% belum matang, dan satu belum matang dengan prediksi 1.4% matang, 98.6% belum matang](../../../../../translated_images/id/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 Model ML tidak memberikan jawaban biner, melainkan memberikan probabilitas. Misalnya, sebuah model dapat diberikan gambar pisang dan memprediksi `matang` dengan probabilitas 99.7% dan `belum matang` dengan probabilitas 0.3%. Kode Anda kemudian akan memilih prediksi terbaik dan memutuskan bahwa pisang tersebut matang.
 
@@ -90,7 +90,7 @@ Ada berbagai alat yang dapat membantu Anda melakukan ini, termasuk layanan berba
 
 Custom Vision adalah alat berbasis cloud untuk melatih pengklasifikasi gambar. Alat ini memungkinkan Anda melatih pengklasifikasi hanya dengan sejumlah kecil gambar. Anda dapat mengunggah gambar melalui portal web, API web, atau SDK, memberikan setiap gambar *tag* yang merupakan klasifikasi dari gambar tersebut. Anda kemudian melatih model, dan mengujinya untuk melihat seberapa baik kinerjanya. Setelah Anda puas dengan model tersebut, Anda dapat mempublikasikan versi yang dapat diakses melalui API web atau SDK.
 
-![Logo Azure Custom Vision](../../../../../translated_images/id/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Logo Azure Custom Vision](../../../../../translated_images/id/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 Anda dapat melatih model Custom Vision dengan hanya 5 gambar per klasifikasi, tetapi lebih banyak lebih baik. Anda dapat mendapatkan hasil yang lebih baik dengan setidaknya 30 gambar.
 
@@ -146,7 +146,7 @@ Untuk menggunakan Custom Vision, Anda pertama-tama perlu membuat dua sumber daya
 
     Saat Anda membuat proyek Anda, pastikan untuk menggunakan sumber daya `fruit-quality-detector-training` yang Anda buat sebelumnya. Gunakan tipe proyek *Classification*, tipe klasifikasi *Multiclass*, dan domain *Food*.
 
-    ![Pengaturan untuk proyek Custom Vision dengan nama diatur ke fruit-quality-detector, tanpa deskripsi, sumber daya diatur ke fruit-quality-detector-training, tipe proyek diatur ke classification, tipe klasifikasi diatur ke multi class dan domain diatur ke food](../../../../../translated_images/id/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Pengaturan untuk proyek Custom Vision dengan nama diatur ke fruit-quality-detector, tanpa deskripsi, sumber daya diatur ke fruit-quality-detector-training, tipe proyek diatur ke classification, tipe klasifikasi diatur ke multi class dan domain diatur ke food](../../../../../translated_images/id/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ Luangkan waktu untuk menjelajahi UI Custom Vision untuk pengklasifikasi gambar Anda.
 
@@ -164,7 +164,7 @@ Pengklasifikasi gambar bekerja pada resolusi yang sangat rendah. Misalnya, Custo
 
     * Gunakan 2 pisang matang, ambil beberapa gambar dari masing-masing pisang dari berbagai sudut, setidaknya 7 gambar (5 untuk pelatihan, 2 untuk pengujian), tetapi idealnya lebih banyak.
 
-        ![Foto 2 pisang yang berbeda](../../../../../translated_images/id/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![Foto 2 pisang yang berbeda](../../../../../translated_images/id/banana-training-images.530eb203346d73bc.webp)
 
     * Ulangi proses yang sama menggunakan 2 pisang yang belum matang.
 
@@ -174,7 +174,7 @@ Pengklasifikasi gambar bekerja pada resolusi yang sangat rendah. Misalnya, Custo
 
 1. Ikuti [bagian unggah dan beri label gambar dari panduan cepat membangun pengklasifikasi di Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) untuk mengunggah gambar pelatihan Anda. Beri label buah matang sebagai `ripe`, dan buah belum matang sebagai `unripe`.
 
-    ![Dialog unggah yang menunjukkan pengunggahan gambar pisang matang dan belum matang](../../../../../translated_images/id/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![Dialog unggah yang menunjukkan pengunggahan gambar pisang matang dan belum matang](../../../../../translated_images/id/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. Ikuti [bagian latih pengklasifikasi dari panduan cepat membangun pengklasifikasi di Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) untuk melatih pengklasifikasi gambar menggunakan gambar yang telah Anda unggah.
 
@@ -192,7 +192,7 @@ Setelah pengklasifikasi Anda dilatih, Anda dapat mengujinya dengan memberikan ga
 
 1. Ikuti [dokumentasi uji model Anda di Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) untuk menguji pengklasifikasi gambar Anda. Gunakan gambar pengujian yang telah Anda buat sebelumnya, bukan gambar yang digunakan untuk pelatihan.
 
-    ![Pisang belum matang diprediksi sebagai belum matang dengan probabilitas 98.9%, matang dengan probabilitas 1.1%](../../../../../translated_images/id/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![Pisang belum matang diprediksi sebagai belum matang dengan probabilitas 98.9%, matang dengan probabilitas 1.1%](../../../../../translated_images/id/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. Coba semua gambar pengujian yang Anda miliki dan amati probabilitasnya.
 

@@ -1,6 +1,6 @@
 # IoT 소개
 
-![이 강의에 대한 스케치노트 개요](../../../../../translated_images/ko/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![이 강의에 대한 스케치노트 개요](../../../../../translated_images/ko/lesson-1.2606670fa61ee904.webp)
 
 > 스케치노트 제공: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 

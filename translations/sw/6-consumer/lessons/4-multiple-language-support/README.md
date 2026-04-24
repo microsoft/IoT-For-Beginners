@@ -1,6 +1,6 @@
 # Kusaidia Lugha Nyingi
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bonyeza picha kwa toleo kubwa zaidi.
 
@@ -74,7 +74,7 @@ Kuna huduma kadhaa za AI ambazo zinaweza kutumika kutoka kwa programu zako kutaf
 
 ### Huduma ya Sauti ya Cognitive Services
 
-![Nembo ya huduma ya sauti](../../../../../translated_images/sw/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Nembo ya huduma ya sauti](../../../../../translated_images/sw/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Huduma ya sauti ambayo umekuwa ukitumia katika masomo yaliyopita ina uwezo wa kutafsiri kwa utambuzi wa sauti. Unapotambua sauti, unaweza kuomba si tu maandishi ya sauti hiyo kwa lugha ile ile, bali pia kwa lugha nyingine.
 
@@ -82,7 +82,7 @@ Huduma ya sauti ambayo umekuwa ukitumia katika masomo yaliyopita ina uwezo wa ku
 
 ### Huduma ya Mtafsiri ya Cognitive Services
 
-![Nembo ya huduma ya mtafsiri](../../../../../translated_images/sw/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Nembo ya huduma ya mtafsiri](../../../../../translated_images/sw/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Huduma ya Mtafsiri ni huduma maalum ya tafsiri inayoweza kutafsiri maandishi kutoka lugha moja kwenda lugha moja au zaidi za lengo. Mbali na kutafsiri, inasaidia vipengele vingi vya ziada ikiwa ni pamoja na kuficha matusi. Pia inakuruhusu kutoa tafsiri maalum kwa neno au sentensi fulani, kufanya kazi na maneno ambayo hutaki kutafsiriwa, au kuwa na tafsiri maalum inayojulikana.
 

@@ -1,6 +1,6 @@
 # Hlbší pohľad na IoT
 
-![Prehľad lekcie v sketchnote](../../../../../translated_images/sk/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Prehľad lekcie v sketchnote](../../../../../translated_images/sk/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -38,7 +38,7 @@ Dve hlavné komponenty IoT aplikácie sú *Internet* a *vec*. Pozrime sa na tiet
 
 Tieto zariadenia interagujú s fyzickým svetom buď pomocou senzorov na zhromažďovanie údajov zo svojho okolia, alebo ovládaním výstupov či akčných členov na vykonávanie fyzických zmien. Typickým príkladom je inteligentný termostat - zariadenie, ktoré má teplotný senzor, spôsob nastavenia požadovanej teploty, ako je otočný ovládač alebo dotyková obrazovka, a pripojenie k vykurovaciemu alebo chladiacemu systému, ktorý sa môže zapnúť, keď je zistená teplota mimo požadovaného rozsahu. Teplotný senzor zistí, že miestnosť je príliš studená, a akčný člen zapne kúrenie.
 
-![Diagram zobrazujúci teplotu a otočný ovládač ako vstupy do IoT zariadenia a ovládanie kúrenia ako výstup](../../../../../translated_images/sk/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Diagram zobrazujúci teplotu a otočný ovládač ako vstupy do IoT zariadenia a ovládanie kúrenia ako výstup](../../../../../translated_images/sk/basic-thermostat.a923217fd1f37e5a.webp)
 
 Existuje obrovské množstvo rôznych vecí, ktoré môžu fungovať ako IoT zariadenia, od špecializovaného hardvéru na snímanie jednej veci až po univerzálne zariadenia, dokonca aj váš smartfón! Smartfón môže používať senzory na detekciu sveta okolo seba a akčné členy na interakciu so svetom - napríklad pomocou GPS senzora na zistenie vašej polohy a reproduktora na navigačné pokyny k cieľu.
 
@@ -54,7 +54,7 @@ Zariadenia sa tiež nemusia vždy priamo pripájať na internet cez WiFi alebo k
 
 V prípade inteligentného termostatu by sa termostat pripojil cez domáce WiFi k cloudovému servisu bežiacemu v cloude. Poslal by údaje o teplote do tohto cloudového servisu, odkiaľ by boli zapísané do nejakej databázy, ktorá by umožnila majiteľovi domu skontrolovať aktuálne a minulé teploty pomocou aplikácie v telefóne. Ďalšia služba v cloude by vedela, akú teplotu majiteľ domu chce, a poslala by správy späť do IoT zariadenia cez cloudový servis, aby povedala vykurovaciemu systému, či sa má zapnúť alebo vypnúť.
 
-![Diagram zobrazujúci teplotu a otočný ovládač ako vstupy do IoT zariadenia, IoT zariadenie s obojsmernou komunikáciou s cloudom, ktorý má obojsmernú komunikáciu s telefónom, a ovládanie kúrenia ako výstup z IoT zariadenia](../../../../../translated_images/sk/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Diagram zobrazujúci teplotu a otočný ovládač ako vstupy do IoT zariadenia, IoT zariadenie s obojsmernou komunikáciou s cloudom, ktorý má obojsmernú komunikáciu s telefónom, a ovládanie kúrenia ako výstup z IoT zariadenia](../../../../../translated_images/sk/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Ešte inteligentnejšia verzia by mohla používať AI v cloude s údajmi z iných senzorov pripojených k iným IoT zariadeniam, ako sú senzory obsadenosti, ktoré detekujú, ktoré miestnosti sa používajú, ako aj údaje ako počasie a dokonca váš kalendár, na rozhodovanie o tom, ako inteligentne nastaviť teplotu. Napríklad by mohla vypnúť kúrenie, ak z vášho kalendára zistí, že ste na dovolenke, alebo vypnúť kúrenie miestnosť po miestnosti v závislosti od toho, ktoré miestnosti používate, pričom sa z údajov učí byť čoraz presnejšia.
 
@@ -94,7 +94,7 @@ CPU sa spolieha na hodiny, ktoré tikajú milióny alebo miliardy krát za sekun
 
 > 💁 CPU vykonávajú programy pomocou [fetch-decode-execute cyklu](https://wikipedia.org/wiki/Instruction_cycle). Pri každom tiku hodín CPU načíta ďalšiu inštrukciu z pamäte, dekóduje ju a potom ju vykoná, napríklad pomocou aritmeticko-logickej jednotky (ALU) na sčítanie 2 čísel. Niektoré vykonania trvajú viac tikov, takže ďalší cyklus sa spustí pri ďalšom tiku po dokončení inštrukcie.
 
-![Fetch-decode-execute cyklus zobrazujúci načítanie inštrukcie z programu uloženého v RAM, potom dekódovanie a vykonanie na CPU](../../../../../translated_images/sk/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Fetch-decode-execute cyklus zobrazujúci načítanie inštrukcie z programu uloženého v RAM, potom dekódovanie a vykonanie na CPU](../../../../../translated_images/sk/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Mikrokontroléry majú oveľa nižšie rýchlosti hodín ako stolné alebo prenosné počítače, alebo dokonca väčšina smartfónov. Napríklad Wio Terminal má CPU, ktorý beží na 120MHz alebo 120,000,000 cyklov za sekundu.
 
@@ -182,7 +182,7 @@ Dosky Arduino sa programujú v jazykoch C alebo C++. Použitie C/C++ umožňuje,
 
 Do funkcie `setup` by ste napísali kód na inicializáciu, napríklad pripojenie k WiFi a cloudovým službám alebo inicializáciu pinov na vstup a výstup. Do funkcie `loop` by ste potom vložili spracovateľský kód, napríklad čítanie zo senzora a odosielanie hodnôt do cloudu. Zvyčajne by ste pridali oneskorenie na konci každého cyklu, napríklad ak chcete, aby sa údaje zo senzora odosielali každých 10 sekúnd, pridali by ste oneskorenie 10 sekúnd, aby mikrokontrolér mohol spať, šetriť energiu a potom spustiť cyklus znova, keď to bude potrebné.
 
-![Sketch Arduino spúšťajúci najprv setup, potom opakovane loop](../../../../../translated_images/sk/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Sketch Arduino spúšťajúci najprv setup, potom opakovane loop](../../../../../translated_images/sk/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Táto architektúra programu je známa ako *cyklus udalostí* alebo *cyklus správ*. Mnoho aplikácií používa tento princíp na pozadí a je to štandard pre väčšinu desktopových aplikácií, ktoré bežia na OS ako Windows, macOS alebo Linux. Funkcia `loop` počúva správy od komponentov používateľského rozhrania, ako sú tlačidlá, alebo zariadení, ako je klávesnica, a reaguje na ne. Viac si môžete prečítať v tomto [článku o cykle udalostí](https://wikipedia.org/wiki/Event_loop).
 

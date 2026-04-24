@@ -1,6 +1,6 @@
 # 使用传感器和执行器与物理世界交互
 
-![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-3.cc3b7b4cd646de59.webp)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -92,7 +92,7 @@ IoT 设备是数字化的——它们无法处理模拟值，只能处理 0 和 
 
 最简单的数字传感器是按钮或开关。这是一种只有两种状态的传感器：开或关。
 
-![一个按钮接收 5 伏特。当未按下时返回 0 伏特，当按下时返回 5 伏特](../../../../../translated_images/zh-CN/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![一个按钮接收 5 伏特。当未按下时返回 0 伏特，当按下时返回 5 伏特](../../../../../translated_images/zh-CN/button.eadb560b77ac45e5.webp)
 
 IoT 设备上的引脚（如 GPIO 引脚）可以直接测量此信号为 0 或 1。如果返回的电压与输入电压相同，则读取值为 1，否则读取值为 0。无需转换信号，它只能是 1 或 0。
 
@@ -125,7 +125,7 @@ IoT 设备上的引脚（如 GPIO 引脚）可以直接测量此信号为 0 或 
 
 根据以下相关指南，将执行器添加到你的 IoT 设备中，并通过传感器控制它，构建一个 IoT 夜灯。它将从光传感器获取光线强度，并使用 LED 作为执行器，在检测到光线强度过低时发光。
 
-![作业流程图，显示读取和检查光线强度，并控制 LED](../../../../../translated_images/zh-CN/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![作业流程图，显示读取和检查光线强度，并控制 LED](../../../../../translated_images/zh-CN/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [单板计算机 - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ IoT 设备上的引脚（如 GPIO 引脚）可以直接测量此信号为 0 或 
 模拟执行器接收模拟信号并将其转换为某种交互，其中交互会根据提供的电压变化。
 
 一个例子是可调光灯，例如你家中的灯。提供给灯的电压决定了它的亮度。
-![低电压时灯光较暗，高电压时灯光较亮](../../../../../translated_images/zh-CN/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![低电压时灯光较暗，高电压时灯光较亮](../../../../../translated_images/zh-CN/dimmable-light.9ceffeb195dec1a8.webp)
 
 与传感器类似，实际的物联网设备使用的是数字信号，而不是模拟信号。这意味着要发送模拟信号，物联网设备需要一个数字到模拟转换器（DAC），可以直接集成在物联网设备上，也可以在连接板上。这将把物联网设备的0和1转换为执行器可以使用的模拟电压。
 
@@ -187,7 +187,7 @@ IoT 设备上的引脚（如 GPIO 引脚）可以直接测量此信号为 0 或 
 
 一个简单的数字执行器是LED。当设备发送数字信号1时，会发送高电压点亮LED。当发送数字信号0时，电压降至0V，LED熄灭。
 
-![LED在0伏时熄灭，在5伏时点亮](../../../../../translated_images/zh-CN/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED在0伏时熄灭，在5伏时点亮](../../../../../translated_images/zh-CN/led.ec6d94f66676a174.webp)
 
 ✅ 你能想到其他简单的两状态执行器吗？一个例子是电磁铁，它可以被激活来完成诸如移动门栓锁定/解锁门的任务。
 

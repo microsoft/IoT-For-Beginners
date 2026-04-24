@@ -84,7 +84,7 @@ Storitev Custom Vision ima Python SDK, ki ga lahko uporabite za razvrščanje sl
 
     Videli boste sliko, ki je bila posneta, in te vrednosti v zavihku **Predictions** v Custom Vision.
 
-    ![Banana v Custom Vision, napovedana kot zrela s 56,8% in nezrela s 43,1%](../../../../../translated_images/sl/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Banana v Custom Vision, napovedana kot zrela s 56,8% in nezrela s 43,1%](../../../../../translated_images/sl/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 To kodo lahko najdete v mapi [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) ali [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

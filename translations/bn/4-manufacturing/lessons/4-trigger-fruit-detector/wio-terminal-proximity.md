@@ -20,7 +20,7 @@ Grove টাইম অফ ফ্লাইট সেন্সরটি Wio Termin
 
 টাইম অফ ফ্লাইট সেন্সরটি সংযোগ করুন।
 
-![একটি Grove টাইম অফ ফ্লাইট সেন্সর](../../../../../translated_images/bn/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![একটি Grove টাইম অফ ফ্লাইট সেন্সর](../../../../../translated_images/bn/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Grove কেবলের এক প্রান্ত টাইম অফ ফ্লাইট সেন্সরের সকেটে প্রবেশ করান। এটি শুধুমাত্র একটি নির্দিষ্ট দিকেই প্রবেশ করবে।
 

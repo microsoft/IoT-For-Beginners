@@ -1,6 +1,6 @@
 # Sissejuhatus asjade internetti
 
-![Selle õppetunni visandmärkmed](../../../../../translated_images/et/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Selle õppetunni visandmärkmed](../../../../../translated_images/et/lesson-1.2606670fa61ee904.webp)
 
 > Visandmärkmed: [Nitya Narasimhan](https://github.com/nitya). Suurema versiooni vaatamiseks klõpsake pildil.
 

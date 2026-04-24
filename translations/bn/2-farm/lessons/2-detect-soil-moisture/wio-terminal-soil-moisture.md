@@ -18,7 +18,7 @@ Grove মাটি আর্দ্রতা সেন্সরটি Wio Termina
 
 মাটি আর্দ্রতা সেন্সর সংযুক্ত করুন।
 
-![একটি Grove মাটি আর্দ্রতা সেন্সর](../../../../../translated_images/bn/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![একটি Grove মাটি আর্দ্রতা সেন্সর](../../../../../translated_images/bn/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove কেবলের এক প্রান্ত মাটি আর্দ্রতা সেন্সরের সকেটে প্রবেশ করান। এটি শুধুমাত্র একটি নির্দিষ্ট দিকেই প্রবেশ করবে।
 

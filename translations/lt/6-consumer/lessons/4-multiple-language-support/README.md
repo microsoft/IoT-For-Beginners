@@ -1,6 +1,6 @@
 # Palaikykite kelias kalbas
 
-![Šios pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Šios pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -74,7 +74,7 @@ Yra keletas dirbtinio intelekto paslaugų, kurias galima naudoti jūsų programo
 
 ### „Cognitive Services“ kalbos paslauga
 
-![Kalbos paslaugos logotipas](../../../../../translated_images/lt/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Kalbos paslaugos logotipas](../../../../../translated_images/lt/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Kalbos paslauga, kurią naudojote per pastarąsias pamokas, turi vertimo galimybes kalbos atpažinimui. Kai atpažįstate kalbą, galite prašyti ne tik kalbos teksto ta pačia kalba, bet ir kitomis kalbomis.
 
@@ -82,7 +82,7 @@ Kalbos paslauga, kurią naudojote per pastarąsias pamokas, turi vertimo galimyb
 
 ### „Cognitive Services“ vertėjo paslauga
 
-![Vertėjo paslaugos logotipas](../../../../../translated_images/lt/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Vertėjo paslaugos logotipas](../../../../../translated_images/lt/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Vertėjo paslauga yra specializuota vertimo paslauga, kuri gali versti tekstą iš vienos kalbos į vieną ar daugiau tikslinių kalbų. Be vertimo, ji palaiko daugybę papildomų funkcijų, įskaitant keiksmažodžių maskavimą. Ji taip pat leidžia jums pateikti konkretų vertimą tam tikram žodžiui ar sakiniui, kad galėtumėte dirbti su terminais, kurių nenorite versti, arba turėti konkretų gerai žinomą vertimą.
 

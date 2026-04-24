@@ -1,6 +1,6 @@
 # Geofencing
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-14.63980c5150ae3c15.webp)
 
 > Schiță realizată de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -35,7 +35,7 @@ Acest videoclip oferă o prezentare generală a geofencing-ului și a modului de
 
 O geofence este un perimetru virtual pentru o regiune geografică reală. Geofence-urile pot fi cercuri definite ca un punct și o rază (de exemplu, un cerc cu diametrul de 100m în jurul unei clădiri) sau un poligon care acoperă o zonă, cum ar fi o zonă școlară, limitele unui oraș sau campusul unei universități sau al unui birou.
 
-![Exemple de geofence care arată un geofence circular în jurul magazinului Microsoft și un geofence poligonal în jurul campusului Microsoft West](../../../../../translated_images/ro/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Exemple de geofence care arată un geofence circular în jurul magazinului Microsoft și un geofence poligonal în jurul campusului Microsoft West](../../../../../translated_images/ro/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Este posibil să fi folosit deja geofence-uri fără să știți. Dacă ați setat o reamintire folosind aplicația de reamintiri iOS sau Google Keep bazată pe o locație, ați folosit o geofence. Aceste aplicații vor configura o geofence pe baza locației date și vă vor alerta când telefonul dvs. intră în geofence.
 
@@ -212,7 +212,7 @@ Este important să cunoașteți distanța până la marginea geofence-ului și s
 
 De exemplu, imaginați-vă citiri GPS care arată că un vehicul circula pe un drum care ajunge să treacă pe lângă o geofence. Dacă o singură valoare GPS este inexactă și plasează vehiculul în interiorul geofence-ului, în ciuda faptului că nu există acces rutier, aceasta poate fi ignorată.
 
-![O urmă GPS care arată un vehicul trecând pe lângă campusul Microsoft pe 520, cu citiri GPS de-a lungul drumului, cu excepția uneia pe campus, în interiorul unei geofence](../../../../../translated_images/ro/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![O urmă GPS care arată un vehicul trecând pe lângă campusul Microsoft pe 520, cu citiri GPS de-a lungul drumului, cu excepția uneia pe campus, în interiorul unei geofence](../../../../../translated_images/ro/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 În imaginea de mai sus, există o geofence peste o parte a campusului Microsoft. Linia roșie arată un camion care circulă de-a lungul autostrăzii 520, cu cercuri care indică citirile GPS. Majoritatea acestor citiri sunt corecte și se află de-a lungul autostrăzii 520, cu o citire inexactă în interiorul geofence-ului. Nu există nicio posibilitate ca acea citire să fie corectă - nu există drumuri care să permită camionului să se abată brusc de pe autostrada 520 către campus și apoi să revină pe autostrada 520. Codul care verifică acest geofence va trebui să ia în considerare citirile anterioare înainte de a acționa pe baza rezultatelor testului geofence.
 
 ✅ Ce date suplimentare ar fi necesare pentru a verifica dacă o citire GPS poate fi considerată corectă?
@@ -284,7 +284,7 @@ După cum îți amintești din lecțiile anterioare, IoT Hub îți permite să r
 
 Răspunsul este că nu poate! În schimb, poți defini mai multe conexiuni separate pentru a citi evenimentele, iar fiecare dintre ele poate gestiona redarea mesajelor necitite. Acestea se numesc *grupuri de consumatori*. Când te conectezi la endpoint, poți specifica grupul de consumatori la care vrei să te conectezi. Fiecare componentă a aplicației tale se va conecta la un grup de consumatori diferit.
 
-![Un IoT Hub cu 3 grupuri de consumatori distribuind aceleași mesaje către 3 aplicații Functions diferite](../../../../../translated_images/ro/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Un IoT Hub cu 3 grupuri de consumatori distribuind aceleași mesaje către 3 aplicații Functions diferite](../../../../../translated_images/ro/consumer-groups.a3262e26fc27ba20.webp)
 
 În teorie, până la 5 aplicații pot să se conecteze la fiecare grup de consumatori, și toate vor primi mesaje când acestea sosesc. Este o practică recomandată să ai doar o aplicație care accesează fiecare grup de consumatori pentru a evita procesarea duplicată a mesajelor și pentru a te asigura că, la repornire, toate mesajele în coadă sunt procesate corect. De exemplu, dacă lansezi aplicația Functions local, precum și o rulezi în cloud, ambele vor procesa mesaje, ceea ce va duce la stocarea duplicată a bloburilor în contul de stocare.
 

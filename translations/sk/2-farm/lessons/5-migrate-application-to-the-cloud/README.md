@@ -1,6 +1,6 @@
 # Migrujte logiku svojej aplikácie do cloudu
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -28,7 +28,7 @@ V tejto lekcii sa budeme venovať:
 
 Serverless, alebo serverless computing, zahŕňa vytváranie malých blokov kódu, ktoré sa spúšťajú v cloude ako reakcia na rôzne typy udalostí. Keď sa udalosť stane, váš kód sa spustí a dostane údaje o udalosti. Tieto udalosti môžu pochádzať z rôznych zdrojov, vrátane webových požiadaviek, správ v rade, zmien údajov v databáze alebo správ odoslaných IoT zariadeniami do IoT služby.
 
-![Udalosti odosielané z IoT služby do serverless služby, všetky spracované naraz viacerými funkciami](../../../../../translated_images/sk/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Udalosti odosielané z IoT služby do serverless služby, všetky spracované naraz viacerými funkciami](../../../../../translated_images/sk/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Ak ste už používali databázové triggery, môžete si to predstaviť ako podobný koncept, kód spúšťaný udalosťou, ako je napríklad vloženie riadku.
 
@@ -54,7 +54,7 @@ Ako IoT vývojár je serverless model ideálny. Môžete napísať funkciu, ktor
 
 Serverless computing služba od Microsoftu sa nazýva Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/sk/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Logo Azure Functions](../../../../../translated_images/sk/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Krátke video nižšie poskytuje prehľad Azure Functions.
 

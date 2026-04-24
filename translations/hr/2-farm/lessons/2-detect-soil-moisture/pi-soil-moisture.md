@@ -18,13 +18,13 @@ Grove senzor vlažnosti tla može se spojiti na Raspberry Pi.
 
 Spojite senzor vlažnosti tla.
 
-![Grove senzor vlažnosti tla](../../../../../translated_images/hr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove senzor vlažnosti tla](../../../../../translated_images/hr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Umetnite jedan kraj Grove kabela u utičnicu na senzoru vlažnosti tla. Kabel će ući samo na jedan način.
 
 1. Dok je Raspberry Pi isključen, spojite drugi kraj Grove kabela na analogni priključak označen **A0** na Grove Base Hat-u pričvršćenom na Pi. Ovaj priključak je drugi s desne strane, u redu priključaka pored GPIO pinova.
 
-![Grove senzor vlažnosti tla spojen na A0 priključak](../../../../../translated_images/hr/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Grove senzor vlažnosti tla spojen na A0 priključak](../../../../../translated_images/hr/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Umetnite senzor vlažnosti tla u tlo. Na senzoru postoji oznaka 'najviša pozicija' - bijela linija preko senzora. Umetnite senzor do te linije, ali ne preko nje.
 

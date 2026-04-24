@@ -1,6 +1,6 @@
 # Panimula sa IoT
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 

@@ -18,13 +18,13 @@ Kihisi cha unyevu wa udongo cha Grove kinaweza kuunganishwa kwenye Raspberry Pi.
 
 Unganisha kihisi cha unyevu wa udongo.
 
-![Kihisi cha unyevu wa udongo cha Grove](../../../../../translated_images/sw/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Kihisi cha unyevu wa udongo cha Grove](../../../../../translated_images/sw/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya kihisi cha unyevu wa udongo. Itaingia kwa njia moja tu.
 
 1. Ukiwa na Raspberry Pi imezimwa, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya analogi iliyoandikwa **A0** kwenye Grove Base Hat iliyounganishwa na Pi. Soketi hii ni ya pili kutoka kulia, kwenye safu ya soketi karibu na pini za GPIO.
 
-![Kihisi cha unyevu wa udongo cha Grove kimeunganishwa kwenye soketi ya A0](../../../../../translated_images/sw/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Kihisi cha unyevu wa udongo cha Grove kimeunganishwa kwenye soketi ya A0](../../../../../translated_images/sw/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Ingiza kihisi cha unyevu wa udongo kwenye udongo. Kina mstari wa 'kiwango cha juu zaidi' - mstari mweupe kwenye kihisi. Ingiza kihisi hadi mstari huu lakini usivuke mstari.
 

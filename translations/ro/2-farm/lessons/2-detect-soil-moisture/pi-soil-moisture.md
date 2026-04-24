@@ -18,13 +18,13 @@ Senzorul Grove de umiditate a solului poate fi conectat la Raspberry Pi.
 
 Conectează senzorul de umiditate a solului.
 
-![Un senzor Grove de umiditate a solului](../../../../../translated_images/ro/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Un senzor Grove de umiditate a solului](../../../../../translated_images/ro/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Introdu un capăt al unui cablu Grove în mufa senzorului de umiditate a solului. Acesta va intra doar într-un singur mod.
 
 1. Cu Raspberry Pi oprit, conectează celălalt capăt al cablului Grove la mufa analogică marcată **A0** de pe Grove Base Hat atașat la Pi. Această mufă este a doua din dreapta, pe rândul de mufe de lângă pinii GPIO.
 
-![Senzorul Grove de umiditate a solului conectat la mufa A0](../../../../../translated_images/ro/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Senzorul Grove de umiditate a solului conectat la mufa A0](../../../../../translated_images/ro/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Introdu senzorul de umiditate a solului în pământ. Acesta are o „linie de poziție maximă” - o linie albă trasată pe senzor. Introdu senzorul până la această linie, dar nu mai mult.
 

@@ -1,6 +1,6 @@
 # Interagere med den fysiske verden med sensorer og aktuatorer
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -92,7 +92,7 @@ Digitale sensorer, som analoge sensorer, registrerer verden rundt seg ved hjelp 
 
 Den enkleste digitale sensoren er en knapp eller bryter. Dette er en sensor med to tilstander, på eller av.
 
-![En knapp mottar 5 volt. Når den ikke er trykket, returnerer den 0 volt, når den er trykket, returnerer den 5 volt](../../../../../translated_images/no/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![En knapp mottar 5 volt. Når den ikke er trykket, returnerer den 0 volt, når den er trykket, returnerer den 5 volt](../../../../../translated_images/no/button.eadb560b77ac45e5.webp)
 
 Pinner på IoT-enheter, som GPIO-pinner, kan måle dette signalet direkte som en 0 eller 1. Hvis spenningen som sendes er den samme som spenningen som returneres, leses verdien som 1, ellers leses verdien som 0. Det er ikke behov for å konvertere signalet, det kan bare være 1 eller 0.
 
@@ -125,7 +125,7 @@ Noen vanlige aktuatorer inkluderer:
 
 Følg den relevante veiledningen nedenfor for å legge til en aktuator i IoT-enheten din, kontrollert av sensoren, for å bygge en IoT-nattlampe. Den vil samle lysnivåer fra lyssensoren og bruke en aktuator i form av en LED til å sende ut lys når det registrerte lysnivået er for lavt.
 
-![Et flytskjema for oppgaven som viser lysnivåer som leses og kontrolleres, og LED-en som styres](../../../../../translated_images/no/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Et flytskjema for oppgaven som viser lysnivåer som leses og kontrolleres, og LED-en som styres](../../../../../translated_images/no/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Enkeltkort-datamaskin - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Som sensorer, er aktuatorer enten analoge eller digitale.
 Analoge aktuatorer tar et analogt signal og konverterer det til en form for interaksjon, der interaksjonen endres basert på spenningen som tilføres.
 
 Et eksempel er en dimbar lampe, som de du kanskje har hjemme. Mengden spenning som tilføres lampen avgjør hvor sterkt den lyser.
-![En lyspære dimmet ved lav spenning og lysere ved høyere spenning](../../../../../translated_images/no/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![En lyspære dimmet ved lav spenning og lysere ved høyere spenning](../../../../../translated_images/no/dimmable-light.9ceffeb195dec1a8.webp)
 
 Akkurat som med sensorer, fungerer den faktiske IoT-enheten med digitale signaler, ikke analoge. Dette betyr at for å sende et analogt signal, trenger IoT-enheten en digital-til-analog-omformer (DAC), enten direkte på IoT-enheten eller på et tilkoblingskort. Dette vil konvertere 0-ene og 1-ene fra IoT-enheten til en analog spenning som aktuatoren kan bruke.
 
@@ -187,7 +187,7 @@ Digitale aktuatorer, som digitale sensorer, har enten to tilstander som styres a
 
 En enkel digital aktuator er en LED. Når en enhet sender et digitalt signal på 1, sendes en høy spenning som tenner LED-en. Når et digitalt signal på 0 sendes, faller spenningen til 0V, og LED-en slukkes.
 
-![En LED er av ved 0 volt og på ved 5V](../../../../../translated_images/no/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![En LED er av ved 0 volt og på ved 5V](../../../../../translated_images/no/led.ec6d94f66676a174.webp)
 
 ✅ Hvilke andre enkle 2-tilstandsaktuatorer kan du komme på? Et eksempel er en solenoid, som er en elektromagnet som kan aktiveres for å gjøre ting som å flytte en dørlås for å låse/åpne en dør.
 

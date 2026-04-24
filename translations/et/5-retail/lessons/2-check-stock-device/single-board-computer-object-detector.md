@@ -67,7 +67,7 @@ Kood, mida kasutasid piltide klassifitseerimiseks, on väga sarnane koodile, mid
 
     Saad vaadata tehtud pilti ja neid väärtusi **Predictions** vahekaardil Custom Visionis.
 
-    ![4 tomatipasta purki riiulil koos ennustustega 35.8%, 33.5%, 25.7% ja 16.6%](../../../../../translated_images/et/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 tomatipasta purki riiulil koos ennustustega 35.8%, 33.5%, 25.7% ja 16.6%](../../../../../translated_images/et/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Selle koodi leiad [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) või [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) kaustast.
 

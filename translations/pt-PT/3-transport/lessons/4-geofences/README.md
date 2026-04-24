@@ -1,6 +1,6 @@
 # Geofences
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-14.63980c5150ae3c15.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -35,7 +35,7 @@ Nesta lição, abordaremos:
 
 Uma geofence é um perímetro virtual para uma região geográfica do mundo real. Geofences podem ser círculos definidos como um ponto e um raio (por exemplo, um círculo de 100m de diâmetro em torno de um edifício) ou um polígono cobrindo uma área, como uma zona escolar, limites de uma cidade ou um campus universitário ou empresarial.
 
-![Alguns exemplos de geofences mostrando uma geofence circular em torno da loja da Microsoft e uma geofence poligonal em torno do campus oeste da Microsoft](../../../../../translated_images/pt-PT/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Alguns exemplos de geofences mostrando uma geofence circular em torno da loja da Microsoft e uma geofence poligonal em torno do campus oeste da Microsoft](../../../../../translated_images/pt-PT/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Pode ser que já tenha usado geofences sem saber. Se já definiu um lembrete usando a aplicação de lembretes do iOS ou o Google Keep baseado numa localização, já utilizou uma geofence. Estas aplicações configuram uma geofence com base na localização fornecida e alertam-no quando o seu telemóvel entra na geofence.
 
@@ -212,7 +212,7 @@ Na imagem acima, a geofence tem um search buffer de 50m.
 
 Por exemplo, imagine leituras GPS mostrando que um veículo estava a conduzir numa estrada que passa ao lado de uma geofence. Se um único valor GPS for impreciso e colocar o veículo dentro da geofence, apesar de não haver acesso veicular, então este valor pode ser ignorado.
 
-![Um rastro GPS mostrando um veículo a passar pelo campus da Microsoft na 520, com leituras GPS ao longo da estrada, exceto uma no campus, dentro de uma geofence](../../../../../translated_images/pt-PT/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![Um rastro GPS mostrando um veículo a passar pelo campus da Microsoft na 520, com leituras GPS ao longo da estrada, exceto uma no campus, dentro de uma geofence](../../../../../translated_images/pt-PT/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 Na imagem acima, há uma geofence sobre parte do campus da Microsoft. A linha vermelha mostra um camião a conduzir ao longo da 520, com círculos a indicar as leituras de GPS. A maioria destas leituras são precisas e estão ao longo da 520, com uma leitura imprecisa dentro da geofence. Não há como essa leitura ser correta - não existem estradas para o camião desviar-se subitamente da 520 para o campus e depois voltar para a 520. O código que verifica esta geofence precisará de considerar as leituras anteriores antes de agir com base nos resultados do teste da geofence.
 
 ✅ Que dados adicionais seriam necessários para verificar se uma leitura de GPS pode ser considerada correta?
@@ -284,7 +284,7 @@ Como se lembrará de lições anteriores, o IoT Hub permite reproduzir eventos q
 
 A resposta é que não consegue! Em vez disso, pode definir múltiplas conexões separadas para ler eventos, e cada uma pode gerir a reprodução de mensagens não lidas. Estes são chamados de *grupos de consumidores*. Quando se conecta ao endpoint, pode especificar qual grupo de consumidores deseja usar. Cada componente da sua aplicação conectará a um grupo de consumidores diferente.
 
-![Um IoT Hub com 3 grupos de consumidores a distribuir as mesmas mensagens para 3 diferentes aplicações Functions](../../../../../translated_images/pt-PT/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Um IoT Hub com 3 grupos de consumidores a distribuir as mesmas mensagens para 3 diferentes aplicações Functions](../../../../../translated_images/pt-PT/consumer-groups.a3262e26fc27ba20.webp)
 
 Em teoria, até 5 aplicações podem conectar-se a cada grupo de consumidores, e todas receberão mensagens quando estas chegarem. É uma boa prática ter apenas uma aplicação a aceder a cada grupo de consumidores para evitar processamento duplicado de mensagens e garantir que, ao reiniciar, todas as mensagens em fila sejam processadas corretamente. Por exemplo, se lançar a sua aplicação Functions localmente, bem como executá-la na cloud, ambas processariam mensagens, levando a blobs duplicados armazenados na conta de armazenamento.
 

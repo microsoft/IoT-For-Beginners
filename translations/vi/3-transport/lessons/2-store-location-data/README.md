@@ -1,6 +1,6 @@
 # Lưu trữ dữ liệu vị trí
 
-![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấn vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -75,7 +75,7 @@ Cơ sở dữ liệu NoSQL được gọi là NoSQL vì chúng không có cấu 
 
 > 💁 Mặc dù tên gọi của chúng, một số cơ sở dữ liệu NoSQL cho phép bạn sử dụng SQL để truy vấn dữ liệu.
 
-![Tài liệu trong các thư mục trong cơ sở dữ liệu NoSQL](../../../../../translated_images/vi/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Tài liệu trong các thư mục trong cơ sở dữ liệu NoSQL](../../../../../translated_images/vi/noqsl-database.62d24ccf5b73f60d.webp)
 
 Cơ sở dữ liệu NoSQL không có lược đồ được định nghĩa trước giới hạn cách dữ liệu được lưu trữ, thay vào đó bạn có thể chèn bất kỳ dữ liệu không có cấu trúc nào, thường sử dụng tài liệu JSON. Các tài liệu này có thể được tổ chức thành các thư mục, tương tự như các tệp trên máy tính của bạn. Mỗi tài liệu có thể có các trường khác nhau so với các tài liệu khác - ví dụ, nếu bạn đang lưu trữ dữ liệu IoT từ các phương tiện nông trại của bạn, một số có thể có các trường cho dữ liệu gia tốc và tốc độ, trong khi các tài liệu khác có thể có các trường cho nhiệt độ trong rơ-moóc. Nếu bạn thêm một loại xe tải mới, chẳng hạn như một loại có cân tích hợp để theo dõi trọng lượng hàng hóa, thì thiết bị IoT của bạn có thể thêm trường mới này và nó có thể được lưu trữ mà không cần thay đổi cơ sở dữ liệu.
 
@@ -89,7 +89,7 @@ Trong bài học này, bạn sẽ sử dụng lưu trữ NoSQL để lưu trữ 
 
 Trong bài học trước, bạn đã thu thập dữ liệu GPS từ cảm biến GPS được kết nối với thiết bị IoT của bạn. Để lưu trữ dữ liệu IoT này trên đám mây, bạn cần gửi nó đến một dịch vụ IoT. Một lần nữa, bạn sẽ sử dụng Azure IoT Hub, cùng dịch vụ IoT trên đám mây mà bạn đã sử dụng trong dự án trước.
 
-![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub](../../../../../translated_images/vi/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub](../../../../../translated_images/vi/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Nhiệm vụ - gửi dữ liệu GPS đến IoT Hub
 
@@ -171,7 +171,7 @@ Dữ liệu đường dẫn lạnh được lưu trữ trong các kho dữ liệ
 
 Khi dữ liệu đang chảy vào IoT Hub, bạn có thể viết một số mã không máy chủ để lắng nghe các sự kiện được xuất bản đến điểm cuối tương thích Event-Hub. Đây là đường dẫn ấm - dữ liệu này sẽ được lưu trữ và sử dụng trong bài học tiếp theo để báo cáo về hành trình.
 
-![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub, sau đó đến Azure Functions thông qua trình kích hoạt event hub](../../../../../translated_images/vi/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub, sau đó đến Azure Functions thông qua trình kích hoạt event hub](../../../../../translated_images/vi/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Nhiệm vụ - xử lý sự kiện GPS bằng mã không máy chủ
 
@@ -193,7 +193,7 @@ Khi dữ liệu đang chảy vào IoT Hub, bạn có thể viết một số mã
 
 ## Tài khoản lưu trữ Azure
 
-![Logo Azure Storage](../../../../../translated_images/vi/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Logo Azure Storage](../../../../../translated_images/vi/azure-storage-logo.605c0f602c640d48.webp)
 
 Azure Storage Accounts là một dịch vụ lưu trữ đa năng có thể lưu trữ dữ liệu theo nhiều cách khác nhau. Bạn có thể lưu trữ dữ liệu dưới dạng blob, trong hàng đợi, trong bảng, hoặc dưới dạng tệp, và tất cả cùng một lúc.
 

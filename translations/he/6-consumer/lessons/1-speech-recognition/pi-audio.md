@@ -16,13 +16,13 @@
 
 #### משימה - חיבור הלחצן
 
-![לחצן Grove](../../../../../translated_images/he/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
+![לחצן Grove](../../../../../translated_images/he/grove-button.a70cfbb809a85636.webp)
 
 1. הכניסו קצה אחד של כבל Grove לשקע במודול הלחצן. הוא ייכנס רק בכיוון אחד.
 
 1. כאשר ה-Raspberry Pi כבוי, חברו את הקצה השני של כבל Grove לשקע הדיגיטלי המסומן **D5** בכובע הבסיס של Grove המחובר ל-Pi. שקע זה הוא השני משמאל, בשורה של השקעים ליד פיני GPIO.
 
-![לחצן Grove מחובר לשקע D5](../../../../../translated_images/he/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
+![לחצן Grove מחובר לשקע D5](../../../../../translated_images/he/pi-button.c7a1a4f55943341c.webp)
 
 ## לכידת שמע
 

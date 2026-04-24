@@ -1,6 +1,6 @@
 # Mantieni la tua pianta al sicuro
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-10.829c86b80b9403bb.webp)
 
 > Schizzo di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -52,11 +52,11 @@ Questi sono scenari reali e accadono continuamente. Alcuni esempi sono stati for
 
 Quando un dispositivo si connette a un servizio IoT, utilizza un ID per identificarsi. Il problema è che questo ID può essere clonato: un hacker potrebbe configurare un dispositivo dannoso che utilizza lo stesso ID di un dispositivo reale ma invia dati falsi.
 
-![Sia i dispositivi validi che quelli dannosi potrebbero utilizzare lo stesso ID per inviare telemetria](../../../../../translated_images/it/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Sia i dispositivi validi che quelli dannosi potrebbero utilizzare lo stesso ID per inviare telemetria](../../../../../translated_images/it/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 La soluzione è convertire i dati inviati in un formato criptato, utilizzando un valore noto solo al dispositivo e al cloud. Questo processo si chiama *crittografia*, e il valore utilizzato per crittografare i dati è chiamato *chiave di crittografia*.
 
-![Se viene utilizzata la crittografia, solo i messaggi crittografati saranno accettati, gli altri saranno rifiutati](../../../../../translated_images/it/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Se viene utilizzata la crittografia, solo i messaggi crittografati saranno accettati, gli altri saranno rifiutati](../../../../../translated_images/it/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Il servizio cloud può quindi convertire i dati in un formato leggibile, utilizzando un processo chiamato *decrittografia*, utilizzando la stessa chiave di crittografia o una *chiave di decrittografia*. Se il messaggio crittografato non può essere decrittato dalla chiave, il dispositivo è stato hackerato e il messaggio viene rifiutato.
 

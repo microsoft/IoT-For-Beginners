@@ -13,7 +13,7 @@ I²C ima vodilo, sestavljeno iz dveh glavnih žic, skupaj z dvema napajalnima ž
 | VCC | Napetostni skupni kolektor | Napajanje za naprave. Ta žica je povezana z žicama SDA in SCL, da zagotovi njuno napajanje prek pull-up upora, ki izklopi signal, ko nobena naprava ni krmilnik. |
 | GND | Ozemljitev | Zagotavlja skupno ozemljitev za električni krog. |
 
-![I2C vodilo s tremi napravami, povezanimi na žici SDA in SCL, ki si delijo skupno ozemljitveno žico](../../../../../translated_images/sl/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C vodilo s tremi napravami, povezanimi na žici SDA in SCL, ki si delijo skupno ozemljitveno žico](../../../../../translated_images/sl/i2c.83da845dde02256b.webp)
 
 Za pošiljanje podatkov ena naprava sproži začetni pogoj, da pokaže, da je pripravljena na pošiljanje podatkov. Nato postane krmilnik. Krmilnik nato pošlje naslov naprave, s katero želi komunicirati, skupaj z informacijo, ali želi brati ali pisati podatke. Po prenosu podatkov krmilnik pošlje končni pogoj, da označi, da je končal. Po tem lahko druga naprava postane krmilnik in pošilja ali prejema podatke.
 

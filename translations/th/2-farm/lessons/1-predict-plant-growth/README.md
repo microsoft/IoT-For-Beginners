@@ -55,7 +55,7 @@
 
 ตัวอย่างเช่น หากอุณหภูมิสูงสุดของวันคือ 25°C และต่ำสุดคือ 12°C:
 
-![GDD = 25 + 12 หารด้วย 2 แล้วลบ 10 จากผลลัพธ์ได้ 8.5](../../../../../translated_images/th/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 หารด้วย 2 แล้วลบ 10 จากผลลัพธ์ได้ 8.5](../../../../../translated_images/th/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

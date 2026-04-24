@@ -28,11 +28,11 @@
 
     1. دکمه **Add** را انتخاب کنید تا رله روی پین 5 ایجاد شود.
 
-    ![تنظیمات رله](../../../../../translated_images/fa/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![تنظیمات رله](../../../../../translated_images/fa/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     رله ایجاد خواهد شد و در لیست محرک‌ها ظاهر می‌شود.
 
-    ![رله ایجاد شده](../../../../../translated_images/fa/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![رله ایجاد شده](../../../../../translated_images/fa/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## برنامه‌نویسی رله
 

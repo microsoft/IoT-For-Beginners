@@ -1,6 +1,6 @@
 # Migreer je plant naar de cloud
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-8.3f21f3c11159e6a0.webp)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -46,8 +46,8 @@ Dit kon erg duur zijn, vereiste een breed scala aan gekwalificeerde medewerkers 
 
 De cloud wordt vaak gekscherend 'iemand anders zijn computer' genoemd. Het oorspronkelijke idee was simpel: in plaats van computers te kopen, huur je de computer van iemand anders. Iemand anders, een cloudcomputingprovider, zou enorme datacenters beheren. Zij zouden verantwoordelijk zijn voor het kopen en installeren van de hardware, het beheren van stroom en koeling, netwerken, gebouwbeveiliging, hardware- en software-updates, alles. Als klant huur je de computers die je nodig hebt, huurt meer wanneer de vraag piekt en vermindert het aantal dat je huurt als de vraag daalt. Deze cloud-datacenters bevinden zich overal ter wereld.
 
-![Een Microsoft cloud-datacenter](../../../../../translated_images/nl/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Een geplande uitbreiding van een Microsoft cloud-datacenter](../../../../../translated_images/nl/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Een Microsoft cloud-datacenter](../../../../../translated_images/nl/azure-region-existing.73f704604f2aa6cb.webp)
+![Een geplande uitbreiding van een Microsoft cloud-datacenter](../../../../../translated_images/nl/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Deze datacenters kunnen meerdere vierkante kilometers groot zijn. De bovenstaande afbeeldingen zijn een paar jaar geleden genomen bij een Microsoft cloud-datacenter en tonen de oorspronkelijke grootte, samen met een geplande uitbreiding. Het gebied dat is vrijgemaakt voor de uitbreiding is meer dan 5 vierkante kilometer.
 
@@ -108,11 +108,11 @@ IoT-diensten in de cloud lossen deze problemen op. Ze worden onderhouden door gr
 
 IoT-apparaten verbinden met een clouddienst via een apparaat-SDK (een bibliotheek die code biedt om te werken met de functies van de dienst) of rechtstreeks via een communicatieprotocol zoals MQTT of HTTP. De apparaat-SDK is meestal de gemakkelijkste route omdat deze alles voor je afhandelt, zoals weten welke onderwerpen gepubliceerd of geabonneerd moeten worden en hoe beveiliging moet worden afgehandeld.
 
-![Apparaten verbinden met een dienst via een apparaat-SDK. Servercode verbindt ook met de dienst via een SDK](../../../../../translated_images/nl/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Apparaten verbinden met een dienst via een apparaat-SDK. Servercode verbindt ook met de dienst via een SDK](../../../../../translated_images/nl/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Je apparaat communiceert vervolgens met andere onderdelen van je applicatie via deze dienst - vergelijkbaar met hoe je telemetrie verzond en commando's ontving via MQTT. Dit gebeurt meestal via een dienst-SDK of een vergelijkbare bibliotheek. Berichten komen van je apparaat naar de dienst waar andere onderdelen van je applicatie ze kunnen lezen, en berichten kunnen vervolgens terug naar je apparaat worden gestuurd.
 
-![Apparaten zonder een geldige geheime sleutel kunnen niet verbinden met de IoT-dienst](../../../../../translated_images/nl/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Apparaten zonder een geldige geheime sleutel kunnen niet verbinden met de IoT-dienst](../../../../../translated_images/nl/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Deze diensten implementeren beveiliging door te weten welke apparaten kunnen verbinden en gegevens kunnen verzenden, ofwel door de apparaten vooraf te registreren bij de dienst, of door de apparaten geheime sleutels of certificaten te geven die ze kunnen gebruiken om zichzelf te registreren bij de dienst de eerste keer dat ze verbinden. Onbekende apparaten kunnen niet verbinden; als ze proberen, weigert de dienst de verbinding en negeert de berichten die door hen worden verzonden.
 
@@ -124,7 +124,7 @@ Andere onderdelen van je applicatie kunnen verbinden met de IoT-dienst en leren 
 
 Nu je een Azure-abonnement hebt, kun je je aanmelden voor een IoT-service. De IoT-service van Microsoft heet Azure IoT Hub.
 
-![Het Azure IoT Hub-logo](../../../../../translated_images/nl/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Het Azure IoT Hub-logo](../../../../../translated_images/nl/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 De onderstaande video geeft een kort overzicht van Azure IoT Hub:
 

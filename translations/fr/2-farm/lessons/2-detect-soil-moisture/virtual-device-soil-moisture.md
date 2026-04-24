@@ -34,11 +34,11 @@ Ajoutez le capteur d'humidité du sol à l'application CounterFit.
 
     1. Sélectionnez le bouton **Add** pour créer le capteur *Soil Moisture* sur le Pin 0.
 
-    ![Les paramètres du capteur d'humidité du sol](../../../../../translated_images/fr/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
+    ![Les paramètres du capteur d'humidité du sol](../../../../../translated_images/fr/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp)
 
     Le capteur d'humidité du sol sera créé et apparaîtra dans la liste des capteurs.
 
-    ![Le capteur d'humidité du sol créé](../../../../../translated_images/fr/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
+    ![Le capteur d'humidité du sol créé](../../../../../translated_images/fr/counterfit-soil-moisture-sensor.81742b2de0e9de60.webp)
 
 ## Programmer l'application du capteur d'humidité du sol
 

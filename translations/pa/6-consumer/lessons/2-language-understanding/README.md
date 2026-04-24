@@ -1,6 +1,6 @@
 # ਭਾਸ਼ਾ ਨੂੰ ਸਮਝਣਾ
 
-![ਇਸ ਪਾਠ ਦਾ ਇੱਕ ਸਕੈਚਨੋਟ ਝਲਕ](../../../../../translated_images/pa/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![ਇਸ ਪਾਠ ਦਾ ਇੱਕ ਸਕੈਚਨੋਟ ਝਲਕ](../../../../../translated_images/pa/lesson-22.6148ea28500d9e00.webp)
 
 > ਸਕੈਚਨੋਟ [ਨਿਤਿਆ ਨਰਸਿੰਹਨ](https://github.com/nitya) ਦੁਆਰਾ। ਵੱਡੇ ਵਰਜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਕਲਿਕ ਕਰੋ।
 
@@ -46,7 +46,7 @@
 
 ## ਭਾਸ਼ਾ ਸਮਝਣ ਵਾਲਾ ਮਾਡਲ ਬਣਾਉਣਾ
 
-![LUIS ਦਾ ਲੋਗੋ](../../../../../translated_images/pa/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![LUIS ਦਾ ਲੋਗੋ](../../../../../translated_images/pa/luis-logo.5cb4f3e88c020ee6.webp)
 
 ਤੁਸੀਂ LUIS ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਭਾਸ਼ਾ ਸਮਝਣ ਵਾਲੇ ਮਾਡਲ ਬਣਾਉਣੇ ਹਨ, ਜੋ ਕਿ Microsoft ਦੀ ਇੱਕ ਭਾਸ਼ਾ ਸਮਝਣ ਵਾਲੀ ਸੇਵਾ ਹੈ ਜੋ Cognitive Services ਦਾ ਹਿੱਸਾ ਹੈ।
 

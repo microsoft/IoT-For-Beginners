@@ -1,6 +1,6 @@
 # Tracciamento della posizione
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-11.9fddbac4b664c6d5.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -63,13 +63,13 @@ La Terra è una sfera - un cerchio tridimensionale. Per questo motivo, i punti v
 
 > 💁 Nessuno sa davvero il motivo originale per cui i cerchi sono divisi in 360 gradi. La [pagina Wikipedia sul grado (angolo)](https://wikipedia.org/wiki/Degree_(angle)) copre alcune delle possibili ragioni.
 
-![Linee di latitudine da 90° al Polo Nord, 45° a metà strada tra il Polo Nord e l'equatore, 0° all'equatore, -45° a metà strada tra l'equatore e il Polo Sud, e -90° al Polo Sud](../../../../../translated_images/it/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
+![Linee di latitudine da 90° al Polo Nord, 45° a metà strada tra il Polo Nord e l'equatore, 0° all'equatore, -45° a metà strada tra l'equatore e il Polo Sud, e -90° al Polo Sud](../../../../../translated_images/it/latitude-lines.11d8d91dfb2014a5.webp)
 
 La latitudine è misurata utilizzando linee che circondano la Terra e corrono parallele all'equatore, dividendo gli emisferi settentrionale e meridionale in 90° ciascuno. L'equatore è a 0°, il Polo Nord è a 90°, noto anche come 90° Nord, e il Polo Sud è a -90°, o 90° Sud.
 
 La longitudine è misurata come il numero di gradi misurati da est a ovest. L'origine a 0° della longitudine è chiamata *Primo Meridiano* ed è stata definita nel 1884 come una linea dal Polo Nord al Polo Sud che attraversa il [Royal Observatory britannico a Greenwich, Inghilterra](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Linee di longitudine che vanno da -180° a ovest del Primo Meridiano, a 0° sul Primo Meridiano, a 180° a est del Primo Meridiano](../../../../../translated_images/it/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
+![Linee di longitudine che vanno da -180° a ovest del Primo Meridiano, a 0° sul Primo Meridiano, a 180° a est del Primo Meridiano](../../../../../translated_images/it/longitude-meridians.ab4ef1c91c064586.webp)
 
 > 🎓 Un meridiano è una linea immaginaria che va dal Polo Nord al Polo Sud, formando un semicerchio.
 
@@ -100,7 +100,7 @@ Le coordinate per un punto sono sempre date come `latitudine, longitudine`, quin
 * Una latitudine di 47.6423109 (47.6423109 gradi a nord dell'equatore)
 * Una longitudine di -122.1390293 (122.1390293 gradi a ovest del Primo Meridiano).
 
-![Il campus Microsoft a 47.6423109,-122.117198](../../../../../translated_images/it/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
+![Il campus Microsoft a 47.6423109,-122.117198](../../../../../translated_images/it/microsoft-gps-location-world.a321d481b010f6ad.webp)
 
 ## Sistemi di Posizionamento Globale (GPS)
 
@@ -112,7 +112,7 @@ I sistemi GPS funzionano grazie a un certo numero di satelliti che inviano un se
 
 > 💁 I sensori GPS necessitano di antenne per rilevare le onde radio. Le antenne integrate nei camion e nelle auto con GPS di bordo sono posizionate per ottenere un buon segnale, di solito sul parabrezza o sul tetto. Se stai utilizzando un sistema GPS separato, come uno smartphone o un dispositivo IoT, devi assicurarti che l'antenna integrata nel sistema GPS o nel telefono abbia una chiara visuale del cielo, ad esempio montandola sul parabrezza.
 
-![Sapendo la distanza dal sensore a più satelliti, è possibile calcolare la posizione](../../../../../translated_images/it/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
+![Sapendo la distanza dal sensore a più satelliti, è possibile calcolare la posizione](../../../../../translated_images/it/gps-satellites.04acf1148fe25fbf.webp)
 
 I satelliti GPS orbitano attorno alla Terra, non sono fissi sopra il sensore, quindi i dati di posizione includono l'altitudine sopra il livello del mare oltre alla latitudine e alla longitudine.
 

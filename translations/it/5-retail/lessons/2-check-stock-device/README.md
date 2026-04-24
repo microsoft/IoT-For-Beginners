@@ -1,6 +1,6 @@
 # Controllare le scorte da un dispositivo IoT
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-20.0211df9551a8abb3.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -62,7 +62,7 @@ Le iterazioni vengono pubblicate dal portale Custom Vision.
 
 1. Seleziona il pulsante **Publish** per l'iterazione.
 
-    ![Il pulsante di pubblicazione](../../../../../translated_images/it/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![Il pulsante di pubblicazione](../../../../../translated_images/it/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. Nella finestra di dialogo *Publish Model*, imposta la risorsa *Prediction resource* sulla risorsa `stock-detector-prediction` che hai creato nella lezione precedente. Lascia il nome come `Iteration2` e seleziona il pulsante **Publish**.
 
@@ -76,7 +76,7 @@ Le iterazioni vengono pubblicate dal portale Custom Vision.
 
     Prendi anche una copia del valore *Prediction-Key*. Questa è una chiave sicura che devi passare quando chiami il modello. Solo le applicazioni che passano questa chiave sono autorizzate a utilizzare il modello, tutte le altre applicazioni vengono rifiutate.
 
-    ![La finestra di dialogo dell'API di predizione che mostra l'URL e la chiave](../../../../../translated_images/it/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![La finestra di dialogo dell'API di predizione che mostra l'URL e la chiave](../../../../../translated_images/it/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ Quando viene pubblicata una nuova iterazione, avrà un nome diverso. Come pensi che potresti cambiare l'iterazione che un dispositivo IoT sta utilizzando?
 
@@ -95,7 +95,7 @@ Quando utilizzi il rilevatore di oggetti, non solo ottieni gli oggetti rilevati 
 
 I risultati di una predizione nella scheda **Predictions** in Custom Vision hanno i riquadri di delimitazione disegnati sull'immagine inviata per la predizione.
 
-![4 lattine di concentrato di pomodoro su uno scaffale con predizioni per i 4 rilevamenti di 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/it/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![4 lattine di concentrato di pomodoro su uno scaffale con predizioni per i 4 rilevamenti di 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/it/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 Nell'immagine sopra, sono state rilevate 4 lattine di concentrato di pomodoro. Nei risultati, un quadrato rosso è sovrapposto per ogni oggetto rilevato nell'immagine, indicando il riquadro di delimitazione per l'immagine.
 
@@ -103,7 +103,7 @@ Nell'immagine sopra, sono state rilevate 4 lattine di concentrato di pomodoro. N
 
 I riquadri di delimitazione sono definiti con 4 valori - top, left, height e width. Questi valori sono su una scala da 0 a 1, rappresentando le posizioni come percentuale della dimensione dell'immagine. L'origine (la posizione 0,0) è l'angolo in alto a sinistra dell'immagine, quindi il valore top è la distanza dall'alto, e il fondo del riquadro di delimitazione è il top più l'altezza.
 
-![Un riquadro di delimitazione attorno a una lattina di concentrato di pomodoro](../../../../../translated_images/it/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![Un riquadro di delimitazione attorno a una lattina di concentrato di pomodoro](../../../../../translated_images/it/bounding-box.1420a7ea0d3d15f7.webp)
 
 L'immagine sopra è larga 600 pixel e alta 800 pixel. Il riquadro di delimitazione inizia a 320 pixel dall'alto, dando una coordinata top di 0.4 (800 x 0.4 = 320). Da sinistra, il riquadro di delimitazione inizia a 240 pixel, dando una coordinata left di 0.4 (600 x 0.4 = 240). L'altezza del riquadro di delimitazione è di 240 pixel, dando un valore height di 0.3 (800 x 0.3 = 240). La larghezza del riquadro di delimitazione è di 120 pixel, dando un valore width di 0.2 (600 x 0.2 = 120).
 
@@ -118,7 +118,7 @@ Utilizzare valori percentuali da 0 a 1 significa che, indipendentemente dalla di
 
 Puoi utilizzare i riquadri di delimitazione combinati con le probabilità per valutare quanto sia accurato un rilevamento. Ad esempio, un rilevatore di oggetti può rilevare più oggetti che si sovrappongono, ad esempio rilevando una lattina dentro un'altra. Il tuo codice potrebbe esaminare i riquadri di delimitazione, capire che ciò è impossibile e ignorare qualsiasi oggetto che abbia una sovrapposizione significativa con altri oggetti.
 
-![Due riquadri di delimitazione che si sovrappongono a una lattina di concentrato di pomodoro](../../../../../translated_images/it/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![Due riquadri di delimitazione che si sovrappongono a una lattina di concentrato di pomodoro](../../../../../translated_images/it/overlap-object-detection.d431e03cae75072a.webp)
 
 Nell'esempio sopra, un riquadro di delimitazione indica una lattina di concentrato di pomodoro con una probabilità del 78.3%. Un secondo riquadro di delimitazione è leggermente più piccolo ed è all'interno del primo riquadro con una probabilità del 64.3%. Il tuo codice può controllare i riquadri di delimitazione, vedere che si sovrappongono completamente e ignorare la probabilità più bassa poiché non è possibile che una lattina sia dentro un'altra.
 

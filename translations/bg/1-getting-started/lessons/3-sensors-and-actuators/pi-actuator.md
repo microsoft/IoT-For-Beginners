@@ -26,7 +26,7 @@ Grove LED идва като модул с избор от светодиоди, 
 
 Свържете LED.
 
-![Grove LED](../../../../../translated_images/bg/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/bg/grove-led.6c853be93f473cf2.webp)
 
 1. Изберете любимия си LED и поставете крачетата му в двете отвори на LED модула.
 
@@ -40,7 +40,7 @@ Grove LED идва като модул с избор от светодиоди, 
 
 1. С изключен Raspberry Pi свържете другия край на Grove кабела към цифровото гнездо, маркирано **D5** на Grove Base hat, прикрепен към Pi. Това гнездо е второто отляво, на реда от гнезда до GPIO пиновете.
 
-![Grove LED, свързан към гнездо D5](../../../../../translated_images/bg/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![Grove LED, свързан към гнездо D5](../../../../../translated_images/bg/pi-led.97f1d474981dc35d.webp)
 
 ## Програмирайте нощната лампа
 

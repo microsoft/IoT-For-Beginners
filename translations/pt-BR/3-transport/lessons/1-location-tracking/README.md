@@ -1,6 +1,6 @@
 # Rastreamento de localização
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-11.9fddbac4b664c6d5.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -63,13 +63,13 @@ A Terra é uma esfera - um círculo tridimensional. Por causa disso, os pontos s
 
 > 💁 Ninguém sabe ao certo o motivo original de os círculos serem divididos em 360 graus. A [página sobre grau (ângulo) na Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) aborda algumas das possíveis razões.
 
-![Linhas de latitude de 90° no Polo Norte, 45° entre o Polo Norte e o equador, 0° no equador, -45° entre o equador e o Polo Sul, e -90° no Polo Sul](../../../../../translated_images/pt-BR/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
+![Linhas de latitude de 90° no Polo Norte, 45° entre o Polo Norte e o equador, 0° no equador, -45° entre o equador e o Polo Sul, e -90° no Polo Sul](../../../../../translated_images/pt-BR/latitude-lines.11d8d91dfb2014a5.webp)
 
 Latitude é medida usando linhas que circundam a Terra e correm paralelas ao equador, dividindo os hemisférios Norte e Sul em 90° cada. O equador está em 0°, o Polo Norte em 90°, também conhecido como 90° Norte, e o Polo Sul em -90°, ou 90° Sul.
 
 Longitude é medida como o número de graus de leste a oeste. A origem de 0° da longitude é chamada de *Meridiano de Greenwich*, definida em 1884 como uma linha do Polo Norte ao Polo Sul que passa pelo [Observatório Real Britânico em Greenwich, Inglaterra](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Linhas de longitude que vão de -180° a oeste do Meridiano de Greenwich, até 0° no Meridiano de Greenwich, até 180° a leste do Meridiano de Greenwich](../../../../../translated_images/pt-BR/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
+![Linhas de longitude que vão de -180° a oeste do Meridiano de Greenwich, até 0° no Meridiano de Greenwich, até 180° a leste do Meridiano de Greenwich](../../../../../translated_images/pt-BR/longitude-meridians.ab4ef1c91c064586.webp)
 
 > 🎓 Um meridiano é uma linha imaginária reta que vai do Polo Norte ao Polo Sul, formando um semicírculo.
 
@@ -100,7 +100,7 @@ As coordenadas de um ponto são sempre dadas como `latitude, longitude`, então 
 * Uma latitude de 47.6423109 (47.6423109 graus ao norte do equador)
 * Uma longitude de -122.1390293 (122.1390293 graus a oeste do Meridiano de Greenwich).
 
-![O Campus da Microsoft em 47.6423109,-122.117198](../../../../../translated_images/pt-BR/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
+![O Campus da Microsoft em 47.6423109,-122.117198](../../../../../translated_images/pt-BR/microsoft-gps-location-world.a321d481b010f6ad.webp)
 
 ## Sistemas de Posicionamento Global (GPS)
 
@@ -112,7 +112,7 @@ Sistemas GPS funcionam ao ter vários satélites que enviam um sinal com a posi�
 
 > 💁 Sensores GPS precisam de antenas para detectar ondas de rádio. As antenas embutidas em caminhões e carros com GPS integrado são posicionadas para obter um bom sinal, geralmente no para-brisa ou no teto. Se você estiver usando um sistema GPS separado, como um smartphone ou um dispositivo IoT, então precisa garantir que a antena embutida no sistema GPS ou telefone tenha uma visão clara do céu, como sendo montada no para-brisa.
 
-![Sabendo a distância do sensor para múltiplos satélites, a localização pode ser calculada](../../../../../translated_images/pt-BR/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
+![Sabendo a distância do sensor para múltiplos satélites, a localização pode ser calculada](../../../../../translated_images/pt-BR/gps-satellites.04acf1148fe25fbf.webp)
 
 Satélites GPS estão circulando a Terra, não em um ponto fixo acima do sensor, então os dados de localização incluem altitude acima do nível do mar, além de latitude e longitude.
 

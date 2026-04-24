@@ -1,6 +1,6 @@
 # Povežite svoj uređaj s internetom
 
-![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -47,7 +47,7 @@ MQTT je najpopularniji komunikacijski protokol za IoT uređaje i obrađen je u o
 
 MQTT ima jednog posrednika i više klijenata. Svi klijenti povezuju se s posrednikom, a posrednik usmjerava poruke relevantnim klijentima. Poruke se usmjeravaju pomoću imenovanih tema, umjesto da se šalju izravno pojedinom klijentu. Klijent može objaviti poruku na temu, a svi klijenti pretplaćeni na tu temu primit će poruku.
 
-![IoT uređaj objavljuje telemetriju na temu /telemetry, a usluga u oblaku pretplaćena je na tu temu](../../../../../translated_images/hr/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT uređaj objavljuje telemetriju na temu /telemetry, a usluga u oblaku pretplaćena je na tu temu](../../../../../translated_images/hr/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Istražite. Ako imate mnogo IoT uređaja, kako možete osigurati da vaš MQTT posrednik može obraditi sve poruke?
 
@@ -69,7 +69,7 @@ Umjesto da se bavite složenostima postavljanja MQTT posrednika kao dijela ovog 
 
 > 💁 Ovaj testni posrednik je javan i nije siguran. Svatko može slušati što objavljujete, stoga ga nemojte koristiti za podatke koji trebaju ostati privatni.
 
-![Dijagram toka zadatka koji prikazuje očitavanje i provjeru razine svjetlosti te upravljanje LED-om](../../../../../translated_images/hr/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Dijagram toka zadatka koji prikazuje očitavanje i provjeru razine svjetlosti te upravljanje LED-om](../../../../../translated_images/hr/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Slijedite odgovarajući korak u nastavku kako biste povezali svoj uređaj s MQTT posrednikom:
 
@@ -350,7 +350,7 @@ Za strojeve možda želite zadržati podatke, pogotovo ako se koriste za tražen
 
 Dizajneri IoT uređaja također bi trebali razmotriti može li se IoT uređaj koristiti tijekom prekida interneta ili gubitka signala uzrokovanog lokacijom. Pametni termostat trebao bi moći donositi neke ograničene odluke za kontrolu grijanja ako ne može poslati telemetriju u oblak zbog prekida.
 
-[![Ovaj Ferrari je postao neupotrebljiv jer je netko pokušao nadograditi softver pod zemljom gdje nema mobilnog signala](../../../../../translated_images/hr/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ovaj Ferrari je postao neupotrebljiv jer je netko pokušao nadograditi softver pod zemljom gdje nema mobilnog signala](../../../../../translated_images/hr/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Za MQTT, uređaj i kod za server moraju biti odgovorni za osiguranje isporuke poruka ako je to potrebno, na primjer zahtijevanjem da se na sve poslane poruke odgovori dodatnim porukama na povratnoj temi, a ako ne, one se ručno stavljaju u red za ponovno slanje kasnije.
 
@@ -358,7 +358,7 @@ Za MQTT, uređaj i kod za server moraju biti odgovorni za osiguranje isporuke po
 
 Naredbe su poruke koje šalje oblak uređaju, upućujući ga da nešto učini. Većinu vremena to uključuje davanje nekog izlaza putem aktuatora, ali to može biti i instrukcija za sam uređaj, poput ponovnog pokretanja ili prikupljanja dodatne telemetrije i vraćanja kao odgovora na naredbu.
 
-![Internet povezan termostat prima naredbu za uključivanje grijanja](../../../../../translated_images/hr/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Internet povezan termostat prima naredbu za uključivanje grijanja](../../../../../translated_images/hr/commands.d6c06bbbb3a02cce.webp)
 
 Termostat bi mogao primiti naredbu iz oblaka za uključivanje grijanja. Na temelju telemetrijskih podataka sa svih senzora, ako je oblačna usluga odlučila da grijanje treba biti uključeno, šalje odgovarajuću naredbu.
 

@@ -34,11 +34,11 @@
 
     1. לחצו על כפתור **Add** כדי ליצור את חיישן ה-*Soil Moisture* על Pin 0.
 
-    ![הגדרות חיישן לחות הקרקע](../../../../../translated_images/he/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
+    ![הגדרות חיישן לחות הקרקע](../../../../../translated_images/he/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp)
 
     חיישן לחות הקרקע ייווצר ויופיע ברשימת החיישנים.
 
-    ![חיישן לחות הקרקע שנוצר](../../../../../translated_images/he/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
+    ![חיישן לחות הקרקע שנוצר](../../../../../translated_images/he/counterfit-soil-moisture-sensor.81742b2de0e9de60.webp)
 
 ## תכנות אפליקציית חיישן לחות הקרקע
 

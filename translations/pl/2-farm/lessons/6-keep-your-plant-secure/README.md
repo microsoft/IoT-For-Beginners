@@ -1,6 +1,6 @@
 # Zabezpiecz swoją roślinę
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-10.829c86b80b9403bb.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -52,11 +52,11 @@ To są scenariusze z prawdziwego życia i zdarzają się cały czas. Niektóre p
 
 Kiedy urządzenie łączy się z usługą IoT, używa identyfikatora, aby się zidentyfikować. Problem polega na tym, że ten identyfikator można sklonować – haker mógłby skonfigurować złośliwe urządzenie, które używa tego samego identyfikatora co prawdziwe urządzenie, ale wysyła fałszywe dane.
 
-![Zarówno prawidłowe, jak i złośliwe urządzenia mogą używać tego samego identyfikatora do wysyłania telemetrii](../../../../../translated_images/pl/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Zarówno prawidłowe, jak i złośliwe urządzenia mogą używać tego samego identyfikatora do wysyłania telemetrii](../../../../../translated_images/pl/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Rozwiązaniem tego problemu jest przekształcenie wysyłanych danych w zaszyfrowany format, używając wartości znanej tylko urządzeniu i chmurze. Proces ten nazywa się *szyfrowaniem*, a wartość używana do szyfrowania danych to *klucz szyfrujący*.
 
-![Jeśli używane jest szyfrowanie, akceptowane są tylko zaszyfrowane wiadomości, inne są odrzucane](../../../../../translated_images/pl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Jeśli używane jest szyfrowanie, akceptowane są tylko zaszyfrowane wiadomości, inne są odrzucane](../../../../../translated_images/pl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Usługa w chmurze może następnie przekształcić dane z powrotem w czytelny format, używając procesu zwanego *odszyfrowaniem*, korzystając z tego samego klucza szyfrującego lub *klucza deszyfrującego*. Jeśli zaszyfrowana wiadomość nie może zostać odszyfrowana za pomocą klucza, oznacza to, że urządzenie zostało zhakowane, a wiadomość jest odrzucana.
 

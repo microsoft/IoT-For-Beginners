@@ -1,6 +1,6 @@
 # O privire mai profundă asupra IoT
 
-![O prezentare grafică a acestei lecții](../../../../../translated_images/ro/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![O prezentare grafică a acestei lecții](../../../../../translated_images/ro/lesson-2.324b0580d620c25e.webp)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -38,7 +38,7 @@ Partea **Dispozitiv** din IoT se referă la un aparat care poate interacționa c
 
 Aceste dispozitive interacționează cu lumea fizică, fie prin utilizarea senzorilor pentru a colecta date din mediul înconjurător, fie prin controlarea ieșirilor sau actuatoarelor pentru a face modificări fizice. Exemplul tipic este un termostat inteligent - un dispozitiv care are un senzor de temperatură, un mijloc de setare a unei temperaturi dorite, cum ar fi un cadran sau un ecran tactil, și o conexiune la un sistem de încălzire sau răcire care poate fi activat atunci când temperatura detectată este în afara intervalului dorit. Senzorul de temperatură detectează că încăperea este prea rece, iar un actuator pornește încălzirea.
 
-![Un diagram care arată temperatura și un cadran ca intrări pentru un dispozitiv IoT, și controlul unui încălzitor ca ieșire](../../../../../translated_images/ro/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Un diagram care arată temperatura și un cadran ca intrări pentru un dispozitiv IoT, și controlul unui încălzitor ca ieșire](../../../../../translated_images/ro/basic-thermostat.a923217fd1f37e5a.webp)
 
 Există o gamă largă de lucruri care pot acționa ca dispozitive IoT, de la hardware dedicat care detectează un singur lucru, la dispozitive de uz general, chiar și smartphone-ul tău! Un smartphone poate folosi senzori pentru a detecta lumea din jurul său și actuatoare pentru a interacționa cu lumea - de exemplu, utilizând un senzor GPS pentru a detecta locația ta și un difuzor pentru a-ți oferi instrucțiuni de navigare către o destinație.
 
@@ -54,7 +54,7 @@ Dispozitivele nu se conectează întotdeauna direct la Internet prin WiFi sau co
 
 În exemplul unui termostat inteligent, termostatul s-ar conecta folosind WiFi-ul de acasă la un serviciu cloud. Acesta ar trimite datele de temperatură către acest serviciu cloud, iar de acolo ar fi scrise într-o bază de date, permițând proprietarului să verifice temperaturile curente și anterioare folosind o aplicație de telefon. Un alt serviciu din cloud ar ști ce temperatură dorește proprietarul și ar trimite mesaje înapoi către dispozitivul IoT prin serviciul cloud pentru a spune sistemului de încălzire să se pornească sau să se oprească.
 
-![Un diagram care arată temperatura și un cadran ca intrări pentru un dispozitiv IoT, dispozitivul IoT cu comunicare bidirecțională către cloud, care la rândul său are comunicare bidirecțională către un telefon, și controlul unui încălzitor ca ieșire din dispozitivul IoT](../../../../../translated_images/ro/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Un diagram care arată temperatura și un cadran ca intrări pentru un dispozitiv IoT, dispozitivul IoT cu comunicare bidirecțională către cloud, care la rândul său are comunicare bidirecțională către un telefon, și controlul unui încălzitor ca ieșire din dispozitivul IoT](../../../../../translated_images/ro/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 O versiune și mai inteligentă ar putea folosi AI în cloud cu date de la alți senzori conectați la alte dispozitive IoT, cum ar fi senzori de ocupare care detectează ce camere sunt utilizate, precum și date precum vremea și chiar calendarul tău, pentru a lua decizii privind setarea temperaturii într-un mod inteligent. De exemplu, ar putea opri încălzirea dacă citește din calendarul tău că ești în vacanță sau ar putea opri încălzirea pe baza utilizării camerelor, învățând din date pentru a fi din ce în ce mai precis în timp.
 
@@ -94,7 +94,7 @@ Cu cât ciclul ceasului este mai rapid, cu atât mai multe instrucțiuni pot fi 
 
 > 💁 CPU-urile execută programe folosind [ciclul fetch-decode-execute](https://wikipedia.org/wiki/Instruction_cycle). Pentru fiecare ticăit de ceas, CPU-ul va prelua următoarea instrucțiune din memorie, o va decoda, apoi o va executa, cum ar fi utilizarea unei unități logice aritmetice (ALU) pentru a aduna 2 numere. Unele execuții vor dura mai multe ticăituri pentru a rula, astfel încât următorul ciclu va rula la următorul ticăit după ce instrucțiunea a fost finalizată.
 
-![Ciclurile fetch-decode-execute care arată preluarea unei instrucțiuni din programul stocat în RAM, apoi decodarea și executarea acesteia pe un CPU](../../../../../translated_images/ro/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Ciclurile fetch-decode-execute care arată preluarea unei instrucțiuni din programul stocat în RAM, apoi decodarea și executarea acesteia pe un CPU](../../../../../translated_images/ro/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Microcontrolerele au viteze de ceas mult mai mici decât computerele desktop sau laptop, sau chiar decât majoritatea smartphone-urilor. De exemplu, Wio Terminal are un CPU care funcționează la 120MHz sau 120.000.000 de cicluri pe secundă.
 
@@ -182,7 +182,7 @@ Plăcile Arduino sunt programate în C sau C++. Utilizarea C/C++ permite ca codu
 
 Ai scrie codul de inițializare în funcția `setup`, cum ar fi conectarea la WiFi și servicii cloud sau inițializarea pinilor pentru intrare și ieșire. Codul din `loop` ar conține apoi procesarea, cum ar fi citirea de la un senzor și trimiterea valorii în cloud. De obicei, ai include o întârziere în fiecare buclă, de exemplu, dacă dorești ca datele senzorului să fie trimise doar la fiecare 10 secunde, ai adăuga o întârziere de 10 secunde la sfârșitul buclei, astfel încât microcontrolerul să poată dormi, economisind energie, apoi să ruleze bucla din nou când este necesar, 10 secunde mai târziu.
 
-![O schiță Arduino care rulează mai întâi setup, apoi rulează loop repetat](../../../../../translated_images/ro/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![O schiță Arduino care rulează mai întâi setup, apoi rulează loop repetat](../../../../../translated_images/ro/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Această arhitectură de program este cunoscută sub numele de *buclă de evenimente* sau *buclă de mesaje*. Multe aplicații folosesc acest model în fundal și este standardul pentru majoritatea aplicațiilor desktop care rulează pe OS-uri precum Windows, macOS sau Linux. Funcția `loop` ascultă mesaje de la componentele interfeței de utilizator, cum ar fi butoanele, sau dispozitivele precum tastatura, și răspunde la acestea. Poți citi mai multe în acest [articol despre bucla de evenimente](https://wikipedia.org/wiki/Event_loop).
 

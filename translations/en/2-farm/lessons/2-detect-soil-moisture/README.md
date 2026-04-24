@@ -13,7 +13,7 @@ I²C uses a bus made of two main wires, along with two power wires:
 | VCC | Voltage common collector | The power supply for the devices. This is connected to the SDA and SCL wires to provide their power via a pull-up resistor that switches the signal off when no device is acting as the controller. |
 | GND | Ground | This provides a common ground for the electrical circuit. |
 
-![I2C bus with 3 devices connected to the SDA and SCL wires, sharing a common ground wire](../../../../../translated_images/en/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C bus with 3 devices connected to the SDA and SCL wires, sharing a common ground wire](../../../../../translated_images/en/i2c.83da845dde02256b.webp)
 
 To send data, one device issues a start condition to indicate it is ready to transmit. It then becomes the controller. The controller sends the address of the device it wants to communicate with, along with whether it intends to read or write data. After the data has been transmitted, the controller sends a stop condition to signal that it has finished. At this point, another device can take over as the controller and send or receive data.
 <sup>

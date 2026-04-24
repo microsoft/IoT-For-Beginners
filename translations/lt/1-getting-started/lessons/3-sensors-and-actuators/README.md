@@ -1,6 +1,6 @@
 # Sąveika su fiziniu pasauliu naudojant jutiklius ir pavaras
 
-![Šios pamokos apžvalga pieštuku](../../../../../translated_images/lt/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Šios pamokos apžvalga pieštuku](../../../../../translated_images/lt/lesson-3.cc3b7b4cd646de59.webp)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -92,7 +92,7 @@ Skaitmeniniai jutikliai, kaip ir analoginiai, fiksuoja aplinką naudodami elektr
 
 Paprasčiausias skaitmeninis jutiklis yra mygtukas arba jungiklis. Tai jutiklis su dviem būsenomis – įjungta arba išjungta.
 
-![Mygtukas gauna 5 voltus. Kai nepaspaustas, grąžina 0 voltų, kai paspaustas, grąžina 5 voltus](../../../../../translated_images/lt/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Mygtukas gauna 5 voltus. Kai nepaspaustas, grąžina 0 voltų, kai paspaustas, grąžina 5 voltus](../../../../../translated_images/lt/button.eadb560b77ac45e5.webp)
 
 IoT įrenginio kaiščiai, tokie kaip GPIO, gali tiesiogiai matuoti šį signalą kaip 0 arba 1. Jei siunčiama įtampa yra tokia pati kaip grąžinama, reikšmė yra 1, kitaip – 0. Nereikia konvertuoti signalo, jis gali būti tik 1 arba 0.
 
@@ -126,7 +126,7 @@ Kai kurios dažnos pavaros:
 Vadovaukitės atitinkamu vadovu, kad pridėtumėte pavarą prie savo IoT įrenginio, kurią valdys jutiklis, kad sukurtumėte IoT naktinę lemputę. Ji rinks šviesos lygius iš šviesos jutiklio ir naudos pavarą – LED lemputę, kuri skleis šviesą, kai aptiktas šviesos lygis bus per žemas.
 
 ![Užduoties schema, rodanti šviesos lygių nuskaitym
-![Šviesa, pritemdyta esant mažai įtampai ir ryškesnė esant didesnei įtampai](../../../../../translated_images/lt/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Šviesa, pritemdyta esant mažai įtampai ir ryškesnė esant didesnei įtampai](../../../../../translated_images/lt/dimmable-light.9ceffeb195dec1a8.webp)
 
 Kaip ir su jutikliais, tikrasis IoT įrenginys veikia su skaitmeniniais signalais, o ne analoginiais. Tai reiškia, kad norint siųsti analoginį signalą, IoT įrenginiui reikia skaitmeninio-analoginio keitiklio (DAC), kuris gali būti tiesiogiai įrenginyje arba jungties plokštėje. Šis keitiklis paverčia 0 ir 1 iš IoT įrenginio į analoginę įtampą, kurią gali naudoti aktuatorius.
 
@@ -173,7 +173,7 @@ Skaitmeniniai aktuatoriai, kaip ir skaitmeniniai jutikliai, turi dvi būsenas, k
 
 Vienas paprastas skaitmeninis aktuatorius yra LED. Kai įrenginys siunčia skaitmeninį signalą „1“, siunčiama aukšta įtampa, kuri įjungia LED. Kai siunčiamas skaitmeninis signalas „0“, įtampa sumažėja iki 0V, ir LED išsijungia.
 
-![LED išjungtas esant 0 voltų ir įjungtas esant 5V](../../../../../translated_images/lt/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED išjungtas esant 0 voltų ir įjungtas esant 5V](../../../../../translated_images/lt/led.ec6d94f66676a174.webp)
 
 ✅ Kokius kitus paprastus dviejų būsenų aktuatorius galite sugalvoti? Vienas pavyzdys yra solenoidas – elektromagnetas, kurį galima aktyvuoti, kad atliktų veiksmus, pavyzdžiui, perstumtų durų skląstį, užrakindamas/atrakindamas duris.
 

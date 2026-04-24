@@ -1,6 +1,6 @@
 # Poglobljen pogled v IoT
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -38,7 +38,7 @@ Dve glavni komponenti IoT aplikacije sta *Internet* in *stvar*. Poglejmo si ti d
 
 Te naprave komunicirajo s fizičnim svetom bodisi z uporabo senzorjev za zbiranje podatkov iz okolice bodisi z nadzorovanjem izhodov ali aktuatorjev za izvajanje fizičnih sprememb. Tipičen primer je pametni termostat - naprava, ki ima temperaturni senzor, način za nastavitev želene temperature, kot je vrtljivi gumb ali zaslon na dotik, in povezavo s sistemom za ogrevanje ali hlajenje, ki se lahko vklopi, ko zaznana temperatura ni v želenem območju. Temperaturni senzor zazna, da je prostor prehladen, in aktuator vklopi ogrevanje.
 
-![Diagram, ki prikazuje temperaturo in vrtljivi gumb kot vhodne podatke za IoT napravo ter nadzor grelnika kot izhod](../../../../../translated_images/sl/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Diagram, ki prikazuje temperaturo in vrtljivi gumb kot vhodne podatke za IoT napravo ter nadzor grelnika kot izhod](../../../../../translated_images/sl/basic-thermostat.a923217fd1f37e5a.webp)
 
 Obstaja ogromno različnih stvari, ki lahko delujejo kot IoT naprave, od namenskih naprav za zaznavanje ene stvari do naprav splošnega namena, celo vaš pametni telefon! Pametni telefon lahko uporablja senzorje za zaznavanje sveta okoli sebe in aktuatorje za interakcijo s svetom - na primer z uporabo GPS senzorja za zaznavanje vaše lokacije in zvočnika za navigacijska navodila do cilja.
 
@@ -54,7 +54,7 @@ Naprave se ne povezujejo vedno neposredno z internetom prek WiFi ali žičnih po
 
 V primeru pametnega termostata bi se termostat povezal prek domačega WiFi z oblačno storitvijo. Pošiljal bi podatke o temperaturi tej storitvi v oblaku, od tam pa bi bili zapisani v neko bazo podatkov, ki bi omogočala lastniku doma preverjanje trenutnih in preteklih temperatur prek aplikacije na telefonu. Druga storitev v oblaku bi vedela, kakšno temperaturo si lastnik želi, in pošiljala sporočila nazaj IoT napravi prek oblačne storitve, da bi ogrevalni sistem vklopila ali izklopila.
 
-![Diagram, ki prikazuje temperaturo in vrtljivi gumb kot vhodne podatke za IoT napravo, IoT napravo z dvosmerno komunikacijo z oblakom, ki ima dvosmerno komunikacijo s telefonom, ter nadzor grelnika kot izhod iz IoT naprave](../../../../../translated_images/sl/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Diagram, ki prikazuje temperaturo in vrtljivi gumb kot vhodne podatke za IoT napravo, IoT napravo z dvosmerno komunikacijo z oblakom, ki ima dvosmerno komunikacijo s telefonom, ter nadzor grelnika kot izhod iz IoT naprave](../../../../../translated_images/sl/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Še pametnejša različica bi lahko uporabljala AI v oblaku z podatki iz drugih senzorjev, povezanih z drugimi IoT napravami, kot so senzorji za zaznavanje prisotnosti, ki zaznavajo, katere sobe se uporabljajo, ter podatki, kot so vremenski podatki in celo vaš koledar, za sprejemanje odločitev o pametnem nastavljanju temperature. Na primer, lahko bi izklopila ogrevanje, če bi iz vašega koledarja prebrala, da ste na dopustu, ali pa bi izklopila ogrevanje po sobah glede na to, katere sobe uporabljate, pri čemer bi se učila iz podatkov, da bi bila sčasoma vedno bolj natančna.
 
@@ -94,7 +94,7 @@ Hitrejši kot je cikel ure, več navodil lahko CPU obdela vsako sekundo in zato 
 
 > 💁 CPU-ji izvajajo programe z uporabo [cikla pridobivanja-dekodiranja-izvajanja](https://wikipedia.org/wiki/Instruction_cycle). Za vsak tik ure CPU pridobi naslednje navodilo iz pomnilnika, ga dekodira in nato izvede, na primer z uporabo aritmetično-logične enote (ALU) za seštevanje dveh števil. Nekatera izvajanja trajajo več tikov, zato se naslednji cikel izvede ob naslednjem tiku po zaključku navodila.
 
-![Cikli pridobivanja-dekodiranja-izvajanja, ki prikazujejo pridobivanje navodila iz programa, shranjenega v RAM-u, nato dekodiranje in izvajanje na CPU-ju](../../../../../translated_images/sl/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Cikli pridobivanja-dekodiranja-izvajanja, ki prikazujejo pridobivanje navodila iz programa, shranjenega v RAM-u, nato dekodiranje in izvajanje na CPU-ju](../../../../../translated_images/sl/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Mikrokrmilniki imajo veliko nižje hitrosti ure kot namizni ali prenosni računalniki ali celo večina pametnih telefonov. Na primer, Wio Terminal ima CPU, ki deluje pri 120MHz ali 120.000.000 ciklov na sekundo.
 
@@ -182,7 +182,7 @@ Arduino plošče se programirajo v C ali C++. Uporaba C/C++ omogoča, da se vaš
 
 V funkciji `setup` bi napisali začetno kodo, kot je povezovanje z WiFi-jem in storitvami v oblaku ali inicializacija pinov za vhod in izhod. Vaša koda v funkciji `loop` bi nato vsebovala procesno kodo, kot je branje senzorja in pošiljanje vrednosti v oblak. Običajno bi dodali zamik v vsakem zanki, na primer, če želite, da se podatki senzorja pošiljajo vsakih 10 sekund, bi na koncu zanke dodali zamik 10 sekund, da mikrokrmilnik lahko spi, prihrani energijo, nato pa ponovno zažene zanko, ko je potrebno.
 
-![Skica Arduino, ki najprej izvaja setup, nato pa neprekinjeno izvaja loop](../../../../../translated_images/sl/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Skica Arduino, ki najprej izvaja setup, nato pa neprekinjeno izvaja loop](../../../../../translated_images/sl/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Ta arhitektura programa je znana kot *zanka dogodkov* ali *zanka sporočil*. Veliko aplikacij uporablja to v ozadju in je standard za večino namiznih aplikacij, ki delujejo na OS-ih, kot so Windows, macOS ali Linux. Funkcija `loop` posluša sporočila iz komponent uporabniškega vmesnika, kot so gumbi, ali naprav, kot je tipkovnica, in se nanje odziva. Več o tem lahko preberete v [članku o zanki dogodkov](https://wikipedia.org/wiki/Event_loop).
 

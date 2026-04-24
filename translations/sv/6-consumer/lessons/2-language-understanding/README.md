@@ -1,6 +1,6 @@
 # Förstå språk
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-22.6148ea28500d9e00.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -46,7 +46,7 @@ Modeller för språkförståelse är AI-modeller som tränas för att extrahera 
 
 ## Skapa en modell för språkförståelse
 
-![LUIS-logotypen](../../../../../translated_images/sv/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![LUIS-logotypen](../../../../../translated_images/sv/luis-logo.5cb4f3e88c020ee6.webp)
 
 Du kan skapa modeller för språkförståelse med hjälp av LUIS, en tjänst för språkförståelse från Microsoft som är en del av Cognitive Services.
 
@@ -169,7 +169,7 @@ Du kan hitta instruktioner för att använda LUIS-portalen i [Quickstart: Build 
 
 1. När du anger varje exempel kommer LUIS att börja upptäcka entiteter och understryka och märka de den hittar.
 
-    ![Exemplen med siffror och tidsenheter understrukna av LUIS](../../../../../translated_images/sv/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Exemplen med siffror och tidsenheter understrukna av LUIS](../../../../../translated_images/sv/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Uppgift - träna och testa modellen
 

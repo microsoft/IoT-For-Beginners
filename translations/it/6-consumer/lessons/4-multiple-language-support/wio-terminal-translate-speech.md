@@ -105,7 +105,7 @@ L'API REST del servizio di sintesi vocale non supporta traduzioni dirette. Tutta
     >
     > Ad esempio, se addestri LUIS in inglese ma vuoi utilizzare il francese come lingua dell'utente, puoi tradurre frasi come "set a 2 minute and 27 second timer" dall'inglese al francese utilizzando Bing Translate, quindi utilizzare il pulsante **Ascolta traduzione** per pronunciare la traduzione nel tuo microfono.
     >
-    > ![Il pulsante ascolta traduzione su Bing Translate](../../../../../translated_images/it/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Il pulsante ascolta traduzione su Bing Translate](../../../../../translated_images/it/bing-translate.348aa796d6efe2a9.webp)
 
 1. Aggiungi la chiave API del servizio Translator e la posizione sotto `SPEECH_LOCATION`:
 

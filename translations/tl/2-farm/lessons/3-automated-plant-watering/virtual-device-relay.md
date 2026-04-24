@@ -28,11 +28,11 @@ Idagdag ang relay sa CounterFit app.
 
     1. Piliin ang **Add** button upang gumawa ng relay sa Pin 5.
 
-    ![Ang mga setting ng relay](../../../../../translated_images/tl/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![Ang mga setting ng relay](../../../../../translated_images/tl/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     Ang relay ay malilikha at lilitaw sa listahan ng actuators.
 
-    ![Ang relay na nalikha](../../../../../translated_images/tl/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![Ang relay na nalikha](../../../../../translated_images/tl/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## I-program ang relay
 

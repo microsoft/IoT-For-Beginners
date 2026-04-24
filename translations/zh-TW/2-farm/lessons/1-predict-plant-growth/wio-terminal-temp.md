@@ -18,7 +18,7 @@ Grove 溫度感測器可以連接到 Wio Terminal 的數位埠。
 
 連接溫度感測器。
 
-![一個 Grove 溫度感測器](../../../../../translated_images/zh-TW/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![一個 Grove 溫度感測器](../../../../../translated_images/zh-TW/grove-dht11.07f8eafceee17004.webp)
 
 1. 將 Grove 線纜的一端插入濕度與溫度感測器的插槽中。它只能以一種方式插入。
 

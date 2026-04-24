@@ -1,6 +1,6 @@
 # Arrosage automatisé des plantes
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -32,7 +32,7 @@ Les appareils IoT utilisent une basse tension. Bien que cela suffise pour les ca
 
 La solution consiste à connecter une pompe à une alimentation externe et à utiliser un actionneur pour allumer la pompe, de la même manière que vous allumeriez une lumière. Il faut une très petite quantité d'énergie (sous forme d'énergie corporelle) pour que votre doigt actionne un interrupteur, ce qui connecte la lumière à l'électricité domestique fonctionnant à 110v/240v.
 
-![Un interrupteur allume une lumière](../../../../../translated_images/fr/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Un interrupteur allume une lumière](../../../../../translated_images/fr/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [L'électricité domestique](https://wikipedia.org/wiki/Mains_electricity) fait référence à l'électricité distribuée aux maisons et aux entreprises via des infrastructures nationales dans de nombreuses régions du monde.
 
@@ -72,7 +72,7 @@ Lorsque le levier se déplace, vous pouvez généralement entendre un clic bien 
 
 L'électroaimant n'a pas besoin de beaucoup de puissance pour s'activer et tirer le levier, il peut être contrôlé en utilisant la sortie 3,3V ou 5V d'un kit de développement IoT. Le circuit de sortie peut transporter beaucoup plus de puissance, selon le relais, y compris la tension domestique ou même des niveaux de puissance plus élevés pour une utilisation industrielle. Ainsi, un kit de développement IoT peut contrôler un système d'irrigation, allant d'une petite pompe pour une seule plante à un système industriel massif pour une ferme commerciale entière.
 
-![Un relais Grove avec le circuit de commande, le circuit de sortie et le relais étiquetés](../../../../../translated_images/fr/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Un relais Grove avec le circuit de commande, le circuit de sortie et le relais étiquetés](../../../../../translated_images/fr/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 L'image ci-dessus montre un relais Grove. Le circuit de commande se connecte à un appareil IoT et active ou désactive le relais en utilisant 3,3V ou 5V. Le circuit de sortie a deux bornes, l'une pouvant être l'alimentation ou la masse. Le circuit de sortie peut gérer jusqu'à 250V à 10A, suffisant pour une gamme d'appareils alimentés par le secteur. Vous pouvez trouver des relais capables de gérer des niveaux de puissance encore plus élevés.
 

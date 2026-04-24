@@ -1,6 +1,6 @@
 # Irrigazione automatica delle piante
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-7.30b5f577d3cb8e03.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -32,7 +32,7 @@ I dispositivi IoT utilizzano una tensione bassa. Sebbene questa sia sufficiente 
 
 La soluzione consiste nel collegare una pompa a un alimentatore esterno e utilizzare un attuatore per accendere la pompa, simile a come accenderesti una luce. Serve una quantità minima di energia (sotto forma di energia del tuo corpo) per il tuo dito per azionare un interruttore, e questo collega la luce all'elettricità di rete che funziona a 110v/240v.
 
-![Un interruttore accende una luce](../../../../../translated_images/it/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Un interruttore accende una luce](../../../../../translated_images/it/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Elettricità di rete](https://wikipedia.org/wiki/Mains_electricity) si riferisce all'elettricità fornita a case e aziende attraverso infrastrutture nazionali in molte parti del mondo.
 
@@ -72,7 +72,7 @@ Quando la leva si muove, di solito puoi sentirla fare contatto con l'elettromagn
 
 L'elettromagnete non necessita di molta energia per attivarsi e tirare la leva, può essere controllato utilizzando l'uscita a 3.3V o 5V di un kit di sviluppo IoT. Il circuito di uscita può trasportare molta più energia, a seconda del relè, inclusa la tensione di rete o livelli di potenza ancora più elevati per uso industriale. In questo modo un kit di sviluppo IoT può controllare un sistema di irrigazione, da una piccola pompa per una singola pianta, fino a un sistema industriale massiccio per un'intera azienda agricola commerciale.
 
-![Un relè Grove con il circuito di controllo, il circuito di uscita e il relè etichettati](../../../../../translated_images/it/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Un relè Grove con il circuito di controllo, il circuito di uscita e il relè etichettati](../../../../../translated_images/it/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 L'immagine sopra mostra un relè Grove. Il circuito di controllo si collega a un dispositivo IoT e accende o spegne il relè utilizzando 3.3V o 5V. Il circuito di uscita ha due terminali, uno può essere alimentazione o massa. Il circuito di uscita può gestire fino a 250V a 10A, sufficiente per una gamma di dispositivi alimentati dalla rete. Puoi trovare relè che possono gestire livelli di potenza ancora più elevati.
 

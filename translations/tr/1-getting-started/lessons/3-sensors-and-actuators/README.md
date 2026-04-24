@@ -1,6 +1,6 @@
 # Sensörler ve Aktüatörlerle Fiziksel Dünya ile Etkileşim
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -92,7 +92,7 @@ Dijital sensörler, analog sensörler gibi, çevrelerindeki dünyayı elektrik v
 
 En basit dijital sensör bir düğme veya anahtardır. Bu, iki durumu olan bir sensördür: açık veya kapalı.
 
-![Bir düğmeye 5 volt gönderilir. Basılmadığında 0 volt döner, basıldığında 5 volt döner](../../../../../translated_images/tr/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Bir düğmeye 5 volt gönderilir. Basılmadığında 0 volt döner, basıldığında 5 volt döner](../../../../../translated_images/tr/button.eadb560b77ac45e5.webp)
 
 IoT cihazlarındaki GPIO pinleri gibi pinler, bu sinyali doğrudan 0 veya 1 olarak ölçebilir. Gönderilen voltaj dönen voltajla aynıysa, okunan değer 1'dir; aksi takdirde okunan değer 0'dır. Sinyali dönüştürmeye gerek yoktur, yalnızca 1 veya 0 olabilir.
 
@@ -125,7 +125,7 @@ Bazı yaygın aktüatörler şunlardır:
 
 IoT cihazınıza bir aktüatör eklemek için aşağıdaki ilgili kılavuzu takip edin. Bu aktüatör, sensör tarafından kontrol edilerek bir IoT gece lambası oluşturacaktır. Işık seviyelerini ışık sensöründen toplayacak ve algılanan ışık seviyesi çok düşük olduğunda ışık yaymak için bir LED formunda bir aktüatör kullanacaktır.
 
-![Görev akış diyagramı, ışık seviyelerinin okunmasını ve kontrol edilmesini, ardından LED'in kontrol edilmesini gösteriyor](../../../../../translated_images/tr/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Görev akış diyagramı, ışık seviyelerinin okunmasını ve kontrol edilmesini, ardından LED'in kontrol edilmesini gösteriyor](../../../../../translated_images/tr/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Tek kartlı bilgisayar - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Sensörler gibi, aktüatörler de analog veya dijital olabilir.
 Analog aktüatörler, bir analog sinyali alır ve bunu bir tür etkileşime dönüştürür, bu etkileşim sağlanan voltaja bağlı olarak değişir.
 
 Bir örnek, evinizdeki gibi kısılabilir bir ışıktır. Işığa sağlanan voltaj miktarı, ışığın ne kadar parlak olduğunu belirler.
-![Düşük voltajda kısık, yüksek voltajda parlak bir ışık](../../../../../translated_images/tr/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Düşük voltajda kısık, yüksek voltajda parlak bir ışık](../../../../../translated_images/tr/dimmable-light.9ceffeb195dec1a8.webp)
 
 Sensörlerde olduğu gibi, gerçek IoT cihazları analog değil, dijital sinyallerle çalışır. Bu, bir analog sinyal göndermek için IoT cihazının bir dijitalden analoğa dönüştürücüye (DAC) ihtiyaç duyduğu anlamına gelir. Bu dönüştürücü ya doğrudan IoT cihazında bulunur ya da bir bağlantı kartında yer alır. Bu, IoT cihazından gelen 0 ve 1'leri aktüatörün kullanabileceği bir analog voltaja dönüştürür.
 
@@ -187,7 +187,7 @@ Dijital aktüatörler, dijital sensörler gibi, ya yüksek veya düşük voltajl
 
 Basit bir dijital aktüatör bir LED'dir. Bir cihaz 1 dijital sinyali gönderdiğinde, LED'i aydınlatan yüksek bir voltaj gönderilir. 0 dijital sinyali gönderildiğinde, voltaj 0V'a düşer ve LED söner.
 
-![0 voltta kapalı ve 5V'da açık bir LED](../../../../../translated_images/tr/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![0 voltta kapalı ve 5V'da açık bir LED](../../../../../translated_images/tr/led.ec6d94f66676a174.webp)
 
 ✅ Başka hangi basit 2 durumlu aktüatörleri düşünebilirsiniz? Bir örnek, bir kapı sürgüsünü hareket ettirerek bir kapıyı kilitleyip açmak gibi şeyler yapabilen bir elektromıknatıs olan solenoiddir.
 

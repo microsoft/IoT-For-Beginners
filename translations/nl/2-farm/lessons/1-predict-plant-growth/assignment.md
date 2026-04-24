@@ -33,7 +33,7 @@ Zodra je temperatuurgegevens hebt, kun je het Jupyter Notebook in deze repositor
 
     Jupyter zal starten en het notebook openen in je browser. Doorloop de instructies in het notebook om de gemeten temperaturen te visualiseren en de groeigraaddagen te berekenen.
 
-    ![Het Jupyter Notebook](../../../../../translated_images/nl/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Het Jupyter Notebook](../../../../../translated_images/nl/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## Rubriek
 

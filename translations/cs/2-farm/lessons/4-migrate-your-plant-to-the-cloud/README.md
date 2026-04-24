@@ -1,6 +1,6 @@
 # Přesuňte svou rostlinu do cloudu
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -46,8 +46,8 @@ To mohlo být velmi drahé, vyžadovalo širokou škálu kvalifikovaných zaměs
 
 Cloud je často žertovně označován jako "počítač někoho jiného". Původní myšlenka byla jednoduchá - místo nákupu počítačů si pronajmete počítač někoho jiného. Někdo jiný, poskytovatel cloudových služeb, by spravoval obrovská datová centra. Byl by zodpovědný za nákup a instalaci hardwaru, správu napájení a chlazení, síťovou infrastrukturu, zabezpečení budovy, aktualizace hardwaru a softwaru, vše. Jako zákazník byste si pronajali počítače, které potřebujete, pronajímali více, když poptávka stoupá, a snižovali počet pronajatých počítačů, když poptávka klesá. Tato cloudová datová centra jsou po celém světě.
 
-![Microsoft cloudové datové centrum](../../../../../translated_images/cs/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Plánovaná expanze Microsoft cloudového datového centra](../../../../../translated_images/cs/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Microsoft cloudové datové centrum](../../../../../translated_images/cs/azure-region-existing.73f704604f2aa6cb.webp)
+![Plánovaná expanze Microsoft cloudového datového centra](../../../../../translated_images/cs/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Tato datová centra mohou mít rozlohu několika čtverečních kilometrů. Obrázky výše byly pořízeny před několika lety v Microsoft cloudovém datovém centru a ukazují počáteční velikost spolu s plánovanou expanzí. Oblast vyčištěná pro expanzi má přes 5 čtverečních kilometrů.
 
@@ -108,11 +108,11 @@ IoT služby v cloudu tyto problémy řeší. Jsou spravovány velkými poskytova
 
 IoT zařízení se připojují ke cloudové službě buď pomocí SDK zařízení (knihovny, která poskytuje kód pro práci s funkcemi služby), nebo přímo prostřednictvím komunikačního protokolu, jako je MQTT nebo HTTP. SDK zařízení je obvykle nejjednodušší cesta, protože se postará o vše, například o to, jaké témata publikovat nebo odebírat, a jak řešit zabezpečení.
 
-![Zařízení se připojují ke službě pomocí SDK zařízení. Serverový kód se také připojuje ke službě prostřednictvím SDK](../../../../../translated_images/cs/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Zařízení se připojují ke službě pomocí SDK zařízení. Serverový kód se také připojuje ke službě prostřednictvím SDK](../../../../../translated_images/cs/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Vaše zařízení pak komunikuje s ostatními částmi vaší aplikace prostřednictvím této služby - podobně jako jste posílali telemetrii a přijímali příkazy přes MQTT. To se obvykle děje pomocí SDK služby nebo podobné knihovny. Zprávy přicházejí z vašeho zařízení do služby, kde je ostatní komponenty vaší aplikace mohou číst, a zprávy mohou být posílány zpět na vaše zařízení.
 
-![Zařízení bez platného tajného klíče se nemohou připojit k IoT službě](../../../../../translated_images/cs/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Zařízení bez platného tajného klíče se nemohou připojit k IoT službě](../../../../../translated_images/cs/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Tyto služby implementují zabezpečení tím, že znají všechna zařízení, která se mohou připojit a posílat data, buď tím, že jsou zařízení předem registrována u služby, nebo tím, že zařízení mají tajné klíče nebo certifikáty, které mohou použít k registraci u služby při prvním připojení. Neznámá zařízení se nemohou připojit, pokud se o to pokusí, služba připojení odmítne a ignoruje zprávy, které posílají.
 
@@ -124,7 +124,7 @@ Ostatní komponenty vaší aplikace se mohou připojit k IoT službě a zjistit 
 
 Nyní, když máte předplatné Azure, můžete se přihlásit k IoT službě. IoT služba od Microsoftu se nazývá Azure IoT Hub.
 
-![Logo Azure IoT Hub](../../../../../translated_images/cs/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Logo Azure IoT Hub](../../../../../translated_images/cs/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Níže uvedené video poskytuje krátký přehled o Azure IoT Hub:
 

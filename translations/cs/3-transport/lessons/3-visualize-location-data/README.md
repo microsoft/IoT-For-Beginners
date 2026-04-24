@@ -1,6 +1,6 @@
 # Vizualizace dat o poloze
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-13.a259db1485021be7.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -64,11 +64,11 @@ Jednoduchý příklad - v projektu farmy jste zachytili údaje o vlhkosti půdy.
 
 Pro člověka může být pochopení těchto dat obtížné. Je to jen stěna čísel bez jakéhokoli významu. Jako první krok k vizualizaci těchto dat je možné je vykreslit na čárovém grafu:
 
-![Čárový graf výše uvedených dat](../../../../../translated_images/cs/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
+![Čárový graf výše uvedených dat](../../../../../translated_images/cs/chart-soil-moisture.fd6d9d0cdc0b5f75.webp)
 
 Tento graf lze dále vylepšit přidáním čáry, která označuje, kdy byl automatický zavlažovací systém zapnut při hodnotě vlhkosti půdy 450:
 
-![Čárový graf vlhkosti půdy s čárou na hodnotě 450](../../../../../translated_images/cs/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
+![Čárový graf vlhkosti půdy s čárou na hodnotě 450](../../../../../translated_images/cs/chart-soil-moisture-relay.fbb391236d34a64d.webp)
 
 Tento graf velmi rychle ukazuje nejen úroveň vlhkosti půdy, ale také body, kdy byl zavlažovací systém zapnut.
 
@@ -84,7 +84,7 @@ Při práci s GPS daty může být nejjasnější vizualizací vykreslení dat n
 
 Práce s mapami je zajímavé cvičení a existuje mnoho možností, jako jsou Bing Maps, Leaflet, Open Street Maps a Google Maps. V této lekci se naučíte o [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) a jak mohou zobrazovat vaše GPS data.
 
-![Logo Azure Maps](../../../../../translated_images/cs/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
+![Logo Azure Maps](../../../../../translated_images/cs/azure-maps-logo.35d01dcfbd81fe61.webp)
 
 Azure Maps je "sbírka geospace služeb a SDK, které využívají aktuální mapová data k poskytování geografického kontextu webovým a mobilním aplikacím." Vývojáři mají k dispozici nástroje pro vytváření krásných, interaktivních map, které mohou například poskytovat doporučené trasy, informace o dopravních incidentech, navigaci uvnitř budov, vyhledávací funkce, informace o nadmořské výšce, povětrnostní služby a další.
 
@@ -185,7 +185,7 @@ Nyní můžete přejít k dalšímu kroku, kterým je zobrazení mapy na webové
 
     Pokud otevřete svůj soubor `index.html` v webovém prohlížeči, měli byste vidět načtenou mapu zaměřenou na oblast Seattlu.
 
-    ![Mapa zobrazující Seattle, město ve státě Washington, USA](../../../../../translated_images/cs/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
+    ![Mapa zobrazující Seattle, město ve státě Washington, USA](../../../../../translated_images/cs/map-image.8fb2c53eb23ef39c.webp)
 
     ✅ Experimentujte s parametry zoomu a centra pro změnu zobrazení mapy. Můžete přidat různé souřadnice odpovídající zeměpisné šířce a délce vašich dat pro přemístění mapy.
 
@@ -319,7 +319,7 @@ Pokud provedete požadavek na své úložiště, abyste získali data, můžete 
 
 1. Načtěte HTML stránku ve svém prohlížeči. Načte mapu, poté načte všechna GPS data z úložiště a vykreslí je na mapě.
 
-    ![Mapa Saint Edward State Park poblíž Seattlu, s kruhy zobrazujícími cestu kolem okraje parku](../../../../../translated_images/cs/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
+    ![Mapa Saint Edward State Park poblíž Seattlu, s kruhy zobrazujícími cestu kolem okraje parku](../../../../../translated_images/cs/map-path.896832e72dc696ff.webp)
 
 > 💁 Tento kód najdete ve složce [code](../../../../../3-transport/lessons/3-visualize-location-data/code).
 

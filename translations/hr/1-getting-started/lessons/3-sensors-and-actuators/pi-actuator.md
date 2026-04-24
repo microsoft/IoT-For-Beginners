@@ -26,7 +26,7 @@ Grove LED dolazi kao modul s izborom LED-ova, omogućujući vam da odaberete boj
 
 Povežite LED.
 
-![Grove LED](../../../../../translated_images/hr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/hr/grove-led.6c853be93f473cf2.webp)
 
 1. Odaberite svoj omiljeni LED i umetnite nogice u dvije rupe na LED modulu.
 
@@ -40,7 +40,7 @@ Povežite LED.
 
 1. Dok je Raspberry Pi isključen, povežite drugi kraj Grove kabela s digitalnom utičnicom označenom **D5** na Grove Base hatu pričvršćenom na Pi. Ova utičnica je druga s lijeva, u redu utičnica pored GPIO pinova.
 
-![Grove LED povezan s utičnicom D5](../../../../../translated_images/hr/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![Grove LED povezan s utičnicom D5](../../../../../translated_images/hr/pi-led.97f1d474981dc35d.webp)
 
 ## Programirajte noćno svjetlo
 

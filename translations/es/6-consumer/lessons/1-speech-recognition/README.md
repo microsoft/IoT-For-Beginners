@@ -1,6 +1,6 @@
 # Reconocer voz con un dispositivo IoT
 
-![Una visión general ilustrada de esta lección](../../../../../translated_images/es/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![Una visión general ilustrada de esta lección](../../../../../translated_images/es/lesson-21.e34de51354d6606f.webp)
 
 > Ilustración por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -51,7 +51,7 @@ Los micrófonos vienen en una variedad de tipos:
 
     Los micrófonos dinámicos no necesitan energía para funcionar, la señal eléctrica se genera completamente desde el micrófono.
 
-    ![Patti Smith cantando en un micrófono Shure SM58 (tipo cardioide dinámico)](../../../../../translated_images/es/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith cantando en un micrófono Shure SM58 (tipo cardioide dinámico)](../../../../../translated_images/es/dynamic-mic.8babac890a2d80df.webp)
 
 * De cinta - Los micrófonos de cinta son similares a los dinámicos, excepto que tienen una cinta metálica en lugar de un diafragma. Esta cinta se mueve en un campo magnético generando una corriente eléctrica. Al igual que los micrófonos dinámicos, los de cinta no necesitan energía para funcionar.
 
@@ -59,11 +59,11 @@ Los micrófonos vienen en una variedad de tipos:
 
 * Condensador - Los micrófonos de condensador tienen un diafragma metálico delgado y una placa trasera metálica fija. Se aplica electricidad a ambos, y a medida que el diafragma vibra, la carga estática entre las placas cambia generando una señal. Los micrófonos de condensador necesitan energía para funcionar, llamada *Phantom power*.
 
-    ![Micrófono de condensador de diafragma pequeño C451B de AKG Acoustics](../../../../../translated_images/es/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![Micrófono de condensador de diafragma pequeño C451B de AKG Acoustics](../../../../../translated_images/es/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - Los micrófonos de sistemas microelectromecánicos, o MEMS, son micrófonos en un chip. Tienen un diafragma sensible a la presión grabado en un chip de silicio, y funcionan de manera similar a un micrófono de condensador. Estos micrófonos pueden ser diminutos e integrarse en circuitos.
 
-    ![Un micrófono MEMS en una placa de circuito](../../../../../translated_images/es/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![Un micrófono MEMS en una placa de circuito](../../../../../translated_images/es/mems-microphone.80574019e1f5e4d9.webp)
 
     En la imagen de arriba, el chip etiquetado como **LEFT** es un micrófono MEMS, con un diafragma diminuto de menos de un milímetro de ancho.
 
@@ -159,7 +159,7 @@ Para evitar la complejidad de entrenar y usar un modelo de palabras de activaci�
 
 ## Convertir voz a texto
 
-![Logotipo de servicios de voz](../../../../../translated_images/es/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logotipo de servicios de voz](../../../../../translated_images/es/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Al igual que con la clasificación de imágenes en un proyecto anterior, existen servicios de IA preconstruidos que pueden tomar voz como archivo de audio y convertirla en texto. Uno de estos servicios es el Servicio de Voz, parte de los Servicios Cognitivos, servicios de IA preconstruidos que puedes usar en tus aplicaciones.
 

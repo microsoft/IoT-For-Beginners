@@ -1,6 +1,6 @@
 # Voorspel plantengroei met IoT
 
-![Een schetsmatige weergave van deze les](../../../../../translated_images/nl/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Een schetsmatige weergave van deze les](../../../../../translated_images/nl/lesson-5.42b234299279d263.webp)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -90,7 +90,7 @@ Groei-graad-dagen, of GDD, worden per dag berekend als de gemiddelde temperatuur
 
 De volledige formule voor GDD is een beetje ingewikkeld, maar er is een vereenvoudigde vergelijking die vaak wordt gebruikt als een goede benadering:
 
-![GDD = T max + T min gedeeld door 2, alles minus T base](../../../../../translated_images/nl/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min gedeeld door 2, alles minus T base](../../../../../translated_images/nl/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - dit is het aantal groei-graad-dagen
 * **T max** - dit is de dagelijkse maximumtemperatuur in graden Celsius
@@ -118,7 +118,7 @@ Als we deze getallen in onze berekening invoeren:
 
 Geeft dit de volgende berekening:
 
-![GDD = 16 + 12 gedeeld door 2, alles minus 10, geeft een antwoord van 4](../../../../../translated_images/nl/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 gedeeld door 2, alles minus 10, geeft een antwoord van 4](../../../../../translated_images/nl/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 De maïs ontving 4 GDD op die dag. Als we uitgaan van een maïsvariëteit die 800 GDD nodig heeft om te rijpen, heeft het nog 796 GDD nodig om rijpheid te bereiken.
 
@@ -239,7 +239,7 @@ De stappen om dit handmatig te doen zijn:
 
 Bijvoorbeeld, als de hoogste temperatuur van de dag 25°C is en de laagste 12°C:
 
-![GDD = 25 + 12 gedeeld door 2, trek vervolgens 10 af van het resultaat, wat 8,5 oplevert](../../../../../translated_images/nl/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 gedeeld door 2, trek vervolgens 10 af van het resultaat, wat 8,5 oplevert](../../../../../translated_images/nl/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18,5

@@ -1,6 +1,6 @@
 # Připojte své zařízení k internetu
 
-![Přehled lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Přehled lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -47,7 +47,7 @@ MQTT je nejpopulárnější komunikační protokol pro IoT zařízení a je pokr
 
 MQTT má jednoho brokeru a více klientů. Všichni klienti se připojují k brokeru, který směruje zprávy relevantním klientům. Zprávy jsou směrovány pomocí pojmenovaných témat, místo aby byly odesílány přímo jednotlivým klientům. Klient může publikovat do tématu a všichni klienti, kteří se k tomuto tématu přihlásí, obdrží zprávu.
 
-![IoT zařízení publikující telemetrii na téma /telemetry a cloudová služba přihlašující se k tomuto tématu](../../../../../translated_images/cs/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT zařízení publikující telemetrii na téma /telemetry a cloudová služba přihlašující se k tomuto tématu](../../../../../translated_images/cs/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Udělejte si průzkum. Pokud máte mnoho IoT zařízení, jak zajistíte, že váš MQTT broker zvládne všechny zprávy?
 
@@ -69,7 +69,7 @@ Namísto řešení složitostí nastavení MQTT brokeru jako součást tohoto ú
 
 > 💁 Tento testovací broker je veřejný a není zabezpečený. Kdokoliv může poslouchat, co publikujete, takže by neměl být používán s daty, která je třeba uchovat v soukromí.
 
-![Diagram úkolu ukazující čtení a kontrolu úrovní světla a ovládání LED](../../../../../translated_images/cs/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Diagram úkolu ukazující čtení a kontrolu úrovní světla a ovládání LED](../../../../../translated_images/cs/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Postupujte podle relevantního kroku níže pro připojení vašeho zařízení k MQTT brokeru:
 
@@ -350,7 +350,7 @@ Pro stroje byste možná chtěli data uchovat, zejména pokud se používají k 
 
 Návrháři IoT zařízení by také měli zvážit, zda lze IoT zařízení používat během výpadku internetu nebo ztráty signálu způsobené lokalitou. Chytrý termostat by měl být schopen provádět některá omezená rozhodnutí o řízení vytápění, pokud nemůže odesílat telemetrii do cloudu kvůli výpadku.
 
-[![Tento Ferrari přestal fungovat, protože někdo zkusil provést aktualizaci pod zemí, kde není signál](../../../../../translated_images/cs/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Tento Ferrari přestal fungovat, protože někdo zkusil provést aktualizaci pod zemí, kde není signál](../../../../../translated_images/cs/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Aby MQTT zvládlo ztrátu připojení, musí být zařízení a serverový kód zodpovědné za zajištění doručení zpráv, pokud je to potřeba, například vyžadováním, aby na všechny odeslané zprávy byly odpovězeno dalšími zprávami na odpovědním tématu. Pokud ne, jsou ručně zařazeny do fronty k pozdějšímu přehrání.
 
@@ -358,7 +358,7 @@ Aby MQTT zvládlo ztrátu připojení, musí být zařízení a serverový kód 
 
 Příkazy jsou zprávy odeslané z cloudu do zařízení, které mu nařizují něco udělat. Většinou to zahrnuje nějaký výstup přes akční člen, ale může to být i instrukce pro samotné zařízení, například restartovat nebo shromáždit další telemetrii a vrátit ji jako odpověď na příkaz.
 
-![Internetem připojený termostat přijímá příkaz k zapnutí topení](../../../../../translated_images/cs/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Internetem připojený termostat přijímá příkaz k zapnutí topení](../../../../../translated_images/cs/commands.d6c06bbbb3a02cce.webp)
 
 Termostat by mohl přijmout příkaz z cloudu k zapnutí topení. Na základě telemetrických dat ze všech senzorů cloudová služba rozhodla, že topení by mělo být zapnuto, a tak odešle příslušný příkaz.
 

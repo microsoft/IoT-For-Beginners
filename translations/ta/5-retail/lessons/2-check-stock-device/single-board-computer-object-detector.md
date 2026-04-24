@@ -67,7 +67,7 @@
 
     பிடிக்கப்பட்ட படத்தையும், **Predictions** tab-ல் Custom Vision-ல் இந்த மதிப்புகளையும் நீங்கள் காணலாம்.
 
-    ![ஒரு தட்டில் 4 டமாட்டோ பேஸ்ட் கேன்கள் மற்றும் 35.8%, 33.5%, 25.7% மற்றும் 16.6% ஆகிய 4 கண்டறிதல்களுக்கான முன்னறிவிப்புகள்](../../../../../translated_images/ta/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![ஒரு தட்டில் 4 டமாட்டோ பேஸ்ட் கேன்கள் மற்றும் 35.8%, 33.5%, 25.7% மற்றும் 16.6% ஆகிய 4 கண்டறிதல்களுக்கான முன்னறிவிப்புகள்](../../../../../translated_images/ta/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 இந்த குறியீட்டை [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) அல்லது [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) கோப்புறையில் காணலாம்.
 

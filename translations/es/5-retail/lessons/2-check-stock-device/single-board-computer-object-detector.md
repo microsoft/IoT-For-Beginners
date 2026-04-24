@@ -67,7 +67,7 @@ El código que usaste para clasificar imágenes es muy similar al código para d
 
     Podrás ver la imagen que se tomó y estos valores en la pestaña **Predictions** en Custom Vision.
 
-    ![4 latas de pasta de tomate en un estante con predicciones para las 4 detecciones de 35.8%, 33.5%, 25.7% y 16.6%](../../../../../translated_images/es/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 latas de pasta de tomate en un estante con predicciones para las 4 detecciones de 35.8%, 33.5%, 25.7% y 16.6%](../../../../../translated_images/es/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Puedes encontrar este código en la carpeta [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) o [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

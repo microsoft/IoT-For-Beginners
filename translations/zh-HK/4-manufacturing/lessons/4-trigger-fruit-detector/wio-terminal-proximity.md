@@ -20,7 +20,7 @@ Grove 飛行時間感測器可以連接到 Wio Terminal。
 
 連接飛行時間感測器。
 
-![一個 Grove 飛行時間感測器](../../../../../translated_images/zh-HK/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![一個 Grove 飛行時間感測器](../../../../../translated_images/zh-HK/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. 將 Grove 線纜的一端插入飛行時間感測器上的插槽。它只能以一種方式插入。
 

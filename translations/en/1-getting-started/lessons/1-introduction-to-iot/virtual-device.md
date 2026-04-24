@@ -197,7 +197,7 @@ As a second 'Hello World' step, you’ll run the CounterFit app and connect your
 
     The app will open in your browser:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/en/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/en/counterfit-first-run.433326358b669b31.webp)
 
     It will show as *Disconnected*, with the LED in the top-right corner turned off.
 
@@ -218,7 +218,7 @@ As a second 'Hello World' step, you’ll run the CounterFit app and connect your
 
 1. Run `app.py` in the new terminal. The CounterFit app will show as **Connected**, and the LED will light up.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/en/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/en/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 You can find this code in the [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) folder.
 

@@ -1,6 +1,6 @@
 # ਸਟਾਕ ਡਿਟੈਕਟਰ ਨੂੰ ਟ੍ਰੇਨ ਕਰੋ
 
-![ਇਸ ਪਾਠ ਦਾ ਇੱਕ ਸਕੈਚਨੋਟ ਝਲਕ](../../../../../translated_images/pa/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![ਇਸ ਪਾਠ ਦਾ ਇੱਕ ਸਕੈਚਨੋਟ ਝਲਕ](../../../../../translated_images/pa/lesson-19.cf6973cecadf080c.webp)
 
 > ਸਕੈਚਨੋਟ [ਨਿਤਿਆ ਨਰਸਿੰਹਨ](https://github.com/nitya) ਦੁਆਰਾ। ਵੱਡੇ ਵਰਜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਕਲਿਕ ਕਰੋ।
 
@@ -36,7 +36,7 @@
 
 ਇਮੇਜ ਕਲਾਸੀਫਿਕੇਸ਼ਨ ਸਾਰੇ ਚਿੱਤਰ ਨੂੰ ਕਲਾਸੀਫਾਈ ਕਰਨ ਬਾਰੇ ਹੈ - ਸਾਰੇ ਚਿੱਤਰ ਵਿੱਚ ਹਰ ਟੈਗ ਨਾਲ ਮੇਲ ਖਾਣ ਦੀ ਸੰਭਾਵਨਾ ਕੀ ਹੈ। ਤੁਹਾਨੂੰ ਮਾਡਲ ਨੂੰ ਟ੍ਰੇਨ ਕਰਨ ਲਈ ਵਰਤੇ ਗਏ ਹਰ ਟੈਗ ਲਈ ਸੰਭਾਵਨਾਵਾਂ ਵਾਪਸ ਮਿਲਦੀਆਂ ਹਨ।
 
-![ਕਾਜੂ ਅਤੇ ਟਮਾਟਰ ਪੇਸਟ ਦੀ ਇਮੇਜ ਕਲਾਸੀਫਿਕੇਸ਼ਨ](../../../../../translated_images/pa/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![ਕਾਜੂ ਅਤੇ ਟਮਾਟਰ ਪੇਸਟ ਦੀ ਇਮੇਜ ਕਲਾਸੀਫਿਕੇਸ਼ਨ](../../../../../translated_images/pa/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 ਉਪਰੋਕਤ ਉਦਾਹਰਨ ਵਿੱਚ, ਦੋ ਚਿੱਤਰਾਂ ਨੂੰ ਇੱਕ ਮਾਡਲ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕਲਾਸੀਫਾਈ ਕੀਤਾ ਗਿਆ ਹੈ ਜੋ ਕਿ ਕਾਜੂ ਦੇ ਡੱਬਿਆਂ ਜਾਂ ਟਮਾਟਰ ਪੇਸਟ ਦੇ ਕੈਨਾਂ ਨੂੰ ਕਲਾਸੀਫਾਈ ਕਰਨ ਲਈ ਟ੍ਰੇਨ ਕੀਤਾ ਗਿਆ ਹੈ। ਪਹਿਲਾ ਚਿੱਤਰ ਕਾਜੂ ਦੇ ਡੱਬੇ ਦਾ ਹੈ, ਅਤੇ ਇਮੇਜ ਕਲਾਸੀਫਾਇਰ ਤੋਂ ਦੋ ਨਤੀਜੇ ਹਨ:
 
@@ -60,7 +60,7 @@
 
 > 🎓 *ਬਾਊਂਡਿੰਗ ਬਾਕਸ* ਉਹ ਬਾਕਸ ਹਨ ਜੋ ਆਬਜੈਕਟ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਹੁੰਦੇ ਹਨ।
 
-![ਕਾਜੂ ਅਤੇ ਟਮਾਟਰ ਪੇਸਟ ਦੀ ਆਬਜੈਕਟ ਡਿਟੈਕਸ਼ਨ](../../../../../translated_images/pa/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![ਕਾਜੂ ਅਤੇ ਟਮਾਟਰ ਪੇਸਟ ਦੀ ਆਬਜੈਕਟ ਡਿਟੈਕਸ਼ਨ](../../../../../translated_images/pa/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 ਉਪਰੋਕਤ ਚਿੱਤਰ ਵਿੱਚ ਕਾਜੂ ਦੇ ਡੱਬੇ ਅਤੇ ਟਮਾਟਰ ਪੇਸਟ ਦੇ ਤਿੰਨ ਕੈਨ ਹਨ। ਆਬਜੈਕਟ ਡਿਟੈਕਟਰ ਨੇ ਕਾਜੂ ਨੂੰ ਪਛਾਣਿਆ ਹੈ, ਬਾਊਂਡਿੰਗ ਬਾਕਸ ਵਾਪਸ ਕਰਦਾ ਹੈ ਜੋ ਕਿ ਕਾਜੂ ਨੂੰ ਸ਼ਾਮਲ ਕਰਦਾ ਹੈ ਜਿਸ ਵਿੱਚ ਆਬਜੈਕਟ ਨੂੰ ਸ਼ਾਮਲ ਕਰਨ ਦੀ ਸੰਭਾਵਨਾ ਹੈ, ਇਸ ਮਾਮਲੇ ਵਿੱਚ 97.6%। ਆਬਜੈਕਟ ਡਿਟੈਕਟਰ ਨੇ ਟਮਾਟਰ ਪੇਸਟ ਦੇ ਤਿੰਨ ਕੈਨਾਂ ਨੂੰ ਵੀ ਪਛਾਣਿਆ ਹੈ, ਅਤੇ ਤਿੰਨ ਵੱਖਰੇ ਬਾਊਂਡਿੰਗ ਬਾਕਸ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ, ਹਰ ਪਛਾਣੇ ਗਏ ਕੈਨ ਲਈ ਇੱਕ, ਅਤੇ ਹਰ ਇੱਕ ਵਿੱਚ ਪ੍ਰਤੀਸ਼ਤ ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਬਾਊਂਡਿੰਗ ਬਾਕਸ ਵਿੱਚ ਟਮਾਟਰ ਪੇਸਟ ਦਾ ਕੈਨ ਹੈ।
 
@@ -111,7 +111,7 @@
 
     ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਂਦੇ ਹੋ, ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਸੀਂ ਪਹਿਲਾਂ ਬਣਾਏ `stock-detector-training` ਰਿਸੋਰਸ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋ। *Object Detection* ਪ੍ਰੋਜੈਕਟ ਕਿਸਮ ਅਤੇ *Products on Shelves* ਡੋਮੇਨ ਦੀ ਵਰਤੋਂ ਕਰੋ।
 
-    ![Custom Vision ਪ੍ਰੋਜੈਕਟ ਲਈ ਸੈਟਿੰਗਾਂ](../../../../../translated_images/pa/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![Custom Vision ਪ੍ਰੋਜੈਕਟ ਲਈ ਸੈਟਿੰਗਾਂ](../../../../../translated_images/pa/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ *Products on Shelves* ਡੋਮੇਨ ਖਾਸ ਤੌਰ 'ਤੇ ਸਟੋਰ ਸ਼ੇਲਫਾਂ 'ਤੇ ਸਟਾਕ ਦੀ ਪਛਾਣ ਲਈ ਟਾਰਗਟ ਕੀਤਾ ਗਿਆ ਹੈ। Microsoft Docs 'ਤੇ [Select a domain documentation](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection) 'ਤੇ ਵੱਖ-ਵੱਖ ਡੋਮੇਨ ਬਾਰੇ ਹੋਰ ਪੜ੍ਹੋ।
 

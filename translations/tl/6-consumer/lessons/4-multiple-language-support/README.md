@@ -1,6 +1,6 @@
 # Suportahan ang Maraming Wika
 
-![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -74,7 +74,7 @@ Mayroong ilang mga AI service na maaaring gamitin mula sa iyong mga aplikasyon u
 
 ### Cognitive services Speech service
 
-![Ang logo ng speech service](../../../../../translated_images/tl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Ang logo ng speech service](../../../../../translated_images/tl/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Ang speech service na ginamit mo sa mga nakaraang aralin ay may kakayahan sa pagsasalin para sa pagkilala sa pananalita. Kapag kinikilala mo ang pananalita, maaari kang humiling hindi lamang ng teksto ng pananalita sa parehong wika, kundi pati na rin sa iba pang mga wika.
 
@@ -82,7 +82,7 @@ Ang speech service na ginamit mo sa mga nakaraang aralin ay may kakayahan sa pag
 
 ### Cognitive services Translator service
 
-![Ang logo ng translator service](../../../../../translated_images/tl/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Ang logo ng translator service](../../../../../translated_images/tl/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Ang Translator service ay isang dedikadong serbisyo ng pagsasalin na maaaring magsalin ng teksto mula sa isang wika patungo sa isa o higit pang target na wika. Bukod sa pagsasalin, sinusuportahan nito ang malawak na hanay ng mga karagdagang tampok kabilang ang masking ng mga malaswang salita. Pinapayagan ka rin nitong magbigay ng partikular na pagsasalin para sa isang partikular na salita o pangungusap, upang gumana sa mga terminong ayaw mong isalin, o may partikular na kilalang pagsasalin.
 

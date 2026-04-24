@@ -1,6 +1,6 @@
 # Sensörden Meyve Kalitesi Tespiti Tetikleme
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -39,7 +39,7 @@ IoT uygulamaları, *nesnelerin* (cihazların) veri gönderdiği, bu verilerin *i
 
 ### Referans IoT Mimarisi
 
-![Bir referans IoT mimarisi](../../../../../translated_images/tr/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![Bir referans IoT mimarisi](../../../../../translated_images/tr/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Yukarıdaki diyagram, bir referans IoT mimarisini göstermektedir.
 
@@ -49,7 +49,7 @@ Yukarıdaki diyagram, bir referans IoT mimarisini göstermektedir.
 * **İçgörüler**, sunucusuz uygulamalardan veya depolanan veriler üzerinde yapılan analizlerden gelir.
 * **Eylemler**, cihazlara gönderilen komutlar veya insanların karar vermesini sağlayan veri görselleştirmeleri olabilir.
 
-![Azure'da bir referans IoT mimarisi](../../../../../translated_images/tr/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Azure'da bir referans IoT mimarisi](../../../../../translated_images/tr/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Yukarıdaki diyagram, bu derslerde ele alınan bazı bileşenleri ve hizmetleri ve bunların bir referans IoT mimarisinde nasıl bir araya geldiğini göstermektedir.
 
@@ -89,7 +89,7 @@ Bir sistem oluşturmanız gerekiyor: Meyve konveyör bandına geldiğinde algıl
 
 ### Uygulamanızı Prototipleme
 
-![Meyve kalite kontrolü için bir referans IoT mimarisi](../../../../../translated_images/tr/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![Meyve kalite kontrolü için bir referans IoT mimarisi](../../../../../translated_images/tr/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Yukarıdaki diyagram, bu prototip uygulama için bir referans mimariyi göstermektedir.
 
@@ -124,7 +124,7 @@ IoT cihazınızı kullanarak bir nesneyi algılamak için bir yakınlık sensör
 
 Prototip meyve dedektörü, birbiriyle iletişim kuran birden fazla bileşene sahiptir.
 
-![Birbiriyle iletişim kuran bileşenler](../../../../../translated_images/tr/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Birbiriyle iletişim kuran bileşenler](../../../../../translated_images/tr/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Bir meyveye olan mesafeyi ölçen ve bunu IoT Hub'a gönderen bir yakınlık sensörü
 * Kamerayı kontrol etmek için IoT Hub'dan kamera cihazına gelen komut

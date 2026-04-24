@@ -208,7 +208,7 @@ Ang mga certificate na ito ay naglalaman ng mga pampublikong key, at hindi kaila
 
     Makikita mo ang imahe na kinunan, at ang mga values na ito sa **Predictions** tab sa Custom Vision.
 
-    ![Isang saging sa custom vision na na-predict na hinog sa 56.8% at hilaw sa 43.1%](../../../../../translated_images/tl/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Isang saging sa custom vision na na-predict na hinog sa 56.8% at hilaw sa 43.1%](../../../../../translated_images/tl/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Makikita mo ang code na ito sa [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) folder.
 

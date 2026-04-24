@@ -18,7 +18,7 @@ GroveリレーはWio Terminalのデジタルポートに接続できます。
 
 リレーを接続してください。
 
-![Groveリレー](../../../../../translated_images/ja/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Groveリレー](../../../../../translated_images/ja/grove-relay.d426958ca210fbd0.webp)
 
 1. Groveケーブルの一端をリレーのソケットに差し込みます。ケーブルは一方向にしか差し込めません。
 

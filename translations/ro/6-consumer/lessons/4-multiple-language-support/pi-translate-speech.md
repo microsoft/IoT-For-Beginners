@@ -25,7 +25,7 @@ API-ul REST al serviciului de vorbire nu suportă traduceri directe, însă poț
     >
     > De exemplu, dacă antrenezi LUIS în engleză, dar vrei să folosești franceza ca limbă a utilizatorului, poți traduce propoziții precum „set a 2 minute and 27 second timer” din engleză în franceză folosind Bing Translate, apoi folosește butonul **Listen translation** pentru a rosti traducerea în microfon.
     >
-    > ![Butonul de ascultare a traducerii pe Bing Translate](../../../../../translated_images/ro/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Butonul de ascultare a traducerii pe Bing Translate](../../../../../translated_images/ro/bing-translate.348aa796d6efe2a9.webp)
 
 1. Adaugă cheia API a serviciului Translator sub `speech_api_key`:
 

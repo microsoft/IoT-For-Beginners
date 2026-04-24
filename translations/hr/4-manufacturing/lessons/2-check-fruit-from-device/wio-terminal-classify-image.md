@@ -208,7 +208,7 @@ Ovi certifikati sadrže javne ključeve i ne moraju biti čuvani u tajnosti. Mo�
 
     Moći ćete vidjeti sliku koja je snimljena i ove vrijednosti na kartici **Predictions** u Custom Visionu.
 
-    ![Banana u Custom Visionu predviđena kao zrela s 56.8% i nezrela s 43.1%](../../../../../translated_images/hr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Banana u Custom Visionu predviđena kao zrela s 56.8% i nezrela s 43.1%](../../../../../translated_images/hr/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Ovaj kod možete pronaći u mapi [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

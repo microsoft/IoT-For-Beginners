@@ -1,6 +1,6 @@
 # 设置计时器并提供语音反馈
 
-![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-23.f38483e1d4df4828.webp)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 

@@ -84,7 +84,7 @@
 
     آپ لی گئی تصویر اور یہ اقدار **Predictions** ٹیب میں کسٹم وژن میں دیکھ سکیں گے۔
 
-    ![کسٹم وژن میں ایک کیلا، 56.8% پر پکا ہوا اور 43.1% پر کچا ہونے کی پیش گوئی کی گئی](../../../../../translated_images/ur/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![کسٹم وژن میں ایک کیلا، 56.8% پر پکا ہوا اور 43.1% پر کچا ہونے کی پیش گوئی کی گئی](../../../../../translated_images/ur/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 آپ اس کوڈ کو [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) یا [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) فولڈر میں تلاش کر سکتے ہیں۔
 

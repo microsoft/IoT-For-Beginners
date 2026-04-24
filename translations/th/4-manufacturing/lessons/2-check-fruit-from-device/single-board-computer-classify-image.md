@@ -84,7 +84,7 @@
 
     คุณจะสามารถเห็นภาพที่ถูกถ่าย และค่าต่าง ๆ เหล่านี้ในแท็บ **Predictions** ใน Custom Vision
 
-    ![กล้วยใน Custom Vision ถูกทำนายว่าเป็นกล้วยสุกที่ 56.8% และกล้วยดิบที่ 43.1%](../../../../../translated_images/th/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![กล้วยใน Custom Vision ถูกทำนายว่าเป็นกล้วยสุกที่ 56.8% และกล้วยดิบที่ 43.1%](../../../../../translated_images/th/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 คุณสามารถค้นหาโค้ดนี้ได้ในโฟลเดอร์ [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) หรือ [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device)
 

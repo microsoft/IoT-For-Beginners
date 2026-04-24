@@ -26,7 +26,7 @@ Grove LED-en kommer som en modul med et utvalg av lysdioder, slik at du kan velg
 
 Koble til LED-en.
 
-![En Grove LED](../../../../../translated_images/no/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![En Grove LED](../../../../../translated_images/no/grove-led.6c853be93f473cf2.webp)
 
 1. Velg din favoritt-LED og sett bena inn i de to hullene på LED-modulen.
 

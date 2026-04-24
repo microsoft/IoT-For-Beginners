@@ -16,7 +16,7 @@ ArduCam neturi Grove jungties, vietoj to ji jungiasi prie SPI ir I2C magistrali�
 
 Prijunkite kamerą.
 
-![ArduCam jutiklis](../../../../../translated_images/lt/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![ArduCam jutiklis](../../../../../translated_images/lt/arducam.20e4e4cbb2682965.webp)
 
 1. ArduCam apačioje esantys kaiščiai turi būti prijungti prie GPIO kaiščių ant Wio Terminal. Kad būtų lengviau rasti tinkamus kaiščius, uždėkite GPIO kaiščių lipduką, kuris yra komplekte su Wio Terminal:
 
@@ -35,7 +35,7 @@ Prijunkite kamerą.
     | SDA             | 3 (I2C1_SDA)         | I2C Serijiniai duomenys                |
     | SCL             | 5 (I2C1_SCL)         | I2C Serijinis laikrodis                |
 
-    ![Wio Terminal prijungtas prie ArduCam su jungiamaisiais laidais](../../../../../translated_images/lt/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal prijungtas prie ArduCam su jungiamaisiais laidais](../../../../../translated_images/lt/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     GND ir VCC jungtys suteikia 5V maitinimą ArduCam. Ji veikia 5V, skirtingai nei Grove jutikliai, kurie veikia 3V. Šis maitinimas gaunamas tiesiai iš USB-C jungties, kuri maitina įrenginį.
 
@@ -456,7 +456,7 @@ Wio Terminal palaiko tik microSD korteles iki 16GB dydžio. Jei turite didesnę 
 
 1. Išjunkite microSD kortelę ir išimkite ją, šiek tiek paspausdami ir atleisdami, ir ji iššoks. Gali tekti naudoti ploną įrankį, kad tai padarytumėte. Įdėkite microSD kortelę į savo kompiuterį, kad peržiūrėtumėte vaizdus.
 
-    ![Banano nuotrauka, užfiksuota naudojant ArduCam](../../../../../translated_images/lt/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Banano nuotrauka, užfiksuota naudojant ArduCam](../../../../../translated_images/lt/banana-arducam.be1b32d4267a8194.webp)
 💁 Gali prireikti kelių vaizdų, kol fotoaparato baltos spalvos balansas prisitaikys. Tai pastebėsite pagal užfiksuotų vaizdų spalvą, pirmieji keli gali atrodyti netinkamos spalvos. Visada galite tai apeiti pakeisdami kodą, kad užfiksuotumėte kelis vaizdus, kurie ignoruojami funkcijoje `setup`.
 
 

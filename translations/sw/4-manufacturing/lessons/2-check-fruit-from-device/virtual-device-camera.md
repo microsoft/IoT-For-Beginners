@@ -34,11 +34,11 @@ Ongeza Kamera kwenye programu ya CounterFit.
 
     1. Chagua kitufe cha **Add** ili kuunda kamera.
 
-    ![Mipangilio ya kamera](../../../../../translated_images/sw/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
+    ![Mipangilio ya kamera](../../../../../translated_images/sw/counterfit-create-camera.a5de97f59c0bd3cb.webp)
 
     Kamera itaundwa na itaonekana kwenye orodha ya vihisi.
 
-    ![Kamera iliyoundwa](../../../../../translated_images/sw/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
+    ![Kamera iliyoundwa](../../../../../translated_images/sw/counterfit-camera.001ec52194c8ee5d.webp)
 
 ## Programu ya Kamera
 
@@ -103,7 +103,7 @@ Panga kifaa.
 
 1. Sanidi picha ambayo kamera kwenye CounterFit itapiga. Unaweza kuweka *Source* kuwa *File*, kisha kupakia faili ya picha, au kuweka *Source* kuwa *WebCam*, na picha zitapigwa kutoka kwenye kamera yako ya wavuti. Hakikisha unachagua kitufe cha **Set** baada ya kuchagua picha au kuchagua kamera yako ya wavuti.
 
-    ![CounterFit ikiwa na faili iliyowekwa kama chanzo cha picha, na kamera ya wavuti ikionyesha mtu anayeshikilia ndizi kwenye hakikisho la kamera ya wavuti](../../../../../translated_images/sw/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
+    ![CounterFit ikiwa na faili iliyowekwa kama chanzo cha picha, na kamera ya wavuti ikionyesha mtu anayeshikilia ndizi kwenye hakikisho la kamera ya wavuti](../../../../../translated_images/sw/counterfit-camera-options.eb3bd5150a8e7dff.webp)
 
 1. Picha itapigwa na kuhifadhiwa kama `image.jpg` kwenye folda ya sasa. Utaona faili hii kwenye kivinjari cha VS Code. Chagua faili ili kuona picha. Ikiwa inahitaji kuzungushwa, sasisha mstari wa `camera.rotation = 0` kama inavyohitajika na piga picha nyingine.
 

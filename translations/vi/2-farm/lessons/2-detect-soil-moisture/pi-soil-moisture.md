@@ -18,13 +18,13 @@ Cảm biến độ ẩm đất Grove có thể được kết nối với Raspbe
 
 Kết nối cảm biến độ ẩm đất.
 
-![Một cảm biến độ ẩm đất Grove](../../../../../translated_images/vi/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Một cảm biến độ ẩm đất Grove](../../../../../translated_images/vi/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên cảm biến độ ẩm đất. Nó chỉ có thể cắm theo một chiều.
 
 1. Khi Raspberry Pi đã tắt nguồn, kết nối đầu còn lại của cáp Grove vào ổ cắm analog được đánh dấu **A0** trên Grove Base Hat gắn vào Pi. Ổ cắm này là ổ thứ hai từ bên phải, trên hàng ổ cắm cạnh các chân GPIO.
 
-![Cảm biến độ ẩm đất Grove được kết nối với ổ A0](../../../../../translated_images/vi/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Cảm biến độ ẩm đất Grove được kết nối với ổ A0](../../../../../translated_images/vi/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Cắm cảm biến độ ẩm đất vào đất. Nó có một 'đường giới hạn cao nhất' - một đường trắng ngang qua cảm biến. Cắm cảm biến đến nhưng không vượt qua đường này.
 

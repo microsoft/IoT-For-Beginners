@@ -26,7 +26,7 @@ De Grove LED wordt geleverd als een module met een selectie van LEDs, zodat je d
 
 Sluit de LED aan.
 
-![Een Grove LED](../../../../../translated_images/nl/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Een Grove LED](../../../../../translated_images/nl/grove-led.6c853be93f473cf2.webp)
 
 1. Kies je favoriete LED en steek de pootjes in de twee gaten op de LED-module.
 
@@ -40,7 +40,7 @@ Sluit de LED aan.
 
 1. Schakel de Raspberry Pi uit en sluit het andere uiteinde van de Grove-kabel aan op de digitale socket gemarkeerd met **D5** op de Grove Base Hat die op de Pi is aangesloten. Deze socket is de tweede van links, in de rij sockets naast de GPIO-pinnen.
 
-![De Grove LED aangesloten op socket D5](../../../../../translated_images/nl/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![De Grove LED aangesloten op socket D5](../../../../../translated_images/nl/pi-led.97f1d474981dc35d.webp)
 
 ## Programmeer het nachtlampje
 

@@ -18,13 +18,13 @@ Grove 土壤湿度传感器可以连接到树莓派。
 
 连接土壤湿度传感器。
 
-![一个 Grove 土壤湿度传感器](../../../../../translated_images/zh-CN/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![一个 Grove 土壤湿度传感器](../../../../../translated_images/zh-CN/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. 将 Grove 电缆的一端插入土壤湿度传感器上的插座。它只能以一种方式插入。
 
 1. 在树莓派断电的情况下，将 Grove 电缆的另一端连接到 Grove Base Hat 上标记为 **A0** 的模拟插座。这个插座位于 GPIO 引脚旁边的一排插座中，从右数第二个。
 
-![Grove 土壤湿度传感器连接到 A0 插座](../../../../../translated_images/zh-CN/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Grove 土壤湿度传感器连接到 A0 插座](../../../../../translated_images/zh-CN/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. 将土壤湿度传感器插入土壤中。传感器上有一条“最高位置线”——一条横跨传感器的白线。将传感器插入到这条线以下，但不要超过这条线。
 

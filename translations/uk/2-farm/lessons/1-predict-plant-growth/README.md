@@ -67,7 +67,7 @@ Document your solution and explain how it could help a farmer optimize their cro
 
 Наприклад, якщо найвища температура за день становить 25°C, а найнижча — 12°C:
 
-![GDD = 25 + 12 поділити на 2, потім відняти 10 від результату, отримуючи 8.5](../../../../../translated_images/uk/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 поділити на 2, потім відняти 10 від результату, отримуючи 8.5](../../../../../translated_images/uk/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

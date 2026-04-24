@@ -1,6 +1,6 @@
 # Ennusta taimede kasvu IoT abil
 
-![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-5.42b234299279d263.webp)
 
 > Visandmärkmed: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -90,7 +90,7 @@ Kasvupäevad ehk GDD arvutatakse iga päeva kohta kui päeva keskmine temperatuu
 
 Täielik GDD valem on veidi keeruline, kuid sageli kasutatakse lihtsustatud võrrandit, mis on hea ligikaudne arvutus:
 
-![GDD = T max + T min jagatud 2-ga, kõik miinus T base](../../../../../translated_images/et/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min jagatud 2-ga, kõik miinus T base](../../../../../translated_images/et/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** – kasvupäevade arv
 * **T<sub>max</sub>** – päeva maksimaalne temperatuur kraadides Celsiuse järgi
@@ -118,7 +118,7 @@ Sisestades need arvud meie arvutusse:
 
 See annab arvutuseks:
 
-![GDD = 16 + 12 jagatud 2-ga, kõik miinus 10, tulemuseks 4](../../../../../translated_images/et/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 jagatud 2-ga, kõik miinus 10, tulemuseks 4](../../../../../translated_images/et/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 Mais sai sel päeval 4 GDD. Eeldades maisisorti, mis vajab küpsemiseks 800 GDD, vajab see veel 796 GDD, et küpseda.
 
@@ -239,7 +239,7 @@ Selle käsitsi tegemise sammud on järgmised:
 
 Näiteks, kui päeva kõrgeim temperatuur on 25°C ja madalaim 12°C:
 
-![GDD = 25 + 12 jagatud 2-ga, seejärel lahutatakse tulemusest 10, tulemuseks on 8.5](../../../../../translated_images/et/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 jagatud 2-ga, seejärel lahutatakse tulemusest 10, tulemuseks on 8.5](../../../../../translated_images/et/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

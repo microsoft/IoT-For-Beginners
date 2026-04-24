@@ -36,11 +36,11 @@
 
     1. دکمه **Add** را انتخاب کنید تا حسگر فاصله ایجاد شود.
 
-    ![تنظیمات حسگر فاصله](../../../../../translated_images/fa/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![تنظیمات حسگر فاصله](../../../../../translated_images/fa/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     حسگر فاصله ایجاد خواهد شد و در لیست حسگرها ظاهر می‌شود.
 
-    ![حسگر فاصله ایجاد شده](../../../../../translated_images/fa/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![حسگر فاصله ایجاد شده](../../../../../translated_images/fa/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## برنامه‌نویسی حسگر فاصله
 

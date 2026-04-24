@@ -1,6 +1,6 @@
 # Berinteraksi dengan Dunia Fizikal Menggunakan Sensor dan Aktuator
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -92,7 +92,7 @@ Sensor digital, seperti sensor analog, mengesan dunia di sekeliling mereka mengg
 
 Sensor digital yang paling mudah ialah butang atau suis. Ini adalah sensor dengan dua keadaan, hidup atau mati.
 
-![Butang dihantar 5 volt. Apabila tidak ditekan ia mengembalikan 0 volt, apabila ditekan ia mengembalikan 5 volt](../../../../../translated_images/ms/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Butang dihantar 5 volt. Apabila tidak ditekan ia mengembalikan 0 volt, apabila ditekan ia mengembalikan 5 volt](../../../../../translated_images/ms/button.eadb560b77ac45e5.webp)
 
 Pin pada peranti IoT seperti pin GPIO boleh mengukur isyarat ini secara langsung sebagai 0 atau 1. Jika voltan yang dihantar sama dengan voltan yang dikembalikan, nilai yang dibaca ialah 1, jika tidak nilai yang dibaca ialah 0. Tidak perlu menukar isyarat, ia hanya boleh menjadi 1 atau 0.
 
@@ -125,7 +125,7 @@ Beberapa aktuator biasa termasuk:
 
 Ikuti panduan yang berkaitan di bawah untuk menambah aktuator pada peranti IoT anda, yang dikawal oleh sensor, untuk membina lampu malam IoT. Ia akan mengumpul tahap cahaya daripada sensor cahaya, dan menggunakan aktuator dalam bentuk LED untuk memancarkan cahaya apabila tahap cahaya yang dikesan terlalu rendah.
 
-![Carta alir tugasan menunjukkan tahap cahaya dibaca dan diperiksa, dan LED dikawal](../../../../../translated_images/ms/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Carta alir tugasan menunjukkan tahap cahaya dibaca dan diperiksa, dan LED dikawal](../../../../../translated_images/ms/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Komputer papan tunggal - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Seperti sensor, aktuator boleh menjadi analog atau digital.
 Aktuator analog mengambil isyarat analog dan menukarnya kepada beberapa jenis interaksi, di mana interaksi berubah berdasarkan voltan yang dibekalkan.
 
 Satu contoh ialah lampu boleh dimalapkan, seperti yang mungkin anda ada di rumah anda. Jumlah voltan yang dibekalkan kepada lampu menentukan kecerahannya.
-![Cahaya malap pada voltan rendah dan lebih terang pada voltan tinggi](../../../../../translated_images/ms/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Cahaya malap pada voltan rendah dan lebih terang pada voltan tinggi](../../../../../translated_images/ms/dimmable-light.9ceffeb195dec1a8.webp)
 
 Seperti sensor, peranti IoT sebenar berfungsi dengan isyarat digital, bukan analog. Ini bermakna untuk menghantar isyarat analog, peranti IoT memerlukan penukar digital ke analog (DAC), sama ada secara langsung pada peranti IoT atau pada papan penyambung. Penukar ini akan menukar 0 dan 1 daripada peranti IoT kepada voltan analog yang boleh digunakan oleh penggerak.
 
@@ -187,7 +187,7 @@ Penggerak digital, seperti sensor digital, sama ada mempunyai dua keadaan yang d
 
 Satu penggerak digital yang mudah ialah LED. Apabila peranti menghantar isyarat digital 1, voltan tinggi dihantar yang menyalakan LED. Apabila isyarat digital 0 dihantar, voltan turun kepada 0V dan LED padam.
 
-![LED padam pada 0 volt dan menyala pada 5V](../../../../../translated_images/ms/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED padam pada 0 volt dan menyala pada 5V](../../../../../translated_images/ms/led.ec6d94f66676a174.webp)
 
 ✅ Apakah penggerak 2-keadaan mudah lain yang boleh anda fikirkan? Satu contoh ialah solenoid, iaitu elektromagnet yang boleh diaktifkan untuk melakukan perkara seperti menggerakkan bolt pintu untuk mengunci/membuka kunci pintu.
 

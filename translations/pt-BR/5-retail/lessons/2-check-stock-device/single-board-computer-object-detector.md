@@ -67,7 +67,7 @@ O código que você usou para classificar imagens é muito semelhante ao código
 
     Você poderá ver a imagem que foi capturada e esses valores na aba **Predictions** no Custom Vision.
 
-    ![4 latas de extrato de tomate em uma prateleira com previsões para as 4 detecções de 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/pt-BR/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 latas de extrato de tomate em uma prateleira com previsões para as 4 detecções de 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/pt-BR/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Você pode encontrar este código na pasta [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) ou [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

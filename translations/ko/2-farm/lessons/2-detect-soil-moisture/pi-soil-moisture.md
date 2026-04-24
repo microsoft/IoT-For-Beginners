@@ -18,13 +18,13 @@ Grove 토양 수분 센서를 Raspberry Pi에 연결할 수 있습니다.
 
 토양 수분 센서를 연결하세요.
 
-![Grove 토양 수분 센서](../../../../../translated_images/ko/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove 토양 수분 센서](../../../../../translated_images/ko/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove 케이블의 한쪽 끝을 토양 수분 센서의 소켓에 삽입합니다. 케이블은 한 방향으로만 삽입됩니다.
 
 1. Raspberry Pi의 전원을 끈 상태에서, Grove 케이블의 다른 쪽 끝을 Pi에 부착된 Grove Base Hat의 **A0**로 표시된 아날로그 소켓에 연결합니다. 이 소켓은 GPIO 핀 옆에 있는 소켓 행에서 오른쪽에서 두 번째입니다.
 
-![A0 소켓에 연결된 Grove 토양 수분 센서](../../../../../translated_images/ko/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![A0 소켓에 연결된 Grove 토양 수분 센서](../../../../../translated_images/ko/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. 토양에 토양 수분 센서를 삽입합니다. 센서에는 '최고 위치 라인'이라는 흰색 선이 있습니다. 이 선까지 센서를 삽입하되, 선을 넘지 않도록 합니다.
 

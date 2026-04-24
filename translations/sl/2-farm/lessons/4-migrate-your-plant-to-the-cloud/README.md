@@ -1,6 +1,6 @@
 # Migrirajte svojo rastlino v oblak
 
-![Skica pregleda te lekcije](../../../../../translated_images/sl/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Skica pregleda te lekcije](../../../../../translated_images/sl/lesson-8.3f21f3c11159e6a0.webp)
 
 > Skica avtorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -46,8 +46,8 @@ To je bilo lahko zelo drago, zahtevalo je širok spekter usposobljenih zaposleni
 
 Oblak se pogosto šaljivo imenuje "računalnik nekoga drugega". Osnovna ideja je bila preprosta - namesto da bi kupovali računalnike, jih najamete od nekoga drugega. Nekdo drug, ponudnik oblačnih storitev, bi upravljal ogromne podatkovne centre. Bil bi odgovoren za nakup in namestitev strojne opreme, upravljanje napajanja in hlajenja, omrežja, varnost stavbe, posodobitve strojne in programske opreme, vse. Kot stranka bi najeli računalnike, ki jih potrebujete, najeli več, ko povpraševanje naraste, in zmanjšali število najemov, ko povpraševanje upade. Ti oblačni podatkovni centri so po vsem svetu.
 
-![Microsoftov oblačni podatkovni center](../../../../../translated_images/sl/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Microsoftov oblačni podatkovni center - načrtovana širitev](../../../../../translated_images/sl/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Microsoftov oblačni podatkovni center](../../../../../translated_images/sl/azure-region-existing.73f704604f2aa6cb.webp)
+![Microsoftov oblačni podatkovni center - načrtovana širitev](../../../../../translated_images/sl/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Ti podatkovni centri so lahko veliki več kvadratnih kilometrov. Zgornje slike so bile posnete pred nekaj leti v Microsoftovem oblačnem podatkovnem centru in prikazujejo začetno velikost ter načrtovano širitev. Očiščeno območje za širitev meri več kot 5 kvadratnih kilometrov.
 
@@ -108,11 +108,11 @@ IoT storitve v oblaku rešujejo te težave. Upravljajo jih veliki oblačni ponud
 
 IoT naprave se povežejo z oblačno storitvijo bodisi z uporabo SDK-ja naprave (knjižnice, ki zagotavlja kodo za delo z značilnostmi storitve) bodisi neposredno prek komunikacijskega protokola, kot sta MQTT ali HTTP. SDK naprave je običajno najlažja pot, saj samodejno upravlja vse, na primer, katere teme objaviti ali na katere se naročiti, in kako upravljati varnost.
 
-![Naprave se povežejo s storitvijo z uporabo SDK-ja naprave. Strežniška koda se prav tako poveže s storitvijo prek SDK-ja](../../../../../translated_images/sl/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Naprave se povežejo s storitvijo z uporabo SDK-ja naprave. Strežniška koda se prav tako poveže s storitvijo prek SDK-ja](../../../../../translated_images/sl/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Vaša naprava nato komunicira z drugimi deli vaše aplikacije prek te storitve - podobno kot ste pošiljali telemetrijo in prejemali ukaze prek MQTT. To se običajno izvaja z uporabo SDK-ja storitve ali podobne knjižnice. Sporočila prihajajo iz vaše naprave v storitev, kjer jih lahko preberejo drugi deli vaše aplikacije, sporočila pa se lahko pošljejo nazaj na vašo napravo.
 
-![Naprave brez veljavnega tajnega ključa se ne morejo povezati z IoT storitvijo](../../../../../translated_images/sl/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Naprave brez veljavnega tajnega ključa se ne morejo povezati z IoT storitvijo](../../../../../translated_images/sl/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Te storitve izvajajo varnost tako, da poznajo vse naprave, ki se lahko povežejo in pošiljajo podatke, bodisi tako, da so naprave predhodno registrirane pri storitvi, bodisi tako, da napravam dodelijo tajne ključe ali certifikate, ki jih lahko uporabijo za registracijo pri storitvi ob prvi povezavi. Nepoznane naprave se ne morejo povezati; če poskusijo, storitev zavrne povezavo in ignorira sporočila, ki jih pošljejo.
 
@@ -124,7 +124,7 @@ Drugi deli vaše aplikacije se lahko povežejo z IoT storitvijo in izvedo, kater
 
 Zdaj, ko imate naročnino na Azure, se lahko prijavite za IoT storitev. IoT storitev Microsofta se imenuje Azure IoT Hub.
 
-![Logotip Azure IoT Hub](../../../../../translated_images/sl/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Logotip Azure IoT Hub](../../../../../translated_images/sl/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Spodnji video ponuja kratek pregled Azure IoT Hub:
 

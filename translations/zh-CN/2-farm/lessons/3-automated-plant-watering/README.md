@@ -1,6 +1,6 @@
 # 自动植物浇水
 
-![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-7.30b5f577d3cb8e03.webp)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -32,7 +32,7 @@
 
 解决方案是将水泵连接到外部电源，并使用执行器来打开水泵，就像你用手指打开灯一样。打开开关所需的能量很小（来自你身体的能量），而这会将灯连接到 110v/240v 的市电。
 
-![一个灯开关打开灯的电源](../../../../../translated_images/zh-CN/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![一个灯开关打开灯的电源](../../../../../translated_images/zh-CN/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [市电](https://wikipedia.org/wiki/Mains_electricity) 指的是通过国家基础设施输送到家庭和企业的电力。
 
@@ -72,7 +72,7 @@
 
 电磁铁所需的功率很小，可以通过物联网开发板的 3.3V 或 5V 输出控制。输出电路可以承载更多功率，具体取决于继电器，包括市电电压甚至更高的工业电压。这使得物联网开发板可以控制灌溉系统，从单个植物的小型水泵到整个商业农场的大型工业系统。
 
-![一个带有标注的 Grove 继电器，显示控制电路、输出电路和继电器](../../../../../translated_images/zh-CN/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![一个带有标注的 Grove 继电器，显示控制电路、输出电路和继电器](../../../../../translated_images/zh-CN/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 上图显示了一个 Grove 继电器。控制电路连接到物联网设备，并使用 3.3V 或 5V 打开或关闭继电器。输出电路有两个端子，任意一个可以是电源或接地。输出电路可以处理高达 250V、10A 的电流，足以驱动一系列市电设备。你还可以找到能够处理更高功率的继电器。
 

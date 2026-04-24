@@ -18,7 +18,7 @@ Ang Grove soil moisture sensor ay maaaring ikonekta sa configurable analog/digit
 
 Ikonekta ang soil moisture sensor.
 
-![Isang Grove soil moisture sensor](../../../../../translated_images/tl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Isang Grove soil moisture sensor](../../../../../translated_images/tl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng soil moisture sensor. Isa lang ang tamang paraan ng pagpasok nito.
 

@@ -20,7 +20,7 @@ Grove Time of Flight anduri saab ühendada Raspberry Pi-ga.
 
 Ühenda Time of Flight andur.
 
-![Grove Time of Flight andur](../../../../../translated_images/et/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Grove Time of Flight andur](../../../../../translated_images/et/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Sisesta Grove kaabli üks ots Time of Flight anduri pistikusse. Kaabel läheb sisse ainult ühel viisil.
 

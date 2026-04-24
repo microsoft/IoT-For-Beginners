@@ -1,6 +1,6 @@
 # Dil Anlama
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-22.6148ea28500d9e00.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -46,7 +46,7 @@ Dil anlama modelleri, dilden belirli detayları çıkarmak için eğitilmiş AI 
 
 ## Dil Anlama Modeli Oluşturma
 
-![LUIS logosu](../../../../../translated_images/tr/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![LUIS logosu](../../../../../translated_images/tr/luis-logo.5cb4f3e88c020ee6.webp)
 
 Dil anlama modellerini, Microsoft'un Cognitive Services'ın bir parçası olan LUIS adlı dil anlama hizmetini kullanarak oluşturabilirsiniz.
 
@@ -169,7 +169,7 @@ LUIS portalını kullanma talimatlarını [Microsoft Docs'taki LUIS portalında 
 
 1. Her örneği girerken, LUIS varlıkları algılamaya başlayacak ve bulduğu varlıkları altını çizerek ve etiketleyerek gösterecektir.
 
-    ![LUIS tarafından altı çizilen ve etiketlenen sayılar ve zaman birimleriyle örnekler](../../../../../translated_images/tr/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![LUIS tarafından altı çizilen ve etiketlenen sayılar ve zaman birimleriyle örnekler](../../../../../translated_images/tr/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Görev - modeli eğit ve test et
 

@@ -1,6 +1,6 @@
 # Automaattinen kasvien kastelu
 
-![Yleiskatsaus oppitunnista sketchnotena](../../../../../translated_images/fi/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Yleiskatsaus oppitunnista sketchnotena](../../../../../translated_images/fi/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -32,7 +32,7 @@ IoT-laitteet käyttävät matalaa jännitettä. Vaikka tämä riittää antureil
 
 Ratkaisuna on kytkeä pumppu ulkoiseen virtalähteeseen ja käyttää toimilaitetta pumpun käynnistämiseen, aivan kuten valon kytkemisessä päälle. Sormesi tarvitsee vain pienen määrän energiaa kytkimen kääntämiseen, mikä yhdistää valon kotitaloussähköön, joka toimii 110v/240v jännitteellä.
 
-![Valokytkin kytkee valon päälle](../../../../../translated_images/fi/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Valokytkin kytkee valon päälle](../../../../../translated_images/fi/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Kotitaloussähkö](https://wikipedia.org/wiki/Mains_electricity) viittaa sähköön, joka toimitetaan koteihin ja yrityksiin kansallisen infrastruktuurin kautta monissa maailman osissa.
 
@@ -72,7 +72,7 @@ Kun vipu liikkuu, voit yleensä kuulla sen osuvan sähkömagneettiin selkeällä
 
 Sähkömagneetti ei tarvitse paljon virtaa aktivoituakseen ja vetääkseen vivun, ja sitä voidaan ohjata IoT-kehitysalustan 3.3V tai 5V ulostulolla. Ulostulopiiri voi kantaa paljon enemmän virtaa, riippuen releestä, mukaan lukien kotitaloussähkö tai jopa korkeammat tehot teollisuuskäyttöön. Näin IoT-kehitysalusta voi ohjata kastelujärjestelmää, pienestä pumpusta yksittäiselle kasville aina massiiviseen teollisuusjärjestelmään koko kaupalliselle tilalle.
 
-![Grove-rele, jossa ohjauspiiri, ulostulopiiri ja rele on merkitty](../../../../../translated_images/fi/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Grove-rele, jossa ohjauspiiri, ulostulopiiri ja rele on merkitty](../../../../../translated_images/fi/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Yllä olevassa kuvassa näkyy Grove-rele. Ohjauspiiri yhdistetään IoT-laitteeseen ja kytkee releen päälle tai pois päältä 3.3V tai 5V avulla. Ulostulopiirissä on kaksi liitintä, joista kumpi tahansa voi olla virtalähde tai maa. Ulostulopiiri voi käsitellä jopa 250V ja 10A, mikä riittää monille kotitaloussähköllä toimiville laitteille. Saatavilla on myös releitä, jotka kestävät vielä suurempia tehoja.
 

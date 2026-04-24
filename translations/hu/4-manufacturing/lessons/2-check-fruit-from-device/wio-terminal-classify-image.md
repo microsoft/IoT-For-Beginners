@@ -208,7 +208,7 @@ Ezek a tanúsítványok nyilvános kulcsokat tartalmaznak, és nem szükséges �
 
     Látni fogod a készített képet, és ezeket az értékeket a Custom Vision **Predictions** fülén.
 
-    ![Egy banán a Custom Vision-ben, érettként 56.8%-os, éretlenként 43.1%-os előrejelzéssel](../../../../../translated_images/hu/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Egy banán a Custom Vision-ben, érettként 56.8%-os, éretlenként 43.1%-os előrejelzéssel](../../../../../translated_images/hu/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Ezt a kódot megtalálhatod a [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) mappában.
 

@@ -34,11 +34,11 @@
 
     1. בחרו בכפתור **Add** כדי ליצור את המצלמה.
 
-    ![הגדרות המצלמה](../../../../../translated_images/he/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
+    ![הגדרות המצלמה](../../../../../translated_images/he/counterfit-create-camera.a5de97f59c0bd3cb.webp)
 
     המצלמה תיווצר ותופיע ברשימת החיישנים.
 
-    ![המצלמה שנוצרה](../../../../../translated_images/he/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
+    ![המצלמה שנוצרה](../../../../../translated_images/he/counterfit-camera.001ec52194c8ee5d.webp)
 
 ## תכנות המצלמה
 
@@ -103,7 +103,7 @@
 
 1. הגדירו את התמונה שהמצלמה ב-CounterFit תצלם. תוכלו להגדיר את *Source* ל-*File*, ואז להעלות קובץ תמונה, או להגדיר את *Source* ל-*WebCam*, ותמונות יילכדו מהמצלמה שלכם. ודאו שאתם לוחצים על כפתור **Set** לאחר בחירת תמונה או בחירת המצלמה.
 
-    ![CounterFit עם קובץ מוגדר כמקור תמונה, ומצלמת רשת שמראה אדם מחזיק בננה בתצוגה מקדימה של המצלמה](../../../../../translated_images/he/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
+    ![CounterFit עם קובץ מוגדר כמקור תמונה, ומצלמת רשת שמראה אדם מחזיק בננה בתצוגה מקדימה של המצלמה](../../../../../translated_images/he/counterfit-camera-options.eb3bd5150a8e7dff.webp)
 
 1. תמונה תילכד ותישמר כ-`image.jpg` בתיקייה הנוכחית. תוכלו לראות את הקובץ הזה בסייר של VS Code. בחרו בקובץ כדי לצפות בתמונה. אם יש צורך בסיבוב, עדכנו את השורה `camera.rotation = 0` בהתאם וצילמו תמונה נוספת.
 

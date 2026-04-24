@@ -16,7 +16,7 @@ Grove-temperatursensoren kan kobles til Raspberry Pi.
 
 Koble til temperatursensoren
 
-![En Grove-temperatursensor](../../../../../translated_images/no/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![En Grove-temperatursensor](../../../../../translated_images/no/grove-dht11.07f8eafceee17004.webp)
 
 1. Sett den ene enden av en Grove-kabel inn i kontakten på fuktighets- og temperatursensoren. Den vil kun passe én vei.
 

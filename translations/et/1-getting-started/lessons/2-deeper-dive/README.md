@@ -1,6 +1,6 @@
 # Süvitsi IoT teemadesse
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-2.324b0580d620c25e.webp)
 
 > Visuaalne märkmik: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -38,7 +38,7 @@ IoT **asi** viitab seadmele, mis suudab suhelda füüsilise maailmaga. Need sead
 
 Need seadmed suhtlevad füüsilise maailmaga, kas sensorite abil, et koguda andmeid oma ümbrusest, või juhtides väljundeid või aktuaatoreid, et teha füüsilisi muudatusi. Tüüpiline näide on nutikas termostaat – seade, millel on temperatuuriandur, vahend soovitud temperatuuri seadmiseks, näiteks ketas või puutetundlik ekraan, ja ühendus kütte- või jahutussüsteemiga, mida saab sisse lülitada, kui tuvastatud temperatuur on väljaspool soovitud vahemikku. Temperatuuriandur tuvastab, et ruum on liiga külm, ja aktuaator lülitab kütte sisse.
 
-![Diagram, mis näitab temperatuuri ja ketast IoT seadme sisenditena ning kütte juhtimist väljundina](../../../../../translated_images/et/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Diagram, mis näitab temperatuuri ja ketast IoT seadme sisenditena ning kütte juhtimist väljundina](../../../../../translated_images/et/basic-thermostat.a923217fd1f37e5a.webp)
 
 IoT seadmeteks võivad olla väga erinevad asjad, alates spetsiaalsest riistvarast, mis tuvastab ühte asja, kuni üldotstarbeliste seadmeteni, isegi teie nutitelefon! Nutitelefon võib kasutada sensoreid, et tuvastada ümbritsevat maailma, ja aktuaatoreid, et suhelda maailmaga – näiteks GPS-sensori abil tuvastada teie asukohta ja kõlarit, et anda navigeerimisjuhiseid sihtkohta.
 
@@ -54,7 +54,7 @@ Seadmed ei pruugi alati otse Internetiga ühenduda WiFi või kaabliga. Mõned se
 
 Näiteks nutika termostaadi puhul ühendub termostaat koduse WiFi kaudu pilveteenusega. See saadab temperatuuriandmed pilveteenusele, kust need kirjutatakse mingisse andmebaasi, võimaldades koduomanikul kontrollida praegust ja varasemat temperatuuri telefoni rakenduse kaudu. Teine pilveteenus teab, millist temperatuuri koduomanik soovib, ja saadab sõnumeid IoT seadmele pilveteenuse kaudu, et öelda küttele, kas see tuleks sisse või välja lülitada.
 
-![Diagram, mis näitab temperatuuri ja ketast IoT seadme sisenditena, IoT seadet kahepoolse suhtlusega pilvega, mis omakorda suhtleb kahepoolse suhtlusega telefoniga, ja kütte juhtimist IoT seadme väljundina](../../../../../translated_images/et/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Diagram, mis näitab temperatuuri ja ketast IoT seadme sisenditena, IoT seadet kahepoolse suhtlusega pilvega, mis omakorda suhtleb kahepoolse suhtlusega telefoniga, ja kütte juhtimist IoT seadme väljundina](../../../../../translated_images/et/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Veelgi nutikam versioon võiks kasutada pilves AI-d koos andmetega teistelt IoT seadmetelt, näiteks liikumisanduritelt, mis tuvastavad, millised ruumid on kasutuses, samuti andmeid nagu ilm ja isegi teie kalender, et teha otsuseid temperatuuri nutikaks seadmiseks. Näiteks võiks see lülitada kütte välja, kui teie kalendrist loeb, et olete puhkusel, või lülitada kütte välja ruumipõhiselt sõltuvalt sellest, milliseid ruume te kasutate, õppides andmetest aja jooksul üha täpsemaks.
 
@@ -94,7 +94,7 @@ Mida kiirem on kellatsükkel, seda rohkem juhiseid saab sekundis töödelda ja s
 
 > 💁 CPU-d käitavad programme kasutades [fetch-decode-execute tsüklit](https://wikipedia.org/wiki/Instruction_cycle). Iga kellatiksumisega hangib CPU järgmise juhise mälust, dekodeerib selle ja täidab selle, näiteks kasutades aritmeetika-loogika üksust (ALU), et liita kaks numbrit. Mõned täitmised võtavad mitu tiksumist, nii et järgmine tsükkel käivitub järgmise tiksumise ajal pärast juhise täitmist.
 
-![Fetch-decode-execute tsüklid, mis näitavad, kuidas fetch võtab juhise RAM-is salvestatud programmist, seejärel dekodeerib ja täidab selle CPU-s](../../../../../translated_images/et/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Fetch-decode-execute tsüklid, mis näitavad, kuidas fetch võtab juhise RAM-is salvestatud programmist, seejärel dekodeerib ja täidab selle CPU-s](../../../../../translated_images/et/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Mikroprotsessoritel on palju madalamad kellakiirused kui lauaarvutitel, sülearvutitel või isegi enamikul nutitelefonidel. Näiteks Wio Terminalil on CPU, mis töötab 120MHz juures ehk 120 000 000 tsüklit sekundis.
 
@@ -183,7 +183,7 @@ Arduino plaate programmeeritakse C või C++ keeles. C/C++ kasutamine võimaldab 
 
 `setup` funktsiooni kirjutatakse algseadistuse kood, näiteks WiFi ja pilveteenustega ühendamine või kontaktide initsialiseerimine sisendi ja väljundi jaoks. `loop` funktsioon sisaldab töötlemiskoodi, näiteks sensori lugemine ja väärtuse saatmine pilve. Tavaliselt lisatakse igasse tsüklisse viivitus, näiteks kui soovid sensori andmeid saata iga 10 sekundi järel, lisatakse tsükli lõppu 10-sekundiline viivitus, et mikrokontroller saaks magada, säästes energiat, ja käivitada tsükli uuesti 10 sekundi pärast.
 
-![Arduino visand, mis käivitab kõigepealt setup-funktsiooni ja seejärel loop-funktsiooni korduvalt](../../../../../translated_images/et/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Arduino visand, mis käivitab kõigepealt setup-funktsiooni ja seejärel loop-funktsiooni korduvalt](../../../../../translated_images/et/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Seda programmi arhitektuuri nimetatakse *sündmuste tsükliks* või *sõnumite tsükliks*. Paljud rakendused kasutavad seda taustal ja see on standard enamiku desktop-rakenduste jaoks, mis töötavad operatsioonisüsteemidel nagu Windows, macOS või Linux. `loop` kuulab sõnumeid kasutajaliidese komponentidelt, nagu nupud, või seadmetelt, nagu klaviatuur, ja reageerib neile. Loe rohkem sellest [artiklist sündmuste tsükli kohta](https://wikipedia.org/wiki/Event_loop).
 

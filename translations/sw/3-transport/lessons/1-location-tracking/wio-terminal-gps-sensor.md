@@ -18,7 +18,7 @@ Kihisi cha Grove GPS kinaweza kuunganishwa na Wio Terminal.
 
 Unganisha kihisi cha GPS.
 
-![Kihisi cha Grove GPS](../../../../../translated_images/sw/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Kihisi cha Grove GPS](../../../../../translated_images/sw/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya kihisi cha GPS. Itaingia kwa njia moja tu.
 

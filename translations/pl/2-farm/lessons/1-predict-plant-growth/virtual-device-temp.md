@@ -38,11 +38,11 @@ Dodaj czujniki wilgotności i temperatury do aplikacji CounterFit.
 
     1. Wybierz przycisk **Add**, aby utworzyć czujnik wilgotności na pinie 5.
 
-    ![Ustawienia czujnika wilgotności](../../../../../translated_images/pl/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
+    ![Ustawienia czujnika wilgotności](../../../../../translated_images/pl/counterfit-create-humidity-sensor.2750e27b6f30e09c.webp)
 
     Czujnik wilgotności zostanie utworzony i pojawi się na liście czujników.
 
-    ![Utworzony czujnik wilgotności](../../../../../translated_images/pl/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
+    ![Utworzony czujnik wilgotności](../../../../../translated_images/pl/counterfit-humidity-sensor.7b12f7f339e430cb.webp)
 
 1. Utwórz czujnik temperatury:
 
@@ -54,11 +54,11 @@ Dodaj czujniki wilgotności i temperatury do aplikacji CounterFit.
 
     1. Wybierz przycisk **Add**, aby utworzyć czujnik temperatury na pinie 6.
 
-    ![Ustawienia czujnika temperatury](../../../../../translated_images/pl/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
+    ![Ustawienia czujnika temperatury](../../../../../translated_images/pl/counterfit-create-temperature-sensor.199350ed34f7343d.webp)
 
     Czujnik temperatury zostanie utworzony i pojawi się na liście czujników.
 
-    ![Utworzony czujnik temperatury](../../../../../translated_images/pl/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
+    ![Utworzony czujnik temperatury](../../../../../translated_images/pl/counterfit-temperature-sensor.f0560236c96a9016.webp)
 
 ## Programowanie aplikacji czujnika temperatury
 

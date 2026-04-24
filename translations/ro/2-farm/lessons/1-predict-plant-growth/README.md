@@ -1,6 +1,6 @@
 # Preziceți creșterea plantelor cu IoT
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-5.42b234299279d263.webp)
 
 > Prezentare grafică de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -90,7 +90,7 @@ Zilele gradelor de creștere, sau GDD, sunt calculate pe zi ca temperatura medie
 
 Formula completă pentru GDD este puțin complicată, dar există o ecuație simplificată care este adesea utilizată ca o bună aproximare:
 
-![GDD = T max + T min împărțit la 2, totul minus T bază](../../../../../translated_images/ro/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min împărțit la 2, totul minus T bază](../../../../../translated_images/ro/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - acesta este numărul de zile ale gradelor de creștere
 * **T max** - aceasta este temperatura maximă zilnică în grade Celsius
@@ -118,7 +118,7 @@ Introducând aceste numere în calculul nostru:
 
 Aceasta dă un calcul de:
 
-![GDD = 16 + 12 împărțit la 2, totul minus 10, rezultând un răspuns de 4](../../../../../translated_images/ro/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 împărțit la 2, totul minus 10, rezultând un răspuns de 4](../../../../../translated_images/ro/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 Porumbul a primit 4 GDD în acea zi. Presupunând o varietate de porumb care necesită 800 GDD pentru a se maturiza, va avea nevoie de încă 796 GDD pentru a ajunge la maturitate.
 
@@ -239,7 +239,7 @@ Pașii pentru a face acest lucru manual sunt:
 
 De exemplu, dacă temperatura maximă a zilei este 25°C, iar cea minimă este 12°C:
 
-![GDD = 25 + 12 împărțit la 2, apoi scade 10 din rezultat, obținând 8.5](../../../../../translated_images/ro/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 împărțit la 2, apoi scade 10 din rezultat, obținând 8.5](../../../../../translated_images/ro/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

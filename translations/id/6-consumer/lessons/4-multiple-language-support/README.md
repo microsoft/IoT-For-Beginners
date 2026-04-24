@@ -1,6 +1,6 @@
 # Mendukung Banyak Bahasa
 
-![Sketchnote ringkasan pelajaran ini](../../../../../translated_images/id/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Sketchnote ringkasan pelajaran ini](../../../../../translated_images/id/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -74,7 +74,7 @@ Ada sejumlah layanan AI yang dapat digunakan dari aplikasi Anda untuk menerjemah
 
 ### Layanan Suara Cognitive Services
 
-![Logo layanan suara](../../../../../translated_images/id/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo layanan suara](../../../../../translated_images/id/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Layanan suara yang telah Anda gunakan selama beberapa pelajaran terakhir memiliki kemampuan penerjemahan untuk pengenalan suara. Ketika Anda mengenali suara, Anda dapat meminta tidak hanya teks dari suara dalam bahasa yang sama, tetapi juga dalam bahasa lain.
 
@@ -82,7 +82,7 @@ Layanan suara yang telah Anda gunakan selama beberapa pelajaran terakhir memilik
 
 ### Layanan Penerjemah Cognitive Services
 
-![Logo layanan penerjemah](../../../../../translated_images/id/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Logo layanan penerjemah](../../../../../translated_images/id/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Layanan Penerjemah adalah layanan penerjemahan khusus yang dapat menerjemahkan teks dari satu bahasa, ke satu atau lebih bahasa target. Selain menerjemahkan, layanan ini mendukung berbagai fitur tambahan termasuk menyembunyikan kata-kata kasar. Layanan ini juga memungkinkan Anda memberikan terjemahan khusus untuk kata atau kalimat tertentu, untuk bekerja dengan istilah yang tidak ingin Anda terjemahkan, atau memiliki terjemahan yang terkenal.
 

@@ -1,6 +1,6 @@
 # Podpora več jezikov
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -74,7 +74,7 @@ Obstaja več AI storitev, ki jih lahko uporabite v svojih aplikacijah za prevaja
 
 ### Cognitive services Speech service
 
-![Logotip storitve za govor](../../../../../translated_images/sl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logotip storitve za govor](../../../../../translated_images/sl/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Storitev za govor, ki ste jo uporabljali v prejšnjih lekcijah, ima prevajalske zmogljivosti za prepoznavanje govora. Ko prepoznate govor, lahko zahtevate ne le besedilo govora v istem jeziku, ampak tudi v drugih jezikih.
 
@@ -82,7 +82,7 @@ Storitev za govor, ki ste jo uporabljali v prejšnjih lekcijah, ima prevajalske 
 
 ### Cognitive services Translator service
 
-![Logotip prevajalske storitve](../../../../../translated_images/sl/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Logotip prevajalske storitve](../../../../../translated_images/sl/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Prevajalska storitev je namenski prevajalski servis, ki lahko prevede besedilo iz enega jezika v enega ali več ciljnih jezikov. Poleg prevajanja podpira širok nabor dodatnih funkcij, vključno z maskiranjem neprimernih besed. Prav tako vam omogoča, da zagotovite specifičen prevod za določeno besedo ali stavek, da delate s pojmi, ki jih ne želite prevesti, ali imate specifičen, dobro znan prevod.
 

@@ -16,7 +16,7 @@ ArduCam nemá Grove konektor, namiesto toho sa pripája k SPI a I2C zberniciam c
 
 Pripojte kameru.
 
-![Senzor ArduCam](../../../../../translated_images/sk/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Senzor ArduCam](../../../../../translated_images/sk/arducam.20e4e4cbb2682965.webp)
 
 1. Piny na spodnej strane ArduCam musia byť pripojené k GPIO pinom na Wio Terminale. Aby ste ľahšie našli správne piny, pripevnite nálepku s označením GPIO pinov, ktorá je súčasťou Wio Terminalu, okolo pinov:
 
@@ -35,7 +35,7 @@ Pripojte kameru.
     | SDA         | 3 (I2C1_SDA)     | I2C Sériové Dáta                        |
     | SCL         | 5 (I2C1_SCL)     | I2C Sériový Hodinový Signál             |
 
-    ![Wio Terminal pripojený k ArduCam pomocou prepojovacích káblov](../../../../../translated_images/sk/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal pripojený k ArduCam pomocou prepojovacích káblov](../../../../../translated_images/sk/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Pripojenia GND a VCC poskytujú 5V napájanie pre ArduCam. Kamera funguje na 5V, na rozdiel od Grove senzorov, ktoré fungujú na 3V. Toto napájanie pochádza priamo z USB-C pripojenia, ktoré napája zariadenie.
 
@@ -456,7 +456,7 @@ Wio Terminal podporuje iba microSD karty s kapacitou do 16 GB. Ak máte väčši
 
 1. Vypnite microSD kartu a vysuňte ju jemným zatlačením a uvoľnením, čím sa vysunie. Možno budete musieť použiť tenký nástroj. Pripojte microSD kartu k vášmu počítaču, aby ste si mohli pozrieť obrázky.
 
-    ![Obrázok banánu zachytený pomocou ArduCam](../../../../../translated_images/sk/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Obrázok banánu zachytený pomocou ArduCam](../../../../../translated_images/sk/banana-arducam.be1b32d4267a8194.webp)
 💁 Môže to trvať niekoľko snímok, kým sa vyváženie bielej farby na kamere samo nastaví. Všimnete si to na základe farby zachytených snímok, prvé môžu vyzerať farebne nesprávne. Toto môžete vždy obísť zmenou kódu tak, aby zachytil niekoľko snímok, ktoré sa ignorujú vo funkcii `setup`.
 
 

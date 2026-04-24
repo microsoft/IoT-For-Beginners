@@ -1,6 +1,6 @@
 ## Prognozuokite augalų augimą naudodami IoT
 
-![Pamokos apžvalga piešiniu](../../../../../translated_images/lt/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Pamokos apžvalga piešiniu](../../../../../translated_images/lt/lesson-5.42b234299279d263.webp)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -122,7 +122,7 @@ Rankiniu būdu tai atliekama šiais žingsniais:
 
 Pavyzdžiui, jei aukščiausia dienos temperatūra yra 25°C, o žemiausia – 12°C:
 
-![GDD = 25 + 12 padalinta iš 2, tada iš rezultato atimama 10, gaunant 8.5](../../../../../translated_images/lt/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 padalinta iš 2, tada iš rezultato atimama 10, gaunant 8.5](../../../../../translated_images/lt/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

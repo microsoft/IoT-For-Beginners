@@ -1,6 +1,6 @@
 # Migra la lógica de tu aplicación a la nube
 
-![Una ilustración resumen de esta lección](../../../../../translated_images/es/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Una ilustración resumen de esta lección](../../../../../translated_images/es/lesson-9.dfe99c8e891f48e1.webp)
 
 > Ilustración por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -28,7 +28,7 @@ En esta lección cubriremos:
 
 Sin servidor, o computación sin servidor, implica crear pequeños bloques de código que se ejecutan en la nube en respuesta a diferentes tipos de eventos. Cuando ocurre el evento, tu código se ejecuta y recibe datos sobre el evento. Estos eventos pueden provenir de muchas fuentes, como solicitudes web, mensajes en una cola, cambios en datos de una base de datos o mensajes enviados a un servicio IoT por dispositivos IoT.
 
-![Eventos enviados desde un servicio IoT a un servicio sin servidor, todos procesados al mismo tiempo por múltiples funciones en ejecución](../../../../../translated_images/es/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Eventos enviados desde un servicio IoT a un servicio sin servidor, todos procesados al mismo tiempo por múltiples funciones en ejecución](../../../../../translated_images/es/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Si has usado disparadores de bases de datos antes, puedes pensar en esto como algo similar: código que se activa por un evento como insertar una fila.
 
@@ -54,7 +54,7 @@ Como desarrollador de IoT, el modelo sin servidor es ideal. Puedes escribir una 
 
 El servicio de computación sin servidor de Microsoft se llama Azure Functions.
 
-![El logo de Azure Functions](../../../../../translated_images/es/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![El logo de Azure Functions](../../../../../translated_images/es/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 El siguiente video corto ofrece una visión general de Azure Functions.
 

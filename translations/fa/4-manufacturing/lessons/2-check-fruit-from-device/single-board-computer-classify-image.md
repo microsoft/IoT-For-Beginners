@@ -84,7 +84,7 @@
 
     شما می‌توانید تصویری که گرفته شده است را ببینید و این مقادیر را در تب **Predictions** در Custom Vision مشاهده کنید.
 
-    ![یک موز در Custom Vision که با احتمال 56.8% رسیده و با احتمال 43.1% نارس پیش‌بینی شده است](../../../../../translated_images/fa/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![یک موز در Custom Vision که با احتمال 56.8% رسیده و با احتمال 43.1% نارس پیش‌بینی شده است](../../../../../translated_images/fa/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 می‌توانید این کد را در پوشه [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) یا [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) پیدا کنید.
 

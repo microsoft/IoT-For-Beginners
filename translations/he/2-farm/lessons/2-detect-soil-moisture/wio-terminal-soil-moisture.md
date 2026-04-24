@@ -18,7 +18,7 @@
 
 חברו את חיישן לחות הקרקע.
 
-![חיישן לחות קרקע מסוג Grove](../../../../../translated_images/he/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![חיישן לחות קרקע מסוג Grove](../../../../../translated_images/he/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. הכניסו קצה אחד של כבל Grove לשקע שבחיישן לחות הקרקע. הכבל ייכנס רק בכיוון אחד.
 

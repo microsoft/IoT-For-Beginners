@@ -1,6 +1,6 @@
 # Sledovanie polohy
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-11.9fddbac4b664c6d5.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -63,13 +63,13 @@ Zem je guľa – trojrozmerný kruh. Z tohto dôvodu sú body definované rozdel
 
 > 💁 Nikto presne nevie, prečo sú kruhy rozdelené na 360 stupňov. [Stránka o stupňoch (uhloch) na Wikipédii](https://wikipedia.org/wiki/Degree_(angle)) pokrýva niektoré z možných dôvodov.
 
-![Čiary zemepisnej šírky od 90° na severnom póle, 45° v polovici medzi severným pólom a rovníkom, 0° na rovníku, -45° v polovici medzi rovníkom a južným pólom a -90° na južnom póle](../../../../../translated_images/sk/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
+![Čiary zemepisnej šírky od 90° na severnom póle, 45° v polovici medzi severným pólom a rovníkom, 0° na rovníku, -45° v polovici medzi rovníkom a južným pólom a -90° na južnom póle](../../../../../translated_images/sk/latitude-lines.11d8d91dfb2014a5.webp)
 
 Zemepisná šírka sa meria pomocou čiar, ktoré obiehajú Zem a sú rovnobežné s rovníkom, pričom rozdeľujú severnú a južnú pologuľu na 90° každú. Rovník je na 0°, severný pól je na 90°, tiež známy ako 90° severnej šírky, a južný pól je na -90°, alebo 90° južnej šírky.
 
 Zemepisná dĺžka sa meria ako počet stupňov na východ a západ. Počiatočný bod 0° zemepisnej dĺžky sa nazýva *hlavný poludník* a bol definovaný v roku 1884 ako čiara od severného pólu po južný pól, ktorá prechádza cez [Britské kráľovské observatórium v Greenwichi, Anglicko](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Čiary zemepisnej dĺžky, ktoré idú od -180° na západ od hlavného poludníka, cez 0° na hlavnom poludníku, po 180° na východ od hlavného poludníka](../../../../../translated_images/sk/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
+![Čiary zemepisnej dĺžky, ktoré idú od -180° na západ od hlavného poludníka, cez 0° na hlavnom poludníku, po 180° na východ od hlavného poludníka](../../../../../translated_images/sk/longitude-meridians.ab4ef1c91c064586.webp)
 
 > 🎓 Poludník je imaginárna priamka, ktorá ide od severného pólu po južný pól a tvorí polkruh.
 
@@ -100,7 +100,7 @@ Súradnice pre bod sa vždy uvádzajú ako `zemepisná šírka, zemepisná dĺž
 * Zemepisnú šírku 47.6423109 (47.6423109 stupňa severne od rovníka)
 * Zemepisnú dĺžku -122.1390293 (122.1390293 stupňa západne od hlavného poludníka).
 
-![Microsoft Campus na 47.6423109,-122.117198](../../../../../translated_images/sk/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
+![Microsoft Campus na 47.6423109,-122.117198](../../../../../translated_images/sk/microsoft-gps-location-world.a321d481b010f6ad.webp)
 
 ## Globálne polohové systémy (GPS)
 
@@ -112,7 +112,7 @@ GPS systémy fungujú tak, že majú niekoľko satelitov, ktoré vysielajú sign
 
 > 💁 GPS senzory potrebujú antény na detekciu rádiových vĺn. Antény zabudované do nákladných áut a áut s palubným GPS sú umiestnené tak, aby získali dobrý signál, zvyčajne na čelnom skle alebo streche. Ak používate samostatný GPS systém, ako je smartfón alebo IoT zariadenie, musíte zabezpečiť, aby anténa zabudovaná do GPS systému alebo telefónu mala jasný výhľad na oblohu, napríklad bola namontovaná na čelnom skle.
 
-![Určenie polohy na základe vzdialenosti od viacerých satelitov](../../../../../translated_images/sk/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
+![Určenie polohy na základe vzdialenosti od viacerých satelitov](../../../../../translated_images/sk/gps-satellites.04acf1148fe25fbf.webp)
 
 GPS satelity obiehajú Zem, nie sú na pevnom bode nad senzorom, takže údaje o polohe zahŕňajú nadmorskú výšku nad hladinou mora, ako aj zemepisnú šírku a dĺžku.
 

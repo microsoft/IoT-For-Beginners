@@ -34,7 +34,7 @@
 
 1. اگر از ReSpeaker 2-Mics Pi HAT استفاده می‌کنید، می‌توانید پایه Grove را بردارید و سپس HAT ReSpeaker را جایگزین کنید.
 
-    ![یک رزبری پای با HAT ReSpeaker](../../../../../translated_images/fa/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
+    ![یک رزبری پای با HAT ReSpeaker](../../../../../translated_images/fa/pi-respeaker-hat.f00fabe7dd039a93.webp)
 
     شما در ادامه این درس به یک دکمه Grove نیاز خواهید داشت، اما یکی از این دکمه‌ها در این HAT تعبیه شده است، بنابراین پایه Grove لازم نیست.
 

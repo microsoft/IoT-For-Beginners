@@ -18,7 +18,7 @@ Grove toprak nem sensörü, Wio Terminal'in analog/dijital olarak yapılandırı
 
 Toprak nem sensörünü bağlayın.
 
-![Bir Grove toprak nem sensörü](../../../../../translated_images/tr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Bir Grove toprak nem sensörü](../../../../../translated_images/tr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove kablosunun bir ucunu toprak nem sensöründeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 

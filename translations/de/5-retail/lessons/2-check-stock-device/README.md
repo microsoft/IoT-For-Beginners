@@ -1,6 +1,6 @@
 # Lagerbestand mit einem IoT-Gerät überprüfen
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-20.0211df9551a8abb3.webp)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -62,7 +62,7 @@ Iterationen werden über das Custom Vision-Portal veröffentlicht.
 
 1. Wählen Sie die Schaltfläche **Publish** für die Iteration aus.
 
-    ![Die Schaltfläche Publish](../../../../../translated_images/de/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![Die Schaltfläche Publish](../../../../../translated_images/de/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. Im Dialogfeld *Publish Model* setzen Sie die *Prediction resource* auf die `stock-detector-prediction`-Ressource, die Sie in der letzten Lektion erstellt haben. Lassen Sie den Namen als `Iteration2` und wählen Sie die Schaltfläche **Publish**.
 
@@ -76,7 +76,7 @@ Iterationen werden über das Custom Vision-Portal veröffentlicht.
 
     Kopieren Sie auch den Wert *Prediction-Key*. Dies ist ein sicherer Schlüssel, den Sie übergeben müssen, wenn Sie das Modell aufrufen. Nur Anwendungen, die diesen Schlüssel übergeben, dürfen das Modell verwenden, alle anderen Anwendungen werden abgelehnt.
 
-    ![Das Dialogfeld der Vorhersage-API mit URL und Schlüssel](../../../../../translated_images/de/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![Das Dialogfeld der Vorhersage-API mit URL und Schlüssel](../../../../../translated_images/de/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ Wenn eine neue Iteration veröffentlicht wird, hat sie einen anderen Namen. Wie würden Sie die Iteration ändern, die ein IoT-Gerät verwendet?
 
@@ -95,7 +95,7 @@ Wenn Sie den Objekterkenner verwenden, erhalten Sie nicht nur die erkannten Obje
 
 Die Ergebnisse einer Vorhersage im **Predictions**-Tab in Custom Vision haben die Begrenzungsrahmen, die auf das Bild gezeichnet sind, das zur Vorhersage gesendet wurde.
 
-![4 Dosen Tomatenmark auf einem Regal mit Vorhersagen für die 4 Erkennungen von 35,8 %, 33,5 %, 25,7 % und 16,6 %](../../../../../translated_images/de/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![4 Dosen Tomatenmark auf einem Regal mit Vorhersagen für die 4 Erkennungen von 35,8 %, 33,5 %, 25,7 % und 16,6 %](../../../../../translated_images/de/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 Im obigen Bild wurden 4 Dosen Tomatenmark erkannt. In den Ergebnissen wird ein rotes Quadrat für jedes Objekt, das im Bild erkannt wurde, überlagert, das den Begrenzungsrahmen für das Bild angibt.
 
@@ -103,7 +103,7 @@ Im obigen Bild wurden 4 Dosen Tomatenmark erkannt. In den Ergebnissen wird ein r
 
 Begrenzungsrahmen werden mit 4 Werten definiert - oben, links, Höhe und Breite. Diese Werte liegen auf einer Skala von 0-1 und repräsentieren die Positionen als Prozentsatz der Bildgröße. Der Ursprung (die Position 0,0) ist die obere linke Ecke des Bildes, sodass der obere Wert die Entfernung von oben ist und die Unterseite des Begrenzungsrahmens die obere Position plus die Höhe ist.
 
-![Ein Begrenzungsrahmen um eine Dose Tomatenmark](../../../../../translated_images/de/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![Ein Begrenzungsrahmen um eine Dose Tomatenmark](../../../../../translated_images/de/bounding-box.1420a7ea0d3d15f7.webp)
 
 Das obige Bild ist 600 Pixel breit und 800 Pixel hoch. Der Begrenzungsrahmen beginnt 320 Pixel nach unten, was eine obere Koordinate von 0,4 ergibt (800 x 0,4 = 320). Von links beginnt der Begrenzungsrahmen 240 Pixel quer, was eine linke Koordinate von 0,4 ergibt (600 x 0,4 = 240). Die Höhe des Begrenzungsrahmens beträgt 240 Pixel, was einen Höhenwert von 0,3 ergibt (800 x 0,3 = 240). Die Breite des Begrenzungsrahmens beträgt 120 Pixel, was einen Breitenwert von 0,2 ergibt (600 x 0,2 = 120).
 
@@ -118,7 +118,7 @@ Die Verwendung von Prozentwerten von 0-1 bedeutet, dass unabhängig davon, wie g
 
 Sie können Begrenzungsrahmen in Kombination mit Wahrscheinlichkeiten verwenden, um zu bewerten, wie genau eine Erkennung ist. Beispielsweise kann ein Objekterkenner mehrere Objekte erkennen, die sich überlappen, z. B. eine Dose, die in einer anderen erkannt wird. Ihr Code könnte die Begrenzungsrahmen betrachten, verstehen, dass dies unmöglich ist, und alle Objekte ignorieren, die eine signifikante Überlappung mit anderen Objekten haben.
 
-![Zwei Begrenzungsrahmen überlappen eine Dose Tomatenmark](../../../../../translated_images/de/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![Zwei Begrenzungsrahmen überlappen eine Dose Tomatenmark](../../../../../translated_images/de/overlap-object-detection.d431e03cae75072a.webp)
 
 Im obigen Beispiel zeigt ein Begrenzungsrahmen eine vorhergesagte Dose Tomatenmark mit 78,3 %. Ein zweiter Begrenzungsrahmen ist etwas kleiner und befindet sich innerhalb des ersten Begrenzungsrahmens mit einer Wahrscheinlichkeit von 64,3 %. Ihr Code kann die Begrenzungsrahmen überprüfen, sehen, dass sie sich vollständig überlappen, und die niedrigere Wahrscheinlichkeit ignorieren, da es unmöglich ist, dass eine Dose in einer anderen ist.
 

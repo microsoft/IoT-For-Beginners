@@ -16,7 +16,7 @@ Ang ArduCam ay walang Grove socket, sa halip ito ay kumokonekta sa parehong SPI 
 
 Ikonekta ang kamera.
 
-![Isang ArduCam sensor](../../../../../translated_images/tl/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Isang ArduCam sensor](../../../../../translated_images/tl/arducam.20e4e4cbb2682965.webp)
 
 1. Ang mga pin sa base ng ArduCam ay kailangang ikonekta sa GPIO pins ng Wio Terminal. Upang mas madali mong mahanap ang tamang mga pin, ilagay ang GPIO pin sticker na kasama ng Wio Terminal sa paligid ng mga pin:
 
@@ -35,7 +35,7 @@ Ikonekta ang kamera.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                          |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                         |
 
-    ![Ang Wio Terminal na nakakonekta sa ArduCam gamit ang jumper wires](../../../../../translated_images/tl/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Ang Wio Terminal na nakakonekta sa ArduCam gamit ang jumper wires](../../../../../translated_images/tl/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Ang GND at VCC connections ay nagbibigay ng 5V power supply sa ArduCam. Ito ay tumatakbo sa 5V, hindi tulad ng Grove sensors na tumatakbo sa 3V. Ang power na ito ay direktang nanggagaling sa USB-C connection na nagpapagana sa device.
 
@@ -456,7 +456,7 @@ Ang Wio Terminal ay sumusuporta lamang sa microSD cards na hanggang 16GB ang lak
 
 1. I-power off ang microSD card at i-eject ito sa pamamagitan ng bahagyang pagtulak at pag-release, at ito ay lalabas. Maaaring kailanganin mong gumamit ng manipis na tool upang gawin ito. I-plug ang microSD card sa iyong computer upang makita ang mga larawan.
 
-    ![Isang larawan ng saging na nakuha gamit ang ArduCam](../../../../../translated_images/tl/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Isang larawan ng saging na nakuha gamit ang ArduCam](../../../../../translated_images/tl/banana-arducam.be1b32d4267a8194.webp)
 💁 Maaaring kailanganin ng ilang larawan para maayos ng white balance ng kamera ang sarili nito. Mapapansin mo ito batay sa kulay ng mga larawang nakunan, ang unang ilang larawan ay maaaring mukhang may maling kulay. Maaari mo itong iwasan sa pamamagitan ng pagbabago ng code upang kumuha ng ilang larawan na hindi isasama sa `setup` function.
 
 

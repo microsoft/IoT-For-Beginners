@@ -95,7 +95,7 @@
 
     ਤੁਸੀਂ ਲਿਆ ਗਿਆ ਚਿੱਤਰ ਅਤੇ ਇਹ ਮੁੱਲ **Predictions** ਟੈਬ ਵਿੱਚ Custom Vision ਵਿੱਚ ਦੇਖ ਸਕਦੇ ਹੋ।
 
-    ![ਸ਼ੈਲਫ਼ 'ਤੇ ਟਮਾਟਰ ਪੇਸਟ ਦੇ 4 ਕੈਨ, ਜਿਨ੍ਹਾਂ ਦੀ ਪਛਾਣ 35.8%, 33.5%, 25.7% ਅਤੇ 16.6% ਹੈ](../../../../../translated_images/pa/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![ਸ਼ੈਲਫ਼ 'ਤੇ ਟਮਾਟਰ ਪੇਸਟ ਦੇ 4 ਕੈਨ, ਜਿਨ੍ਹਾਂ ਦੀ ਪਛਾਣ 35.8%, 33.5%, 25.7% ਅਤੇ 16.6% ਹੈ](../../../../../translated_images/pa/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 ਤੁਸੀਂ ਇਹ ਕੋਡ [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) ਫੋਲਡਰ ਵਿੱਚ ਲੱਭ ਸਕਦੇ ਹੋ।
 

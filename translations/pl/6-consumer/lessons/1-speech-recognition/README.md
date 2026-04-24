@@ -1,6 +1,6 @@
 # Rozpoznawanie mowy za pomocą urządzenia IoT
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-21.e34de51354d6606f.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -51,7 +51,7 @@ Mikrofony występują w różnych typach:
 
     Mikrofony dynamiczne nie potrzebują zasilania, aby działać – sygnał elektryczny jest generowany wyłącznie przez mikrofon.
 
-    ![Patti Smith śpiewająca do mikrofonu dynamicznego typu kardioidalnego Shure SM58](../../../../../translated_images/pl/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith śpiewająca do mikrofonu dynamicznego typu kardioidalnego Shure SM58](../../../../../translated_images/pl/dynamic-mic.8babac890a2d80df.webp)
 
 * Wstęgowe – Mikrofony wstęgowe są podobne do dynamicznych, ale zamiast membrany mają metalową wstęgę. Ta wstęga porusza się w polu magnetycznym, generując prąd elektryczny. Podobnie jak mikrofony dynamiczne, mikrofony wstęgowe nie potrzebują zasilania, aby działać.
 
@@ -59,11 +59,11 @@ Mikrofony występują w różnych typach:
 
 * Pojemnościowe – Mikrofony pojemnościowe mają cienką metalową membranę i stałą metalową płytkę tylną. Do obu tych elementów przykładane jest napięcie, a gdy membrana wibruje, zmienia się ładunek elektrostatyczny między płytkami, generując sygnał. Mikrofony pojemnościowe potrzebują zasilania, aby działać – nazywanego *zasilaniem fantomowym*.
 
-    ![Mikrofon pojemnościowy o małej membranie C451B firmy AKG Acoustics](../../../../../translated_images/pl/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![Mikrofon pojemnościowy o małej membranie C451B firmy AKG Acoustics](../../../../../translated_images/pl/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS – Mikrofony systemów mikroelektromechanicznych, czyli MEMS, to mikrofony na chipie. Mają one czułą na ciśnienie membranę wytrawioną na krzemowym chipie i działają podobnie do mikrofonu pojemnościowego. Te mikrofony mogą być bardzo małe i zintegrowane z układami elektronicznymi.
 
-    ![Mikrofon MEMS na płytce drukowanej](../../../../../translated_images/pl/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![Mikrofon MEMS na płytce drukowanej](../../../../../translated_images/pl/mems-microphone.80574019e1f5e4d9.webp)
 
     Na powyższym obrazie chip oznaczony jako **LEFT** to mikrofon MEMS z membraną o szerokości mniejszej niż milimetr.
 
@@ -159,7 +159,7 @@ Aby uniknąć złożoności związanej z trenowaniem i używaniem modelu wykrywa
 
 ## Konwersja mowy na tekst
 
-![Logo usług mowy](../../../../../translated_images/pl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo usług mowy](../../../../../translated_images/pl/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Podobnie jak w przypadku klasyfikacji obrazów w wcześniejszym projekcie, istnieją gotowe usługi AI, które mogą przekształcić mowę z pliku audio na tekst. Jedną z takich usług jest Speech Service, część Cognitive Services, gotowych usług AI, które możesz wykorzystać w swoich aplikacjach.
 

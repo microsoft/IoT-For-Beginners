@@ -95,7 +95,7 @@
 
     எடுத்த படத்தை நீங்கள் காண முடியும், மேலும் இந்த மதிப்புகளை Custom Vision இல் **Predictions** தாவலில் காணலாம்.
 
-    ![தட்டில் 4 டமாட்டோ பேஸ்ட் டின்கள் மற்றும் 35.8%, 33.5%, 25.7% மற்றும் 16.6% சாத்தியக்கூறுகளுக்கான 4 கண்டறிவுகளின் முன்னறிவிப்புகள்](../../../../../translated_images/ta/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![தட்டில் 4 டமாட்டோ பேஸ்ட் டின்கள் மற்றும் 35.8%, 33.5%, 25.7% மற்றும் 16.6% சாத்தியக்கூறுகளுக்கான 4 கண்டறிவுகளின் முன்னறிவிப்புகள்](../../../../../translated_images/ta/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 இந்த குறியீட்டை [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) கோப்புறையில் காணலாம்.
 

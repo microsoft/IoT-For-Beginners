@@ -37,7 +37,7 @@
     >
     > উদাহরণস্বরূপ, যদি আপনি ইংরেজিতে LUIS প্রশিক্ষণ দেন, কিন্তু ব্যবহারকারীর ভাষা হিসেবে ফ্রেঞ্চ ব্যবহার করতে চান, আপনি Bing Translate ব্যবহার করে "set a 2 minute and 27 second timer" এর মতো বাক্য ইংরেজি থেকে ফ্রেঞ্চে অনুবাদ করতে পারেন, তারপর **Listen translation** বোতামটি ব্যবহার করে অনুবাদটি আপনার মাইক্রোফোনে বলুন।
     >
-    > ![Bing Translate-এ Listen translation বোতাম](../../../../../translated_images/bn/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Bing Translate-এ Listen translation বোতাম](../../../../../translated_images/bn/bing-translate.348aa796d6efe2a9.webp)
 
 1. `recognizer_config` এবং `recognizer` ঘোষণাগুলি নিম্নলিখিত দিয়ে প্রতিস্থাপন করুন:
 

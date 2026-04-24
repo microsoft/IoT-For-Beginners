@@ -26,7 +26,7 @@ Otherwise
 
 Kết nối đèn LED.
 
-![Một đèn LED Grove](../../../../../translated_images/vi/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Một đèn LED Grove](../../../../../translated_images/vi/grove-led.6c853be93f473cf2.webp)
 
 1. Chọn đèn LED yêu thích của bạn và cắm các chân vào hai lỗ trên module đèn LED.
 
@@ -40,7 +40,7 @@ Kết nối đèn LED.
 
 1. Khi Raspberry Pi đã tắt nguồn, kết nối đầu còn lại của cáp Grove vào ổ cắm kỹ thuật số được đánh dấu **D5** trên mũ Grove Base gắn vào Pi. Ổ cắm này là ổ thứ hai từ bên trái, trên hàng ổ cắm cạnh các chân GPIO.
 
-![Đèn LED Grove được kết nối với ổ D5](../../../../../translated_images/vi/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![Đèn LED Grove được kết nối với ổ D5](../../../../../translated_images/vi/pi-led.97f1d474981dc35d.webp)
 
 ## Lập trình đèn ngủ
 

@@ -1,6 +1,6 @@
 # 支持多语言
 
-![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-24.4246968ed058510a.webp)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -74,7 +74,7 @@
 
 ### 认知服务语音服务
 
-![语音服务标志](../../../../../translated_images/zh-CN/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![语音服务标志](../../../../../translated_images/zh-CN/azure-speech-logo.a1f08c4befb0159f.webp)
 
 你在过去几课中使用的语音服务具有语音识别的翻译功能。当你识别语音时，可以请求不仅以相同语言显示的文本，还可以请求其他语言的文本。
 
@@ -82,7 +82,7 @@
 
 ### 认知服务翻译器服务
 
-![翻译器服务标志](../../../../../translated_images/zh-CN/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![翻译器服务标志](../../../../../translated_images/zh-CN/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 翻译器服务是一个专门的翻译服务，可以将文本从一种语言翻译成一种或多种目标语言。除了翻译，它还支持许多额外功能，包括屏蔽不雅词汇。它还允许你为特定单词或句子提供特定翻译，以处理你不希望翻译的术语，或具有特定公认翻译的术语。
 

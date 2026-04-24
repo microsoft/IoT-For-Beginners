@@ -20,7 +20,7 @@ Grove Time of Flight сензор може се повезати са Wio Termin
 
 Повежите Time of Flight сензор.
 
-![Grove Time of Flight сензор](../../../../../translated_images/sr/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Grove Time of Flight сензор](../../../../../translated_images/sr/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Уметните један крај Grove кабла у прикључак на Time of Flight сензору. Кабл ће ући само у једном смеру.
 

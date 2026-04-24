@@ -18,7 +18,7 @@
 
 قم بتوصيل مستشعر GPS.
 
-![مستشعر GPS من نوع Grove](../../../../../translated_images/ar/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![مستشعر GPS من نوع Grove](../../../../../translated_images/ar/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر GPS. لن يدخل إلا في اتجاه واحد.
 

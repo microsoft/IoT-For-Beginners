@@ -1,6 +1,6 @@
 # Interact with the physical world using sensors and actuators
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -92,7 +92,7 @@ Digital sensors also detect changes in electrical voltage but output a digital s
 
 The simplest digital sensor is a button or switch, which has two states: on or off.
 
-![A button is sent 5 volts. When not pressed it returns 0 volts, when pressed it returns 5 volts](../../../../../translated_images/en/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![A button is sent 5 volts. When not pressed it returns 0 volts, when pressed it returns 5 volts](../../../../../translated_images/en/button.eadb560b77ac45e5.webp)
 
 IoT devices can directly measure this signal as 0 or 1. If the voltage sent matches the voltage returned, the value is 1; otherwise, it’s 0.
 
@@ -125,7 +125,7 @@ Common types of actuators include:
 
 Follow the appropriate guide below to add an actuator to your IoT device. You'll use a sensor to control an actuator, creating an IoT nightlight that turns on an LED when light levels are too low.
 
-![A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled](../../../../../translated_images/en/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled](../../../../../translated_images/en/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Single-board computer - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Like sensors, actuators can be analog or digital.
 Analog actuators take an analog signal and convert it into a physical action, with the action varying based on the voltage supplied.
 
 One example is a dimmable light, where the brightness depends on the voltage provided.
-![A light dimmed at a low voltage and brighter at a higher voltage](../../../../../translated_images/en/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![A light dimmed at a low voltage and brighter at a higher voltage](../../../../../translated_images/en/dimmable-light.9ceffeb195dec1a8.webp)
 
 Just like with sensors, IoT devices operate using digital signals, not analog. To send an analog signal, the IoT device requires a digital-to-analog converter (DAC), which can either be built into the IoT device itself or included on a connector board. This converter transforms the 0s and 1s from the IoT device into an analog voltage that the actuator can use.
 
@@ -187,7 +187,7 @@ Digital actuators, like digital sensors, either have two states controlled by a 
 
 A simple example of a digital actuator is an LED. When the device sends a digital signal of 1, a high voltage is applied, lighting up the LED. When the device sends a digital signal of 0, the voltage drops to 0V, and the LED turns off.
 
-![An LED is off at 0 volts and on at 5V](../../../../../translated_images/en/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![An LED is off at 0 volts and on at 5V](../../../../../translated_images/en/led.ec6d94f66676a174.webp)
 
 ✅ Can you think of other simple two-state actuators? One example is a solenoid, which is an electromagnet that can be activated to perform tasks like moving a door bolt to lock or unlock a door.
 

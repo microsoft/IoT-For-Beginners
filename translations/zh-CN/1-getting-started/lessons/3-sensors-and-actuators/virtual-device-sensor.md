@@ -28,11 +28,11 @@
 
     1. 点击 **Add** 按钮，在 Pin 0 上创建光传感器。
 
-    ![光传感器设置](../../../../../translated_images/zh-CN/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![光传感器设置](../../../../../translated_images/zh-CN/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     光传感器将被创建并显示在传感器列表中。
 
-    ![光传感器已创建](../../../../../translated_images/zh-CN/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![光传感器已创建](../../../../../translated_images/zh-CN/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## 编程光传感器
 

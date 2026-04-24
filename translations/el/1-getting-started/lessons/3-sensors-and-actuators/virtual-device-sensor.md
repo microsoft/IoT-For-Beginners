@@ -28,11 +28,11 @@
 
     1. Επιλέξτε το κουμπί **Add** για να δημιουργήσετε τον αισθητήρα φωτός στο Pin 0.
 
-    ![Οι ρυθμίσεις του αισθητήρα φωτός](../../../../../translated_images/el/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![Οι ρυθμίσεις του αισθητήρα φωτός](../../../../../translated_images/el/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     Ο αισθητήρας φωτός θα δημιουργηθεί και θα εμφανιστεί στη λίστα των αισθητήρων.
 
-    ![Ο αισθητήρας φωτός δημιουργήθηκε](../../../../../translated_images/el/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![Ο αισθητήρας φωτός δημιουργήθηκε](../../../../../translated_images/el/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## Προγραμματισμός του αισθητήρα φωτός
 

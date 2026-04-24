@@ -1,6 +1,6 @@
 # Sjekk lagerbeholdning fra en IoT-enhet
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-20.0211df9551a8abb3.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -62,7 +62,7 @@ Iterasjoner publiseres fra Custom Vision-portalen.
 
 1. Klikk på **Publish**-knappen for iterasjonen.
 
-    ![Publiser-knappen](../../../../../translated_images/no/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![Publiser-knappen](../../../../../translated_images/no/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. I dialogboksen *Publish Model*, sett *Prediction resource* til ressursen `stock-detector-prediction` som du opprettet i forrige leksjon. La navnet være `Iteration2`, og klikk på **Publish**-knappen.
 
@@ -76,7 +76,7 @@ Iterasjoner publiseres fra Custom Vision-portalen.
 
     Ta også en kopi av verdien *Prediction-Key*. Dette er en sikker nøkkel som du må sende når du kaller modellen. Bare applikasjoner som sender denne nøkkelen har lov til å bruke modellen, alle andre applikasjoner blir avvist.
 
-    ![Dialogboksen for prediksjons-API som viser URL og nøkkel](../../../../../translated_images/no/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![Dialogboksen for prediksjons-API som viser URL og nøkkel](../../../../../translated_images/no/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ Når en ny iterasjon publiseres, vil den ha et annet navn. Hvordan tror du du ville endret iterasjonen en IoT-enhet bruker?
 
@@ -95,7 +95,7 @@ Når du bruker objektdetektoren, får du ikke bare tilbake de oppdagede objekten
 
 Resultatene av en prediksjon i **Predictions**-fanen i Custom Vision har avgrensningsboksene tegnet på bildet som ble sendt for prediksjon.
 
-![4 bokser med tomatpuré på en hylle med prediksjoner for de 4 oppdagelsene med 35.8%, 33.5%, 25.7% og 16.6%](../../../../../translated_images/no/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![4 bokser med tomatpuré på en hylle med prediksjoner for de 4 oppdagelsene med 35.8%, 33.5%, 25.7% og 16.6%](../../../../../translated_images/no/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 I bildet ovenfor ble 4 bokser med tomatpuré oppdaget. I resultatene er en rød firkant lagt over hvert objekt som ble oppdaget i bildet, som indikerer avgrensningsboksen for bildet.
 
@@ -103,7 +103,7 @@ I bildet ovenfor ble 4 bokser med tomatpuré oppdaget. I resultatene er en rød 
 
 Avgrensningsbokser er definert med 4 verdier - topp, venstre, høyde og bredde. Disse verdiene er på en skala fra 0-1, som representerer posisjonene som en prosentandel av størrelsen på bildet. Origo (posisjonen 0,0) er øverst til venstre på bildet, så toppverdien er avstanden fra toppen, og bunnen av avgrensningsboksen er toppen pluss høyden.
 
-![En avgrensningsboks rundt en boks med tomatpuré](../../../../../translated_images/no/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![En avgrensningsboks rundt en boks med tomatpuré](../../../../../translated_images/no/bounding-box.1420a7ea0d3d15f7.webp)
 
 Bildet ovenfor er 600 piksler bredt og 800 piksler høyt. Avgrensningsboksen starter 320 piksler ned, som gir en toppkoordinat på 0.4 (800 x 0.4 = 320). Fra venstre starter avgrensningsboksen 240 piksler inn, som gir en venstrekoordinat på 0.4 (600 x 0.4 = 240). Høyden på avgrensningsboksen er 240 piksler, som gir en høydeverdi på 0.3 (800 x 0.3 = 240). Bredden på avgrensningsboksen er 120 piksler, som gir en breddeverdi på 0.2 (600 x 0.2 = 120).
 
@@ -118,7 +118,7 @@ Ved å bruke prosentverdier fra 0-1 betyr det at uansett hvilken størrelse bild
 
 Du kan bruke avgrensningsbokser kombinert med sannsynligheter for å evaluere hvor nøyaktig en oppdagelse er. For eksempel kan en objektdetektor oppdage flere objekter som overlapper, for eksempel oppdage én boks inne i en annen. Koden din kan se på avgrensningsboksene, forstå at dette er umulig, og ignorere eventuelle objekter som har betydelig overlapping med andre objekter.
 
-![To avgrensningsbokser som overlapper en boks med tomatpuré](../../../../../translated_images/no/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![To avgrensningsbokser som overlapper en boks med tomatpuré](../../../../../translated_images/no/overlap-object-detection.d431e03cae75072a.webp)
 
 I eksempelet ovenfor indikerer én avgrensningsboks en oppdaget boks med tomatpuré med 78.3%. En annen avgrensningsboks er litt mindre og er inne i den første boksen med en sannsynlighet på 64.3%. Koden din kan sjekke avgrensningsboksene, se at de overlapper fullstendig, og ignorere den lavere sannsynligheten, da det ikke er mulig at én boks er inne i en annen.
 

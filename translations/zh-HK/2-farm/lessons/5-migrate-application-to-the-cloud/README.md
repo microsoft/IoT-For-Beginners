@@ -1,6 +1,6 @@
 # 將應用程式邏輯遷移到雲端
 
-![本課程的手繪筆記概覽](../../../../../translated_images/zh-HK/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/zh-HK/lesson-9.dfe99c8e891f48e1.webp)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -28,7 +28,7 @@
 
 無伺服器（或無伺服器計算）是指創建小型代碼塊，這些代碼塊會在雲端中根據不同類型的事件執行。當事件發生時，您的代碼會被執行，並接收有關該事件的數據。這些事件可以來自多種來源，包括網頁請求、放入佇列的消息、數據庫中數據的更改，或者 IoT 裝置發送到 IoT 服務的消息。
 
-![事件從 IoT 服務發送到無伺服器服務，所有事件同時由多個函數處理](../../../../../translated_images/zh-HK/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![事件從 IoT 服務發送到無伺服器服務，所有事件同時由多個函數處理](../../../../../translated_images/zh-HK/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 如果您之前使用過數據庫觸發器，可以將其視為類似的概念，即代碼因事件（如插入一行）而觸發。
 
@@ -54,7 +54,7 @@
 
 Microsoft 的無伺服器計算服務稱為 Azure Functions。
 
-![Azure Functions 標誌](../../../../../translated_images/zh-HK/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Azure Functions 標誌](../../../../../translated_images/zh-HK/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 以下的短視頻提供了 Azure Functions 的概覽：
 

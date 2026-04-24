@@ -16,7 +16,7 @@ Cảm biến nhiệt độ Grove có thể được kết nối với Raspberry 
 
 Kết nối cảm biến nhiệt độ
 
-![Một cảm biến nhiệt độ Grove](../../../../../translated_images/vi/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Một cảm biến nhiệt độ Grove](../../../../../translated_images/vi/grove-dht11.07f8eafceee17004.webp)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên cảm biến độ ẩm và nhiệt độ. Cáp chỉ có thể cắm theo một chiều.
 

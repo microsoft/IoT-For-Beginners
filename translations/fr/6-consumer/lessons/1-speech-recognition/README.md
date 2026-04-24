@@ -1,6 +1,6 @@
 # Reconnaître la parole avec un appareil IoT
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-21.e34de51354d6606f.webp)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version plus grande.
 
@@ -51,7 +51,7 @@ Les microphones existent en plusieurs types :
 
     Les microphones dynamiques n'ont pas besoin d'alimentation pour fonctionner, le signal électrique est entièrement généré par le microphone.
 
-    ![Patti Smith chantant dans un microphone Shure SM58 (type cardioïde dynamique)](../../../../../translated_images/fr/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith chantant dans un microphone Shure SM58 (type cardioïde dynamique)](../../../../../translated_images/fr/dynamic-mic.8babac890a2d80df.webp)
 
 * Ruban - Les microphones à ruban sont similaires aux microphones dynamiques, sauf qu'ils utilisent un ruban métallique au lieu d'une membrane. Ce ruban se déplace dans un champ magnétique, générant un courant électrique. Comme les microphones dynamiques, les microphones à ruban n'ont pas besoin d'alimentation pour fonctionner.
 
@@ -59,11 +59,11 @@ Les microphones existent en plusieurs types :
 
 * Condensateur - Les microphones à condensateur possèdent une fine membrane métallique et une plaque arrière métallique fixe. Un courant électrique est appliqué aux deux, et lorsque la membrane vibre, la charge statique entre les plaques change, générant un signal. Les microphones à condensateur nécessitent une alimentation pour fonctionner - appelée *alimentation fantôme*.
 
-    ![Microphone à condensateur à petite membrane C451B par AKG Acoustics](../../../../../translated_images/fr/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![Microphone à condensateur à petite membrane C451B par AKG Acoustics](../../../../../translated_images/fr/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - Les microphones à systèmes microélectromécaniques, ou MEMS, sont des microphones sur puce. Ils possèdent une membrane sensible à la pression gravée sur une puce de silicium, et fonctionnent de manière similaire à un microphone à condensateur. Ces microphones peuvent être minuscules et intégrés dans des circuits.
 
-    ![Un microphone MEMS sur une carte de circuit imprimé](../../../../../translated_images/fr/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![Un microphone MEMS sur une carte de circuit imprimé](../../../../../translated_images/fr/mems-microphone.80574019e1f5e4d9.webp)
 
     Dans l'image ci-dessus, la puce étiquetée **LEFT** est un microphone MEMS, avec une membrane minuscule de moins d'un millimètre de large.
 
@@ -159,7 +159,7 @@ Pour éviter la complexité de l'entraînement et de l'utilisation d'un modèle 
 
 ## Convertir la parole en texte
 
-![Logo des services vocaux](../../../../../translated_images/fr/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo des services vocaux](../../../../../translated_images/fr/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Tout comme pour la classification d'images dans un projet précédent, il existe des services d'IA préconstruits qui peuvent prendre un fichier audio et le convertir en texte. L'un de ces services est le Speech Service, qui fait partie des Cognitive Services, des services d'IA préconstruits que vous pouvez utiliser dans vos applications.
 

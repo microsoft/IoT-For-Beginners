@@ -34,11 +34,11 @@ Adja hozzá a talajnedvesség-érzékelőt a CounterFit alkalmazáshoz.
 
     1. Válassza ki az **Add** gombot, hogy létrehozza a *Soil Moisture* érzékelőt a 0-s csatlakozón.
 
-    ![A talajnedvesség-érzékelő beállításai](../../../../../translated_images/hu/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
+    ![A talajnedvesség-érzékelő beállításai](../../../../../translated_images/hu/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp)
 
     A talajnedvesség-érzékelő létrejön, és megjelenik az érzékelők listájában.
 
-    ![A létrehozott talajnedvesség-érzékelő](../../../../../translated_images/hu/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
+    ![A létrehozott talajnedvesség-érzékelő](../../../../../translated_images/hu/counterfit-soil-moisture-sensor.81742b2de0e9de60.webp)
 
 ## Talajnedvesség-érzékelő alkalmazás programozása
 

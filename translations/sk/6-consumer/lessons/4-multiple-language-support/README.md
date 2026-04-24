@@ -1,6 +1,6 @@
 # Podpora viacerých jazykov
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -74,7 +74,7 @@ Existuje množstvo AI služieb, ktoré môžete použiť vo svojich aplikáciác
 
 ### Kognitívne služby – Služba reči
 
-![Logo služby reči](../../../../../translated_images/sk/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo služby reči](../../../../../translated_images/sk/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Služba reči, ktorú ste používali v predchádzajúcich lekciách, má schopnosti prekladu pre rozpoznávanie reči. Keď rozpoznávate reč, môžete požiadať nielen o text reči v rovnakom jazyku, ale aj v iných jazykoch.
 
@@ -82,7 +82,7 @@ Služba reči, ktorú ste používali v predchádzajúcich lekciách, má schopn
 
 ### Kognitívne služby – Služba Translator
 
-![Logo služby Translator](../../../../../translated_images/sk/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Logo služby Translator](../../../../../translated_images/sk/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Služba Translator je špecializovaná prekladateľská služba, ktorá dokáže prekladať text z jedného jazyka do jedného alebo viacerých cieľových jazykov. Okrem prekladu podporuje širokú škálu ďalších funkcií, vrátane maskovania vulgarizmov. Umožňuje vám tiež poskytnúť konkrétny preklad pre určité slovo alebo vetu, aby ste mohli pracovať s termínmi, ktoré nechcete prekladať, alebo mať konkrétny, dobre známy preklad.
 

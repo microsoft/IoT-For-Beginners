@@ -18,7 +18,7 @@ Le capteur Grove d'humidité du sol peut être connecté au port analogique/num�
 
 Connectez le capteur d'humidité du sol.
 
-![Un capteur Grove d'humidité du sol](../../../../../translated_images/fr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Un capteur Grove d'humidité du sol](../../../../../translated_images/fr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Insérez une extrémité d'un câble Grove dans la prise du capteur d'humidité du sol. Il ne peut être inséré que dans un seul sens.
 

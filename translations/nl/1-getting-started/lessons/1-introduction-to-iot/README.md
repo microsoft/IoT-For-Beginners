@@ -1,6 +1,6 @@
 # Introductie tot IoT
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-1.2606670fa61ee904.webp)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 

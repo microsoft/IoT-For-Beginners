@@ -18,7 +18,7 @@
 
 Подключите реле.
 
-![Реле Grove](../../../../../translated_images/ru/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Реле Grove](../../../../../translated_images/ru/grove-relay.d426958ca210fbd0.webp)
 
 1. Вставьте один конец кабеля Grove в разъем на реле. Он вставляется только в одном направлении.
 

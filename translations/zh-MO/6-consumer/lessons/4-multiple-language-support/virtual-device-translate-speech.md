@@ -37,7 +37,7 @@
     >
     > 例如，如果您用英語訓練 LUIS，但希望使用法語作為使用者語言，您可以使用 Bing 翻譯將像 "set a 2 minute and 27 second timer" 這樣的句子從英語翻譯為法語，然後使用 **聆聽翻譯** 按鈕將翻譯內容說入您的麥克風。
     >
-    > ![Bing 翻譯上的聆聽翻譯按鈕](../../../../../translated_images/zh-MO/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Bing 翻譯上的聆聽翻譯按鈕](../../../../../translated_images/zh-MO/bing-translate.348aa796d6efe2a9.webp)
 
 1. 用以下內容替換 `recognizer_config` 和 `recognizer` 的宣告：
 

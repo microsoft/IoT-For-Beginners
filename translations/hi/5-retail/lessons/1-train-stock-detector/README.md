@@ -1,6 +1,6 @@
 # स्टॉक डिटेक्टर को प्रशिक्षित करें
 
-![इस पाठ का स्केच नोट अवलोकन](../../../../../translated_images/hi/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![इस पाठ का स्केच नोट अवलोकन](../../../../../translated_images/hi/lesson-19.cf6973cecadf080c.webp)
 
 > स्केच नोट [नित्या नरसिम्हन](https://github.com/nitya) द्वारा। बड़े संस्करण के लिए छवि पर क्लिक करें।
 
@@ -36,7 +36,7 @@
 
 इमेज क्लासिफिकेशन का उद्देश्य पूरी छवि को वर्गीकृत करना है - यह अनुमान लगाना कि पूरी छवि प्रत्येक टैग से कितनी मेल खाती है। आपको मॉडल को प्रशिक्षित करने के लिए उपयोग किए गए प्रत्येक टैग के लिए संभावनाएं मिलती हैं।
 
-![काजू और टमाटर पेस्ट की इमेज क्लासिफिकेशन](../../../../../translated_images/hi/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![काजू और टमाटर पेस्ट की इमेज क्लासिफिकेशन](../../../../../translated_images/hi/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 ऊपर दिए गए उदाहरण में, दो छवियों को एक मॉडल का उपयोग करके वर्गीकृत किया गया है जिसे काजू के डिब्बे या टमाटर पेस्ट के कैन को वर्गीकृत करने के लिए प्रशिक्षित किया गया है। पहली छवि काजू के डिब्बे की है, और इमेज क्लासिफायर से दो परिणाम प्राप्त होते हैं:
 
@@ -60,7 +60,7 @@
 
 > 🎓 *बॉन्डिंग बॉक्स* वे बॉक्स होते हैं जो किसी वस्तु के चारों ओर होते हैं।
 
-![काजू और टमाटर पेस्ट की ऑब्जेक्ट डिटेक्शन](../../../../../translated_images/hi/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![काजू और टमाटर पेस्ट की ऑब्जेक्ट डिटेक्शन](../../../../../translated_images/hi/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 ऊपर दी गई छवि में काजू का एक डिब्बा और टमाटर पेस्ट के तीन कैन हैं। ऑब्जेक्ट डिटेक्टर ने काजू का पता लगाया, और उस बॉन्डिंग बॉक्स को लौटाया जिसमें काजू है, और यह संभावना है कि बॉक्स में वस्तु है, इस मामले में 97.6%। ऑब्जेक्ट डिटेक्टर ने टमाटर पेस्ट के तीन कैन का भी पता लगाया है, और प्रत्येक कैन के लिए तीन अलग-अलग बॉन्डिंग बॉक्स प्रदान किए हैं, और प्रत्येक के पास यह संभावना है कि बॉक्स में टमाटर पेस्ट का कैन है।
 
@@ -111,7 +111,7 @@
 
     जब आप अपना प्रोजेक्ट बनाएं, तो सुनिश्चित करें कि आपने पहले बनाए गए `stock-detector-training` संसाधन का उपयोग किया है। *Object Detection* प्रोजेक्ट प्रकार और *Products on Shelves* डोमेन का उपयोग करें।
 
-    ![Custom Vision प्रोजेक्ट के लिए सेटिंग्स, नाम fruit-quality-detector, कोई विवरण नहीं, संसाधन fruit-quality-detector-training, प्रोजेक्ट प्रकार classification, classification प्रकार multi class और डोमेन food पर सेट](../../../../../translated_images/hi/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![Custom Vision प्रोजेक्ट के लिए सेटिंग्स, नाम fruit-quality-detector, कोई विवरण नहीं, संसाधन fruit-quality-detector-training, प्रोजेक्ट प्रकार classification, classification प्रकार multi class और डोमेन food पर सेट](../../../../../translated_images/hi/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ *Products on Shelves* डोमेन विशेष रूप से स्टोर शेल्फ पर स्टॉक का पता लगाने के लिए लक्षित है। [Microsoft Docs पर Select a domain दस्तावेज़](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection) में विभिन्न डोमेन के बारे में और पढ़ें।
 
@@ -133,11 +133,11 @@
 
 1. [Microsoft Docs पर Build an object detector quickstart के Upload and tag images सेक्शन](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) का पालन करें ताकि अपनी प्रशिक्षण छवियां अपलोड की जा सकें। उन वस्तुओं के प्रकारों के आधार पर प्रासंगिक टैग बनाएं जिन्हें आप पहचानना चाहते हैं।
 
-    ![पके और कच्चे केले की तस्वीरें अपलोड करने का संवाद](../../../../../translated_images/hi/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![पके और कच्चे केले की तस्वीरें अपलोड करने का संवाद](../../../../../translated_images/hi/image-upload-object-detector.77c7892c3093cb59.webp)
 
     जब आप वस्तुओं के लिए बॉन्डिंग बॉक्स बनाएं, तो उन्हें वस्तु के चारों ओर कसकर रखें। सभी छवियों को आउटलाइन करने में समय लग सकता है, लेकिन टूल यह पता लगाएगा कि उसे क्या लगता है कि बॉन्डिंग बॉक्स हैं, जिससे यह तेज़ हो जाएगा।
 
-    ![टमाटर पेस्ट को टैग करना](../../../../../translated_images/hi/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![टमाटर पेस्ट को टैग करना](../../../../../translated_images/hi/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 यदि आपके पास प्रत्येक वस्तु के लिए 15 से अधिक छवियां हैं, तो आप 15 के बाद प्रशिक्षण कर सकते हैं और **Suggested tags** सुविधा का उपयोग कर सकते हैं। यह बिना टैग वाली छवि में वस्तुओं का पता लगाने के लिए प्रशिक्षित मॉडल का उपयोग करेगा। आप फिर पता लगी वस्तुओं की पुष्टि कर सकते हैं, या बॉन्डिंग बॉक्स को अस्वीकार और पुनः खींच सकते हैं। यह *बहुत* समय बचा सकता है।
 
@@ -155,7 +155,7 @@
 
 1. **Quick Test** बटन का उपयोग करके परीक्षण छवियां अपलोड करें और सत्यापित करें कि वस्तुओं का पता लगाया गया है। उन परीक्षण छवियों का उपयोग करें जिन्हें आपने पहले बनाया था, न कि उन छवियों का जिन्हें आपने प्रशिक्षण के लिए उपयोग किया था।
 
-    ![टमाटर पेस्ट के 3 कैन का पता लगाया गया, जिनकी संभावनाएं 38%, 35.5% और 34.6% हैं](../../../../../translated_images/hi/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![टमाटर पेस्ट के 3 कैन का पता लगाया गया, जिनकी संभावनाएं 38%, 35.5% और 34.6% हैं](../../../../../translated_images/hi/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. आपके पास जितनी भी परीक्षण छवियां हैं, उनका उपयोग करें और संभावनाओं का अवलोकन करें।
 

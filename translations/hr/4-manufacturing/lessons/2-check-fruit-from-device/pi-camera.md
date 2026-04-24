@@ -16,7 +16,7 @@ Kamera se može povezati s Raspberry Pi-jem pomoću vrpčastog kabela.
 
 ### Zadatak - povezivanje kamere
 
-![Raspberry Pi kamera](../../../../../translated_images/hr/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
+![Raspberry Pi kamera](../../../../../translated_images/hr/pi-camera-module.4278753c31bd6e75.webp)
 
 1. Isključite napajanje Pi-ja.
 
@@ -24,17 +24,17 @@ Kamera se može povezati s Raspberry Pi-jem pomoću vrpčastog kabela.
 
     Animaciju koja prikazuje kako otvoriti kopču i umetnuti kabel možete pronaći u [Raspberry Pi dokumentaciji za početak rada s modulom kamere](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Vrpčasti kabel umetnut u modul kamere](../../../../../translated_images/hr/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
+    ![Vrpčasti kabel umetnut u modul kamere](../../../../../translated_images/hr/pi-camera-ribbon-cable.0bf82acd251611c2.webp)
 
 1. Uklonite Grove Base Hat s Pi-ja.
 
 1. Provucite vrpčasti kabel kroz utor za kameru na Grove Base Hat-u. Provjerite je li plava strana kabela okrenuta prema analognim priključcima označenim **A0**, **A1** itd.
 
-    ![Vrpčasti kabel prolazi kroz Grove Base Hat](../../../../../translated_images/hr/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
+    ![Vrpčasti kabel prolazi kroz Grove Base Hat](../../../../../translated_images/hr/grove-base-hat-ribbon-cable.501fed202fcf73b1.webp)
 
 1. Umetnite vrpčasti kabel u priključak za kameru na Pi-ju. Ponovno, povucite crnu plastičnu kopču prema gore, umetnite kabel, a zatim gurnite kopču natrag. Plava strana kabela trebala bi biti okrenuta prema USB i Ethernet priključcima.
 
-    ![Vrpčasti kabel povezan s priključkom za kameru na Pi-ju](../../../../../translated_images/hr/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
+    ![Vrpčasti kabel povezan s priključkom za kameru na Pi-ju](../../../../../translated_images/hr/pi-camera-socket-ribbon-cable.a18309920b118009.webp)
 
 1. Ponovno postavite Grove Base Hat.
 
@@ -101,7 +101,7 @@ Programirajte uređaj.
 
     Linija `camera.rotation = 0` postavlja rotaciju slike. Vrpčasti kabel ulazi na dno kamere, ali ako je vaša kamera rotirana kako bi lakše usmjerila predmet koji želite klasificirati, možete promijeniti ovu liniju na broj stupnjeva rotacije.
 
-    ![Kamera visi iznad limenke pića](../../../../../translated_images/hr/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
+    ![Kamera visi iznad limenke pića](../../../../../translated_images/hr/pi-camera-upside-down.5376961ba3145988.webp)
 
     Na primjer, ako objesite vrpčasti kabel iznad nečega tako da je na vrhu kamere, postavite rotaciju na 180:
 

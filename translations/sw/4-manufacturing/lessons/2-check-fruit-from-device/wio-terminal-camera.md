@@ -16,7 +16,7 @@ ArduCam haina soketi ya Grove, badala yake inaunganishwa kwenye mabasi ya SPI na
 
 Unganisha kamera.
 
-![Kihisi cha ArduCam](../../../../../translated_images/sw/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Kihisi cha ArduCam](../../../../../translated_images/sw/arducam.20e4e4cbb2682965.webp)
 
 1. Pini kwenye msingi wa ArduCam zinahitaji kuunganishwa kwenye pini za GPIO za Wio Terminal. Ili iwe rahisi kupata pini sahihi, weka stika ya pini ya GPIO inayokuja na Wio Terminal kuzunguka pini:
 
@@ -35,7 +35,7 @@ Unganisha kamera.
     | SDA             | 3 (I2C1_SDA)        | I2C Data ya Serial                     |
     | SCL             | 5 (I2C1_SCL)        | I2C Saa ya Serial                      |
 
-    ![Wio Terminal ikiwa imeunganishwa na ArduCam kwa nyaya za kuruka](../../../../../translated_images/sw/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal ikiwa imeunganishwa na ArduCam kwa nyaya za kuruka](../../../../../translated_images/sw/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Muunganisho wa GND na VCC hutoa umeme wa 5V kwa ArduCam. Inafanya kazi kwa 5V, tofauti na vihisi vya Grove vinavyofanya kazi kwa 3V. Umeme huu unatoka moja kwa moja kwenye muunganisho wa USB-C unaotoa nguvu kwa kifaa.
 
@@ -456,7 +456,7 @@ Wio Terminal inasaidia tu kadi ndogo za SD zenye ukubwa wa hadi 16GB. Ikiwa una 
 
 1. Zima kadi ndogo ya SD na uitoe kwa kuisukuma kidogo na kuachilia, na itatoka. Unaweza kuhitaji kutumia chombo chembamba kufanya hivyo. Unganisha kadi ndogo ya SD kwenye kompyuta yako ili kuona picha.
 
-    ![Picha ya ndizi iliyopigwa kwa kutumia ArduCam](../../../../../translated_images/sw/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Picha ya ndizi iliyopigwa kwa kutumia ArduCam](../../../../../translated_images/sw/banana-arducam.be1b32d4267a8194.webp)
 💁 Inaweza kuchukua picha chache kwa kamera kurekebisha usawa wa rangi yake. Utatambua hili kulingana na rangi ya picha zilizopigwa, picha za kwanza chache zinaweza kuonekana kuwa na rangi isiyo sahihi. Daima unaweza kulitatua hili kwa kubadilisha msimbo ili kupiga picha chache ambazo hazizingatiwi katika kazi ya `setup`.
 
 

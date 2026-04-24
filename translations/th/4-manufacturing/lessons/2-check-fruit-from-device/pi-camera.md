@@ -16,7 +16,7 @@ Raspberry Pi ต้องการกล้อง
 
 ### งาน - เชื่อมต่อกล้อง
 
-![กล้อง Raspberry Pi](../../../../../translated_images/th/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
+![กล้อง Raspberry Pi](../../../../../translated_images/th/pi-camera-module.4278753c31bd6e75.webp)
 
 1. ปิดการทำงานของ Pi
 
@@ -24,17 +24,17 @@ Raspberry Pi ต้องการกล้อง
 
     คุณสามารถดูภาพเคลื่อนไหวที่แสดงวิธีเปิดคลิปและใส่สายได้ใน [เอกสารการเริ่มต้นใช้งาน Raspberry Pi Camera module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)
 
-    ![สายริบบิ้นที่เชื่อมต่อกับโมดูลกล้อง](../../../../../translated_images/th/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
+    ![สายริบบิ้นที่เชื่อมต่อกับโมดูลกล้อง](../../../../../translated_images/th/pi-camera-ribbon-cable.0bf82acd251611c2.webp)
 
 1. ถอด Grove Base Hat ออกจาก Pi
 
 1. สอดสายริบบิ้นผ่านช่องสำหรับกล้องใน Grove Base Hat โดยให้ด้านสีน้ำเงินของสายหันไปทางพอร์ตอนาล็อกที่มีป้ายกำกับ **A0**, **A1** เป็นต้น
 
-    ![สายริบบิ้นที่ผ่าน Grove Base Hat](../../../../../translated_images/th/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
+    ![สายริบบิ้นที่ผ่าน Grove Base Hat](../../../../../translated_images/th/grove-base-hat-ribbon-cable.501fed202fcf73b1.webp)
 
 1. ใส่สายริบบิ้นเข้ากับพอร์ตกล้องบน Pi อีกครั้ง โดยดึงคลิปพลาสติกสีดำขึ้น ใส่สายเข้าไป แล้วดันคลิปกลับเข้าที่ ด้านสีน้ำเงินของสายควรหันไปทางพอร์ต USB และ Ethernet
 
-    ![สายริบบิ้นที่เชื่อมต่อกับพอร์ตกล้องบน Pi](../../../../../translated_images/th/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
+    ![สายริบบิ้นที่เชื่อมต่อกับพอร์ตกล้องบน Pi](../../../../../translated_images/th/pi-camera-socket-ribbon-cable.a18309920b118009.webp)
 
 1. ติดตั้ง Grove Base Hat กลับเข้าที่
 
@@ -101,7 +101,7 @@ Raspberry Pi ต้องการกล้อง
 
     บรรทัด `camera.rotation = 0` ตั้งค่าการหมุนของภาพ สายริบบิ้นจะเข้ามาที่ด้านล่างของกล้อง แต่หากกล้องของคุณถูกหมุนเพื่อให้ชี้ไปยังวัตถุที่คุณต้องการจำแนกได้ง่ายขึ้น คุณสามารถเปลี่ยนบรรทัดนี้เป็นจำนวนองศาที่ต้องการหมุน
 
-    ![กล้องที่ห้อยลงมาบนกระป๋องเครื่องดื่ม](../../../../../translated_images/th/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
+    ![กล้องที่ห้อยลงมาบนกระป๋องเครื่องดื่ม](../../../../../translated_images/th/pi-camera-upside-down.5376961ba3145988.webp)
 
     ตัวอย่างเช่น หากคุณแขวนสายริบบิ้นไว้ด้านบนของกล้อง ให้ตั้งค่าการหมุนเป็น 180:
 

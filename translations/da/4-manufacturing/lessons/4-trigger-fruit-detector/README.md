@@ -1,6 +1,6 @@
 # Udløs frugtkvalitetsdetektion fra en sensor
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -39,7 +39,7 @@ IoT-applikationer kan beskrives som *ting* (enheder), der sender data, som gener
 
 ### Reference IoT-arkitektur
 
-![En reference IoT-arkitektur](../../../../../translated_images/da/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![En reference IoT-arkitektur](../../../../../translated_images/da/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Diagrammet ovenfor viser en reference IoT-arkitektur.
 
@@ -49,7 +49,7 @@ Diagrammet ovenfor viser en reference IoT-arkitektur.
 * **Indsigter** kommer fra serverløse applikationer eller fra analyser, der køres på lagrede data.
 * **Handlinger** kan være kommandoer sendt til enheder eller visualisering af data, der giver mennesker mulighed for at træffe beslutninger.
 
-![En reference IoT-arkitektur](../../../../../translated_images/da/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![En reference IoT-arkitektur](../../../../../translated_images/da/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Diagrammet ovenfor viser nogle af de komponenter og tjenester, der er dækket indtil videre i disse lektioner, og hvordan de hænger sammen i en reference IoT-arkitektur.
 
@@ -89,7 +89,7 @@ Du skal bygge et system, hvor frugt registreres, når det ankommer på transport
 
 ### Prototyping af din applikation
 
-![En reference IoT-arkitektur for frugtkvalitetskontrol](../../../../../translated_images/da/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![En reference IoT-arkitektur for frugtkvalitetskontrol](../../../../../translated_images/da/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Diagrammet ovenfor viser en referencearkitektur for denne prototype-applikation.
 
@@ -124,7 +124,7 @@ Følg den relevante guide for at bruge en nærhedssensor til at registrere et ob
 
 Prototypen af frugtdetektoren har flere komponenter, der kommunikerer med hinanden.
 
-![Komponenterne kommunikerer med hinanden](../../../../../translated_images/da/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Komponenterne kommunikerer med hinanden](../../../../../translated_images/da/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * En nærhedssensor måler afstanden til et stykke frugt og sender dette til IoT Hub
 * Kommandoen til at styre kameraet kommer fra IoT Hub til kameraenheden

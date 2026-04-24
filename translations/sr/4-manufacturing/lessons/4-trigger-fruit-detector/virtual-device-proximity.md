@@ -36,11 +36,11 @@
 
     1. Изаберите дугме **Add** да бисте креирали сензор растојања.
 
-    ![Подешавања сензора растојања](../../../../../translated_images/sr/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![Подешавања сензора растојања](../../../../../translated_images/sr/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     Сензор растојања ће бити креиран и појавиће се на листи сензора.
 
-    ![Креирани сензор растојања](../../../../../translated_images/sr/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![Креирани сензор растојања](../../../../../translated_images/sr/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## Програмирање сензора растојања
 

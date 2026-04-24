@@ -26,7 +26,7 @@ Seeed Studios đã rất hào phóng cung cấp tất cả phần cứng dưới
 
 **[IoT cho người mới bắt đầu với Seeed và Microsoft - Bộ khởi động Raspberry Pi 4](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Bộ phần cứng Raspberry Pi Terminal](../../translated_images/vi/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Bộ phần cứng Raspberry Pi Terminal](../../translated_images/vi/pi-hardware-kit.26dbadaedb7dd44c.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

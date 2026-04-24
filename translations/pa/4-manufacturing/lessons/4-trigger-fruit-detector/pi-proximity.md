@@ -20,7 +20,7 @@ Grove ਟਾਈਮ ਆਫ ਫਲਾਈਟ ਸੈਂਸਰ ਨੂੰ ਰਾਸਪ
 
 ਟਾਈਮ ਆਫ ਫਲਾਈਟ ਸੈਂਸਰ ਨੂੰ ਜੋੜੋ।
 
-![A grove time of flight sensor](../../../../../translated_images/pa/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![A grove time of flight sensor](../../../../../translated_images/pa/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Grove ਕੇਬਲ ਦੇ ਇੱਕ ਸਿਰੇ ਨੂੰ ਟਾਈਮ ਆਫ ਫਲਾਈਟ ਸੈਂਸਰ ਦੇ ਸਾਕਟ ਵਿੱਚ ਪਾਓ। ਇਹ ਕੇਵਲ ਇੱਕ ਹੀ ਦਿਸ਼ਾ ਵਿੱਚ ਜਾਵੇਗੀ।
 

@@ -1,6 +1,6 @@
 # Migre a lógica da sua aplicação para a cloud
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-9.dfe99c8e891f48e1.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -28,7 +28,7 @@ Nesta lição, abordaremos:
 
 Serverless, ou computação serverless, envolve criar pequenos blocos de código que são executados na cloud em resposta a diferentes tipos de eventos. Quando o evento ocorre, o seu código é executado e recebe dados sobre o evento. Estes eventos podem vir de várias fontes, incluindo pedidos web, mensagens colocadas numa fila, alterações a dados numa base de dados ou mensagens enviadas para um serviço IoT por dispositivos IoT.
 
-![Eventos enviados de um serviço IoT para um serviço serverless, todos processados ao mesmo tempo por várias funções em execução](../../../../../translated_images/pt-PT/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Eventos enviados de um serviço IoT para um serviço serverless, todos processados ao mesmo tempo por várias funções em execução](../../../../../translated_images/pt-PT/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Se já utilizou triggers de base de dados antes, pode pensar nisto como algo semelhante: código sendo acionado por um evento, como a inserção de uma linha.
 
@@ -54,7 +54,7 @@ Como programador IoT, o modelo serverless é ideal. Pode escrever uma função q
 
 O serviço de computação serverless da Microsoft chama-se Azure Functions.
 
-![O logótipo do Azure Functions](../../../../../translated_images/pt-PT/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![O logótipo do Azure Functions](../../../../../translated_images/pt-PT/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 O vídeo curto abaixo apresenta uma visão geral do Azure Functions.
 

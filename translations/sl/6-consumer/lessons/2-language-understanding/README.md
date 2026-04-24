@@ -1,6 +1,6 @@
 Razumeti jezik
 
-![Skica pregleda te lekcije](../../../../../translated_images/sl/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![Skica pregleda te lekcije](../../../../../translated_images/sl/lesson-22.6148ea28500d9e00.webp)
 
 > Skica avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite sliko za večjo različico.
 
@@ -46,7 +46,7 @@ Modeli za razumevanje jezika so AI modeli, ki so trenirani za izluščitev dolo�
 
 ## Ustvarjanje modela za razumevanje jezika
 
-![Logotip LUIS](../../../../../translated_images/sl/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![Logotip LUIS](../../../../../translated_images/sl/luis-logo.5cb4f3e88c020ee6.webp)
 
 Modele za razumevanje jezika lahko ustvarite z LUIS, Microsoftovo storitvijo za razumevanje jezika, ki je del Cognitive Services.
 
@@ -169,7 +169,7 @@ Navodila za uporabo portala LUIS najdete v [Quickstart: Build your app in LUIS p
 
 1. Ko vnesete vsak primer, bo LUIS začel zaznavati entitete in podčrtal ter označil vse, ki jih najde.
 
-    ![Primeri z označenimi številkami in časovnimi enotami](../../../../../translated_images/sl/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Primeri z označenimi številkami in časovnimi enotami](../../../../../translated_images/sl/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Naloga - treniranje in testiranje modela
 

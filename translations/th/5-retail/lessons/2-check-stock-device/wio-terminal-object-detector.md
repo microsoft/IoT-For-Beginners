@@ -95,7 +95,7 @@
 
     คุณจะสามารถเห็นภาพที่ถ่ายและค่าต่างๆ เหล่านี้ในแท็บ **Predictions** ใน Custom Vision
 
-    ![กระป๋องซอสมะเขือเทศ 4 กระป๋องบนชั้นวาง พร้อมการคาดการณ์ 4 รายการที่มีค่าความน่าจะเป็น 35.8%, 33.5%, 25.7% และ 16.6%](../../../../../translated_images/th/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![กระป๋องซอสมะเขือเทศ 4 กระป๋องบนชั้นวาง พร้อมการคาดการณ์ 4 รายการที่มีค่าความน่าจะเป็น 35.8%, 33.5%, 25.7% และ 16.6%](../../../../../translated_images/th/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 คุณสามารถค้นหาโค้ดนี้ได้ในโฟลเดอร์ [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal)
 

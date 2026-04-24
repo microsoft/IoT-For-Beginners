@@ -1,6 +1,6 @@
 # Migre a sua planta para a nuvem
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-8.3f21f3c11159e6a0.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -46,8 +46,8 @@ Isso podia ser muito caro, exigir uma ampla gama de funcionários especializados
 
 A nuvem é frequentemente referida de forma humorística como "o computador de outra pessoa". A ideia inicial era simples - em vez de comprar computadores, aluga-se o computador de outra pessoa. Outra pessoa, um fornecedor de computação em nuvem, geriria enormes centros de dados. Eles seriam responsáveis por comprar e instalar o hardware, gerir energia e refrigeração, rede, segurança do edifício, atualizações de hardware e software, tudo. Como cliente, aluga-se os computadores necessários, alugando mais conforme a procura aumenta e reduzindo o número alugado se a procura diminuir. Esses centros de dados na nuvem estão espalhados pelo mundo.
 
-![Um centro de dados na nuvem da Microsoft](../../../../../translated_images/pt-PT/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Expansão planeada de um centro de dados na nuvem da Microsoft](../../../../../translated_images/pt-PT/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Um centro de dados na nuvem da Microsoft](../../../../../translated_images/pt-PT/azure-region-existing.73f704604f2aa6cb.webp)
+![Expansão planeada de um centro de dados na nuvem da Microsoft](../../../../../translated_images/pt-PT/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Esses centros de dados podem ter vários quilómetros quadrados de tamanho. As imagens acima foram tiradas há alguns anos num centro de dados na nuvem da Microsoft e mostram o tamanho inicial, juntamente com uma expansão planeada. A área limpa para a expansão tem mais de 5 quilómetros quadrados.
 
@@ -108,11 +108,11 @@ Os serviços de IoT na nuvem resolvem esses problemas. São mantidos por grandes
 
 Os dispositivos IoT conectam-se a um serviço na nuvem usando um SDK de dispositivo (uma biblioteca que fornece código para trabalhar com os recursos do serviço) ou diretamente através de um protocolo de comunicação como MQTT ou HTTP. O SDK de dispositivo geralmente é a rota mais fácil, pois lida com tudo para si, como saber quais tópicos publicar ou subscrever e como lidar com a segurança.
 
-![Dispositivos conectam-se a um serviço usando um SDK de dispositivo. Código de servidor também conecta-se ao serviço via SDK](../../../../../translated_images/pt-PT/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Dispositivos conectam-se a um serviço usando um SDK de dispositivo. Código de servidor também conecta-se ao serviço via SDK](../../../../../translated_images/pt-PT/iot-service-connectivity.7e873847921a5d6f.webp)
 
 O seu dispositivo então comunica com outras partes da sua aplicação através deste serviço - semelhante à forma como enviou telemetria e recebeu comandos via MQTT. Isso geralmente é feito usando um SDK de serviço ou uma biblioteca semelhante. As mensagens vêm do seu dispositivo para o serviço, onde outros componentes da sua aplicação podem lê-las, e as mensagens podem ser enviadas de volta para o seu dispositivo.
 
-![Dispositivos sem uma chave secreta válida não podem conectar-se ao serviço de IoT](../../../../../translated_images/pt-PT/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Dispositivos sem uma chave secreta válida não podem conectar-se ao serviço de IoT](../../../../../translated_images/pt-PT/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Esses serviços implementam segurança ao conhecer todos os dispositivos que podem conectar-se e enviar dados, seja pré-registrando os dispositivos no serviço ou fornecendo aos dispositivos chaves secretas ou certificados que podem usar para se registrar no serviço na primeira vez que se conectarem. Dispositivos desconhecidos não conseguem conectar-se; se tentarem, o serviço rejeita a conexão e ignora as mensagens enviadas por eles.
 
@@ -124,7 +124,7 @@ Outros componentes da sua aplicação podem conectar-se ao serviço de IoT e apr
 
 Agora que tem uma subscrição do Azure, pode inscrever-se num serviço IoT. O serviço IoT da Microsoft chama-se Azure IoT Hub.
 
-![O logótipo do Azure IoT Hub](../../../../../translated_images/pt-PT/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![O logótipo do Azure IoT Hub](../../../../../translated_images/pt-PT/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 O vídeo abaixo oferece uma breve visão geral do Azure IoT Hub:
 

@@ -34,11 +34,11 @@ Idagdag ang soil moisture sensor sa CounterFit app.
 
     1. Piliin ang **Add** na button upang likhain ang *Soil Moisture* sensor sa Pin 0.
 
-    ![Mga setting ng soil moisture sensor](../../../../../translated_images/tl/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
+    ![Mga setting ng soil moisture sensor](../../../../../translated_images/tl/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp)
 
     Ang soil moisture sensor ay malilikha at lilitaw sa listahan ng mga sensor.
 
-    ![Nalikha ang soil moisture sensor](../../../../../translated_images/tl/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
+    ![Nalikha ang soil moisture sensor](../../../../../translated_images/tl/counterfit-soil-moisture-sensor.81742b2de0e9de60.webp)
 
 ## Iprograma ang soil moisture sensor app
 

@@ -26,7 +26,7 @@ Grove LED, farklı renklerde LED'ler içeren bir modül olarak gelir, böylece i
 
 LED'i bağlayın.
 
-![Bir Grove LED](../../../../../translated_images/tr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Bir Grove LED](../../../../../translated_images/tr/grove-led.6c853be93f473cf2.webp)
 
 1. En sevdiğiniz LED'i seçin ve bacaklarını LED modülündeki iki deliğe yerleştirin.
 

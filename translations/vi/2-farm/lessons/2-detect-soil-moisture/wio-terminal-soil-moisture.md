@@ -18,7 +18,7 @@ Cảm biến độ ẩm đất Grove có thể được kết nối với cổng
 
 Kết nối cảm biến độ ẩm đất.
 
-![Một cảm biến độ ẩm đất Grove](../../../../../translated_images/vi/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Một cảm biến độ ẩm đất Grove](../../../../../translated_images/vi/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên cảm biến độ ẩm đất. Nó chỉ có thể cắm theo một chiều.
 

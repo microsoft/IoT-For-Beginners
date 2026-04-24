@@ -1,6 +1,6 @@
 # Đặt hẹn giờ và cung cấp phản hồi bằng giọng nói
 
-![Tóm tắt bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Tóm tắt bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 

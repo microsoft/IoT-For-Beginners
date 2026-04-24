@@ -16,7 +16,7 @@ O sensor de temperatura Grove pode ser ligado ao Raspberry Pi.
 
 Liga o sensor de temperatura.
 
-![Um sensor de temperatura Grove](../../../../../translated_images/pt-PT/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Um sensor de temperatura Grove](../../../../../translated_images/pt-PT/grove-dht11.07f8eafceee17004.webp)
 
 1. Insere uma extremidade de um cabo Grove na entrada do sensor de humidade e temperatura. O cabo só encaixa de uma forma.
 

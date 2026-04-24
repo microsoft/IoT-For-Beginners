@@ -95,7 +95,7 @@ Image classification အတွက် အသုံးပြုခဲ့သော 
 
     ဖမ်းယူထားသော ပုံရိပ်ကို ကြည့်ရှုနိုင်ပြီး၊ ဤတန်ဖိုးများကို Custom Vision ၏ **Predictions** tab တွင် တွေ့နိုင်ပါမည်။
 
-    ![စင်ပေါ်ရှိ ခရမ်းချဉ်သီးပူစီ ၄ ကန်နှင့် ၄ ခု၏ detection တန်ဖိုးများ - 35.8%, 33.5%, 25.7% နှင့် 16.6%](../../../../../translated_images/my/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![စင်ပေါ်ရှိ ခရမ်းချဉ်သီးပူစီ ၄ ကန်နှင့် ၄ ခု၏ detection တန်ဖိုးများ - 35.8%, 33.5%, 25.7% နှင့် 16.6%](../../../../../translated_images/my/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 ဤ code ကို [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) ဖိုလ်ဒါတွင် ရှာနိုင်ပါသည်။
 

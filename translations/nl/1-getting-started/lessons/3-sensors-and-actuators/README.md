@@ -1,6 +1,6 @@
 # Interactie met de fysieke wereld met sensoren en actuatoren
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -92,7 +92,7 @@ Digitale sensoren, net als analoge sensoren, detecteren de wereld om hen heen do
 
 De eenvoudigste digitale sensor is een knop of schakelaar. Dit is een sensor met twee toestanden, aan of uit.
 
-![Een knop ontvangt 5 volt. Wanneer niet ingedrukt, stuurt deze 0 volt terug; wanneer ingedrukt, stuurt deze 5 volt terug](../../../../../translated_images/nl/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Een knop ontvangt 5 volt. Wanneer niet ingedrukt, stuurt deze 0 volt terug; wanneer ingedrukt, stuurt deze 5 volt terug](../../../../../translated_images/nl/button.eadb560b77ac45e5.webp)
 
 Pinnen op IoT-apparaten zoals GPIO-pinnen kunnen dit signaal direct meten als een 0 of 1. Als de spanning die wordt verzonden hetzelfde is als de spanning die wordt teruggestuurd, wordt de waarde gelezen als 1, anders wordt de waarde gelezen als 0. Er is geen noodzaak om het signaal te converteren, het kan alleen 1 of 0 zijn.
 
@@ -125,7 +125,7 @@ Enkele veelvoorkomende actuatoren zijn:
 
 Volg de relevante handleiding hieronder om een actuator toe te voegen aan je IoT-apparaat, aangestuurd door de sensor, om een IoT-nachtlampje te bouwen. Het zal lichtniveaus verzamelen van de lichtsensor en een actuator in de vorm van een LED gebruiken om licht uit te zenden wanneer het gedetecteerde lichtniveau te laag is.
 
-![Een stroomdiagram van de opdracht die laat zien hoe lichtniveaus worden gelezen en gecontroleerd, en de LED wordt aangestuurd](../../../../../translated_images/nl/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Een stroomdiagram van de opdracht die laat zien hoe lichtniveaus worden gelezen en gecontroleerd, en de LED wordt aangestuurd](../../../../../translated_images/nl/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Single-board computer - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Net als sensoren zijn actuatoren ofwel analoog of digitaal.
 Analoge actuatoren nemen een analoog signaal en zetten dit om in een soort interactie, waarbij de interactie verandert afhankelijk van de spanning die wordt geleverd.
 
 Een voorbeeld hiervan is een dimbaar licht, zoals de lampen die je misschien in huis hebt. De hoeveelheid spanning die aan het licht wordt geleverd, bepaalt hoe helder het is.
-![Een licht gedimd bij een lage spanning en helderder bij een hogere spanning](../../../../../translated_images/nl/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Een licht gedimd bij een lage spanning en helderder bij een hogere spanning](../../../../../translated_images/nl/dimmable-light.9ceffeb195dec1a8.webp)
 
 Net als bij sensoren werken IoT-apparaten met digitale signalen, niet met analoge. Dit betekent dat om een analoog signaal te verzenden, het IoT-apparaat een digitaal-naar-analoog converter (DAC) nodig heeft, ofwel direct op het IoT-apparaat, of op een aansluitbord. Dit converteert de 0'en en 1'en van het IoT-apparaat naar een analoge spanning die de actuator kan gebruiken.
 
@@ -187,7 +187,7 @@ Digitale actuatoren, net als digitale sensoren, hebben ofwel twee toestanden die
 
 Een eenvoudige digitale actuator is een LED. Wanneer een apparaat een digitaal signaal van 1 verzendt, wordt een hoge spanning verzonden die de LED laat oplichten. Wanneer een digitaal signaal van 0 wordt verzonden, daalt de spanning naar 0V en gaat de LED uit.
 
-![Een LED is uit bij 0 volt en aan bij 5V](../../../../../translated_images/nl/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Een LED is uit bij 0 volt en aan bij 5V](../../../../../translated_images/nl/led.ec6d94f66676a174.webp)
 
 ✅ Welke andere eenvoudige 2-toestandsactuatoren kun je bedenken? Een voorbeeld is een solenoïde, een elektromagneet die kan worden geactiveerd om dingen te doen zoals een deurgrendel verplaatsen om een deur te vergrendelen/ontgrendelen.
 

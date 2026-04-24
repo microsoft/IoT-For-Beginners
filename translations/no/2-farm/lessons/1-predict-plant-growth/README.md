@@ -1,6 +1,6 @@
 ## Forutsi plantevekst med IoT
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-5.42b234299279d263.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -102,7 +102,7 @@ Stegene for å gjøre dette manuelt er:
 
 For eksempel, hvis dagens høyeste temperatur er 25°C, og den laveste er 12°C:
 
-![GDD = 25 + 12 delt på 2, deretter trekk 10 fra resultatet som gir 8,5](../../../../../translated_images/no/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 delt på 2, deretter trekk 10 fra resultatet som gir 8,5](../../../../../translated_images/no/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18,5

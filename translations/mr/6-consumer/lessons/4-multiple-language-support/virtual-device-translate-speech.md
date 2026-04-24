@@ -37,7 +37,7 @@
     >
     > उदाहरणार्थ, जर तुम्ही LUIS इंग्रजीत प्रशिक्षण दिले असेल, पण वापरकर्त्याची भाषा म्हणून फ्रेंच वापरायची असेल, तर तुम्ही Bing Translate वापरून "set a 2 minute and 27 second timer" सारख्या वाक्यांचे इंग्रजीतून फ्रेंचमध्ये अनुवाद करू शकता, नंतर **Listen translation** बटण वापरून अनुवादित मजकूर तुमच्या मायक्रोफोनमध्ये बोलू शकता.
     >
-    > ![Bing Translate वर Listen translation बटण](../../../../../translated_images/mr/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Bing Translate वर Listen translation बटण](../../../../../translated_images/mr/bing-translate.348aa796d6efe2a9.webp)
 
 1. `recognizer_config` आणि `recognizer` घोषणांना खालीलप्रमाणे बदला:
 

@@ -208,7 +208,7 @@ Disse certifikater indeholder offentlige nøgler og behøver ikke at blive holdt
 
     Du vil kunne se det billede, der blev taget, og disse værdier i **Predictions**-fanen i Custom Vision.
 
-    ![En banan i Custom Vision forudsagt moden med 56.8% og umoden med 43.1%](../../../../../translated_images/da/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![En banan i Custom Vision forudsagt moden med 56.8% og umoden med 43.1%](../../../../../translated_images/da/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Du kan finde denne kode i mappen [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

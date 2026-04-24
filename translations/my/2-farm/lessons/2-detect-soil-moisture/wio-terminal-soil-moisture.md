@@ -18,7 +18,7 @@ Grove မြေစိုထိုင်းဆာန့်ဆာကို Wio Ter
 
 မြေစိုထိုင်းဆာန့်ဆာကို ချိတ်ဆက်ပါ။
 
-![A grove soil moisture sensor](../../../../../translated_images/my/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![A grove soil moisture sensor](../../../../../translated_images/my/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove ကေဘယ်တစ်ခုကို မြေစိုထိုင်းဆာန့်ဆာရဲ့ socket ထဲထည့်ပါ။ ဒါဟာ တစ်ဖက်ဘက်သာ ထည့်နိုင်ပါသည်။
 

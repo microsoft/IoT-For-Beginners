@@ -95,7 +95,7 @@
 
     ستتمكن من رؤية الصورة التي تم التقاطها، وهذه القيم في علامة التبويب **Predictions** في Custom Vision.
 
-    ![4 علب من معجون الطماطم على رف مع توقعات لـ 4 اكتشافات بنسبة 35.8%، 33.5%، 25.7% و16.6%](../../../../../translated_images/ar/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 علب من معجون الطماطم على رف مع توقعات لـ 4 اكتشافات بنسبة 35.8%، 33.5%، 25.7% و16.6%](../../../../../translated_images/ar/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 يمكنك العثور على هذا الكود في مجلد [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

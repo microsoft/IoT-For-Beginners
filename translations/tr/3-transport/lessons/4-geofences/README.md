@@ -1,6 +1,6 @@
 # Coğrafi Çitler
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-14.63980c5150ae3c15.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -35,7 +35,7 @@ Bu derste şunları ele alacağız:
 
 Coğrafi çit, gerçek dünyadaki bir coğrafi bölge için sanal bir sınırdır. Coğrafi çitler, bir nokta ve bir yarıçap olarak tanımlanan daireler (örneğin bir binanın etrafında 100m genişliğinde bir daire) veya bir okul bölgesi, şehir sınırları, üniversite veya ofis kampüsü gibi bir alanı kapsayan çokgenler olabilir.
 
-![Microsoft şirket mağazası etrafında dairesel bir coğrafi çit ve Microsoft batı kampüsü etrafında çokgen bir coğrafi çit örnekleri](../../../../../translated_images/tr/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Microsoft şirket mağazası etrafında dairesel bir coğrafi çit ve Microsoft batı kampüsü etrafında çokgen bir coğrafi çit örnekleri](../../../../../translated_images/tr/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Belki de farkında olmadan coğrafi çitler kullanmış olabilirsiniz. iOS hatırlatıcılar uygulaması veya Google Keep'te bir konuma dayalı hatırlatıcı ayarladıysanız, bir coğrafi çit kullanmışsınızdır. Bu uygulamalar, verilen konuma dayalı bir coğrafi çit oluşturur ve telefonunuz coğrafi çite girdiğinde sizi uyarır.
 
@@ -212,7 +212,7 @@ Coğrafi çitin kenarına olan mesafeyi bilmek ve bunu araç konumuna dayalı ka
 
 Örneğin, bir aracın bir coğrafi çitin yanından geçen bir yolda ilerlediğini gösteren GPS okumalarını hayal edin. Eğer tek bir GPS değeri yanlışsa ve aracı coğrafi çitin içinde gösteriyorsa, bu değer görmezden gelinebilir.
 
-![Microsoft kampüsünün yanından geçen 520 yolunda bir aracın GPS izi, yol boyunca GPS okumaları, ancak bir tanesi kampüste, bir coğrafi çitin içinde](../../../../../translated_images/tr/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![Microsoft kampüsünün yanından geçen 520 yolunda bir aracın GPS izi, yol boyunca GPS okumaları, ancak bir tanesi kampüste, bir coğrafi çitin içinde](../../../../../translated_images/tr/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 Yukarıdaki görselde, Microsoft kampüsünün bir kısmını kapsayan bir jeoçit bulunmaktadır. Kırmızı çizgi, 520 boyunca ilerleyen bir kamyonu ve GPS okumalarını gösteren daireleri temsil eder. Bu okumaların çoğu doğru ve 520 boyunca yer alırken, bir tanesi jeoçitin içinde yanlış bir okuma olarak görünmektedir. Bu okumanın doğru olması mümkün değildir - kamyonun 520'den kampüse aniden sapıp, ardından tekrar 520'ye dönmesi için yollar yoktur. Bu jeoçiti kontrol eden kod, jeoçit testi sonuçlarına göre işlem yapmadan önce önceki okumaları dikkate almalıdır.
 
 ✅ Bir GPS okumasının doğru kabul edilip edilemeyeceğini kontrol etmek için hangi ek verilere ihtiyaç duyarsınız?
@@ -284,7 +284,7 @@ Artık IoT Hub GPS olay verilerini jeoçite karşı test etmek için Functions u
 
 Cevap şu ki, bilemez! Bunun yerine, olayları okumak için birden fazla ayrı bağlantı tanımlayabilirsiniz ve her biri okunmamış mesajların yeniden oynatılmasını yönetebilir. Bunlara *tüketici grupları* denir. Uç noktaya bağlandığınızda, bağlanmak istediğiniz tüketici grubunu belirtebilirsiniz. Uygulamanızın her bir bileşeni farklı bir tüketici grubuna bağlanacaktır.
 
-![Tek bir IoT Hub, aynı mesajları 3 farklı Functions uygulamasına dağıtan 3 tüketici grubuna sahip](../../../../../translated_images/tr/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Tek bir IoT Hub, aynı mesajları 3 farklı Functions uygulamasına dağıtan 3 tüketici grubuna sahip](../../../../../translated_images/tr/consumer-groups.a3262e26fc27ba20.webp)
 
 Teorik olarak her tüketici grubuna 5 uygulama bağlanabilir ve mesajlar geldiğinde hepsi mesajları alır. En iyi uygulama, her tüketici grubuna yalnızca bir uygulamanın erişmesini sağlamak, böylece yinelenen mesaj işleme önlenir ve yeniden başlatıldığında tüm sıraya alınmış mesajlar doğru şekilde işlenir. Örneğin, Functions uygulamanızı hem yerel olarak hem de bulutta çalıştırırsanız, her ikisi de mesajları işler ve bu da depolama hesabında yinelenen blobların saklanmasına yol açar.
 

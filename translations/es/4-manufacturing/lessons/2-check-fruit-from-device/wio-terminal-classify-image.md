@@ -208,7 +208,7 @@ Estos certificados contienen claves públicas y no necesitan mantenerse seguros.
 
     Podrás ver la imagen que se tomó y estos valores en la pestaña **Predictions** en Custom Vision.
 
-    ![Un plátano en Custom Vision predicho como maduro al 56.8% y no maduro al 43.1%](../../../../../translated_images/es/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Un plátano en Custom Vision predicho como maduro al 56.8% y no maduro al 43.1%](../../../../../translated_images/es/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Puedes encontrar este código en la carpeta [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

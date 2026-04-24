@@ -26,7 +26,7 @@ El Grove LED viene como un módulo con una selección de LEDs, permitiéndote el
 
 Conecta el LED.
 
-![Un Grove LED](../../../../../translated_images/es/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Un Grove LED](../../../../../translated_images/es/grove-led.6c853be93f473cf2.webp)
 
 1. Elige tu LED favorito e inserta las patas en los dos agujeros del módulo LED.
 

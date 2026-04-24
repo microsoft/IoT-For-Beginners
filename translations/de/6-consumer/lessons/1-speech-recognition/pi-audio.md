@@ -16,13 +16,13 @@ Der Knopf kann an das Grove Base Hat angeschlossen werden.
 
 #### Aufgabe - Knopf anschließen
 
-![Ein Grove-Knopf](../../../../../translated_images/de/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
+![Ein Grove-Knopf](../../../../../translated_images/de/grove-button.a70cfbb809a85636.webp)
 
 1. Stecken Sie ein Ende eines Grove-Kabels in die Buchse des Knopfmoduls. Es passt nur in einer Richtung hinein.
 
 1. Schalten Sie den Raspberry Pi aus und verbinden Sie das andere Ende des Grove-Kabels mit der digitalen Buchse, die mit **D5** auf dem Grove Base Hat am Pi markiert ist. Diese Buchse ist die zweite von links in der Reihe der Buchsen neben den GPIO-Pins.
 
-![Der Grove-Knopf, angeschlossen an Buchse D5](../../../../../translated_images/de/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
+![Der Grove-Knopf, angeschlossen an Buchse D5](../../../../../translated_images/de/pi-button.c7a1a4f55943341c.webp)
 
 ## Audio aufnehmen
 

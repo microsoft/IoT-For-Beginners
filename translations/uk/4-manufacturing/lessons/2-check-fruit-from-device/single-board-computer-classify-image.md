@@ -84,7 +84,7 @@
 
     Ви зможете побачити зображення, яке було зроблено, а також ці значення на вкладці **Predictions** у Custom Vision.
 
-    ![Банан у Custom Vision, передбачено стиглий на 56.8% і нестиглий на 43.1%](../../../../../translated_images/uk/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Банан у Custom Vision, передбачено стиглий на 56.8% і нестиглий на 43.1%](../../../../../translated_images/uk/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Ви можете знайти цей код у папці [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) або [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

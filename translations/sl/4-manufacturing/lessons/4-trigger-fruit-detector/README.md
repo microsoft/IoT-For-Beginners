@@ -1,6 +1,6 @@
 # Sproži zaznavanje kakovosti sadja s senzorjem
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -39,7 +39,7 @@ IoT aplikacije lahko opišemo kot *stvari* (naprave), ki pošiljajo podatke, ki 
 
 ### Referenčna IoT arhitektura
 
-![Referenčna IoT arhitektura](../../../../../translated_images/sl/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![Referenčna IoT arhitektura](../../../../../translated_images/sl/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Zgornji diagram prikazuje referenčno IoT arhitekturo.
 
@@ -49,7 +49,7 @@ Zgornji diagram prikazuje referenčno IoT arhitekturo.
 * **Vpogledi** izhajajo iz brezstrežnih aplikacij ali iz analize shranjenih podatkov.
 * **Dejanja** so lahko ukazi, poslani napravam, ali vizualizacija podatkov, ki omogoča ljudem sprejemanje odločitev.
 
-![Referenčna IoT arhitektura](../../../../../translated_images/sl/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Referenčna IoT arhitektura](../../../../../translated_images/sl/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Zgornji diagram prikazuje nekatere komponente in storitve, obravnavane v teh lekcijah, ter kako se povezujejo v referenčni IoT arhitekturi.
 
@@ -89,7 +89,7 @@ Potrebujete sistem, kjer se sadje zazna, ko prispe na tekoči trak, nato se foto
 
 ### Prototipiranje vaše aplikacije
 
-![Referenčna IoT arhitektura za preverjanje kakovosti sadja](../../../../../translated_images/sl/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![Referenčna IoT arhitektura za preverjanje kakovosti sadja](../../../../../translated_images/sl/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Zgornji diagram prikazuje referenčno arhitekturo za to prototipno aplikacijo.
 
@@ -124,7 +124,7 @@ Sledite ustreznemu vodniku za uporabo senzorja bližine za zaznavanje predmeta z
 
 Prototip detektorja sadja ima več komponent, ki medsebojno komunicirajo.
 
-![Komponente, ki medsebojno komunicirajo](../../../../../translated_images/sl/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Komponente, ki medsebojno komunicirajo](../../../../../translated_images/sl/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Senzor bližine meri razdaljo do kosa sadja in jo pošilja v IoT Hub
 * Ukaz za nadzor kamere prihaja iz IoT Hub do naprave s kamero

@@ -20,7 +20,7 @@ Grove Time of Flight Sensor ကို Raspberry Pi နှင့် ချိတ�
 
 Time of Flight Sensor ကို ချိတ်ဆက်ပါ။
 
-![Grove Time of Flight Sensor](../../../../../translated_images/my/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Grove Time of Flight Sensor](../../../../../translated_images/my/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Grove cable ၏တစ်ဖက်အဆုံးကို Time of Flight Sensor ၏ socket တွင် ထည့်ပါ။ ၎င်းသည် တစ်ဖက်ဘက်သာ ထည့်နိုင်ပါသည်။
 

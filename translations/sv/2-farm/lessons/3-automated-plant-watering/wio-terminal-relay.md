@@ -18,7 +18,7 @@ Grove-reläet kan anslutas till Wio Terminals digitala port.
 
 Anslut reläet.
 
-![Ett Grove-relä](../../../../../translated_images/sv/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Ett Grove-relä](../../../../../translated_images/sv/grove-relay.d426958ca210fbd0.webp)
 
 1. Sätt ena änden av en Grove-kabel i uttaget på reläet. Den går bara in på ett sätt.
 

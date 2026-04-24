@@ -26,7 +26,7 @@ Grove LED tulee moduulina, jossa on valikoima LED-valoja, joten voit valita halu
 
 Liitä LED.
 
-![Grove LED](../../../../../translated_images/fi/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/fi/grove-led.6c853be93f473cf2.webp)
 
 1. Valitse suosikkisi LED-valo ja aseta sen jalat LED-moduulin kahteen reikään.
 
@@ -40,7 +40,7 @@ Liitä LED.
 
 1. Kun Raspberry Pi on sammutettu, liitä Grove-kaapelin toinen pää Grove Base -hatun digitaaliseen liittimeen, joka on merkitty **D5**. Tämä liitin on toinen vasemmalta GPIO-pinnien vieressä olevassa liitinrivissä.
 
-![Grove LED liitettynä D5-liittimeen](../../../../../translated_images/fi/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![Grove LED liitettynä D5-liittimeen](../../../../../translated_images/fi/pi-led.97f1d474981dc35d.webp)
 
 ## Ohjelmoi yövalo
 

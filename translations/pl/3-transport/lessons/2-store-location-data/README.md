@@ -1,6 +1,6 @@
 # Przechowywanie danych o lokalizacji
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-12.ca7f53039712a3ec.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -75,7 +75,7 @@ Bazy danych NoSQL nazywane są NoSQL, ponieważ nie mają tej samej sztywnej str
 
 > 💁 Pomimo swojej nazwy, niektóre bazy danych NoSQL pozwalają na użycie SQL do przeszukiwania danych.
 
-![Dokumenty w folderach w bazie danych NoSQL](../../../../../translated_images/pl/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Dokumenty w folderach w bazie danych NoSQL](../../../../../translated_images/pl/noqsl-database.62d24ccf5b73f60d.webp)
 
 Bazy danych NoSQL nie mają z góry zdefiniowanego schematu, który ogranicza sposób przechowywania danych. Możesz wstawiać dowolne dane niestrukturalne, zazwyczaj w formacie JSON. Dokumenty te mogą być organizowane w foldery, podobnie jak pliki na komputerze. Każdy dokument może mieć inne pola niż inne dokumenty - na przykład, jeśli przechowujesz dane IoT z pojazdów rolniczych, niektóre mogą mieć pola dla danych z akcelerometru i prędkości, inne mogą mieć pola dla temperatury w przyczepie. Jeśli dodałbyś nowy typ ciężarówki, na przykład z wbudowanymi wagami do śledzenia wagi przewożonych produktów, urządzenie IoT mogłoby dodać to nowe pole, a dane mogłyby być przechowywane bez żadnych zmian w bazie danych.
 
@@ -89,7 +89,7 @@ W tej lekcji będziesz używać magazynu NoSQL do przechowywania danych IoT.
 
 W poprzedniej lekcji zebrałeś dane GPS z czujnika GPS podłączonego do urządzenia IoT. Aby przechowywać te dane IoT w chmurze, musisz je przesłać do usługi IoT. Ponownie użyjesz Azure IoT Hub, tej samej usługi IoT w chmurze, której używałeś w poprzednim projekcie.
 
-![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub](../../../../../translated_images/pl/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub](../../../../../translated_images/pl/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Zadanie - wysyłanie danych GPS do IoT Hub
 
@@ -171,7 +171,7 @@ Dane ze ścieżki zimnej są przechowywane w hurtowniach danych - bazach danych 
 
 Gdy dane trafiają do IoT Hub, możesz napisać kod bezserwerowy, który będzie nasłuchiwał zdarzeń publikowanych na zgodnym z Event-Hub punkcie końcowym. To jest ścieżka ciepła - te dane zostaną przechowane i wykorzystane w następnej lekcji do raportowania trasy.
 
-![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub, a następnie do Azure Functions za pomocą wyzwalacza Event Hub](../../../../../translated_images/pl/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub, a następnie do Azure Functions za pomocą wyzwalacza Event Hub](../../../../../translated_images/pl/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Zadanie - obsługa zdarzeń GPS za pomocą kodu bezserwerowego
 
@@ -193,7 +193,7 @@ Gdy dane trafiają do IoT Hub, możesz napisać kod bezserwerowy, który będzie
 
 ## Konta magazynu Azure
 
-![Logo Azure Storage](../../../../../translated_images/pl/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Logo Azure Storage](../../../../../translated_images/pl/azure-storage-logo.605c0f602c640d48.webp)
 
 Konta magazynu Azure to uniwersalna usługa przechowywania danych, która umożliwia przechowywanie danych na różne sposoby. Możesz przechowywać dane jako obiekty blob, w kolejkach, w tabelach lub jako pliki – wszystko jednocześnie.
 

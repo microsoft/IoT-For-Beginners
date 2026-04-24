@@ -20,7 +20,7 @@ Grove senzor Time of Flight može se povezati s Wio Terminalom.
 
 Povežite senzor Time of Flight.
 
-![Grove senzor Time of Flight](../../../../../translated_images/hr/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Grove senzor Time of Flight](../../../../../translated_images/hr/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Umetnite jedan kraj Grove kabela u priključak na senzoru Time of Flight. Kabel će ući samo na jedan način.
 

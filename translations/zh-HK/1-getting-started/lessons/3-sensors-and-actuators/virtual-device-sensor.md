@@ -28,11 +28,11 @@
 
     1. 點擊 **Add** 按鈕，在 Pin 0 上創建光線感應器。
 
-    ![光線感應器設置](../../../../../translated_images/zh-HK/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![光線感應器設置](../../../../../translated_images/zh-HK/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     光線感應器將被創建並顯示在感應器列表中。
 
-    ![已創建的光線感應器](../../../../../translated_images/zh-HK/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![已創建的光線感應器](../../../../../translated_images/zh-HK/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## 編程光線感應器
 

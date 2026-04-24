@@ -1,6 +1,6 @@
 # 從感測器觸發水果品質檢測
 
-![本課程的手繪筆記概述](../../../../../translated_images/zh-MO/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/zh-MO/lesson-18.92c32ed1d354caa5.webp)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -39,7 +39,7 @@
 
 ### 物聯網架構參考
 
-![物聯網架構參考](../../../../../translated_images/zh-MO/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![物聯網架構參考](../../../../../translated_images/zh-MO/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 上圖展示了一個物聯網架構參考。
 
@@ -49,7 +49,7 @@
 * **洞察**來自無伺服器應用或存儲數據的分析。
 * **行動**可以是發送給設備的指令，或是可視化數據以幫助人類做出決策。
 
-![Azure 物聯網架構參考](../../../../../translated_images/zh-MO/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Azure 物聯網架構參考](../../../../../translated_images/zh-MO/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 上圖展示了本課程中涵蓋的一些元件和服務，以及它們如何在物聯網架構參考中相互連結。
 
@@ -89,7 +89,7 @@
 
 ### 應用原型設計
 
-![水果品質檢測的物聯網架構參考](../../../../../translated_images/zh-MO/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![水果品質檢測的物聯網架構參考](../../../../../translated_images/zh-MO/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 上圖展示了此原型應用的架構參考。
 
@@ -124,7 +124,7 @@
 
 原型水果檢測器有多個元件相互通信。
 
-![元件之間的通信](../../../../../translated_images/zh-MO/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![元件之間的通信](../../../../../translated_images/zh-MO/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * 接近感測器測量到水果的距離並將其發送到 IoT Hub
 * 控制相機的指令從 IoT Hub 發送到相機設備

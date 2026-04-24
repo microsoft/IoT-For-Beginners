@@ -16,7 +16,7 @@ Kamera dapat dihubungkan ke Raspberry Pi menggunakan kabel pita.
 
 ### Tugas - Menghubungkan Kamera
 
-![Kamera Raspberry Pi](../../../../../translated_images/id/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
+![Kamera Raspberry Pi](../../../../../translated_images/id/pi-camera-module.4278753c31bd6e75.webp)
 
 1. Matikan daya Pi.
 
@@ -24,17 +24,17 @@ Kamera dapat dihubungkan ke Raspberry Pi menggunakan kabel pita.
 
     Anda dapat menemukan animasi yang menunjukkan cara membuka klip dan memasukkan kabel di [dokumentasi Memulai dengan Modul Kamera Raspberry Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Kabel pita dimasukkan ke modul kamera](../../../../../translated_images/id/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
+    ![Kabel pita dimasukkan ke modul kamera](../../../../../translated_images/id/pi-camera-ribbon-cable.0bf82acd251611c2.webp)
 
 1. Lepaskan Grove Base Hat dari Pi.
 
 1. Lewatkan kabel pita melalui slot kamera di Grove Base Hat. Pastikan sisi biru kabel menghadap ke port analog yang diberi label **A0**, **A1**, dll.
 
-    ![Kabel pita melewati Grove Base Hat](../../../../../translated_images/id/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
+    ![Kabel pita melewati Grove Base Hat](../../../../../translated_images/id/grove-base-hat-ribbon-cable.501fed202fcf73b1.webp)
 
 1. Masukkan kabel pita ke port kamera di Pi. Sekali lagi, tarik klip plastik hitam ke atas, masukkan kabel, lalu dorong klip kembali ke tempatnya. Sisi biru kabel harus menghadap ke port USB dan ethernet.
 
-    ![Kabel pita terhubung ke soket kamera di Pi](../../../../../translated_images/id/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
+    ![Kabel pita terhubung ke soket kamera di Pi](../../../../../translated_images/id/pi-camera-socket-ribbon-cable.a18309920b118009.webp)
 
 1. Pasang kembali Grove Base Hat.
 
@@ -101,7 +101,7 @@ Program perangkat.
 
     Baris `camera.rotation = 0` mengatur rotasi gambar. Kabel pita masuk ke bagian bawah kamera, tetapi jika kamera Anda diputar agar lebih mudah mengarah ke objek yang ingin Anda klasifikasikan, maka Anda dapat mengubah baris ini ke jumlah derajat rotasi.
 
-    ![Kamera menggantung di atas kaleng minuman](../../../../../translated_images/id/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
+    ![Kamera menggantung di atas kaleng minuman](../../../../../translated_images/id/pi-camera-upside-down.5376961ba3145988.webp)
 
     Misalnya, jika Anda menggantung kabel pita di atas sesuatu sehingga berada di bagian atas kamera, maka atur rotasi menjadi 180:
 

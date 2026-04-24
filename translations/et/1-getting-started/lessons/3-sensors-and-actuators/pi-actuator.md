@@ -26,7 +26,7 @@ Grove LED on moodul, millel on valik erinevaid LED-e, võimaldades valida oma le
 
 Ühenda LED.
 
-![Grove LED](../../../../../translated_images/et/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/et/grove-led.6c853be93f473cf2.webp)
 
 1. Vali oma lemmik LED ja sisesta selle jalad LED-mooduli kahte auku.
 
@@ -40,7 +40,7 @@ Grove LED on moodul, millel on valik erinevaid LED-e, võimaldades valida oma le
 
 1. Kui Raspberry Pi on välja lülitatud, ühenda Grove-kaabli teine ots Grove Base hat-i digitaalsesse pesasse, mis on märgitud **D5**. See pesa on teine vasakult, GPIO-pesade kõrval asuvas reas.
 
-![Grove LED ühendatud pesaga D5](../../../../../translated_images/et/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![Grove LED ühendatud pesaga D5](../../../../../translated_images/et/pi-led.97f1d474981dc35d.webp)
 
 ## Programmeeri öölamp
 

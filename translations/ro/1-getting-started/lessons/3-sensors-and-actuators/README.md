@@ -1,6 +1,6 @@
 # Interacționează cu lumea fizică folosind senzori și actuatoare
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-3.cc3b7b4cd646de59.webp)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -92,7 +92,7 @@ Senzorii digitali, la fel ca cei analogici, detectează lumea din jur folosind s
 
 Cel mai simplu senzor digital este un buton sau un comutator. Acesta este un senzor cu două stări, pornit sau oprit.
 
-![Un buton alimentat cu 5 volți. Când nu este apăsat, returnează 0 volți; când este apăsat, returnează 5 volți](../../../../../translated_images/ro/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Un buton alimentat cu 5 volți. Când nu este apăsat, returnează 0 volți; când este apăsat, returnează 5 volți](../../../../../translated_images/ro/button.eadb560b77ac45e5.webp)
 
 Pinii de pe dispozitivele IoT, cum ar fi pinii GPIO, pot măsura direct acest semnal ca 0 sau 1. Dacă tensiunea trimisă este aceeași cu tensiunea returnată, valoarea citită este 1, altfel valoarea citită este 0. Nu este nevoie să se convertească semnalul, acesta poate fi doar 1 sau 0.
 
@@ -125,7 +125,7 @@ Câteva actuatoare comune includ:
 
 Urmează ghidul relevant de mai jos pentru a adăuga un actuator la dispozitivul tău IoT, controlat de senzor, pentru a construi o lampă de veghe IoT. Aceasta va colecta nivelurile de lumină de la senzorul de lumină și va utiliza un actuator sub forma unui LED pentru a emite lumină atunci când nivelul de lumină detectat este prea scăzut.
 
-![O diagramă de flux a sarcinii, arătând citirea și verificarea nivelurilor de lumină și controlul LED-ului](../../../../../translated_images/ro/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![O diagramă de flux a sarcinii, arătând citirea și verificarea nivelurilor de lumină și controlul LED-ului](../../../../../translated_images/ro/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Computer cu placă unică - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ La fel ca senzorii, actuatoarele pot fi analogice sau digitale.
 Actuatoarele analogice primesc un semnal analogic și îl transformă într-un tip de interacțiune, unde interacțiunea se schimbă în funcție de tensiunea furnizată.
 
 Un exemplu este o lumină reglabilă, cum ar fi cele pe care le-ai putea avea în casă. Cantitatea de tensiune furnizată luminii determină cât de strălucitoare este aceasta.
-![O lumină estompată la o tensiune joasă și mai strălucitoare la o tensiune mai mare](../../../../../translated_images/ro/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![O lumină estompată la o tensiune joasă și mai strălucitoare la o tensiune mai mare](../../../../../translated_images/ro/dimmable-light.9ceffeb195dec1a8.webp)
 
 La fel ca în cazul senzorilor, dispozitivul IoT funcționează cu semnale digitale, nu analogice. Asta înseamnă că, pentru a trimite un semnal analogic, dispozitivul IoT are nevoie de un convertor digital-analogic (DAC), fie direct pe dispozitivul IoT, fie pe o placă de conectare. Acesta va converti 0-urile și 1-urile de la dispozitivul IoT într-o tensiune analogică pe care actuatorul o poate utiliza.
 
@@ -187,7 +187,7 @@ Actuatorii digitali, la fel ca senzorii digitali, au fie două stări controlate
 
 Un actuator digital simplu este un LED. Când un dispozitiv trimite un semnal digital de 1, se trimite o tensiune înaltă care aprinde LED-ul. Când se trimite un semnal digital de 0, tensiunea scade la 0V și LED-ul se stinge.
 
-![Un LED este stins la 0 volți și aprins la 5V](../../../../../translated_images/ro/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Un LED este stins la 0 volți și aprins la 5V](../../../../../translated_images/ro/led.ec6d94f66676a174.webp)
 
 ✅ Ce alți actuatori simpli cu 2 stări îți vin în minte? Un exemplu este un solenoid, care este un electromagnet ce poate fi activat pentru a face lucruri precum mișcarea unui șurub de ușă pentru a bloca/debloca o ușă.
 

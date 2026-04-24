@@ -16,7 +16,7 @@ A ArduCam não possui um conector Grove; em vez disso, liga-se aos barramentos S
 
 Ligue a câmara.
 
-![Um sensor ArduCam](../../../../../translated_images/pt-PT/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Um sensor ArduCam](../../../../../translated_images/pt-PT/arducam.20e4e4cbb2682965.webp)
 
 1. Os pinos na base da ArduCam precisam de ser ligados aos pinos GPIO no Wio Terminal. Para facilitar a identificação dos pinos corretos, cole o autocolante dos pinos GPIO que vem com o Wio Terminal à volta dos pinos:
 
@@ -35,7 +35,7 @@ Ligue a câmara.
     | SDA          | 3 (I2C1_SDA)      | Dados Seriais I²C                        |
     | SCL          | 5 (I2C1_SCL)      | Relógio Serial I²C                       |
 
-    ![O Wio Terminal ligado à ArduCam com fios de ligação](../../../../../translated_images/pt-PT/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![O Wio Terminal ligado à ArduCam com fios de ligação](../../../../../translated_images/pt-PT/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     As conexões GND e VCC fornecem uma alimentação de 5V à ArduCam. Funciona a 5V, ao contrário dos sensores Grove que funcionam a 3V. Esta alimentação vem diretamente da ligação USB-C que alimenta o dispositivo.
 
@@ -456,7 +456,7 @@ O Wio Terminal suporta apenas cartões microSD de até 16GB. Se tiver um cartão
 
 1. Desligue o cartão microSD e ejete-o pressionando-o ligeiramente para dentro e soltando-o, e ele sairá. Pode precisar de usar uma ferramenta fina para fazer isto. Ligue o cartão microSD ao seu computador para visualizar as imagens.
 
-    ![Uma imagem de uma banana capturada usando a ArduCam](../../../../../translated_images/pt-PT/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Uma imagem de uma banana capturada usando a ArduCam](../../../../../translated_images/pt-PT/banana-arducam.be1b32d4267a8194.webp)
 💁 Pode levar algumas imagens para que o balanço de brancos da câmara se ajuste. Notará isto com base na cor das imagens capturadas, as primeiras podem parecer com cores desajustadas. Pode sempre contornar isto alterando o código para capturar algumas imagens que são ignoradas na função `setup`.
 
 

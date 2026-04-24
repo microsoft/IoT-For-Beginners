@@ -1,6 +1,6 @@
 # Houd je plant veilig
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-10.829c86b80b9403bb.webp)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -52,11 +52,11 @@ Dit zijn scenario's uit de echte wereld en ze komen regelmatig voor. Enkele voor
 
 Wanneer een apparaat verbinding maakt met een IoT-service, gebruikt het een ID om zichzelf te identificeren. Het probleem is dat dit ID gekloond kan worden - een hacker kan een kwaadaardig apparaat opzetten dat hetzelfde ID gebruikt als een echt apparaat, maar valse gegevens verzendt.
 
-![Zowel geldige als kwaadaardige apparaten kunnen hetzelfde ID gebruiken om telemetrie te verzenden](../../../../../translated_images/nl/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Zowel geldige als kwaadaardige apparaten kunnen hetzelfde ID gebruiken om telemetrie te verzenden](../../../../../translated_images/nl/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 De oplossing hiervoor is om de verzonden gegevens om te zetten in een versleuteld formaat, met behulp van een waarde die alleen bekend is bij het apparaat en de cloud. Dit proces wordt *encryptie* genoemd, en de waarde die wordt gebruikt om de gegevens te versleutelen, wordt een *encryptiesleutel* genoemd.
 
-![Als encryptie wordt gebruikt, worden alleen versleutelde berichten geaccepteerd, andere worden geweigerd](../../../../../translated_images/nl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Als encryptie wordt gebruikt, worden alleen versleutelde berichten geaccepteerd, andere worden geweigerd](../../../../../translated_images/nl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 De cloudservice kan de gegevens vervolgens terugzetten naar een leesbaar formaat met een proces dat *decryptie* wordt genoemd, met behulp van dezelfde encryptiesleutel of een *decryptiesleutel*. Als het versleutelde bericht niet kan worden gedecrypt met de sleutel, is het apparaat gehackt en wordt het bericht geweigerd.
 

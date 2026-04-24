@@ -20,7 +20,7 @@ Grove 飛行時間感應器可以連接到 Raspberry Pi。
 
 連接飛行時間感應器。
 
-![Grove 飛行時間感應器](../../../../../translated_images/zh-HK/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Grove 飛行時間感應器](../../../../../translated_images/zh-HK/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. 將 Grove 電纜的一端插入飛行時間感應器上的插座。它只能以一種方式插入。
 

@@ -18,7 +18,7 @@ Der Grove-Temperatursensor kann an den digitalen Port des Wio Terminals angeschl
 
 Schließen Sie den Temperatursensor an.
 
-![Ein Grove-Temperatursensor](../../../../../translated_images/de/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Ein Grove-Temperatursensor](../../../../../translated_images/de/grove-dht11.07f8eafceee17004.webp)
 
 1. Stecken Sie ein Ende eines Grove-Kabels in die Buchse des Feuchtigkeits- und Temperatursensors. Es passt nur in einer Richtung.
 

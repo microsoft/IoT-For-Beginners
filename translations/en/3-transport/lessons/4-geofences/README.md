@@ -1,6 +1,6 @@
 # Geofences
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-14.63980c5150ae3c15.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -35,7 +35,7 @@ This lesson will cover:
 
 A geofence is a virtual boundary for a real-world geographic area. Geofences can be circular, defined by a center point and radius (e.g., a 100m circle around a building), or polygonal, covering areas like school zones, city limits, or university campuses.
 
-![Some geofence examples showing a circular geofence around the Microsoft company store, and a polygon geofence around the Microsoft west campus](../../../../../translated_images/en/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Some geofence examples showing a circular geofence around the Microsoft company store, and a polygon geofence around the Microsoft west campus](../../../../../translated_images/en/geofence-examples.172fbc534665769f.webp)
 
 > 💁 You might have used geofences without realizing it. If you've set a location-based reminder using the iOS Reminders app or Google Keep, you've interacted with geofences. These apps create geofences based on the location you provide and notify you when your phone enters the geofence.
 
@@ -212,7 +212,7 @@ Knowing the distance to the geofence's edge, combined with other data like GPS r
 
 For example, imagine GPS readings showing a vehicle driving along a road near a geofence. If one GPS reading inaccurately places the vehicle inside the geofence, despite no access, it can be disregarded.
 
-![A GPS trail showing a vehicle passing the Microsoft campus on the 520, with GPS readings along the road except for one on the campus, inside a geofence](../../../../../translated_images/en/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![A GPS trail showing a vehicle passing the Microsoft campus on the 520, with GPS readings along the road except for one on the campus, inside a geofence](../../../../../translated_images/en/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 In the above image, there is a geofence covering part of the Microsoft campus. The red line represents a truck driving along Highway 520, with circles indicating the GPS readings. Most of these readings are accurate and align with the highway, but one inaccurate reading appears inside the geofence. This reading cannot be correct—there are no roads that would allow the truck to suddenly divert from the highway onto the campus and then back onto the highway. The code that evaluates this geofence will need to consider previous readings before acting on the results of the geofence test.
 
 ✅ What additional data would you need to verify whether a GPS reading is accurate?
@@ -284,7 +284,7 @@ As you may recall from earlier lessons, IoT Hub allows you to replay events that
 
 The answer is that it doesn’t! Instead, you can define multiple separate connections to read events, with each connection managing the replay of unread messages. These are called *consumer groups*. When connecting to the endpoint, you specify which consumer group to use. Each component of your application connects to a different consumer group.
 
-![One IoT Hub with 3 consumer groups distributing the same messages to 3 different functions apps](../../../../../translated_images/en/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![One IoT Hub with 3 consumer groups distributing the same messages to 3 different functions apps](../../../../../translated_images/en/consumer-groups.a3262e26fc27ba20.webp)
 
 In theory, up to five applications can connect to each consumer group, and all will receive messages as they arrive. However, it’s best practice to have only one application access each consumer group to avoid duplicate message processing and ensure that all queued messages are processed correctly when restarting. For example, if you run your Functions app locally while it’s also running in the cloud, both instances would process messages, leading to duplicate blobs in the storage account.
 

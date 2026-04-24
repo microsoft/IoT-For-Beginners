@@ -36,11 +36,11 @@
 
     1. לחצו על כפתור **Add** כדי ליצור את חיישן המרחק.
 
-    ![הגדרות חיישן המרחק](../../../../../translated_images/he/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![הגדרות חיישן המרחק](../../../../../translated_images/he/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     חיישן המרחק ייווצר ויופיע ברשימת החיישנים.
 
-    ![חיישן המרחק שנוצר](../../../../../translated_images/he/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![חיישן המרחק שנוצר](../../../../../translated_images/he/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## תכנות חיישן המרחק
 

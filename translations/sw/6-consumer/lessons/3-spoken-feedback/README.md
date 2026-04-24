@@ -1,6 +1,6 @@
 # Weka kipima muda na toa maoni kwa sauti
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 

@@ -1,6 +1,6 @@
 # توقع نمو النباتات باستخدام إنترنت الأشياء
 
-![نظرة عامة على الدرس](../../../../../translated_images/ar/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![نظرة عامة على الدرس](../../../../../translated_images/ar/lesson-5.42b234299279d263.webp)
 
 > رسم توضيحي بواسطة [نيتيا ناراسيمهان](https://github.com/nitya). اضغط على الصورة للحصول على نسخة أكبر.
 
@@ -90,7 +90,7 @@
 
 الصيغة الكاملة لحساب GDD معقدة قليلاً، ولكن هناك معادلة مبسطة تُستخدم غالباً كتقريب جيد:
 
-![GDD = T max + T min divided by 2, all minus T base](../../../../../translated_images/ar/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min divided by 2, all minus T base](../../../../../translated_images/ar/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - هذا هو عدد أيام درجة النمو
 * **T max** - هذه هي درجة الحرارة اليومية القصوى بالدرجة المئوية
@@ -118,7 +118,7 @@
 
 هذا يعطي حساباً:
 
-![GDD = 16 + 12 divided by 2, all minus 10, giving an answer of 4](../../../../../translated_images/ar/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 divided by 2, all minus 10, giving an answer of 4](../../../../../translated_images/ar/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 حصلت الذرة على 4 GDD في ذلك اليوم. بافتراض نوع من الذرة يحتاج إلى 800 GDD للنضج، ستحتاج إلى 796 GDD إضافية للوصول إلى النضج.
 
@@ -239,7 +239,7 @@
 
 على سبيل المثال، إذا كانت أعلى درجة حرارة لليوم هي 25°C، وأدنى درجة حرارة هي 12°C:
 
-![GDD = 25 + 12 مقسومة على 2، ثم طرح 10 من النتيجة ليصبح الناتج 8.5](../../../../../translated_images/ar/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 مقسومة على 2، ثم طرح 10 من النتيجة ليصبح الناتج 8.5](../../../../../translated_images/ar/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

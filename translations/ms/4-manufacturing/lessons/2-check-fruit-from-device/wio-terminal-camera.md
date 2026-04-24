@@ -16,7 +16,7 @@ ArduCam tidak mempunyai soket Grove, sebaliknya ia disambungkan ke bas SPI dan I
 
 Sambungkan kamera.
 
-![Sensor ArduCam](../../../../../translated_images/ms/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Sensor ArduCam](../../../../../translated_images/ms/arducam.20e4e4cbb2682965.webp)
 
 1. Pin di bahagian bawah ArduCam perlu disambungkan ke pin GPIO pada Wio Terminal. Untuk memudahkan mencari pin yang betul, pasangkan pelekat pin GPIO yang disertakan dengan Wio Terminal di sekeliling pin:
 
@@ -35,7 +35,7 @@ Sambungkan kamera.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![Wio Terminal disambungkan ke ArduCam dengan wayar jumper](../../../../../translated_images/ms/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal disambungkan ke ArduCam dengan wayar jumper](../../../../../translated_images/ms/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Sambungan GND dan VCC menyediakan bekalan kuasa 5V kepada ArduCam. Ia beroperasi pada 5V, tidak seperti sensor Grove yang beroperasi pada 3V. Kuasa ini datang terus dari sambungan USB-C yang membekalkan kuasa kepada peranti.
 
@@ -456,7 +456,7 @@ Wio Terminal hanya menyokong kad microSD sehingga 16GB. Jika anda mempunyai kad 
 
 1. Matikan kuasa pada kad microSD dan keluarkan dengan menekannya sedikit dan melepaskannya, dan ia akan keluar. Anda mungkin perlu menggunakan alat nipis untuk melakukannya. Sambungkan kad microSD ke komputer anda untuk melihat imej.
 
-    ![Gambar pisang yang ditangkap menggunakan ArduCam](../../../../../translated_images/ms/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Gambar pisang yang ditangkap menggunakan ArduCam](../../../../../translated_images/ms/banana-arducam.be1b32d4267a8194.webp)
 💁 Mungkin mengambil beberapa imej untuk keseimbangan putih kamera menyesuaikan dirinya. Anda akan perasan ini berdasarkan warna imej yang diambil, beberapa yang pertama mungkin kelihatan tidak sepadan warna. Anda sentiasa boleh mengatasi ini dengan menukar kod untuk mengambil beberapa imej yang diabaikan dalam fungsi `setup`.
 
 

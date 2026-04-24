@@ -1,6 +1,6 @@
 # Utangulizi wa IoT
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 

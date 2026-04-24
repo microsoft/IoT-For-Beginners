@@ -1,6 +1,6 @@
 # Recognize speech with an IoT device
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-21.e34de51354d6606f.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -51,7 +51,7 @@ Microphones come in various types:
 
     Dynamic microphones don't require external power; the electrical signal is generated entirely by the microphone.
 
-    ![Patti Smith singing into a Shure SM58 (dynamic cardioid type) microphone](../../../../../translated_images/en/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith singing into a Shure SM58 (dynamic cardioid type) microphone](../../../../../translated_images/en/dynamic-mic.8babac890a2d80df.webp)
 
 * Ribbon - Ribbon microphones are similar to dynamic microphones but use a metal ribbon instead of a diaphragm. The ribbon moves within a magnetic field, generating an electrical current. Like dynamic microphones, ribbon microphones don't need external power.
 
@@ -59,11 +59,11 @@ Microphones come in various types:
 
 * Condenser - Condenser microphones feature a thin metal diaphragm and a fixed metal backplate. Electricity is applied to both components, and as the diaphragm vibrates, the static charge between the plates changes, creating a signal. Condenser microphones require external power, known as *Phantom power*.
 
-    ![C451B small-diaphragm condenser microphone by AKG Acoustics](../../../../../translated_images/en/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![C451B small-diaphragm condenser microphone by AKG Acoustics](../../../../../translated_images/en/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - Microelectromechanical systems microphones, or MEMS, are microphones built on a chip. They have a pressure-sensitive diaphragm etched onto a silicon chip and operate similarly to condenser microphones. These microphones are extremely small and can be integrated into circuits.
 
-    ![A MEMS microphone on a circuit board](../../../../../translated_images/en/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![A MEMS microphone on a circuit board](../../../../../translated_images/en/mems-microphone.80574019e1f5e4d9.webp)
 
     In the image above, the chip labeled **LEFT** is a MEMS microphone, with a tiny diaphragm less than a millimeter wide.
 
@@ -159,7 +159,7 @@ To simplify the process and avoid the complexity of training and using a wake wo
 
 ## Convert speech to text
 
-![Speech services logo](../../../../../translated_images/en/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Speech services logo](../../../../../translated_images/en/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Just like with image classification in an earlier project, there are pre-built AI services that can take speech as an audio file and convert it to text. One such service is the Speech Service, part of the Cognitive Services suite of pre-built AI services you can integrate into your applications.
 

@@ -1,6 +1,6 @@
 # Alkalmazáslogika áthelyezése a felhőbe
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-9.dfe99c8e891f48e1.webp)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -28,7 +28,7 @@ Ebben a leckében a következőket tárgyaljuk:
 
 A szerver nélküli, vagy szerver nélküli számítástechnika kis kódrészletek létrehozását jelenti, amelyek a felhőben futnak különböző események hatására. Amikor az esemény bekövetkezik, a kódod lefut, és megkapja az esemény adatait. Ezek az események sokféle forrásból származhatnak, például webes kérésekből, sorba helyezett üzenetekből, adatbázisban történt változásokból vagy IoT eszközök által küldött üzenetekből.
 
-![Események küldése egy IoT szolgáltatásból egy szerver nélküli szolgáltatásba, amelyeket egyszerre több funkció dolgoz fel](../../../../../translated_images/hu/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Események küldése egy IoT szolgáltatásból egy szerver nélküli szolgáltatásba, amelyeket egyszerre több funkció dolgoz fel](../../../../../translated_images/hu/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Ha már használtál adatbázis-triggereket, gondolj erre úgy, mint egy hasonló dologra: kódot indít el egy esemény, például egy sor beszúrása.
 
@@ -54,7 +54,7 @@ IoT fejlesztőként a szerver nélküli modell ideális. Írhatsz egy funkciót,
 
 A Microsoft szerver nélküli számítástechnikai szolgáltatása az Azure Functions.
 
-![Az Azure Functions logója](../../../../../translated_images/hu/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Az Azure Functions logója](../../../../../translated_images/hu/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Az alábbi rövid videó áttekintést nyújt az Azure Functions-ről:
 

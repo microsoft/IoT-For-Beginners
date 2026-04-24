@@ -1,6 +1,6 @@
 # Kouluta hedelmien laadun tunnistaja
 
-![Tämän oppitunnin yleiskatsaus sketchnotena](../../../../../translated_images/fi/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![Tämän oppitunnin yleiskatsaus sketchnotena](../../../../../translated_images/fi/lesson-15.843d21afdc6fb2bb.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -38,7 +38,7 @@ Kaikki sadot eivät kypsy tasaisesti. Esimerkiksi tomaateissa voi olla vielä vi
 
 Automaattisen sadonkorjuun nousu siirsi tuottelajittelun sadonkorjuusta tehtaaseen. Ruoka kulki pitkillä kuljetushihnoilla, joissa tiimit poimivat tuotteita ja poistivat kaiken, mikä ei täyttänyt vaadittua laatustandardia. Sadonkorjuu oli halvempaa koneiden ansiosta, mutta ruoan manuaalinen lajittelu oli edelleen kallista.
 
-![Jos punainen tomaatti havaitaan, se jatkaa matkaansa keskeytyksettä. Jos vihreä tomaatti havaitaan, vipu heittää sen jäteastiaan.](../../../../../translated_images/fi/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![Jos punainen tomaatti havaitaan, se jatkaa matkaansa keskeytyksettä. Jos vihreä tomaatti havaitaan, vipu heittää sen jäteastiaan.](../../../../../translated_images/fi/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 Seuraava kehitysaskel oli käyttää koneita lajitteluun, joko sadonkorjuukoneeseen sisäänrakennettuna tai käsittelylaitoksissa. Näiden koneiden ensimmäinen sukupolvi käytti optisia sensoreita värien havaitsemiseen, ohjaten toimilaitteita työntämään vihreät tomaatit jäteastiaan vipujen tai ilmapuhallusten avulla, jättäen punaiset tomaatit jatkamaan kuljetushihnoilla.
 
@@ -62,7 +62,7 @@ Esimerkiksi voisit antaa mallille miljoonia kuvia raaoista banaaneista syötteen
 
 > 🎓 ML-mallien tuloksia kutsutaan *ennusteiksi*.
 
-![2 banaania, kypsä banaani ennustuksella 99,7% kypsä, 0,3% raaka, ja raaka banaani ennustuksella 1,4% kypsä, 98,6% raaka.](../../../../../translated_images/fi/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![2 banaania, kypsä banaani ennustuksella 99,7% kypsä, 0,3% raaka, ja raaka banaani ennustuksella 1,4% kypsä, 98,6% raaka.](../../../../../translated_images/fi/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 ML-mallit eivät anna binäärivastausta, vaan todennäköisyyksiä. Esimerkiksi malli voi saada kuvan banaanista ja ennustaa `kypsä` 99,7% ja `raaka` 0,3%. Koodisi valitsisi parhaan ennustuksen ja päättäisi, että banaani on kypsä.
 
@@ -90,7 +90,7 @@ On olemassa laaja valikoima työkaluja, jotka voivat auttaa sinua tässä, mukaa
 
 Custom Vision on pilvipohjainen työkalu kuvien luokittelijoiden kouluttamiseen. Sen avulla voit kouluttaa luokittelijan käyttämällä vain pientä määrää kuvia. Voit ladata kuvia verkkosivuston, verkkosovellusrajapinnan tai SDK:n kautta, antaen jokaiselle kuvalle *tunnisteen*, joka sisältää kuvan luokituksen. Sen jälkeen voit kouluttaa mallin ja testata sen suorituskykyä. Kun olet tyytyväinen malliin, voit julkaista sen versioita, joita voidaan käyttää verkkosovellusrajapinnan tai SDK:n kautta.
 
-![Azure Custom Vision -logo](../../../../../translated_images/fi/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Azure Custom Vision -logo](../../../../../translated_images/fi/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 Voit kouluttaa Custom Vision -mallin vain 5 kuvalla per luokitus, mutta enemmän on parempi. Saat parempia tuloksia vähintään 30 kuvalla.
 
@@ -146,7 +146,7 @@ Custom Visionin käyttämiseksi sinun täytyy ensin luoda kaksi Cognitive Servic
 
     Kun luot projektisi, varmista, että käytät aiemmin luomaasi `fruit-quality-detector-training` -resurssia. Käytä *Classification*-projektityyppiä, *Multiclass*-luokittelutyyppiä ja *Food*-toimialaa.
 
-    ![Custom Vision -projektin asetukset, nimi asetettu fruit-quality-detector, ei kuvausta, resurssi asetettu fruit-quality-detector-training, projektityyppi asetettu classification, luokittelutyypit asetettu multi class ja toimialat asetettu food.](../../../../../translated_images/fi/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Custom Vision -projektin asetukset, nimi asetettu fruit-quality-detector, ei kuvausta, resurssi asetettu fruit-quality-detector-training, projektityyppi asetettu classification, luokittelutyypit asetettu multi class ja toimialat asetettu food.](../../../../../translated_images/fi/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ Käytä aikaa tutustuaksesi Custom Vision -käyttöliittymään kuvien luokittelijallesi.
 
@@ -164,7 +164,7 @@ Kuvien luokittimet toimivat hyvin matalalla resoluutiolla. Esimerkiksi Custom Vi
 
     * Käytä 2 kypsää banaania ja ota kuvia kummastakin eri kulmista, vähintään 7 kuvaa (5 koulutukseen, 2 testaukseen), mutta mieluiten enemmän.
 
-        ![Kuvia kahdesta eri banaanista](../../../../../translated_images/fi/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![Kuvia kahdesta eri banaanista](../../../../../translated_images/fi/banana-training-images.530eb203346d73bc.webp)
 
     * Toista sama prosessi käyttäen 2 raakaa banaania.
 
@@ -174,7 +174,7 @@ Kuvien luokittimet toimivat hyvin matalalla resoluutiolla. Esimerkiksi Custom Vi
 
 1. Seuraa [Microsoft-dokumentaation luokittimen nopean aloituksen osion kuvat lataaminen ja tunnistaminen](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) ohjeita ladataksesi koulutuskuvasi. Tunnista kypsät hedelmät `ripe`-tunnisteella ja raa'at hedelmät `unripe`-tunnisteella.
 
-    ![Latausdialogit, joissa ladataan kypsien ja raakojen banaanien kuvia](../../../../../translated_images/fi/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![Latausdialogit, joissa ladataan kypsien ja raakojen banaanien kuvia](../../../../../translated_images/fi/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. Seuraa [Microsoft-dokumentaation luokittimen nopean aloituksen osion luokittimen kouluttaminen](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) ohjeita kouluttaaksesi kuvien luokittimen ladatuilla kuvillasi.
 
@@ -192,7 +192,7 @@ Kun luokitin on koulutettu, voit testata sitä antamalla sille uuden kuvan luoki
 
 1. Seuraa [Microsoft-dokumentaation testaa mallisi -osio](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) ohjeita testataksesi kuvien luokitinta. Käytä aiemmin luotuja testauskuvia, älä mitään koulutuksessa käytettyjä kuvia.
 
-    ![Raaka banaani ennustettu raa'aksi 98,9 % todennäköisyydellä, kypsäksi 1,1 % todennäköisyydellä](../../../../../translated_images/fi/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![Raaka banaani ennustettu raa'aksi 98,9 % todennäköisyydellä, kypsäksi 1,1 % todennäköisyydellä](../../../../../translated_images/fi/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. Kokeile kaikkia testauskuvia, joihin sinulla on pääsy, ja tarkkaile todennäköisyyksiä.
 

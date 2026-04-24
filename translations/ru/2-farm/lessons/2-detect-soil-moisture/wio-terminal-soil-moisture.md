@@ -18,7 +18,7 @@
 
 Подключите датчик влажности почвы.
 
-![Емкостный датчик влажности почвы Grove](../../../../../translated_images/ru/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Емкостный датчик влажности почвы Grove](../../../../../translated_images/ru/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Вставьте один конец кабеля Grove в разъем на датчике влажности почвы. Кабель вставляется только в одном направлении.
 

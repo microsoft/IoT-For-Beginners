@@ -16,7 +16,7 @@
 
 ### משימה - חיבור המצלמה
 
-![מצלמת Raspberry Pi](../../../../../translated_images/he/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
+![מצלמת Raspberry Pi](../../../../../translated_images/he/pi-camera-module.4278753c31bd6e75.webp)
 
 1. כבו את ה-Pi.
 
@@ -24,17 +24,17 @@
 
     ניתן למצוא אנימציה שמראה כיצד לפתוח את הקליפס ולהכניס את הכבל בתיעוד [Raspberry Pi Getting Started with the Camera module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![כבל הסרט מוכנס למודול המצלמה](../../../../../translated_images/he/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
+    ![כבל הסרט מוכנס למודול המצלמה](../../../../../translated_images/he/pi-camera-ribbon-cable.0bf82acd251611c2.webp)
 
 1. הסירו את ה-Grove Base Hat מה-Pi.
 
 1. העבירו את כבל הסרט דרך החריץ למצלמה ב-Grove Base Hat. ודאו שהצד הכחול של הכבל פונה לכיוון הפורטים האנלוגיים המסומנים **A0**, **A1** וכו'.
 
-    ![כבל הסרט עובר דרך ה-Grove Base Hat](../../../../../translated_images/he/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
+    ![כבל הסרט עובר דרך ה-Grove Base Hat](../../../../../translated_images/he/grove-base-hat-ribbon-cable.501fed202fcf73b1.webp)
 
 1. הכניסו את כבל הסרט לשקע המצלמה ב-Pi. שוב, משכו את הקליפס השחור למעלה, הכניסו את הכבל, ואז דחפו את הקליפס חזרה. הצד הכחול של הכבל צריך לפנות לכיוון פורטי ה-USB והאת'רנט.
 
-    ![כבל הסרט מחובר לשקע המצלמה ב-Pi](../../../../../translated_images/he/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
+    ![כבל הסרט מחובר לשקע המצלמה ב-Pi](../../../../../translated_images/he/pi-camera-socket-ribbon-cable.a18309920b118009.webp)
 
 1. החזירו את ה-Grove Base Hat למקומו.
 
@@ -101,7 +101,7 @@
 
     השורה `camera.rotation = 0` מגדירה את סיבוב התמונה. כבל הסרט נכנס לתחתית המצלמה, אך אם המצלמה שלכם סובבה כדי להקל על הצבעתה על האובייקט שברצונכם לסווג, תוכלו לשנות שורה זו למספר מעלות הסיבוב.
 
-    ![המצלמה תלויה מעל פחית שתייה](../../../../../translated_images/he/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
+    ![המצלמה תלויה מעל פחית שתייה](../../../../../translated_images/he/pi-camera-upside-down.5376961ba3145988.webp)
 
     לדוגמה, אם תתלו את כבל הסרט מעל משהו כך שהוא יהיה בחלק העליון של המצלמה, הגדירו את הסיבוב ל-180:
 

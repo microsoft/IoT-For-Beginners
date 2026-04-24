@@ -1,6 +1,6 @@
 # Ställ in en timer och ge muntlig feedback
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 

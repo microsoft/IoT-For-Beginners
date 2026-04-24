@@ -1,6 +1,6 @@
 # บทนำสู่ IoT
 
-![ภาพสเก็ตโน้ตสรุปบทเรียนนี้](../../../../../translated_images/th/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![ภาพสเก็ตโน้ตสรุปบทเรียนนี้](../../../../../translated_images/th/lesson-1.2606670fa61ee904.webp)
 
 > สเก็ตโน้ตโดย [Nitya Narasimhan](https://github.com/nitya) คลิกที่ภาพเพื่อดูเวอร์ชันขนาดใหญ่
 

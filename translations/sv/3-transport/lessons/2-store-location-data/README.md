@@ -1,6 +1,6 @@
 # Lagra platsdata
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -75,7 +75,7 @@ NoSQL-databaser kallas NoSQL eftersom de inte har samma rigida struktur som SQL-
 
 > 💁 Trots sitt namn tillåter vissa NoSQL-databaser att du använder SQL för att söka i data.
 
-![Dokument i mappar i en NoSQL-databas](../../../../../translated_images/sv/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Dokument i mappar i en NoSQL-databas](../../../../../translated_images/sv/noqsl-database.62d24ccf5b73f60d.webp)
 
 NoSQL-databaser har inte ett fördefinierat schema som begränsar hur data lagras. Istället kan du lägga till vilken ostrukturerad data som helst, vanligtvis med JSON-dokument. Dessa dokument kan organiseras i mappar, liknande filer på din dator. Varje dokument kan ha olika fält jämfört med andra dokument - till exempel om du lagrade IoT-data från dina jordbruksfordon, kan vissa ha fält för accelerometer- och hastighetsdata, medan andra kan ha fält för temperaturen i släpet. Om du skulle lägga till en ny lastbilstyp, som en med inbyggda vågar för att spåra vikten av transporterat gods, kan din IoT-enhet lägga till detta nya fält och det kan lagras utan några ändringar i databasen.
 
@@ -89,7 +89,7 @@ I denna lektion kommer du att använda NoSQL-lagring för att lagra IoT-data.
 
 I den senaste lektionen fångade du GPS-data från en GPS-sensor ansluten till din IoT-enhet. För att lagra dessa IoT-data i molnet behöver du skicka dem till en IoT-tjänst. Återigen kommer du att använda Azure IoT Hub, samma IoT-molntjänst som du använde i det tidigare projektet.
 
-![Skicka GPS-telemetri från en IoT-enhet till IoT Hub](../../../../../translated_images/sv/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Skicka GPS-telemetri från en IoT-enhet till IoT Hub](../../../../../translated_images/sv/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Uppgift - skicka GPS-data till en IoT Hub
 
@@ -171,7 +171,7 @@ Kall väg-data lagras i datalager - databaser designade för att lagra stora mä
 
 När data flödar in i din IoT Hub kan du skriva serverlös kod för att lyssna på händelser som publiceras till den Event-Hub-kompatibla slutpunkten. Detta är den varma vägen - dessa data kommer att lagras och användas i nästa lektion för att rapportera om resan.
 
-![Skicka GPS-telemetri från en IoT-enhet till IoT Hub, sedan till Azure Functions via en event hub-trigger](../../../../../translated_images/sv/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Skicka GPS-telemetri från en IoT-enhet till IoT Hub, sedan till Azure Functions via en event hub-trigger](../../../../../translated_images/sv/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Uppgift - hantera GPS-händelser med serverlös kod
 
@@ -193,7 +193,7 @@ När data flödar in i din IoT Hub kan du skriva serverlös kod för att lyssna 
 
 ## Azure Storage-konton
 
-![Azure Storage-logotypen](../../../../../translated_images/sv/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Azure Storage-logotypen](../../../../../translated_images/sv/azure-storage-logo.605c0f602c640d48.webp)
 
 Azure Storage-konton är en allmän lagringstjänst som kan lagra data på olika sätt. Du kan lagra data som blobbar, i köer, i tabeller eller som filer, och allt detta samtidigt.
 

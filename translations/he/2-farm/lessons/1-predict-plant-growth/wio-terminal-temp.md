@@ -18,7 +18,7 @@
 
 חבר את חיישן הטמפרטורה.
 
-![חיישן טמפרטורה מסוג Grove](../../../../../translated_images/he/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![חיישן טמפרטורה מסוג Grove](../../../../../translated_images/he/grove-dht11.07f8eafceee17004.webp)
 
 1. הכנס קצה אחד של כבל Grove לשקע בחיישן הלחות והטמפרטורה. הכבל ייכנס רק בכיוון אחד.
 
