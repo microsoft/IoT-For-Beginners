@@ -1,143 +1,161 @@
-### আজুর এআই ফাউন্ড্রি কমিউনিটিতে যোগ দিন
+[![GitHub license](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-যদি আপনি আটকে যান অথবা এআই অ্যাপ তৈরির বিষয়ে কোনো প্রশ্ন থাকে, তাহলে অন্য শিক্ষার্থী এবং অভিজ্ঞ ডেভেলপারদের সাথে MCP সম্পর্কিত আলোচনায় যোগ দিন। এটি একটি সহায়ক কমিউনিটি যেখানে প্রশ্ন করতে পারেন এবং জ্ঞান বিনিময় করা হয় স্বাধীনভাবে।
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/IoT-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
-যদি আপনি পণ্য সম্পর্কিত প্রতিক্রিয়া বা ত্রুটি পেয়ে থাকেন, তাহলে দেখুন:
+### Azure AI Foundry কমিউনিটিতে যোগ দিন
 
-নিম্নলিখিত ধাপগুলি অনুসরণ করে এই সংস্থানগুলি ব্যবহার শুরু করুন:
-1. **রিপোজিটরি ফর্ক করুন**: ক্লিক করুন [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)
-2. **রিপোজিটরি ক্লোন করুন**:   `git clone https://github.com/microsoft/IoT-For-Beginners.git`
-3. [**মাইক্রোসফট ফাউন্ড্রি ডিসকর্ডে যোগ দিন এবং বিশেষজ্ঞ ও অন্য ডেভেলপারদের সাথে মিলিত হন**](https://discord.com/invite/ByRwuEEgH4)
+যদি আপনি আটকে যান বা AI অ্যাপ তৈরির বিষয়ে কোনো প্রশ্ন থাকে। MCP সম্পর্কে আলাপ-আলোচনায় সহপাঠী শিক্ষার্থী এবং অভিজ্ঞ ডেভেলপারদের সাথে যোগ দিন। এটি একটি সহায়ক কমিউনিটি যেখানে প্রশ্ন স্বাগত এবং জ্ঞান স্বাধীনভাবে শেয়ার করা হয়।
+
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+
+যদি আপনার প্রোডাক্ট ফিডব্যাক অথবা নির্মাণের সময় কোনো ভুল থাকে, তাহলে অনুসরণ করুন:
+
+[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+এই রিসোর্সগুলি ব্যবহারের জন্য নিচের ধাপগুলি অনুসরণ করুন:
+1. **রিপোজিটোরি ফর্ক করুন**: ক্লিক করুন [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)
+2. **রিপোজিটোরি ক্লোন করুন**:   `git clone https://github.com/microsoft/IoT-For-Beginners.git`
+3. [**Microsoft Foundry Discord এ যোগ দিন এবং বিশেষজ্ঞ ও অন্যান্য ডেভেলপারদের সঙ্গে পরিচিত হন**](https://discord.com/invite/ByRwuEEgH4)
 
 
-### 🌐 বহুভাষিক সমর্থন
+### 🌐 বহুভাষিক সহায়তা
 
-#### গিটহাব অ্যাকশনের মাধ্যমে সমর্থিত (স্বয়ংক্রিয় ও সর্বদা আধুনিক)
+#### GitHub Action এর মাধ্যমে সমর্থিত (স্বয়ংক্রিয় & সর্বদা আপ টু ডেট)
 
-> **লোকালি ক্লোন করা প্রেফার করেন?**
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
+[Arabic](../ar/README.md) | [Bengali](./README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](../km/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+
+> **স্থানীয়ভাবে ক্লোন করতে চান?**
 >
-> এই রিপোজিটরিতে ৫০+ ভাষার অনুবাদ অন্তর্ভুক্ত রয়েছে যা ডাউনলোড সাইজ অনেক বাড়িয়ে দেয়। অনুবাদ ছাড়া ক্লোন করতে, স্পার্স চেকআউট ব্যবহার করুন:
+> এই রিপোজিটোরিতে ৫০+ ভাষার অনুবাদ অন্তর্ভুক্ত রয়েছে যা ডাউনলোডের আকার ব্যাপকভাবে বাড়িয়ে দেয়। অনুবাদ ছাড়াই ক্লোন করার জন্য sparse checkout ব্যবহার করুন:
 >
 > **Bash / macOS / Linux:**
-> > ```bash
+> ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/IoT-For-Beginners.git
 > cd IoT-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
 >
 > **CMD (Windows):**
-> > ```cmd
+> ```cmd
 > git clone --filter=blob:none --sparse https://github.com/microsoft/IoT-For-Beginners.git
 > cd IoT-For-Beginners
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> এটি আপনাকে একটি দ্রুত ডাউনলোডের মাধ্যমে পুরো কোর্স সম্পন্ন করতে প্রয়োজনীয় সবকিছু দেবে।
+> এটি আপনার জন্য খুব দ্রুত ডাউনলোড তৈরী করে যা কোর্স সম্পন্ন করার জন্য প্রয়োজনীয় সবকিছু দেয়।
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-# IoT ফর বিগিনার্স - একটি কারিকুলাম
+# নবশিক্ষার্থীদের জন্য IoT - একটি পাঠক্রম
 
-মাইক্রোসফটের আজুর ক্লাউড অ্যাডভোকেটরা গর্বের সাথে ১২ সপ্তাহ, ২৪টি পাঠের একটি কারিকুলাম উপস্থাপন করছে যেখানে IoT এর বেসিক বিষয়গুলি আলোচনা করা হয়েছে। প্রতিটি পাঠের সাথে পূর্ব ও পরবর্তী কুইজ, পাঠ সম্পাদনের জন্য লিখিত নির্দেশনা, সমাধান, একটি অ্যাসাইনমেন্ট এবং আরও অনেক কিছু অন্তর্ভুক্ত রয়েছে। আমাদের প্রকল্পভিত্তিক শিক্ষাদান পদ্ধতি আপনাকে নির্মাণের মাধ্যমে শেখার সুযোগ দেয় যা নতুন দক্ষতা অর্জনের একটি প্রমাণিত পদ্ধতি।
+Microsoft এর Azure Cloud Advocates আনন্দিত যে তারা একটি ১২-সপ্তাহের, ২৪-টি পাঠের পাঠক্রম প্রদান করছে যা সম্পূর্ণরূপে IoT এর মৌলিক বিষয় নিয়ে। প্রতিটি পাঠে প্রি-লেসন এবং পোস্ট-লেসন কুইজ রয়েছে, পাঠ সম্পন্ন করার জন্য লিখিত নির্দেশাবলী, সমাধান, একটি অ্যাসাইনমেন্ট এবং আরও অনেক কিছু। আমাদের প্রকল্প-ভিত্তিক শিক্ষাদান পদ্ধতি আপনাকে শেখার সময় নির্মাণ করতে দেয়, যা নতুন দক্ষতা স্থায়ী করার একটি প্রমাণিত উপায়।
 
-প্রকল্পগুলো খাদ্য উৎপাদন থেকে খাদ্যভোগ পর্যন্ত যাত্রা কভার করে। এর মধ্যে কৃষি, লজিস্টিকস, উৎপাদন, খুচরা বিক্রয় এবং ভোক্তা অন্তর্ভুক্ত - এরা সবই IoT ডিভাইসের জন্য জনপ্রিয় শিল্প ক্ষেত্র।
+এই প্রকল্পগুলি খামার থেকে টেবিল পর্যন্ত খাদ্য যাত্রাকে কভার করে। এর মধ্যে কৃষি, লজিস্টিকস, উৎপাদন, খুচরা এবং ভোক্তা রয়েছে - সবই IoT ডিভাইসের জন্য জনপ্রিয় শিল্পক্ষেত্র।
 
-![একটি রোড ম্যাপ দেখাচ্ছে যেখানে ২৪টি পাঠ অন্তর্ভুক্ত রয়েছে যেন পরিচিতি, কৃষি, পরিবহন, প্রক্রিয়াজাতকরণ, খুচরা এবং রান্নার ওপর ভিত্তি করে](../../translated_images/bn/Roadmap.bb1dec285dda0eda.webp)
+![একটি রোড ম্যাপ যা ২৪ টি পাঠকে প্রদর্শন করে, যার মধ্যে পরিচিতি, কৃষি, পরিবহন, প্রক্রিয়াজাতকরণ, খুচরা এবং রান্না অন্তর্ভুক্ত](../../translated_images/bn/Roadmap.bb1dec285dda0eda.webp)
 
-> স্কেচনোট করেছেন [নিত্য নারসিমহন](https://github.com/nitya)। বড় আকারের জন্য ছবিটিতে ক্লিক করুন।
+> স্নেহলেখক [Nitya Narasimhan](https://github.com/nitya) কর্তৃক সৃষ্ট স্কেচনোট। বড় সংস্করণের জন্য ছবিতে ক্লিক করুন।
 
-**আমাদের লেখকগণ [জেন ফক্স](https://github.com/jenfoxbot), [জেন লুপার](https://github.com/jlooper), [জিম বেনেট](https://github.com/jimbobbennett), এবং আমাদের স্কেচনোট শিল্পী [নিত্য নারসিমহন](https://github.com/nitya)-কে আন্তরিক ধন্যবাদ।**
+**আমাদের লেখকগণ [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), এবং আমাদের স্কেচনোট শিল্পী [Nitya Narasimhan](https://github.com/nitya)কে আন্তরিক ধন্যবাদ।**
 
-**আমাদের [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) দলের কাছে ধন্যবাদ যারা এই কারিকুলাম পর্যালোচনা ও অনুবাদ করেছেন - [আদিত্য গার্গ](https://github.com/AdityaGarg00), [অনুরাগ শর্মা](https://github.com/Anurag-0-1-A), [অর্পিতা দাস](https://github.com/Arpiiitaaa), [আর্যন জৈন](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [ভবেশ সুনেজা](https://github.com/EliteWarrior315), [ফেইথ হুঞ্জা](https://faithhunja.github.io/), [লতিফা বেল্লো](https://www.linkedin.com/in/lateefah-bello/), [মান্বী ঝা](https://github.com/Severus-Matthew), [মিব্রেইল ট্যান](https://www.linkedin.com/in/mireille-tan-a4834819a/), [মোহাম্মদ ইফতেখার (ইফটু) এবনে জালাল](https://github.com/Iftu119), [মোহাম্মদ জুলফিকার](https://github.com/mohzulfikar), [প্রিয়ংশু শ্রীবাস্তব](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [থানমাই গউডুচেরুভু](https://github.com/innovation-platform), এবং [জিনা কামেল](https://www.linkedin.com/in/zina-kamel/)।**
+**আমাদের দলের [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) যারা এই পাঠক্রম পর্যালোচনা ও অনুবাদ করেছেন তাদেরও ধন্যবাদ - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), এবং [Zina Kamel](https://www.linkedin.com/in/zina-kamel/)।**
 
-দলকে পরিচিত হন!
+দলের সাথে পরিচিত হন!
 
-[![প্রমো ভিডিও](../../images/IOT.gif)](https://youtu.be/-wippUJRi5k)
+[![Promo video](../../images/IOT.gif)](https://youtu.be/-wippUJRi5k)
 
-**গিফ করেছেন** [মোহিত জয়সাল](https://linkedin.com/in/mohitjaisal)
+**জিফ তৈরি করেছেন** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
 
-> 🎥 প্রকল্পের একটি ভিডিও দেখতে উপরে ছবিতে ক্লিক করুন!
+> 🎥 প্রকল্প সম্পর্কে ভিডিও দেখার জন্য ছবিতে ক্লিক করুন!
 
-> **শিক্ষকগণ**, আমরা [এই কারিকুলাম ব্যবহারের জন্য কিছু পরামর্শ](for-teachers.md) অন্তর্ভুক্ত করেছি। যদি আপনি নিজস্ব পাঠ তৈরি করতে চান, তাহলে আমরা একটি [পাঠ টেমপ্লেট](lesson-template/README.md) দিয়েছি।
+> **শিক্ষকবৃন্দ**, আমরা [এই পাঠক্রম কীভাবে ব্যবহার করবেন তার কিছু সুপারিশ](for-teachers.md) অন্তর্ভুক্ত করেছি। যদি আপনি আপনার নিজস্ব পাঠ তৈরি করতে চান, আমরা একটি [পাঠ টেমপ্লেটও](lesson-template/README.md) অন্তর্ভুক্ত করেছি।
 
-> **[শিক্ষার্থীগণ](https://aka.ms/student-page)**, এই কারিকুলাম নিজের জন্য ব্যবহার করতে হলে পুরো রিপো ফর্ক করুন এবং নিজে নিজে কেনা-বেচার কাজগুলো করুন - প্রথমে প্রাক-লেকচার কুইজ দিয়ে শুরু করুন, তারপর লেকচার পড়ুন এবং বাকী কার্যগুলো শেষ করুন। প্রকল্পগুলো বুঝে তৈরি করার চেষ্টা করুন, শুধু সমাধান কোড অনুলিপি না করে; যাহোক, ওই কোডগুলো /solutions ফোল্ডারে প্রতিটি প্রকল্পমুখী লেসনে উপলব্ধ। আরেকটি ধারণা হলো বন্ধুদের সাথে একটি স্টাডি গ্রুপ তৈরি করে একসাথে বিষয়বস্তু অনুসরণ করা। আরও অধ্যয়নের জন্য, আমরা [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn) ব্যবহার করার পরামর্শ দেই।
+> **[শিক্ষার্থী](https://aka.ms/student-page)**, এই পাঠক্রম নিজে ব্যবহার করতে হলে পুরো রিপোজিটোরি ফর্ক করে নিজে নিজে অনুশীলন সম্পন্ন করুন, প্রথমে একটি প্রি-লেকচার কুইজ দিয়ে শুরু করুন, এরপর লেকচার পড়ুন এবং বাকি কার্যক্রম সম্পন্ন করুন। প্রকল্পগুলো তৈরি করার সময় পাঠগুলো বুঝে কোড কপি করার পরিবর্তে প্রকল্প তৈরি করার চেষ্টা করুন; যাহোক, প্রতিটি প্রকল্প-ভিত্তিক পাঠে /solutions ফোল্ডারে সমাধান কোড পাওয়া যাবে। অন্য একটি ধারণা হলো বন্ধুদের সাথে একটি অধ্যয়ন গ্রুপ গঠন করে একসাথে বিষয়বস্তু পড়া। আরো অধ্যয়নের জন্য, আমরা [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn) সুপারিশ করি।
 
-এই কোর্সের একটি ভিডিও ওভারভিউ দেখতে, এই ভিডিওটি দেখুন:
+এই কোর্সের একটি ভিডিও ওভারভিউ দেখতে নিচের ভিডিওটি দেখুন:
 
-[![প্রমো ভিডিও](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "প্রমো ভিডিও")
+[![Promo video](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
 
-> 🎥 প্রকল্পের একটি ভিডিও দেখতে উপরে ছবিতে ক্লিক করুন!
+> 🎥 প্রকল্প সম্পর্কে ভিডিও দেখার জন্য ছবিতে ক্লিক করুন!
 
-## শিক্ষাদান দর্শন
+## শিক্ষাদান পদ্ধতি
 
-এই কারিকুলাম তৈরির সময় আমরা দুটি মূল শিক্ষাদান নীতি নির্বাচন করেছি: এটি প্রকল্পভিত্তিক হওয়া এবং এতে ঘন ঘন কুইজ অন্তর্ভুক্ত করা। এই সিরিজের শেষে, শিক্ষার্থীরা একটি উদ্ভিদ পর্যবেক্ষণ এবং জল দেওয়ার ব্যবস্থা, এক যানের অবস্থানসংকেতক, একটি স্মার্ট কারখানা যা খাদ্য পরীক্ষা করে, এবং একটি ভয়েস-কন্ট্রোলড রান্নার টাইমার তৈরি করবে, এবং IoT এর বেসিক শিখবে যার মধ্যে অন্তর্ভুক্ত থাকবে ডিভাইস কোড লেখা, ক্লাউডে সংযোগ, টেলিমেট্রি বিশ্লেষণ এবং এজে AI চালানো।
+এই পাঠক্রম তৈরি করার সময় আমরা দুটি শিক্ষাদান মূলনীতি বেছে নিয়েছি: এটি প্রকল্প-ভিত্তিক হওয়া এবং এতে নিয়মিত কুইজ অন্তর্ভুক্ত থাকা। এই সিরিজের শেষে, শিক্ষার্থীরা একটি উদ্ভিদ পর্যবেক্ষণ ও সেচ ব্যবস্থা, একটি যানবাহন ট্র্যাকার, খাদ্য ট্র্যাক ও পরীক্ষা করার জন্য একটি স্মার্ট ফ্যাক্টরি সেটআপ, এবং একটি ভয়েস-কন্ট্রোলড কুকিং টাইমার তৈরি করবে, এবং IoT এর মৌলিক বিষয়গুলি শিখবে যার মধ্যে ডিভাইস কোড লেখা, ক্লাউডে সংযোগ, টেলিমেট্রি বিশ্লেষণ এবং এজে AI চালানো অন্তর্ভুক্ত।
 
-বিষয়গুলো প্রকল্পের সঙ্গে সঙ্গতিপূর্ণ করে প্রক্রিয়াটি শিক্ষার্থীদের জন্য আকর্ষণীয় করে তোলা হয় এবং ধারণাগুলো মনের মাঝে গভীরভাবে গেঁথে যায়।
+বিষয়বস্তু প্রকল্পের সাথে মানানসই হওয়ায় শিক্ষার্থীদের জন্য প্রক্রিয়াটি আরো আকর্ষণীয় হয় এবং ধারণাগুলোর ধারণ ক্ষমতা বৃদ্ধি পায়।
 
-এর পাশাপাশি, ক্লাসের পূর্বে একটি কম-ঝুঁকিপূর্ণ কুইজ শিক্ষার্থীর মধ্যে একটি বিষয় শেখার মনোভাব তৈরি করে, এবং ক্লাসের পরে দ্বিতীয় কুইজ বিষয়টির ধারণা আরও মজবুত করে। এই কারিকুলামটি নমনীয় এবং মজাদার করে ডিজাইন করা হয়েছে এবং সম্পূর্ণ বা আংশিকভাবে নেওয়া যেতে পারে। প্রকল্পের আকার ছোট থেকে শুরু করে ১২ সপ্তাহের শেষে ক্রমবর্ধমান জটিল হয়।
+অতিরিক্তভাবে, ক্লাসের আগে একটি নিম্ন-মূল্যের কুইজ শিক্ষার্থীর শেখার প্রতি মনোভাব স্থাপন করে, এবং ক্লাস শেষে দ্বিতীয় কুইজ আরও ধারণ বজায় রাখতে সাহায্য করে। এই পাঠক্রমটি নমনীয় এবং মজাদার করার মতো ডিজাইন করা হয়েছে এবং সম্পূর্ণ বা আংশিকভাবে নেওয়া যেতে পারে। প্রকল্পগুলো ছোট থেকে শুরু করে ১২ সপ্তাহের শেষে ক্রমবর্ধমান জটিল হয়ে ওঠে।
 
-প্রতিটি প্রকল্প শিক্ষার্থী ও শখের ডেভেলপারদের জন্য উপলব্ধ বাস্তব হার্ডওয়্যারকে কেন্দ্র করে তৈরি। প্রতিটি প্রকল্প প্রাসঙ্গিক পটভূমির জ্ঞান প্রদান করে, যাতে সফল ডেভেলপার হতে সমস্যা সমাধানের ক্ষেত্রটি বোঝা যায়। এই পটভূমি শিক্ষার্থীদের তাদের IoT সমাধান এবং শেখাগুলো বাস্তব বিশ্বের সমস্যার প্রেক্ষাপটে ভাবতে সাহায্য করে। শিক্ষার্থীরা তারা যা তৈরি করছে তার 'কারণ' বোঝে এবং ব্যবহারকারীর প্রতি সম্মান বৃদ্ধি পায়।
+প্রতিটি প্রকল্প বাস্তব জগতের হার্ডওয়্যার ভিত্তিক যা শিক্ষার্থী এবং হবি প্রবৃত্তিরা ব্যবহার করতে পারে। প্রতিটি প্রকল্প নির্দিষ্ট প্রকল্প ক্ষেত্রের ওপর নজর দেয়, প্রাসঙ্গিক পটভূমি জ্ঞান প্রদান করে। সফল ডেভেলপার হতে হলে সেই ডোমেইন বুঝতে হতে হয় যেখানে আপনি সমস্যার সমাধান করছেন, এই পটভূমি জ্ঞান শিক্ষার্থীদের তাদের IoT সমাধান এবং শেখার বিষয়ে চিন্তা করতে সাহায্য করে এমন বাস্তব সমস্যার প্রসঙ্গে যেখানে তারা IoT ডেভেলপার হিসেবে সমস্যার সমাধান করতে পারেন। শিক্ষার্থীরা তাদের তৈরি সমাধানের 'কেন' শিখে এবং শেষ ব্যবহারকারীর কদর পায়।
 
 ## হার্ডওয়্যার
-আমাদের কাছে প্রকল্পগুলোর জন্য ব্যক্তিগত পছন্দ, প্রোগ্রামিং ভাষার জ্ঞান বা পছন্দ, শেখার লক্ষ্য এবং উপলব্ধতার উপর নির্ভর করে ব্যবহারের জন্য দুটি আইওটি হার্ডওয়্যার বিকল্প রয়েছে। যারা হার্ডওয়্যারে প্রবেশাধিকার নেই বা কেনার আগে আরো শিখতে চান তাদের জন্য আমরা একটি 'ভার্চুয়াল হার্ডওয়্যার' সংস্করণও প্রদান করেছি। আপনি আরও পড়তে পারেন এবং [হার্ডওয়্যার পৃষ্ঠায়](./hardware.md) একটি 'কেনাকাটার তালিকা' খুঁজে পেতে পারেন, যেখানে আমাদের বন্ধু Seeed Studio থেকে সম্পূর্ণ কিট কিনতে লিঙ্ক রয়েছে।
+আমাদের প্রকল্পগুলোর জন্য ব্যবহার করার মতো দুটি IoT হার্ডওয়্যার পছন্দের অপশন আছে, যা ব্যক্তিগত পছন্দ, প্রোগ্রামিং ভাষার জ্ঞান বা পছন্দ, শেখার লক্ষ্য এবং প্রাপ্যতার উপর নির্ভর করে। আমরা যারা হার্ডওয়্যারে অ্যাক্সেস নেই বা কেনার আগে আরও শেখার ইচ্ছা রাখেন তাদের জন্য 'ভার্চুয়াল হার্ডওয়্যার' সংস্করণও সরবরাহ করেছি। আপনি আরও পড়তে পারেন এবং একটি 'শপিং লিস্ট' পেতে পারেন [hardware page](./hardware.md)-এ, যেখানে আমাদের বন্ধু Seeed Studio থেকে সম্পূর্ণ কিট কেনার লিঙ্কও দেওয়া আছে।
 
-> 💁 আমাদের [আচরণবিধি](CODE_OF_CONDUCT.md), [অবদান](CONTRIBUTING.md), এবং [অনুবাদ](TRANSLATIONS.md) নির্দেশিকা খুঁজুন। আমরা আপনার গঠনমূলক মতামত স্বাগত জানাই!
+> 💁 আমাদের [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), এবং [Translations](..) গাইডলাইনগুলি খুঁজে বের করুন। আমরা আপনার গঠনমূলক প্রতিক্রিয়াকে স্বাগত জানাই!
 >
-> 🔧 সমস্যা হচ্ছে? সাধারণ সমস্যার সমাধানের জন্য আমাদের [সমস্যা সমাধান গাইড](TROUBLESHOOTING.md) দেখুন।
+> 🔧 সমস্যা হচ্ছে? সাধারণ সমস্যাগুলোর সমাধানের জন্য আমাদের [Troubleshooting Guide](TROUBLESHOOTING.md) দেখুন।
 
-## প্রতিটি পাঠে অন্তর্ভুক্ত:
+## প্রতিটি পাঠের অন্তর্ভুক্তি:
 
 - স্কেচনোট
-- ঐচ্ছিক অতিরিক্ত ভিডিও
-- পাঠের আগে ওয়ার্মআপ কুইজ
+- ঐচ্ছিক সম্পূরক ভিডিও
+- পাঠের পূর্ববর্তী ওয়ার্মআপ কুইজ
 - লিখিত পাঠ
-- প্রকল্প ভিত্তিক পাঠগুলোর জন্য, প্রকল্প নির্মাণের ধাপে ধাপে নির্দেশিকা
+- প্রকল্প ভিত্তিক পাঠের জন্য, প্রকল্পটি কীভাবে তৈরি করবেন তার ধাপে ধাপে গাইড
 - জ্ঞান যাচাই
 - একটি চ্যালেঞ্জ
-- অতিরিক্ত পাঠ্যপুস্তক
-- অ্যাসাইনমেন্ট
-- [পোস্ট-পাঠ কুইজ](https://ff-quizzes.netlify.app/en/)
+- সম্পূরক পড়াশোনা
+- নিয়োগ
+- [পোস্ট-লেসন কুইজ](https://ff-quizzes.netlify.app/en/)
 
-> **কুইজ সম্পর্কে একটি টিপস**: সমস্ত কুইজ quiz-app ফোল্ডারে অন্তর্ভুক্ত, মোট ৪৮টি কুইজ তিনটি প্রশ্ন সহ। সেগুলো পাঠের মধ্যে লিঙ্ক করা হয়েছে কিন্তু কুইজ অ্যাপ স্থানীয়ভাবে চালাতে বা অ্যাজুরে প্রয়োগ করা যেতে পারে; `quiz-app` ফোল্ডারের নির্দেশাবলী অনুসরণ করুন। ধীরে ধীরে এগুলো স্থানীয়করণ করা হচ্ছে।
+> **কুইজ সম্পর্কে একটি নোট**: সমস্ত কুইজ কুইজ-অ্যাপ ফোল্ডারে থাকে, মোট ৪৮টি কুইজ যার প্রতিটিতে তিনটি প্রশ্ন থাকে। এগুলি পাঠসমূহের মধ্যে থেকে লিঙ্ক করা আছে, তবে কুইজ অ্যাপটি লোকালি চালানো বা Azure-এ ডিপ্লয় করা যেতে পারে; কুইজ-অ্যাপ ফোল্ডারে দেওয়া নির্দেশনা অনুসরণ করুন। এগুলি ধাপে ধাপে স্থানীয়করণ করা হচ্ছে।
 
 ## পাঠসমূহ
 
-|       |              প্রকল্পের নাম              |                       শেখানো বিষয়                       | শেখার উদ্দেশ্য                                                                                                                                                 |                                                        লিঙ্ক করা পাঠ                                                         |
-| :---: | :------------------------------------: | :---------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
-|  ০১   | [শুরু করাঃ](./1-getting-started/README.md) |                     আইওটির পরিচিতি                     | আইওটির মৌলিক নীতিগুলো শিখুন এবং আইওটি সমাধানের মৌলিক উপাদান যেমন সেন্সর ও ক্লাউড সার্ভিস সম্পর্কে জানুন, যখন আপনি আপনার প্রথম আইওটি ডিভাইস সেটআপ করছেন |                      [আইওটির পরিচিতি](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |
-|  ০২   | [শুরু করাঃ](./1-getting-started/README.md) |                   আইওটির গভীরে নজর                    | আইওটি সিস্টেমের উপাদান, মাইক্রোকন্ট্রোলার ও সিঙ্গেল-বোর্ড কম্পিউটার সম্পর্কে আরও জানুন                                                            |                        [আইওটির গভীরে নজর](./1-getting-started/lessons/2-deeper-dive/README.md)                         |
-|  ০৩   | [শুরু করাঃ](./1-getting-started/README.md) | শারীরিক বিশ্বের সাথে সেন্সর ও অ্যাকচুয়েটর দিয়ে ইন্টারঅ্যাক্ট করুন | শারীরিক বিশ্ব থেকে তথ্য সংগ্রহের জন্য সেন্সর সম্পর্কে এবং প্রতিক্রিয়া পাঠানোর জন্য অ্যাকচুয়েটর সম্পর্কে জানুন, যখন আপনি একটি নাইটলাইট তৈরি করছেন                                           | [শারীরিক বিশ্বের সাথে সেন্সর ও অ্যাকচুয়েটর দিয়ে ইন্টারঅ্যাক্ট করুন](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
-|  ০৪   | [শুরু করাঃ](./1-getting-started/README.md) |             আপনার ডিভাইস ইন্টারনেটের সাথে সংযুক্ত করুন             | একটি আইওটি ডিভাইসকে ইন্টারনেটে সংযুক্ত করে বার্তা পাঠানো এবং গ্রহণের প্রক্রিয়া শিখুন, যখন আপনি আপনার নাইটলাইটকে MQTT ব্রোকারের সাথে সংযুক্ত করছেন                               |               [আপনার ডিভাইস ইন্টারনেটের সাথে সংযুক্ত করুন](./1-getting-started/lessons/4-connect-internet/README.md)                |
-|  ০৫   |            [খামার](./2-farm/README.md)            |                    গাছপালার বৃদ্ধি পূর্বাভাস                    | একটি আইওটি ডিভাইস দ্বারা ক্যাপচার করা তাপমাত্রা তথ্য ব্যবহার করে গাছপালার বৃদ্ধি কিভাবে পূর্বাভাস করা যায় শিখুন                                                                                  |                          [গাছপালার বৃদ্ধি পূর্বাভাস](./2-farm/lessons/1-predict-plant-growth/README.md)                           |
-|  ০৬   |            [খামার](./2-farm/README.md)            |                    মাটির আর্দ্রতা সনাক্ত করুন                    | মাটির আর্দ্রতা সনাক্ত করা এবং একটি মাটির আর্দ্রতা সেন্সর ক্যালিব্রেট করা শিখুন                                                                                              |                          [মাটির আর্দ্রতা সনাক্ত করুন](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |
-|  ০৭   |            [খামার](./2-farm/README.md)            |                  স্বয়ংক্রিয় গাছপালার জলদান                   | রিলে এবং MQTT ব্যবহার করে জলদান স্বয়ংক্রিয়করণ এবং সময় নির্ধারণ শিখুন                                                                                                      |                      [স্বয়ংক্রিয় গাছপালার জলদান](./2-farm/lessons/3-automated-plant-watering/README.md)                       |
-|  ০৮   |            [খামার](./2-farm/README.md)            |               আপনার গাছপালা ক্লাউডে স্থানান্তর করুন               | ক্লাউড এবং ক্লাউড-হোস্টেড আইওটি সার্ভিসের সম্পর্কে জানুন এবং একটি পাবলিক MQTT ব্রোকারের পরিবর্তে আপনার গাছকে এগুলোর সাথে কিভাবে সংযুক্ত করবেন শিখুন                                   |               [আপনার গাছপালা ক্লাউডে স্থানান্তর করুন](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                |
-|  ০৯   |            [খামার](./2-farm/README.md)            |         আপনার অ্যাপ্লিকেশন লজিক ক্লাউডে স্থানান্তর করুন         | আইওটি বার্তা গ্রহণে সাড়া দেওয়ার জন্য ক্লাউডে অ্যাপ্লিকেশন লজিক লেখার পদ্ধতি শিখুন                                                                          |         [আপনার অ্যাপ্লিকেশন লজিক ক্লাউডে স্থানান্তর করুন](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)         |
-|  ১০   |            [খামার](./2-farm/README.md)            |                   আপনার গাছ নিরাপদ রাখুন                    | আইওটিতে সিকিউরিটি সম্পর্কে জানুন এবং কী ও সার্টিফিকেট ব্যবহার করে আপনার গাছ কিভাবে নিরাপদ রাখা যায় শিখুন                                                                          |                        [আপনার গাছ নিরাপদ রাখুন](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
-|  ১১   |       [পরিবহন](./3-transport/README.md)       |                      অবস্থান ট্র্যাকিং                      | আইওটি ডিভাইসের জন্য GPS অবস্থান ট্র্যাকিং সম্পর্কে জানুন                                                                                                                   |                           [অবস্থান ট্র্যাকিং](./3-transport/lessons/1-location-tracking/README.md)                           |
-|  ১২   |       [পরিবহন](./3-transport/README.md)       |                     অবস্থান তথ্য সংরক্ষণ                     | পরে বিশ্লেষণ বা দৃশ্যায়নের জন্য আইওটি তথ্য কিভাবে সংরক্ষণ করবেন শিখুন                                                                                                      |                         [অবস্থান তথ্য সংরক্ষণ](./3-transport/lessons/2-store-location-data/README.md)                         |
-|  ১৩   |       [পরিবহন](./3-transport/README.md)       |                   অবস্থান তথ্য দৃশ্যায়ন                   | মানচিত্রে অবস্থান তথ্য কীভাবে দৃশ্যায়িত হয় এবং মানচিত্র কিভাবে বাস্তব ৩ডি বিশ্বের ২ ডাইমেনশন রূপে প্রতিনিধিত্ব করে শিখুন                                                            |                     [অবস্থান তথ্য দৃশ্যায়ন](./3-transport/lessons/3-visualize-location-data/README.md)                     |
-|  ১৪   |       [পরিবহন](./3-transport/README.md)       |                          জিওফেন্স                          | জিওফেন্স সম্পর্কে জানুন এবং সরবরাহ শৃঙ্খলের গাড়িগুলো তাদের গন্তব্যের কাছে আসতে কতটা নিকটে সেই সম্পর্কে অ্যালার্ট দেয়ার পদ্ধতি শিখুন                                           |                                   [জিওফেন্স](./3-transport/lessons/4-geofences/README.md)                                   |
-|  ১৫   |   [উৎপাদন](./4-manufacturing/README.md)   |               একটি ফলের গুণগতমান সনাক্তকারী প্রশিক্ষণ দিন                | ফলের গুণগতমান সনাক্ত করতে ক্লাউডে একটি ইমেজ ক্লাসিফায়ার প্রশিক্ষণের পদ্ধতি শিখুন                                                                                       |                 [ফলের গুণগতমান সনাক্তকারী প্রশিক্ষণ দিন](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
-|  ১৬   |   [উৎপাদন](./4-manufacturing/README.md)   |           একটি আইওটি ডিভাইস থেকে ফলের গুণগতমান পরীক্ষা করুন            | একটি আইওটি ডিভাইস থেকে আপনার ফলের গুণগতমান সনাক্তকারী কীভাবে ব্যবহার করবেন শিখুন                                                                                                    |           [একটি আইওটি ডিভাইস থেকে ফলের গুণগতমান পরীক্ষা করুন](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
-|  ১৭   |   [উৎপাদন](./4-manufacturing/README.md)   |             এজে আপনার ফল সনাক্তকারী চালান             | একটি আইওটি ডিভাইসের এজে আপনার ফল সনাক্তকারী কীভাবে চালাবেন শিখুন                                                                                                |             [এজে আপনার ফল সনাক্তকারী চালান](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
-|  ১৮   |   [উৎপাদন](./4-manufacturing/README.md)   |        একটি সেন্সর থেকে ফলের গুণগতমান সনাক্তকরণ ট্রিগার করুন        | একটি সেন্সর থেকে ফল গুণগতমান সনাক্তকরণ কীভাবে ট্রিগার করবেন শিখুন                                                                                                        |        [একটি সেন্সর থেকে ফলের গুণগতমান সনাক্তকরণ ট্রিগার করুন](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
-|  ১৯   |          [রিটেইল](./5-retail/README.md)          |                   একটি স্টক সনাক্তকারী প্রশিক্ষণ দিন                    | একটি দোকানে স্টক গণনা করতে অবজেক্ট ডিটেকশন কীভাবে ব্যবহার করবেন শিখুন                                                                                |                        [একটি স্টক সনাক্তকারী প্রশিক্ষণ দিন](./5-retail/lessons/1-train-stock-detector/README.md)                         |
-|  ২০   |          [রিটেইল](./5-retail/README.md)          |               একটি আইওটি ডিভাইস থেকে স্টক পরীক্ষা করুন                | একটি অবজেক্ট ডিটেকশন মডেল ব্যবহার করে একটি আইওটি ডিভাইস থেকে স্টক কিভাবে পরীক্ষা করবেন শিখুন                                                                                         |                     [একটি আইওটি ডিভাইস থেকে স্টক পরীক্ষা করুন](./5-retail/lessons/2-check-stock-device/README.md)                      |
-|  ২১   |        [ভোক্তা](./6-consumer/README.md)        |             একটি আইওটি ডিভাইস দিয়ে ভাষণ সনাক্তকরণ             | একটি আইওটি ডিভাইস থেকে ভাষণ চিনে স্মার্ট টাইমার তৈরি করার পদ্ধতি শিখুন                                                                                             |                  [একটি আইওটি ডিভাইস দিয়ে ভাষণ সনাক্তকরণ](./6-consumer/lessons/1-speech-recognition/README.md)                  |
-|  ২২   |        [ভোক্তা](./6-consumer/README.md)        |                     ভাষা বোঝা                     | একটি আইওটি ডিভাইসে বলা বাক্যগুলো বুঝতে শিখুন                                                                                                           |                        [ভাষা বোঝা](./6-consumer/lessons/2-language-understanding/README.md)                        |
-|  ২৩   |        [ভোক্তা](./6-consumer/README.md)        |           একটি টাইমার সেট করুন এবং কথা বলা তথ্য প্রদানের জন্য           | একটি আইওটি ডিভাইসে কিভাবে টাইমার সেট করবেন এবং টাইমার সেট ও শেষ হওয়ার সময় কথায় তথ্য প্রদান করবেন তা শিখুন                                                    |                 [একটি টাইমার সেট করুন এবং কথা বলা তথ্য প্রদানের জন্য](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
-|  ২৪   |        [ভোক্তা](./6-consumer/README.md)        |                 একাধিক ভাষা সমর্থন করুন                  | একাধিক ভাষা সমর্থনের পদ্ধতি শিখুন, যা কথোপকথনে প্রয়োগযোগ্য এবং আপনার স্মার্ট টাইমার থেকে প্রতিক্রিয়াতে ব্যবহৃত হবে                                                               |                   [একাধিক ভাষা সমর্থন করুন](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
+|       |              প্রকল্প নাম               |                       শেখানো বিষয়গুলি                         | শেখার উদ্দেশ্য                                                                                                                                                |                                                        লিঙ্ক করা পাঠ                                                         |
+| :---: | :------------------------------------: | :-------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
+|  01   | [Getting started](./1-getting-started/README.md) |                        IoT এর পরিচিতি                         | IoT এর মৌলিক নীতিমালা এবং সেন্সর এবং ক্লাউড সার্ভিসের মতো IoT সমাধানের মৌলিক নির্মাণ ব্লক শেখা, যখন আপনি আপনার প্রথম IoT ডিভাইস সেটআপ করছেন                 |                      [Introduction to IoT](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |
+|  02   | [Getting started](./1-getting-started/README.md) |                      IoT এর গভীরতর আলোচনা                    | IoT সিস্টেমের উপাদানগুলি সম্পর্কে আরও জানুন, যেমন মাইক্রোকন্ট্রোলার এবং সিঙ্গেল-বোর্ড কম্পিউটার                                                                              |                        [A deeper dive into IoT](./1-getting-started/lessons/2-deeper-dive/README.md)                         |
+|  03   | [Getting started](./1-getting-started/README.md) | সেন্সর ও অ্যাকচুয়েটর দিয়ে বাস্তব বিশ্বের সাথে ইন্টারঅ্যাক্ট করা | শারীরিক বিশ্বের তথ্য সংগ্রহের জন্য সেন্সর এবং প্রতিক্রিয়া পাঠাতে অ্যাকচুয়েটর সম্পর্কে শেখা, যখন আপনি একটি নাইটলাইট তৈরি করছেন                                             | [Interact with the physical world with sensors and actuators](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
+|  04   | [Getting started](./1-getting-started/README.md) |                   আপনার ডিভাইস ইন্টারনেটে সংযুক্ত করুন          | একটি IoT ডিভাইস ইন্টারনেটে কীভাবে সংযুক্ত করবেন তা শেখা, বার্তা প্রেরণ এবং গ্রহণের জন্য MQTT ব্রোকারের সাথে আপনার নাইটলাইট সংযুক্ত করা                                           |               [Connect your device to the Internet](./1-getting-started/lessons/4-connect-internet/README.md)                |
+|  05   |            [Farm](./2-farm/README.md)            |                     উদ্ভিদের বৃদ্ধি পূর্বাভাস                 | IoT ডিভাইস দ্বারা ক্যাপচার করা তাপমাত্রার ডেটা ব্যবহার করে উদ্ভিদের বৃদ্ধি পূর্বাভাস শেখা                                                                                 |                          [Predict plant growth](./2-farm/lessons/1-predict-plant-growth/README.md)                           |
+|  06   |            [Farm](./2-farm/README.md)            |                    মাটির আর্দ্রতা শনাক্তকরণ                  | মাটির আর্দ্রতা শনাক্ত করা এবং একটি মাটি আর্দ্রতা সেন্সর ক্যালিব্রেট করা শেখা                                                                                           |                          [Detect soil moisture](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |
+|  07   |            [Farm](./2-farm/README.md)            |                    স্বয়ংক্রিয় উদ্ভিদ সেচ                     | একটি রিলে এবং MQTT ব্যবহার করে সেচ স্বয়ংক্রিয় ও সময়ানুক্রম শেখা                                                                                                |                      [Automated plant watering](./2-farm/lessons/3-automated-plant-watering/README.md)                       |
+|  08   |            [Farm](./2-farm/README.md)            |                  আপনার উদ্ভিদকে ক্লাউডে স্থানান্তর করুন       | ক্লাউড এবং ক্লাউড-হোস্টেড IoT সার্ভিস সম্পর্কে শেখা এবং পাবলিক MQTT ব্রোকারের পরিবর্তে এগুলোর সাথে আপনার উদ্ভিদ সংযুক্ত করার পদ্ধতি                                  |               [Migrate your plant to the cloud](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                |
+|  09   |            [Farm](./2-farm/README.md)            |          আপনার অ্যাপ্লিকেশন লজিক ক্লাউডে স্থানান্তর করুন     | ক্লাউডে অ্যাপ্লিকেশন লজিক কীভাবে লিখবেন যা IoT বার্তাগুলোর প্রতি প্রতিক্রিয়া জানাবে তা শেখা                                                                         |         [Migrate your application logic to the cloud](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)         |
+|  10   |            [Farm](./2-farm/README.md)            |                    আপনার উদ্ভিদকে সুরক্ষিত রাখুন             | IoT এর মাধ্যমে নিরাপত্তা এবং কী এবং সার্টিফিকেট দিয়ে আপনার উদ্ভিদকে কীভাবে সুরক্ষিত রাখবেন তা শেখা                                                                    |                        [Keep your plant secure](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
+|  11   |       [Transport](./3-transport/README.md)       |                    অবস্থান ট্র্যাকিং                         | IoT ডিভাইসের জন্য GPS অবস্থান ট্র্যাকিং সম্পর্কে শেখা                                                                                                               |                           [Location tracking](./3-transport/lessons/1-location-tracking/README.md)                           |
+|  12   |       [Transport](./3-transport/README.md)       |                  অবস্থানের তথ্য সংরক্ষণ                     | পরবর্তীতে ভিজ্যুয়ালাইজেশন বা বিশ্লেষণের জন্য IoT ডেটা কীভাবে সংরক্ষণ করবেন তা শেখা                                                                                  |                         [Store location data](./3-transport/lessons/2-store-location-data/README.md)                         |
+|  13   |       [Transport](./3-transport/README.md)       |                অবস্থানের তথ্য চিত্রায়ন করা                   | একটি মানচিত্রে অবস্থানের তথ্য চিত্রায়ন এবং কিভাবে মানচিত্র বাস্তব ৩ডি পৃথিবীর ২ মাত্রিক উপস্থাপনা করে তা শেখা                                                        |                     [Visualize location data](./3-transport/lessons/3-visualize-location-data/README.md)                     |
+|  14   |       [Transport](./3-transport/README.md)       |                         জিওফেন্সিং                            | জিওফেন্স সম্পর্কে শেখা এবং কিভাবে এগুলি সরবরাহ চেইনের যানবাহন গন্তব্যস্থলের কাছাকাছি আসলে সতর্ক করতে ব্যবহার করা হয় তা শেখা                                         |                                   [Geofences](./3-transport/lessons/4-geofences/README.md)                                   |
+|  15   |   [Manufacturing](./4-manufacturing/README.md)   |                ফলের গুণমান সনাক্তকরণ প্রশিক্ষণ             | ক্লাউডে একটি চিত্র শ্রেণীবদ্ধকরণ মডেল প্রশিক্ষণ সম্পর্কে শেখা যা ফলের গুণমান সনাক্ত করে                                                                                 |                 [Train a fruit quality detector](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
+|  16   |   [Manufacturing](./4-manufacturing/README.md)   |                IoT ডিভাইস থেকে ফলের গুণমান পরীক্ষা           | আপনার ফলের গুণমান সনাক্তকারী IoT ডিভাইস থেকে কীভাবে ব্যবহার করবেন তা শেখা                                                                                          |           [Check fruit quality from an IoT device](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
+|  17   |   [Manufacturing](./4-manufacturing/README.md)   |               এজে আপনার ফলের ডিটেক্টর চালান                  | একটি IoT ডিভাইসে এজে আপনার ফল সনাক্তকারী কীভাবে চালাবেন তা শেখা                                                                                                |             [Run your fruit detector on the edge](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
+|  18   |   [Manufacturing](./4-manufacturing/README.md)   |                    সেন্সর থেকে ফল গুণমান সনাক্তকরণ ট্রিগার করুন | সেন্সর থেকে ফল গুণমান সনাক্তকরণ ট্রিগার সম্পর্কে শেখা                                                                                                            |        [Trigger fruit quality detection from a sensor](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
+|  19   |          [Retail](./5-retail/README.md)          |                    স্টক সনাক্তকরণ প্রশিক্ষণ                 | একটি দোকানের স্টক গণনা করার জন্য অবজেক্ট ডিটেকশন ব্যবহার করে স্টক সনাক্তকারী প্রশিক্ষণ শেখা                                                                         |                        [Train a stock detector](./5-retail/lessons/1-train-stock-detector/README.md)                         |
+|  20   |          [Retail](./5-retail/README.md)          |                 IoT ডিভাইস থেকে স্টক পরীক্ষা                  | অবজেক্ট ডিটেকশন মডেল ব্যবহার করে একটি IoT ডিভাইস থেকে স্টক পরীক্ষা শেখা                                                                                           |                     [Check stock from an IoT device](./5-retail/lessons/2-check-stock-device/README.md)                      |
+|  21   |        [Consumer](./6-consumer/README.md)        |                  IoT ডিভাইস দিয়ে ভাষণ শনাক্তকরণ            | একটি স্মার্ট টাইমার তৈরির জন্য এক IoT ডিভাইস থেকে ভাষণ শনাক্ত করা শেখা                                                                                            |                  [Recognize speech with an IoT device](./6-consumer/lessons/1-speech-recognition/README.md)                  |
+|  22   |        [Consumer](./6-consumer/README.md)        |                     ভাষা বোঝা                              | একটি IoT ডিভাইসকে বলা বাক্যগুলো বোঝার পদ্ধতি শেখা                                                                                                               |                        [Understand language](./6-consumer/lessons/2-language-understanding/README.md)                        |
+|  23   |        [Consumer](./6-consumer/README.md)        |               টাইমার সেট করা এবং কথ্য প্রতিক্রিয়া প্রদান    | একটি IoT ডিভাইসে টাইমার সেট করা এবং কখন টাইমার শুরু এবং শেষ হয় সে সম্পর্কে কথ্য প্রতিক্রিয়া দেওয়ার পদ্ধতি শেখা                                                    |                 [Set a timer and provide spoken feedback](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
+|  24   |        [Consumer](./6-consumer/README.md)        |                  একাধিক ভাষা সমর্থন করা                     | একাধিক ভাষা কিভাবে সমর্থন করবেন, উভয়কেই বলা এবং আপনার স্মার্ট টাইমারের কাছ থেকে প্রতিক্রিয়া দেয় মেনে নিয়ে শেখা                                                     |                   [Support multiple languages](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
 
 ## অফলাইন অ্যাক্সেস
 
-আপনি [Docsify](https://docsify.js.org/#/) ব্যবহার করে এই ডকুমেন্টেশনটি অফলাইনে চালাতে পারেন। এই রিপোজিটরিটি ফর্ক করুন, আপনার স্থানীয় মেশিনে [Docsify ইনস্টল করুন](https://docsify.js.org/#/quickstart) এবং তারপর এই রিপোজিটরির মূল ফোল্ডারে `docsify serve` টাইপ করুন। ওয়েবসাইটটি পোর্ট ৩০০০ এ চালানো হবে আপনার লোকালহোস্টে: `localhost:3000`।
+আপনি এই ডকুমেন্টেশন অফলাইনে চালাতে পারেন [Docsify](https://docsify.js.org/#/) ব্যবহার করে। এই রিপোটি ফর্ক করুন, আপনার লোকাল মেশিনে [Docsify ইনস্টল করুন](https://docsify.js.org/#/quickstart), তারপর এই রিপোর রুট ফোল্ডারে `docsify serve` টাইপ করুন। ওয়েবসাইটটি আপনার লোকালহোস্টে পোর্ট ৩০০০-এ চালু হবে: `localhost:3000`।
 
 ## কুইজ
 
-প্রতিটি অধ্যায়ে আপনার জ্ঞান পরীক্ষা করার জন্য ইন্টারেক্টিভ কুইজ হোสต์ করার জন্য কমিউনিটিকে ধন্যবাদ। আপনি আপনার জ্ঞান [এখানে পরীক্ষা করতে পারেন](https://ff-quizzes.netlify.app/en/)।
+সম্প্রদায়ের প্রতি কৃতজ্ঞ যারা প্রতিটি অধ্যায়ের উপর আপনার জ্ঞান পরীক্ষা করার জন্য ইন্টারেক্টিভ কুইজ হোস্ট করেছেন। আপনি এখানে আপনার জ্ঞান পরীক্ষা করতে পারেন [here](https://ff-quizzes.netlify.app/en/)
 
-### পিডিএফ
+### PDF
 
-যদি প্রয়োজন হয়, আপনি অফলাইনে অ্যাক্সেসের জন্য এই কনটেন্টের পিডিএফ তৈরি করতে পারেন। এর জন্য নিশ্চিত করুন যে আপনার কাছে [npm ইনস্টল করা আছে](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) এবং এই রিপোজিটরির মূল ফোল্ডারে নিম্নলিখিত কমান্ডগুলো চালান:
+আপনি প্রয়োজনে অফলাইন অ্যাক্সেসের জন্য এই বিষয়বস্তুর একটি PDF তৈরি করতে পারেন। এটি করার জন্য, নিশ্চিত করুন আপনার কাছে [npm ইনস্টল করা আছে](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) এবং এই রিপোর রুট ফোল্ডারে নিচের কমান্ডগুলি চালান:
 
 ```sh
 npm i
@@ -146,21 +164,21 @@ npm run convert
 
 ### স্লাইডস
 
-কিছু পাঠের জন্য [slides](../../slides) ফোল্ডারে স্লাইড ডেক রয়েছে।
+কিছু পাঠের জন্য স্লাইড ডেক [slides](../../slides) ফোল্ডারে আছে।
 
-## অন্যান্য কর্মসূচি
+## অন্যান্য পাঠক্রম
 
-আমাদের দল অন্যান্য কর্মসূচিও তৈরি করে! চেক করুন:
+আমাদের টিম অন্যান্য পাঠক্রমও তৈরি করে! দেখুন:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
-[![শিখতে সম্পূর্ণ নতুনদের জন্য LangChain4j](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
-[![শিখতে সম্পূর্ণ নতুনদের জন্য LangChain.js](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
-[![শিখতে সম্পূর্ণ নতুনদের জন্য LangChain](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
 ### Azure / Edge / MCP / Agents
-[![শিখতে সম্পূর্ণ নতুনদের জন্য AZD](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![শুরুদের জন্য এজ এআই](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![শুরুদের জন্য এমসিপি](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![শুরুদের জন্য এআই এজেন্টস](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -175,7 +193,7 @@ npm run convert
 
 ---
  
-### মূল শিক্ষা
+### মূল শেখা
 [![শুরুদের জন্য এমএল](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![শুরুদের জন্য ডেটা সায়েন্স](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![শুরুদের জন্য এআই](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
@@ -186,19 +204,19 @@ npm run convert
 
 ---
  
-### কপাইলট সিরিজ
-[![কপাইলট ফর এআই পেয়ারড প্রোগ্রামিং](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![কপাইলট ফর সি#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![কপাইলট অ্যাডভেঞ্চার](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+### কোপাইলট সিরিজ
+[![এআই পেয়ারড প্রোগ্রামিং এর জন্য কোপাইলট](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![সি#/.NET এর জন্য কোপাইলট](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![কোপাইলট অ্যাডভেঞ্চার](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## ইমেজ অ্যাট্রিবিউশন
+## ইমেজ সংশ্লিষ্টিকারক
 
-আপনি এই কারিকুলামে ব্যবহৃত ছবিগুলোর সমস্ত ক্রেডিট প্রয়োজন অনুযায়ী [Attributions](./attributions.md) এ খুঁজে পেতে পারেন।
+আপনি এই পাঠ্যক্রমে ব্যবহৃত সকল ছবির সংশ্লিষ্টিকারক প্রয়োজন অনুযায়ী [Attributions](./attributions.md) এ পেতে পারেন।
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**অস্বীকৃতি**:  
-এই দলিলটি AI অনুবাদ সেবা [Co-op Translator](https://github.com/Azure/co-op-translator) ব্যবহারের মাধ্যমে অনুবাদ করা হয়েছে। আমরা যথাসম্ভব যথার্থতার জন্য চেষ্টা করি, তবে অনুগ্রহ করে জানুন যে স্বয়ংক্রিয় অনুবাদে ভুল বা অসঙ্গতি থাকতে পারে। মূল নথিটি তার স্বভাষায় পাওয়া দলিলকেই কর্তৃত্বস্বরূপ ধরা উচিত। গুরুত্বপূর্ণ তথ্যের জন্য, পেশাদার মানব অনুবাদ সুপারিশ করা হয়। এই অনুবাদের ব্যবহার থেকে সৃষ্ট কোনো ভুল বোঝাবুঝি বা ভুল ব্যাখ্যার জন্য আমরা দায়ী নই।
+**অস্বীকারোক্তি**:  
+এই নথিটি AI অনুবাদ সেবা [Co-op Translator](https://github.com/Azure/co-op-translator) ব্যবহার করে অনুবাদ করা হয়েছে। আমরা যথাসাধ্য সঠিকতার জন্য চেষ্টা করি, তবে অনুগ্রহ করে জেনে রাখুন যে স্বয়ংক্রিয় অনুবাদে ভুল বা অশুদ্ধি থাকতে পারে। মূল নথি তার মাতৃভাষায়ই কর্তৃপক্ষের উৎস হিসেবে বিবেচিত হওয়া উচিত। গুরুত্বপূর্ণ তথ্যের জন্য পেশাদার মানব অনুবাদের সুপারিশ করা হয়। এই অনুবাদের ব্যবহারে সৃষ্ট কোনো ভুল ব্যাখ্যা বা ভুল বোঝাবুঝির জন্য আমরা দায়িত্ব স্বীকার করব না।
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
