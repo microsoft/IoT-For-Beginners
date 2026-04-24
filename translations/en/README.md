@@ -97,7 +97,7 @@ Each project is based around real-world hardware available to students and hobby
 ## Hardware
 We have two choices of IoT hardware to use for the projects depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn more before committing to a purchase. You can read more and find a 'shopping list' on the [hardware page](./hardware.md), including links to buy complete kits from our friends at Seeed Studio.
 
-> 💁 Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
+> 💁 Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translations](..) guidelines. We welcome your constructive feedback!
 >
 > 🔧 Having issues? Check out our [Troubleshooting Guide](TROUBLESHOOTING.md) for solutions to common problems.
 
