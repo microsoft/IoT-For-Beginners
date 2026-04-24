@@ -1,222 +1,221 @@
-[![អាជ្ញាប័ណ្ណ GitHub](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)
-[![អ្នកចូលរួម GitHub](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)
-[![បញ្ហា GitHub](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)
-[![សំណើ Pull Requests GitHub](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)
-[![ស្វាគមន៍ PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub license](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![អ្នកគាំទ្រ GitHub](https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/IoT-For-Beginners/watchers/)
-[![សាខា GitHub](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
-[![ផ្កាយ GitHub](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/IoT-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
 ### ចូលរួមសហគមន៍ Azure AI Foundry
 
-បើអ្នកមានបញ្ហា ឬសំណួរណាមួយអំពីការបង្កើតកម្មវិធី AI។ ចូលរួមជាមួយអ្នករៀន និងអ្នកអភិវឌ្ឍមានបទពិសោធន៍ ក្នុងការពិភាក្សាអំពី MCP។ វាជាសហគមន៍ដ៏គាំទ្រដែលសំណួរត្រូវបានស្វាគមន៍ ហើយចំណេះដឹងត្រូវបានចែករំលែកដោយសេរី។
+បើអ្នកមានការលំបាកឬមានសំណួរអំពីការសង់កម្មវិធី AI ។ ចូលរួមជាមួយអ្នករៀន និងអ្នកអភិវឌ្ឍដែលមានបទពិសោធន៍ក្នុងការពិភាក្សាអំពី MCP ។ វាជាសហគមន៍គាំទ្រដែលសំណួរត្រូវបានស្វាគមន៍ និងចែករំលែកចំណេះដឹងដោយសេរី ។
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-បើអ្នកមានមតិផ្ទាល់។ ឬកំហុសពេលកំពុងបង្កើត សូមចូលទៅកាន់៖
+បើអ្នកមានមតិយោបល់អំពីផលិតផល ឬកំហុសពេលសង់ សូមចូលទៅកាន់៖
 
-[![Discussion Forum Microsoft Foundry Developer](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-អនុវត្តជំហានទាំងនេះដើម្បីចាប់ផ្តើមប្រើធនធានទាំងនេះ៖  
-1. **រុះរៀប Repository**៖ ចុច [![សាខា GitHub](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)  
-2. **ចម្លង Repository**៖   `git clone https://github.com/microsoft/IoT-For-Beginners.git`  
-3. [**ចូលរួម Microsot Foundry Discord ហើយជួបអ្នកជំនាញ និងអ្នកអភិវឌ្ឍទាំងអស់**](https://discord.com/invite/ByRwuEEgH4)
+ធ្វើតាមជំហានទាំងនេះដើម្បីចាប់ផ្តើមប្រើប្រាស់ធនធានទាំងនេះៈ  
+1. **Fork the Repository**: ចុច [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)  
+2. **Clone the Repository**:   `git clone https://github.com/microsoft/IoT-For-Beginners.git`  
+3. [**ចូលរួម Microsoft Foundry Discord ហើយជួបជាមួយអ្នកជំនាញ និងអ្នកអភិវឌ្ឍមិត្តភាព**](https://discord.com/invite/ByRwuEEgH4)
 
+### 🌐 ការគាំទ្រភាសាច្រើន
 
-### 🌐 ការគាំទ្រជាភាសាច្រើន
-
-#### គាំទ្រដោយ GitHub Action (ស្វ័យប្រវត្តិ & លើសទៀងទាត់)
+#### គាំទ្រដោយហត្ថកម្ម GitHub (ស្វ័យប្រវត្តិ និងតែងតែទាន់សម័យ)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[អារ៉ាប់](../ar/README.md) | [បង់្គោលី](../bn/README.md) | [ប៊ុលហ្គារី](../bg/README.md) | [ភាសាប៊ឺម៉ា (មียนម៉ា)](../my/README.md) | [ចិន (សាមញ្ញ)](../zh-CN/README.md) | [ចិន (បែបប្រពៃណីហុងកុង)](../zh-HK/README.md) | [ចិន (បែបប្រពៃណីម៉ាកាវ)](../zh-MO/README.md) | [ចិន (បែបប្រពៃណីតៃវ៉ាន់)](../zh-TW/README.md) | [ខ្រូអាត](../hr/README.md) | [ឆែក](../cs/README.md) | [ដាណីស](../da/README.md) | [ហុល្លង់](../nl/README.md) | [អេស្ទូនីយ៉ា](../et/README.md) | [ហ្វាំងឡង់](../fi/README.md) | [បារាំង](../fr/README.md) | [អាល្លឺម៉ង់](../de/README.md) | [ក្រិច](../el/README.md) | [ហីប្រ៊ូ](../he/README.md) | [ឥណ្ឌា](../hi/README.md) | [ហ៊ុនហ្គារី](../hu/README.md) | [ឥណ្ឌូណេស៊ី](../id/README.md) | [អ៊ីតាលី](../it/README.md) | [ជប៉ុន](../ja/README.md) | [កណាដា](../kn/README.md) | [ខ្មែរ](./README.md) | [កូរ៉េ](../ko/README.md) | [លីថុយអានី](../lt/README.md) | [ម៉ាឡេ](../ms/README.md) | [ម៉ាឡាលៃឡាំ](../ml/README.md) | [ម៉ារ៉ាធ៊ី](../mr/README.md) | [នេប៉ាល់](../ne/README.md) | [ភីជាំង នៃនីហ្សេរីយ៉ា](../pcm/README.md) | [ណ័រវេ](../no/README.md) | [ភាសាផែរ(ហ្វាស៊ី)](../fa/README.md) | [ប៉ូឡូញ](../pl/README.md) | [ព័រទុយហ្គាល់ (ប្រេស៊ីល)](../pt-BR/README.md) | [ព័រទុយហ្គាល់ (ប៉ះតុហ្គាល់)](../pt-PT/README.md) | [ភាសាផ៊ុនជាប (កូម៊ូហ្គី)](../pa/README.md) | [រ៉ូម៉ានី](../ro/README.md) | [រុស្ស៊ី](../ru/README.md) | [ស៊ែប៊ី (ស៊ីរីលីក)](../sr/README.md) | [ស្ពៃក](../sk/README.md) | [ស្ពឺឡូវេនី](../sl/README.md) | [ស្ប៉ាញ](../es/README.md) | [ស្វាហ៊ីលី](../sw/README.md) | [ស៊ុយអែត](../sv/README.md) | [តាហ្គាឡុក (ហិលីពីន)](../tl/README.md) | [តាមីល](../ta/README.md) | [ទេលារូគូ](../te/README.md) | [ថៃ](../th/README.md) | [តួគី](../tr/README.md) | [អ៊ុយក្រែន](../uk/README.md) | [ឥណ្ឌូរ](../ur/README.md) | [វៀតណាម](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](./README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **ចូលចិត្តចម្លងក្នុងតំបន់បណ្ដាញមែនទេ?**
->
-> កម្មវិធីនេះមានការប្រែច្រើនជាភាសា 50+ ដែលបង្កើនទំហំទាញយកយ៉ាងមានសារៈសំខាន់។ ដើម្បីចម្លងដោយគ្មានការប្រែភាសា អ្នកអាចប្រើ sparse checkout:
->
-> **Bash / macOS / Linux:**
+> **ចូលចម្លងជាការពេញមួយក្នុងកុំព្យូទ័ររបស់អ្នក?**  
+>  
+> ឃ្លាំងនេះរួមបញ្ចូលការបកប្រែជាមានជាង ៥០ ភាសា ដែលបង្កើនទំហំទាញយកយ៉ាងខ្លាំង។ ដើម្បីចម្លងដោយគ្មានការបកប្រែ ប្រើ sparse checkout:  
+>  
+> **Bash / macOS / Linux:**  
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/IoT-For-Beginners.git
 > cd IoT-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
->
-> **CMD (Windows):**
+>  
+> **CMD (Windows):**  
 > ```cmd
 > git clone --filter=blob:none --sparse https://github.com/microsoft/IoT-For-Beginners.git
 > cd IoT-For-Beginners
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
->
-> វានឹងផ្តល់អ្វីគ្រប់យ៉ាងដែលអ្នកត្រូវការដើម្បីបញ្ចប់វគ្គសិក្សាដោយមានការទាញយកយ៉ាងលឿនជាងមុន។
+>  
+> វានឹងផ្តល់អោយអ្នកនូវគ្រឿងចាំបាច់ទាំងអស់ដើម្បីបញ្ចប់វគ្គនេះដោយមានការទាញយករហ័សជាងមុន។  
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-# IoT សម្រាប់អ្នកចាប់ផ្តើម - មុខវិជ្ជា
+# IoT សម្រាប់អ្នកចាប់ផ្តើម - មេរៀនសិក្សា
 
-អ្នកគាំទ្របង្ហោះពពក Azure នៅ Microsoft មានកិត្តិយសផ្តល់មុខវិជ្ជា 12 សប្ដាហ៍ 24 មេរៀន ដែលជាអំពីមូលដ្ឋាន IoT ។ មេរៀននីមួយៗមានសំណួរប្រឡងមុននិងក្រោយមេរៀន សេចក្ដីណែនាំដោយសរសេរដើម្បីបញ្ចប់មេរៀន ដំណោះស្រាយ កិច្ចការនិងច្រើនទៀត។ វិធីសាស្រ្តសិក្សាធ្វើតាមគម្រោងរបស់យើងអនុញ្ញាតឱ្យអ្នករៀនពេលកំពុងបង្កើត មុខងារដែលបានបញ្ជាក់ជាប្រសិទ្ធភាពសម្រាប់ជំនាញថ្មីៗ "នៅជាប់"។
+អ្នកប្រឹក្សាក្លោដ Azure នៅ Microsoft មានមោទនភាពបណ្តល់មេរៀនសិក្សា 12 សប្តាហ៍ មានចំនួន 24 មេរៀនទាំងមូលអំពីមូលដ្ឋាន IoT ។ មេរៀននីមួយៗមានការប្រលងមុន និងក្រោយមេរៀន, សេចក្ដីណែនាំសរសេរដើម្បីបញ្ចប់មេរៀន, ដំណោះស្រាយ, បេសកកម្ម និងច្រើនទៀត។ វិធីសាស្រ្តផ្អែកលើគម្រោងនេះអនុញ្ញាតឱ្យអ្នកសិក្សាក្នុងពេលកំណត់ខ្លួន ការសិក្សានេះធ្វើឱ្យជំនាញថ្មី 'អាចចងចាំបាន'។
 
-គម្រោងទាំងនេះគ្របដណ្តប់ដំណើរការនៃអាហារពីស្រែទៅតុ។ វារួមបញ្ចូលស្រែ ការដឹកជញ្ជូន ផលិតរោងចក្រ រាយឡើងលក់ និងអ្នកប្រើប្រាស់ - ទាំងអស់នេះជាពហុឧស្សាហកម្មដែលពេញនិយមសម្រាប់ឧបករណ៍ IoT។
+គម្រោងនានាចោលពិភាក្សាអំពីការធ្វើដំណើររបស់ម្ហូបពីចំការដល់តុបរិច្ឆេទ។ វាបង្ហាប់រួមបញ្ចូលការដាំដុះ, ដឹកជញ្ជូន, ការផលិត, ប្រជាធិបតេយ្យ និងអ្នកប្រើប្រាស់ - ទាំងអស់គឺជាតំបន់ឧស្សាហកម្មពេញនិយមសម្រាប់ឧបករណ៍ IoT ។
 
-![ផែនទីផ្លូវសម្រាប់វគ្គសិក្សាបង្ហាញពី 24 មេរៀនគ្របដណ្ដាប់បណ្តាញរួមមានដំណើរណែនាំ ស្រែ ដឹកជញ្ជូន ការកែច្នៃ ការលក់រាយ និងការចម្អិន](../../translated_images/km/Roadmap.bb1dec285dda0eda.webp)
+![ផែនទីផ្លូវសម្រាប់វគ្គសិក្សាបង្ហាញពី 24 មេរៀនគ្របដណ្តប់ការណែនាំ ការដាំដុះ ការដឹកជញ្ជូន ការប្រតិបត្តិ ផ្សារ និងការចម្អិន](../../translated_images/km/Roadmap.bb1dec285dda0eda.webp)
 
-> រូបរាងដោយ [Nitya Narasimhan](https://github.com/nitya)។ ចុចរូបភាពដើម្បីមើលទំហំធំជាង។
+> រូបភាពដោយ [Nitya Narasimhan](https://github.com/nitya). ចុចលើរូបភាពដើម្បីមើលអក្សរធំជាងនេះ។
 
-**សូមអរគុណយ៉ាងប្រាកដចិត្តទៅកាន់អ្នកនិពន្ធរបស់យើង [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett) និងសិល្បករូបរាង [Nitya Narasimhan](https://github.com/nitya)។**
+**អរគុណយ៉ាងខ្លាំងទៅកាន់អ្នកនិពន្ធរបស់យើង [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), និងសិល្បករ sketchnote របស់យើង [Nitya Narasimhan](https://github.com/nitya)។**
 
-**សូមអរគុណដល់ក្រុមអ្នករៀន [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) ដែលបានពិនិត្យ និងបកប្រែមុខវិជ្ជានេះ - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), និង [Zina Kamel](https://www.linkedin.com/in/zina-kamel/))។**
+**អរគុណដល់ក្រុមអ្នកសិក្សា Microsoft Learn Student Ambassadors របស់យើងដែលបានពិនិត្យ និងបកប្រែមេរៀននេះ - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), និង [Zina Kamel](https://www.linkedin.com/in/zina-kamel/))។**
 
 ជួបក្រុមការងាររបស់យើង!
 
-[![វីដេអូផ្សព្វផ្សាយ](../../images/IOT.gif)](https://youtu.be/-wippUJRi5k)
+[![Promo video](../../images/IOT.gif)](https://youtu.be/-wippUJRi5k)
 
 **Gif ដោយ** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
 
-> 🎥 ចុចរូបភាពខាងលើដើម្បីមើលវីដេអូអំពីគម្រោង!
+> 🎥 ចុចរូបភាពខាងលើសម្រាប់វីដេអូមួយអំពីគម្រោង!
 
-> **គ្រូបង្គោល** យើងបាន [រួមបញ្ចូលការផ្តល់អនុសាសន៍](for-teachers.md) អំពីវិធីប្រើប្រាស់មុខវិជ្ជានេះ។ បើអ្នកចង់បង្កើតមេរៀនផ្ទាល់ខ្លួន យើងក៏បានរួមបញ្ចូល​ [ទម្រង់មេរៀន](lesson-template/README.md) ផងដែរ។
+> **គ្រូបង្រៀន**, យើងបាន [បញ្ចូលក្តីផ្តើមមួយចំនួន](for-teachers.md) លើវិធីប្រើប្រាស់មេរៀនសិក្សានេះ។ បើអ្នកចង់បង្កើតមេរៀនផ្ទាល់ខ្លួន ក៏បានយើងបានបញ្ចូល [គំរូមេរៀន](lesson-template/README.md) ផងដែរ។
 
-> **[សិស្ស](https://aka.ms/student-page)** ដើម្បីប្រើប្រាស់មុខវិជ្ជានេះដោយខ្លួនឯង សូមរុះរៀបឃ្លាំងទាំងមូល ហើយបញ្ចប់លំហាត់ដោយខ្លួនឯង ចាប់ផ្តើមការប្រឡងមុនវគ្គសិក្សា បន្ទាប់មកអានវគ្គសិក្សា និងបញ្ចប់សកម្មភាពផ្សេងទៀត។ ព្យាយាមបង្កើតគម្រោងដោយយល់ដឹងពីមេរៀន ជាងការចម្លងកូដដំណោះស្រាយ ទោះបីជាកូដនោះមាននៅក្នុងថត /solutions ក្នុងមេរៀនផ្អែកលើគម្រោងនីមួយៗ។ គំនិតមួយផ្សេងទៀត គឺបង្កើតក្រុមសិក្សាជាមួយមិត្តភក្តិ ហើយរៀនជាក្រុម។ សម្រាប់ការសិក្សាបន្ថែម យើងផ្តល់អនុសាសន៍ [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn)។
+> **[និស្សិត](https://aka.ms/student-page)** ដើម្បីប្រើប្រាស់មេរៀននេះដោយខ្លួនឯង សូម fork ឃ្លាំងទាំងមូល ហើយបញ្ចប់សកម្មភាពដោយខ្លួនឯង ចាប់ផ្តើមពីសំណួរមុនថ្នាក់ បន្ទាប់មកអានមេរៀន និងបញ្ចប់សកម្មភាពផ្សេងៗទៀត។ ព្យាយាមបង្កើតគម្រោងដោយយល់ដឹងពីមេរៀនជាងស្រង់កូដដំណោះស្រាយ ប៉ុន្តែកូដនោះមាននៅក្នុងផង់ /solutions ក្នុងមេរៀនមួយៗដែលផ្តោតលើគម្រោង។ គំនិតមួយទៀតគឺបង្កើតក្រុមសិក្សាជាមួយមិត្តភក្តិ និងពិភាក្សាតម្រង់មាតិកាផ្ទាល់ខ្លួន។ សម្រាប់ការសិក្សាបន្ថែម យើងផ្តល់អនុសាសន៍ [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn)។
 
-សម្រាប់មើលវីដេអូសង្ខេបពីវគ្គសិក្សានេះ សូមពិនិត្យមើលវីដេអូនេះ៖
+សម្រាប់មើលវីដេអូផ្តល់ជាសង្ខេបជាមួយវគ្គនេះ សូមពិនិត្យវីដេអូខាងក្រោម៖
 
-[![វីដេអូផ្សព្វផ្សាយ](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "វីដេអូផ្សព្វផ្សាយ")
+[![Promo video](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
 
-> 🎥 ចុចរូបភាពខាងលើដើម្បីមើលវីដេអូអំពីគម្រោង!
+> 🎥 ចុចរូបភាពខាងលើសម្រាប់វីដេអូមួយអំពីគម្រោង!
 
 ## វិធីសាស្រ្តសិក្សា
 
-យើងបានជ្រើសរើសគោលការណ៍ពីរនៅពេលបង្កើតមុខវិជ្ជានេះ៖ ដោយធានាថាវាប្រកបដោយគម្រោង និងរួមបញ្ចូលការប្រឡងជាញឹកញាប់។ នៅចុងបញ្ចប់នៃស៊េរីនេះ សិស្សនឹងបានបង្កើតប្រព័ន្ធត្រួតពិនិត្យរុក្ខជាតិ និងទឹក រថយន្តតាមដាន រោងចក្រច្នៃប្រឌិតដើម្បីតាមដាន និងពិនិត្យអាហារ និងម៉ាស៊ីនវាស់ពេលចម្អិនដោយកំណត់សំឡេងបាន ហើយបានរៀនមូលដ្ឋានអំពីអ៊ីនធឺណិតនៃវត្ថុ រួមមានវិធីសរសេរកូដឧបករណ៍ ភ្ជាប់ទៅពពក វិភាគទិន្នន័យ និងរត់ AI នៅលើមុំ។
+យើងបានជ្រើសរើសគន្លងវិទ្យាសាស្រ្តពីរ ខណៈកំពុងបង្កើតមេរៀននេះ: ការធានាថាវាគឺផ្អែកលើគម្រោង និងប្រើប្រលងមួយចំនួនជាប្រចាំ។ នៅចុងបទបង្រៀននេះ និស្សិតទាំងអស់នឹងបានបង្កើតប្រព័ន្ធត្រួតពិនិត្យ និងឧស្សាហចាក់ទឹករុក្ខជាតិ ប្រព័ន្ធតាមដានយានយន្ត ការតំឡើងរោងចក្រ​ខ្ពស់ដើម្បីតាមដាន និងពិនិត្យម្ហូប និងម៉ោងចម្រាញ់សំឡេងដែលគ្រប់គ្រងការចំអិន និងនឹងរៀនមូលដ្ឋានអ៊ីនធើណិតវត្ថុ (IoT) រួមទាំងរបៀបសរសេរកូដឧបករណ៍ ខ្សែភាសបង្ហាប់ទៅមេឃ វិភាគទស្សន៍ និងដំណើរការ AI នៅជាប់គំនូសតំណរព្រំខណ្ឌ។
 
-ដោយធានាថាតម្រូវការបង្ហាញពីគម្រោង វិធីសាស្រ្តនេះធ្វើឲ្យមានការចូលរួមសម្រាប់សិស្ស និងការចងចាំគំនិតនឹងកាន់តែប្រសើរ។
+ដោយធានាថាំងមាតិការចូលគ្នានឹងគម្រោង វិជ្ជាជីវៈនេះធ្វើឱ្យមានភាពទាក់ទាញសម្រាប់និស្សិត និងការចងចាំត្រូវបានបង្កើនឡើង។
 
-បន្ថែមពីនេះ ការប្រឡងមិនធ្ងន់ធ្ងរមុនថ្នាក់ជួយបង្កើតការចាក់បញ្ចូលចិត្តច្បាស់លាស់សម្រាប់សិស្សក្នុងការរៀនមុខវិជ្ជា មួយទៀតការប្រឡងបន្ទាប់ពីថ្នាក់ធានាថានឹងមានការចងចាំបន្ថែម។ មុខវិជ្ជានេះត្រូវបានរចនាឡើងសម្រាប់ភាពបត់បែន និងភាពរីករាយ ហើយអាចអនុវត្តបានទាំងមូលឬផ្នែកតែមួយ។ គម្រោងចាប់ផ្តើមតូចហើយកាន់តែស្មុគស្មាញចុងបញ្ចប់រយៈពេល 12 សប្ដាហ៍។
+បន្ថែមពីនេះ ការប្រលងមួយដែលមិនធ្ងន់ធ្ងរមុនថ្នាក់កំណត់ទិសដៅរបស់និស្សិតក្នុងការរៀនប្រធានបទ មុនពេលមានការប្រលងទីពីរបន្ទាប់ថ្នាក់ធានាថានឹងចងចាំរយៈពេលវែងប្រសើរជាងមុន។ មេរៀននេះត្រូវបានបង្កើតឱ្យមានភាពបត់បែន និងរីករាយ ហើយអាចយកមួយចំណុចឬទាំងមូល។ គម្រោងចាប់ផ្តើមពីតូចទៅធំឡើងជាបន្តបន្ទាប់ នៅចុងវគ្គ 12 សប្តាហ៍។
 
-គម្រោងនីមួយៗផ្អែកលើឧបករណ៍ពិភពលោកពិតដែលមានស្រាប់សម្រាប់សិស្ស និងអ្នកចំណូលចិត្ត។ គម្រោងនីមួយៗមើលទៅថ្នាក់គម្រោងជាក់លាក់ ផ្តល់ចំណេះដឹងមូលដ្ឋានពាក់ព័ន្ធ។ ដើម្បីជាអ្នកអភិវឌ្ឍជោគជ័យ វាជួយឲ្យយល់ដឹងអំពីវិស័យដែលអ្នកកំពុងដោះស្រាយបញ្ហា ការផ្តល់ចំណេះដឹងមូលដ្ឋាននេះអនុញ្ញាតឲ្យសិស្សគិតអំពីដំណោះស្រាយ IoT និងការរៀនរបស់ពួកគេក្នុងបរិបទនៃបញ្ហាពិភពរូបប្រាំដែលពួកគេអាចត្រូវបានស្នើឲ្យដោះស្រាយជាអ្នកអភិវឌ្ឍ IoT។ សិស្សរៀនពី "ហេតុអ្វី" នៃការដោះស្រាយដែលពួកគេចង់បង្កើត និងទទួលបានការយល់ដឹងអំពីអ្នកប្រើប្រាស់ចុងក្រោយ។
+គម្រោងនីមួយៗផ្អែកលើឧបករណ៍ពិតជាមានសម្រាប់និស្សិត និងអ្នកចូលចិត្តធ្វើកំសាន្ត។ គម្រោងនីមួយៗពិនិត្យពីដែនកំណត់គម្រោងជាក់លាក់ ផ្តល់នូវចំណេះដឹងផ្ទៃខាងក្រោយដែលពាក់ព័ន្ធ។ ដើម្បីជាអ្នកអភិវឌ្ឍជោគជ័យ វាជួយយល់ដឹងដែនកំណត់ដែលអ្នកកំពុងដោះស្រាយបញ្ហា ដោយផ្តោតលើចំណេះដឹងផ្ទៃខាងក្រោយនេះ អនុញ្ញាតឱ្យនិស្សិតគិតអំពីដំណោះស្រាយ IoT និងការសិក្សានៅក្នុងបរិបទនៃបញ្ហាក្នុងជីវិតពិតដែលពួកគេអាចត្រូវបានស្នើសុំធ្វើជាអ្នកអភិវឌ្ឍ IoT។ និស្សិតរៀនពី "ហេតុអ្វី" នៃដំណោះស្រាយដែលពួកគេចាប់ផ្តើម ក៏ទទួលបានការគិតដល់អ្នកប្រើចុងក្រោយផងដែរ។
 
-## គ្រឿងចក្រ
-យើងមានជម្រើសសម្ភារៈ IoT ពីរ សម្រាប់ប្រើប្រាស់ក្នុងគម្រោង ដោយអាស្រ័យលើចំណូលចិត្តផ្ទាល់ខ្លួន, ចំណេះដឹងភាសាកម្មវិធី ឬចំណូលចិត្ត, គោលដៅរៀន និងភាពអាចប្រើបាន។ យើងក៏បានផ្តល់ជូនកំណែ 'សម្ភារៈវីរុស' សម្រាប់អ្នកដែលមិនអាចប្រើសម្ភារៈបាន ឬចង់រៀនបន្ថែមមុនពេលបញ្ចប់កិច្ចស្នើសុំទិញ។ អ្នកអាចអានបន្ថែម និងស្វែងរក 'បញ្ជីទៅហាង' នៅលើ[ទំព័រសម្ភារៈ](./hardware.md) រួមមានតំណភ្ជាប់ទិញឈុតបញ្ចប់ពីមិត្តភក្តិរបស់យើងនៅ Seeed Studio។
+## ឧបករណ៍រឹង
+យើងមានជម្រើសសម្រាប់ឧបករណ៍ IoT ពីរដើម្បីប្រើសម្រាប់គម្រោង ទៅតាមចំណង់ចំណូលចិត្តផ្ទាល់ខ្លួន, ជំនាញភាសាប្រ៉ូក្រាមមിങ് ឬចំណង់ចំណូលចិត្ត, គោលដៅរៀន និងភាពមាននៅ។ យើងក៏បានផ្តល់ជូនសម្រង់ 'ឧបករណ៍វីរុស' សម្រាប់អ្នកដែលគ្មានឧបករណ៍ឬចង់រៀនបន្ថែមមុនពេលកក់ទិញផងដែរ។ អ្នកអាចអានបន្ថែម និងស្វែងរក 'បញ្ជីទិញទំនិញ' នៅលើ [hardware page](./hardware.md) រួមមានតំណភ្ជាប់សម្រាប់ទិញឈុតពេញលេញពីមិត្តភក្តិរបស់យើងនៅ Seeed Studio។
 
-> 💁 សូមស្វែងរក[កូដអាកប្បកិរិយា](CODE_OF_CONDUCT.md), [ការចូលរួម](CONTRIBUTING.md), និង[ការបកប្រែ](TRANSLATIONS.md)ណែនាំ។ យើងសូមស្វាគមន៍មតិយោបល់ដ៏សាងសង់របស់អ្នក!
+> 💁 សូមស្វែងរក [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), និង [Translations](..) មគ្គុទេសក៍របស់យើង។ យើងសូមស្វាគមន៍មតិយ៉ាងស្វាគមន៍ពីអ្នក!
 >
-> 🔧 មានបញ្ហា? សូមពិនិត្យមើល[មគ្គុទេសក៍ដោះស្រាយ](TROUBLESHOOTING.md) សម្រាប់ដំណោះស្រាយបញ្ហាទូទៅ។
+> 🔧 មានបញ្ហាទេ? សូមពិនិត្យមើល [Troubleshooting Guide](TROUBLESHOOTING.md) សម្រាប់ដំណោះស្រាយបញ្ហាទូទៅ។
 
-## មេរៀននីមួយៗរួមមាន៖
+## មេរៀនមួយៗរួមមាន៖
 
-- សេចក្ដីសង្ខេបគំនូរ
-- វីដេអូបន្ថែមតាមចំណង់
-- កម្រងសំនួរកម្រិតកំសាន្តមុនមេរៀន
+- សម្ភាសិតសង្ខេប
+- វីដេអូបន្ថែមតាមចៃដន្យ
+- ប្រឡងកំឡាំងមុនមេរៀន
 - មេរៀនសរសេរ
-- សម្រាប់មេរៀនផ្អែកលើគម្រោង, សៀវភៅណែនាំជំហ៊ានៗសម្រាប់កែលម្អគម្រោង
-- ភាសារពិនិត្យចំណេះដឹង
-- បញ្ហាប្រឈម
-- អានបន្ថែម
-- ការចាត់តាំង
-- [សំណួរបន្ទាប់មេរៀន](https://ff-quizzes.netlify.app/en/)
+- សម្រាប់មេរៀនអាស្រ័យលើគម្រោង, នីតិវិធីលម្អិតឆ្ពោះទៅរកការបង្កើតគម្រោង
+- ការត្រួតពិនិត្យចំណេះដឹង
+- ការប្រកួតប្រជែង
+- ការអានបន្ថែម
+- កិច្ចការដាក់ស្នើ
+- [ប្រឡងបន្ទាប់មេរៀន](https://ff-quizzes.netlify.app/en/)
 
-> **កំណត់ចំណាំអំពីសំណួរ**: សំណួរទាំងអស់ត្រូវបានរៀបចំក្នុងថត quiz-app សម្រាប់សំណួរចំនួន ៤៨ នៃម្នាក់នីមួយៗមានបីសំណួរ។ វាត្រូវបានភ្ជាប់ពីក្នុងមេរៀន ប៉ុន្តែកម្មវិធីសំណួរអាចដំណើរការជ្រុងឬផ្ដល់ទៅ Azure; អនុវត្តតាមការណែនាំនៅក្នុងថត `quiz-app`។ វាកំពុងត្រូវបានបកប្រែទៅភាសាផ្សេងៗយ៉ាងលាបស្តើង។
+> **សេចក្តីសម្គាល់អំពីប្រឡង**៖ ប្រឡងទាំងអស់មានស្ថិតក្នុងថត quiz-app សម្រាប់ចំនួនប្រឡងសរុប ៤៨ ដែលមានចម្លើយ ៣ សំណួរនីមួយៗ។ វាត្រូវបានភ្ជាប់ពីក្នុងមេរៀន ប៉ុន្តែកម្មវិធីប្រឡងអាចដំណើរការបានក្នុងតំបន់មូលដ្ឋានឬត្រូវបានផ្តល់ជូនទៅ Azure; សូមធ្វើតាមការណែនាំនៅក្នុងថត `quiz-app`។ វានឹងត្រូវបានបកប្រែជាដំណាក់កាល។
 
 ## មេរៀន
 
-|       |              ឈ្មោះគម្រោង               |                       គំនិតបានបង្រៀន                       | គោលបំណងសិក្សា                                                                                                                                                     |                                                         មេរៀនភ្ជាប់                                                          |
+|       |              ឈ្មោះគម្រោង              |                       គំនិតបានបង្រៀន                       | គោលបំណងការសិក្សា                                                                                                                                                 |                                                        មេរៀនភ្ជាប់                                                         |
 | :---: | :------------------------------------: | :---------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
-|  01   | [ការចាប់ផ្តើម](./1-getting-started/README.md)  |                     ការណែនាំអំពី IoT                      | រៀនពីគ្រឹះនៃ IoT និងប្លុកសំណុំគ្រឹះក្នុងដំណោះស្រាយ IoT ដូចជាសង្គ្រោះ និងសេវាកម្មពពក ខណៈដែលអ្នកកំពុងដាក់ឧបករណ៍ IoT ដំបូងរបស់អ្នក |                      [ការណែនាំអំពី IoT](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |
-|  02   | [ការចាប់ផ្តើម](./1-getting-started/README.md)  |                  ជំរុញជ្រៅចូលទៅក្នុង IoT                 | រៀនបន្ថែមអំពីគ្រឿងផ្សំក្នុងប្រព័ន្ធ IoT, ព្រមទាំងកុងត្រូលកររួម និងកុំព្យូទ័រចុចតែមួយ                                                      |                        [ជំរុញជ្រៅចូលក្នុង IoT](./1-getting-started/lessons/2-deeper-dive/README.md)                         |
-|  03   | [ការចាប់ផ្តើម](./1-getting-started/README.md)  | អន្តរកម្មជាមួយពិភពផ្លូវការជាមួយសាំងសឺរ និងព្រួញកម្មវិធី | រៀនអំពីសង្កេតករដើម្បីប្រមូលទិន្នន័យពីពិភពផ្លូវការនិងកម្មវិធីដើម្បីផ្ញើមតិយោបល់ ខណៈដែលអ្នកកំពុងបង្កើតភ្លើងផ្ទះ                                                                                                           | [អន្តរកម្មពិភពផ្លូវការជាមួយសាំងសឺរ និងកម្មវិធី](./1-getting-started/lessons/3-sensors-and-actuators/README.md)         |
-|  04   | [ការចាប់ផ្តើម](./1-getting-started/README.md)  |             ភ្ជាប់ឧបករណ៍របស់អ្នកទៅអ៊ីនធឺណិត             | រៀនអំពីការភ្ជាប់ឧបករណ៍ IoT ទៅអ៊ីនធឺណិតសម្រាប់ផ្ញើនិងទទួលសារដោយភ្ជាប់ភ្លើងផ្ទះរបស់អ្នកទៅ MQTT broker                                                     |               [ភ្ជាប់ឧបករណ៍របស់អ្នកទៅអ៊ីនធឺណិត](./1-getting-started/lessons/4-connect-internet/README.md)                |
-|  05   |            [កសិកម្ម](./2-farm/README.md)             |                    កំណត់ការលូតលាស់រុក្ខជាតិ                    | រៀនរបៀបប៉ាន់ស្មានការលូតលាស់រុក្ខជាតិតាមទិន្នន័យសីតុណ្ហភាពដែលបានចាប់យកដោយឧបករណ៍ IoT                                                                                   |                          [កំណត់ការលូតលាស់រុក្ខជាតិ](./2-farm/lessons/1-predict-plant-growth/README.md)                           |
-|  06   |            [កសិកម្ម](./2-farm/README.md)             |                    រកឃើញសំណើមដី                    | រៀនរបៀបរកឃើញសំណើមដី និងកំណត់តុល្យមាត្រការសំណើមដី                                                                                              |                          [រកឃើញសំណើមដី](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |
-|  07   |            [កសិកម្ម](./2-farm/README.md)             |                  សំរបសំរួលការដែល tubig ត្រូវដាំរុក្ខជាតិ                   | រៀនរបៀបស្វ័យប្រវត្តិកម្ម និងកំណត់ពេលវេលាដោយប្រើ relay និង MQTT                                                                                                      |                      [ស្វ័យប្រវត្តិកម្មការដាំរុក្ខជាតិ](./2-farm/lessons/3-automated-plant-watering/README.md)                       |
-|  08   |            [កសិកម្ម](./2-farm/README.md)             |               ផ្ទេររុក្ខជាតិរបស់អ្នកទៅពពក               | រៀនអំពីពពក និងសេវាកម្ម IoT ដែលមាននៅលើពពក និងរបៀបភ្ជាប់រុក្ខជាតិរបស់អ្នកទៅសេវាកម្មទាំងនេះ ផ្ទុយពីប្រើ MQTT broker សាធារណៈ  |               [ផ្ទេររុក្ខជាតិរបស់អ្នកទៅពពក](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                |
-|  09   |            [កសិកម្ម](./2-farm/README.md)             |         ផ្ទេរតុល្យភាពកម្មវិធីរបស់អ្នកទៅពពក         | រៀនអំពីរបៀបសរសេរតុល្យភាពកម្មវិធីនៅពពក ដែលឆ្លើយតបទៅនឹងសារជាច្រើនរបស់ IoT                                                                        |         [ផ្ទេរតុល្យភាពកម្មវិធីទៅពពក](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)         |
-|  10   |            [កសិកម្ម](./2-farm/README.md)             |                   ការការពាររុក្ខជាតិរបស់អ្នក                    | រៀនអំពីសុវត្ថិភាពជាមួយ IoT និងរបៀបបញ្ជាក់ពីសុវត្ថិភាពរបស់រុក្ខជាតិរបស់អ្នកដោយប្រើកូនសោ និងវិញ្ញាបនបត្រ                                                                    |                        [ការការពាររុក្ខជាតិរបស់អ្នក](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
-|  11   |       [ការដឹកជញ្ជូន](./3-transport/README.md)       |                      តាមដានទីតាំង                      | រៀនអំពីការតាមដានទីតាំង GPS សម្រាប់ឧបករណ៍ IoT                                                                                                                   |                           [តាមដានទីតាំង](./3-transport/lessons/1-location-tracking/README.md)                           |
-|  12   |       [ការដឹកជញ្ជូន](./3-transport/README.md)       |                     រក្សាទុកទិន្នន័យទីតាំង                     | រៀនវិធីរក្សាទុកទិន្នន័យ IoT សម្រាប់មើលឃើញឬវិភាគគួរសម                                                                                                      |                         [រក្សាទុកទិន្នន័យទីតាំង](./3-transport/lessons/2-store-location-data/README.md)                         |
-|  13   |       [ការដឹកជញ្ជូន](./3-transport/README.md)       |                   តំណាងទិន្នន័យទីតាំង                   | រៀនអំពីការតំណាងទិន្នន័យទីតាំងលើផែនទី និងរបៀបដែលផែនទីបង្ហាញពិភព 3D จริง នៅលើ ២វិមាត្រ                                                              |                     [តំណាងទិន្នន័យទីតាំង](./3-transport/lessons/3-visualize-location-data/README.md)                     |
-|  14   |       [ការដឹកជញ្ជូន](./3-transport/README.md)       |                          បដិសណ្ឋារក្ស                         | រៀនអំពីបដិសណ្ឋារក្ស និងរបៀបប្រើវាសម្រាប់ដាក់សញ្ញាពេលយានយន្តនៅខ្សែផ្គត់ផ្គង់មកកាន់គោលដៅរបស់វា                                           |                                   [បដិសណ្ឋារក្ស](./3-transport/lessons/4-geofences/README.md)                                   |
-|  15   |   [ការផលិត](./4-manufacturing/README.md)   |               បណ្តុះបណ្តាលឧបករណ៍រកគុណភាពផ្លែឈើ                | រៀនអំពីការបណ្តុះបណ្តាលម៉ាស៊ីនចំណាត់ថ្នាក់រូបភាពនៅពពក ដើម្បីរកគុណភាពផ្លែឈើ                                                                                       |                 [បណ្តុះបណ្តាលឧបករណ៍រកគុណភាពផ្លែឈើ](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
-|  16   |   [ការផលិត](./4-manufacturing/README.md)   |           ពិនិត្យគុណភាពផ្លែឈើពីឧបករណ៍ IoT            | រៀនអំពីការប្រើឧបករណ៍រកគុណភាពផ្លែឈើរបស់អ្នកពីឧបករណ៍ IoT                                                                                                    |           [ពិនិត្យគុណភាពផ្លែឈើពីឧបករណ៍ IoT](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
-|  17   |   [ការផលិត](./4-manufacturing/README.md)   |             ប្រតិបត្ដិការឧបករណ៍រកគុណភាពផ្លែឈើនៅចុងក្រោយ             | រៀនអំពីការប្រតិបត្ដិការឧបករណ៍រកគុណភាពផ្លែឈើនៅចុង IoT device                                                                                              |             [ប្រតិបត្ដិការឧបករណ៍រកគុណភាពផ្លែឈើនៅចុងក្រោយ](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
-|  18   |   [ការផលិត](./4-manufacturing/README.md)   |        ចាប់ផ្តើមរកគុណភាពផ្លែឈើពីសង់ស័រមួយ        | រៀនអំពីការចាប់ផ្តើមរកគុណភាពផ្លែឈើពីសង់ស័រ                                                                                                        |        [ចាប់ផ្តើមរកគុណភាពផ្លែឈើពីសង់ស័រ](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
-|  19   |          [លក់រាយ](./5-retail/README.md)          |                   បណ្តុះបណ្តាលឧបករណ៍រកស្តុក                    | រៀនរបៀបប្រើកម្រិតវត្ថុ ដើម្បីបណ្តុះឧបករណ៍រកស្តុកសម្រាប់រាប់ស្តុកនៅហាង                                                                                |                        [បណ្តុះបណ្តាលឧបករណ៍រកស្តុក](./5-retail/lessons/1-train-stock-detector/README.md)                         |
-|  20   |          [លក់រាយ](./5-retail/README.md)          |               ពិនិត្យស្តុកពីឧបករណ៍ IoT                | រៀនរបៀបពិនិត្យស្តុកពីឧបករណ៍ IoT ដោយប្រើម៉ូដែលកំណត់វត្ថុ                                                                                         |                     [ពិនិត្យស្តុកពីឧបករណ៍ IoT](./5-retail/lessons/2-check-stock-device/README.md)                      |
-|  21   |        [ប្រើប្រាស់](./6-consumer/README.md)        |             ការទទួលស្គាល់សំលេងជាមួយឧបករណ៍ IoT             | រៀនរបៀបទទួលស្គាល់សំលេងពីឧបករណ៍ IoT ដើម្បីបង្កើតម៉ោងវេលាឆ្លាត                                                                               |                  [ទទួលស្គាល់សំលេងជាមួយឧបករណ៍ IoT](./6-consumer/lessons/1-speech-recognition/README.md)                  |
-|  22   |        [ប្រើប្រាស់](./6-consumer/README.md)        |                     យល់ដឹងភាសា                     | រៀនអំពីរបៀបយល់ដឹងប្រយោគដែលបាននិយាយទៅឧបករណ៍ IoT                                                                                                           |                        [យល់ដឹងភាសា](./6-consumer/lessons/2-language-understanding/README.md)                        |
-|  23   |        [ប្រើប្រាស់](./6-consumer/README.md)        |           កំណត់ម៉ោងហើយផ្តល់មតិថ្លែងមាត់           | រៀនរបៀបកំណត់ម៉ោងនៅលើឧបករណ៍ IoT និងផ្តល់មតិយោបល់ថ្លែងមាត់ពេលម៉ោងបានកំណត់ និងពេលម៉ោងបញ្ចប់                                                    |                 [កំណត់ម៉ោងហើយផ្តល់មតិថ្លែងមាត់](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
-|  24   |        [ប្រើប្រាស់](./6-consumer/README.md)        |                 គាំទ្រភាសាច្រើន                  | រៀនរបៀបគាំទ្រភាសាជាច្រើន អាំងរួមទាំងភាសាដែលនិយាយទំព័ក និងការឆ្លើយតបទៅពីម៉ោងវេលាឆ្លាត                                                               |                   [គាំទ្រភាសាច្រើន](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
+|  01   | [ចាប់ផ្ដើម](./1-getting-started/README.md) |                     ការណែនាំពី IoT                     | រៀនអំពីគន្លឹះមូលដ្ឋាននៃ IoT និងប្លុកសំណង់មូលដ្ឋាននៃដំណោះស្រាយ IoT ដូចជា ឧបករណ៍ស៊េនស័រ និងសេវាកម្មពពក ខណៈអ្នកកំពុងតែតំឡើងឧបករណ៍ IoT ដំបូងរបស់អ្នក |                      [ការណែនាំពី IoT](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |
+|  02   | [ចាប់ផ្ដើម](./1-getting-started/README.md) |                   ចំណេះដឹងជ្រៅអំពី IoT                    | រៀនបន្ថែមអំពីធាតុផ្សំក្នុងប្រព័ន្ធ IoT ផងដែរ ដូចជាម៉ាញ៉ុយគ្រូកុងត្រូល និងកុំព្យូទ័រតែមួយផ្ទាំង                                                                 |                        [ចំណេះដឹងជ្រៅអំពី IoT](./1-getting-started/lessons/2-deeper-dive/README.md)                         |
+|  03   | [ចាប់ផ្ដើម](./1-getting-started/README.md) | ផ្សេងប្រតិបត្តិជាមួយពិភពផ្ទាល់ រាល់ស៊េនស័រនិងកម្មន្តករ | រៀនអំពីស៊េនស័រដើម្បីប្រមូលទិន្នន័យពីពិភពពិត ហើយកម្មន្តករត្រូវបានប្រើដើម្បីផ្ញើមតិយោបល់ ខណៈអ្នកកំពុងបង្កើតច្រាបពន្លឺយប់                                                         | [ផ្សេងប្រតិបត្តិជាមួយពិភពផ្ទាល់ រាល់ស៊េនស័រនិងកម្មន្តករ](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
+|  04   | [ចាប់ផ្ដើម](./1-getting-started/README.md) |             តភ្ជាប់ឧបករណ៍របស់អ្នកទៅអ៊ិនធឺណិត             | រៀនអំពីវិធីតភ្ជាប់ឧបករណ៍ IoT ទៅអ៊ិនធឺណិត ដើម្បីផ្ញើនិងទទួលសារ តាមរយៈការតភ្ជាប់ច្រាបពន្លឺរបស់អ្នកទៅម៉ាស៊ីន broker MQTT                                  |               [តភ្ជាប់ឧបករណ៍របស់អ្នកទៅអ៊ិនធឺណិត](./1-getting-started/lessons/4-connect-internet/README.md)                |
+|  05   |            [ការផ្គត់ផ្គង់ចំរុះ](./2-farm/README.md)            |                    ការព្យាករណ៍កំណើតដំណាំ                     | រៀនពីវិធីព្យាករណ៍កំណើតដំណាំដោយប្រើទិន្នន័យសីតុណ្ហភាពដែលបានប្រមួលដោយឧបករណ៍ IoT                                                                                  |                          [ការព្យាករណ៍កំណើតដំណាំ](./2-farm/lessons/1-predict-plant-growth/README.md)                           |
+|  06   |            [ការផ្គត់ផ្គង់ចំរុះ](./2-farm/README.md)            |                    ការស្គាល់សំណើមដី                     | រៀនពីវិធីស្គាល់សំណើមដី និងកំណត់តម្លៃជំនួសស៊េនស័រសំណើមដី                                                                                              |                          [ស្គាល់សំណើមដី](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |
+|  07   |            [ការផ្គត់ផ្គង់ចំរុះ](./2-farm/README.md)            |                  ការជ្រេកវែតដំណាំដោយស្វ័យប្រវត្តិការ                   | រៀនពីវិធីធ្វើបុគ្គលិកភាពការជ្រេកវែតដំណាំ និងកំណត់ពេលវេលារកពំណកើតដោយប្រើ relay និង MQTT                                                                                                      |                      [ជ្រេកវែតដំណាំដោយស្វ័យប្រវត្តិ](./2-farm/lessons/3-automated-plant-watering/README.md)                       |
+|  08   |            [ការផ្គត់ផ្គង់ចំរុះ](./2-farm/README.md)            |               ការបញ្ជូនដំណាំរបស់អ្នកឡើងទៅពពក               | រៀនអំពីពពក និងសេវាកម្ម IoT នៅលើពពក និងរបៀបតភ្ជាប់ដំណាំរបស់អ្នកទៅមួយក្នុងចំណោមពួកវា ជំនួសមុខម៉ាស៊ីន broker MQTT សាធារណៈ                                   |               [បញ្ជូនដំណាំរបស់អ្នកឡើងទៅពពក](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                |
+|  09   |            [ការផ្គត់ផ្គង់ចំរុះ](./2-farm/README.md)            |         ការបញ្ជូនតក្កដាអនុភាពកម្មវិធីរបស់អ្នកទៅពពក         | រៀនពីរបៀបដែលអ្នកអាចសរសេរតក្កដាអនុភាពកម្មវិធីនៅលើពពក ដែលឆ្លើយតបនឹងសារដែលចេញពី IoT                                                                      |         [បញ្ជូនតកម្មវិធីរបស់អ្នកទៅពពក](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)         |
+|  10   |            [ការផ្គត់ផ្គង់ចំរុះ](./2-farm/README.md)            |                   រក្សាដំណាំរបស់អ្នកមានសុវត្ថិភាព                    | រៀនអំពីសុវត្ថិភាពជាមួយ IoT ហើយរបៀបរក្សាដំណាំរបស់អ្នកឱ្យមានសុវត្ថិភាព ដោយប្រើកូនសោ និងវិញ្ញាបនបត្រ                                                                          |                        [រក្សាដំណាំរបស់អ្នកមានសុវត្ថិភាព](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
+|  11   |       [ដឹកជញ្ជូន](./3-transport/README.md)       |                      ការតាមដានទីតាំង                      | រៀនអំពីការតាមដានទីតាំងប្រព័ន្ធ GPS សម្រាប់ឧបករណ៍ IoT                                                                                                                   |                           [ការតាមដានទីតាំង](./3-transport/lessons/1-location-tracking/README.md)                           |
+|  12   |       [ដឹកជញ្ជូន](./3-transport/README.md)       |                     ប្រេទទិន្នន័យទីតាំង                     | រៀនពីរបៀបផ្ទុកទិន្នន័យ IoT ដើម្បីបង្ហាញឬវិភាគ​នៅពេលក្រោយ                                                                                                      |                         [ផ្ទុកទិន្នន័យទីតាំង](./3-transport/lessons/2-store-location-data/README.md)                         |
+|  13   |       [ដឹកជញ្ជូន](./3-transport/README.md)       |                   បង្ហាញទិន្នន័យទីតាំង                   | រៀនអំពីរបៀបបង្ហាញទីតាំងលើផែនទី និងរបៀបដែលផែនទីតំណាងឱ្យពិភព 3D ពិតប្រាកដនៅក្នុង 2 ម៉ាឌីមិនស្យុង                                                            |                     [បង្ហាញទិន្នន័យទីតាំង](./3-transport/lessons/3-visualize-location-data/README.md)                     |
+|  14   |       [ដឹកជញ្ជូន](./3-transport/README.md)       |                          Geofences                          | រៀនអំពី geofences និងរបៀបដែលវាអាចប្រើសម្រាប់រាយការណ៍ពេលយានយន្តនៅក្នុងខ្សែផ្គត់ផ្គង់ជិតទៅកន្លែងគោលដៅរបស់ពួកវា                                           |                                   [Geofences](./3-transport/lessons/4-geofences/README.md)                                   |
+|  15   |   [ផលិតកម្ម](./4-manufacturing/README.md)   |               បណ្តុះបណ្តាលឧបករណ៍សំខាន់ភាពផ្លែឈើ                | រៀនអំពីការបណ្តុះបណ្តាលអ្នកចាត់ថ្នាក់រូបភាពនៅលើពពក ដើម្បីសំគាល់សុទ្ធភាពផ្លែឈើ                                                                                       |                 [បណ្តុះបណ្តាលឧបករណ៍សំខាន់ភាពផ្លែឈើ](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
+|  16   |   [ផលិតកម្ម](./4-manufacturing/README.md)   |           ពិនិត្យសុទ្ធភាពផ្លែឈើពីឧបករណ៍ IoT            | រៀនអំពីការប្រើឧបករណ៍សំខាន់ភាពផ្លែឈើពីឧបករណ៍ IoT របស់អ្នក                                                                                                    |           [ពិនិត្យសុទ្ធភាពផ្លែឈើពីឧបករណ៍](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
+|  17   |   [ផលិតកម្ម](./4-manufacturing/README.md)   |             ប្រតិបត្តិឧបករណ៍សំខាន់ភាពផ្លែឈើនៅលើគំរោង             | រៀនអំពីការជួញដូរឧបករណ៍សំខាន់ភាពផ្លែឈើរបស់អ្នកនៅលើឧបករណ៍ IoT នៅលើគំរោង                                                                                                |             [ប្រតិបត្តិឧបករណ៍សំខាន់ភាពផ្លែឈើនៅលើគំរោង](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
+|  18   |   [ផលិតកម្ម](./4-manufacturing/README.md)   |        ការចាប់ផ្តើមសំខាន់ភាពផ្លែឈើពីស៊េនស័រ        | រៀនអំពីការចាប់ផ្តើមសំខាន់ភាពផ្លែឈើពីស៊េនស័រ                                                                                                        |        [ចាប់ផ្តើមសំខាន់ភាពផ្លែឈើពីស៊េនស័រ](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
+|  19   |          [លក់រាយ](./5-retail/README.md)          |                   បណ្តុះបណ្តាលឧបករណ៍សំគាល់ស្តុក                    | រៀនពីរបៀបប្រើការសំគាល់វត្ថុដើម្បីបណ្តុះបណ្តាលឧបករណ៍សំគាល់ស្តុក សម្រាប់រាប់ស្តុកក្នុងហាង                                                                                |                        [បណ្តុះបណ្តាលឧបករណ៍សំគាល់ស្តុក](./5-retail/lessons/1-train-stock-detector/README.md)                         |
+|  20   |          [លក់រាយ](./5-retail/README.md)          |               ពិនិត្យស្តុកពីឧបករណ៍ IoT                | រៀនវិធីពិនិត្យស្តុកពីឧបករណ៍ IoT ដោយប្រើម៉ូឌែលសំគាល់វត្ថុ                                                                                         |                     [ពិនិត្យស្តុកពីឧបករណ៍ IoT](./5-retail/lessons/2-check-stock-device/README.md)                      |
+|  21   |        [អតិថិជន](./6-consumer/README.md)        |             ស្គាល់សំលេងជាមួយឧបករណ៍ IoT             | រៀនវិធីស្គាល់សំលេងពីឧបករណ៍ IoT ដើម្បីបង្កើតម៉ោងចាប់ដំណើរការ ឆ្លាត                                                                            |                  [ស្គាល់សំលេងជាមួយឧបករណ៍ IoT](./6-consumer/lessons/1-speech-recognition/README.md)                  |
+|  22   |        [អតិថិជន](./6-consumer/README.md)        |                     យល់ពីភាសា                     | រៀនយល់អំពីប្រយោគដែលបាននិយាយទៅឧបករណ៍ IoT                                                                                                           |                        [យល់ពីភាសា](./6-consumer/lessons/2-language-understanding/README.md)                        |
+|  23   |        [អតិថិជន](./6-consumer/README.md)        |           កំណត់ម៉ោង និងផ្តល់មតិយោបល់តាមបែបនិយាយ           | រៀនពីរបៀបកំណត់ម៉ោងលើឧបករណ៍ IoT និងផ្តល់មតិយោបល់តាមបែបនិយាយ នៅពេលម៉ោងត្រូវបានកំណត់ និងពេលវាយប់                                                    |                 [កំណត់ម៉ោង និងផ្តល់មតិយោបល់តាមបែបនិយាយ](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
+|  24   |        [អតិថិជន](./6-consumer/README.md)        |                 គាំទ្រភាសាច្រើន                  | រៀនពីរបៀបគាំទ្រភាសាច្រើន ទាំងការនិយាយទៅទទួល និងការឆ្លើយតបពីម៉ោងចាប់ដំណើរការឆ្លាត                                                               |                   [គាំទ្រភាសាច្រើន](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
 
-## ការចូលដំណើរការដោយមិនចាំបាច់ភ្ជាប់អ៊ិនធឺណិត
+## ការចូលប្រើក្រៅបណ្តាញ
 
-អ្នកអាចដំណើរការឯកសារនេះដោយមិនចាំបាច់ភ្ជាប់អ៊ិនធឺណិត ដោយប្រើ [Docsify](https://docsify.js.org/#/). ចម្លងផ្ទុកចេញ repo នេះ, [ដំឡើង Docsify](https://docsify.js.org/#/quickstart) លើម៉ាស៊ីនផ្ទាល់ខ្លួន រួចចូលទៅក្នុងថតគ្រឹះនៃ repo នេះ ហើយវាយ `docsify serve`។ វែបសាយនឹងត្រូវបម្រើលើច្រក 3000 នៅលើ localhost របស់អ្នក: `localhost:3000`។
+អ្នកអាចដំណើរការឯកសារនេះក្រៅបណ្តាញដោយប្រើ [Docsify](https://docsify.js.org/#/). សូមបង្កើតក្លូន repo នេះ, [ដំឡើង Docsify](https://docsify.js.org/#/quickstart) លើម៉ាស៊ីនក្នុងតំបន់របស់អ្នក ហើយបន្ទាប់មកនៅក្នុងថតឫសនេះរបស់ repo នេះ សរសេរ `docsify serve`។ គេហទំព័រនឹងត្រូវផ្តល់សេវាកម្មនៅលើជើងច្រក 3000 នៅលើ localhost: `localhost:3000`។
 
-## ការស្នើសុំបញ្ចប់សំណួរ
+## ប្រឡង
 
-សូមអរគុណសហគមន៍ដែលបានផ្ដល់ជាសំណួរផ្ទាល់ខ្លួនដែលតេស្តចំណេះដឹងរបស់អ្នកលើមេរៀននីមួយៗ។ អ្នកអាចសាកល្បងចំណេះដឹងនៅ[ទីនេះ](https://ff-quizzes.netlify.app/en/) 
+សូមអរគុណដល់សហគមន៍សម្រាប់ការរៀបចំប្រឡងអន្តរកម្មដែលសាកល្បងចំណេះដឹងរបស់អ្នកលើមេរៀនក្នុងជំពូកនីមួយៗ។ អ្នកអាចសាកល្បងចំណេះដឹងរបស់អ្នក [នៅទីនេះ](https://ff-quizzes.netlify.app/en/) 
 
 ### PDF
 
-អ្នកអាចបង្កើតឯកសារ PDF នៃខ្លឹមសារនេះសម្រាប់ការចូលដំណើរការដោយមិនចាំបាច់ភ្ជាប់អ៊ិនធឺណិត ប្រសិនបើត្រូវការ។ ដើម្បីធ្វើបែបនេះ សូមប្រាកដថាអ្នកមាន [npm ដំឡើងរួច](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ហើយរត់ពាក្យបញ្ជាកូដខាងក្រោមនៅក្នុងថតគ្រឹះនៃ repo នេះ៖
+អ្នកអាចបង្កើតឯកសារ PDF របស់មាតិកានេះសម្រាប់ការចូលប្រើក្រៅបណ្តាញ ប្រសិនបើចាំបាច់។ ដើម្បីធ្វើនេះ សូមប្រាកដថាអ្នកបានដំឡើង [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ហើយដំណើរការបញ្ជាទាំងនេះនៅក្នុងថតឫសរបស់ repo នេះ៖
 
 ```sh
 npm i
 npm run convert
 ```
 
-### ឯកសារស្លាយ
+### ស្លាយ
 
-មានឯកសារស្លាយសម្រាប់មេរៀនខ្លះៗនៅក្នុងថត [slides](../../slides)។
+មានស្លាយសម្រាប់មេរៀនខ្លះៗនៅក្នុងថត [slides](../../slides)។
 
-## មេរៀនផ្សេងទៀត
+## កម្មវិធីសិក្សាផ្សេងទៀត
 
-ក្រុមរបស់យើងបង្កើតមេរៀនផ្សេងទៀតផង! សូមពិនិត្យមើល៖
+ក្រុមរបស់យើងផលិតកម្មវិធីសិក្សាផ្សេងទៀតផង! សូមពិនិត្យមើល៖
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
-[![LangChain4j សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
-[![LangChain.js សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
-[![LangChain សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
 ### Azure / Edge / MCP / Agents
-[![AZD សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Agents សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI សម្រាប់អ្នកដើម](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP សម្រាប់អ្នកដើម](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![តំណាង AI សម្រាប់អ្នកដើម](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### សំណួរ Generative AI
-[![Generative AI សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+### ស៊េរី AI បង្កើត
+[![Generative AI សម្រាប់អ្នកដើម](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### ការសិក្សាគ្រឹះ
-[![ML សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![វិទ្យាសាស្ត្រទិន្នន័យសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![សុវត្ថិភាពសារពើពន្ធសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![ការអភិវឌ្ឍវេបសាយសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![XR ការអភិវឌ្ឍសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+### ការសិក្សាផ្ទៃមូលដ្ឋាន
+[![ML សម្រាប់អ្នកដើម](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![វិទ្យាសាស្ត្រទិន្នន័យសម្រាប់អ្នកដើម](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI សម្រាប់អ្នកដើម](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![សុវត្ថិភាពបច្ចេកវិទ្យាសម្រាប់អ្នកដើម](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![ការអភិវឌ្ឍវែបសម្រាប់អ្នកដើម](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT សម្រាប់អ្នកដើម](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![ការអភិវឌ្ឍ XR សម្រាប់អ្នកដើម](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### សំណួរ Copilot
-[![Copilot សម្រាប់កម្មវិធីគូរូបភាព AI](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+### ស៊េរី Copilot
+[![Copilot សម្រាប់កម្មវិធីជាមួយ AI](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 [![Copilot សម្រាប់ C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Copilot សម្រាប់ការផ្សងព្រេង](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+[![Copilot ដំណែងកម្សាន្ត](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## ការបរិច្ឆេទរូបភាព
+## ការទទួលស្គាល់រូបភាព
 
-អ្នកអាចរកឃើញការបរិច្ឆេទទាំងអស់សម្រាប់រូបភាពដែលបានប្រើនៅក្នុងមេរៀននេះនៅកន្លែងដាក់ក្នុង [Attributions](./attributions.md)។
+អ្នកអាចរកបានការទទួលស្គាល់គ្រប់យ៉ាងសម្រាប់រូបភាពដែលបានប្រើនៅក្នុងវគ្គសិក្សានេះនៅទីណានៅក្នុង [Attributions](./attributions.md)។
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**ការព្រមាន**៖  
-ឯកសារនេះបានបកប្រែដោយប្រើសេវាកម្មបកប្រែ AI [Co-op Translator](https://github.com/Azure/co-op-translator)។ ទោះបីយើងខំប្រឹងសំរាប់ភាពត្រឹមត្រូវ ក៏ជូនដំណឹងថាការបកប្រែដោយស្វ័យប្រវត្តិក្នុងខ្លះអាចមានកំហុស ឬភាពមិនត្រឹមត្រូវបាន។ ឯកសារដើមនៅក្នុងភាសាទទួលបានគួរត្រូវបានគេស្គាល់ថាជាមូលដ្ឋានមានសារៈសំខាន់បំផុត។ សម្រាប់ព័ត៌មានសំខាន់ៗវិញ ការបកប្រែដោយអ្នកជំនាញមនុស្សគឺជាការផ្ដល់អនុសាសន៍។ យើងមិនទទួលខុសត្រូវចំពោះការយល់ច្រឡំ ឬការបកស្រាយខុសដែលកើតឡើងពីការប្រើប្រាស់ការបកប្រែនេះនោះទេ។
+**ការបដិសេធ**៖
+ឯកសារនេះត្រូវបានបកប្រែដោយប្រើសេវាបកប្រែ AI [Co-op Translator](https://github.com/Azure/co-op-translator)។ ទោះយើងខិតខំប្រាកដភាពក៏ដោយ សូមយល់ថា ការបកប្រែដោយស្វ័យប្រវត្តិអាចមានកំហុសឬភាពមិនត្រឹមត្រូវ។ ឯកសារដើមក្នុងភាសាមាតុភាគគួរត្រូវបានចាត់ទុកថាជា ប្រភពដែលមានសុពលភាព។ ចំពោះព័ត៌មានសំខាន់ៗ សូមណែនាំឱ្យប្រើប្រាស់ការបកប្រែដោយមនុស្សជំនាញវិជ្ជាជីវៈ។ យើងមិនទទួលខុសត្រូវចំពោះការយល់ច្រឡំ ឬការព្រាតប្រលែងណាមួយដែលមានដើមកំណើតពីការប្រើប្រាស់ការបកប្រែនេះទេ។
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
